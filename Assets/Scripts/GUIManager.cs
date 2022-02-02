@@ -1,7 +1,7 @@
 using Unity.Netcode;
 using UnityEngine;
 
-public class HelloWorldManager : MonoBehaviour
+public class GUIManager : MonoBehaviour
 {
     void OnGUI()
     {
@@ -13,10 +13,8 @@ public class HelloWorldManager : MonoBehaviour
         else
         {
             StatusLabels();
-
-            SubmitNewPosition();
         }
-
+        
         GUILayout.EndArea();
     }
 
@@ -35,16 +33,6 @@ public class HelloWorldManager : MonoBehaviour
         GUILayout.Label("Transport: " +
                         NetworkManager.Singleton.NetworkConfig.NetworkTransport.GetType().Name);
         GUILayout.Label("Mode: " + mode);
-    }
-
-    static void SubmitNewPosition()
-    {
-        if (GUILayout.Button(NetworkManager.Singleton.IsServer ? "Move" : "Request Position Change"))
-        {
-            var playerObject = NetworkManager.Singleton.SpawnManager.GetLocalPlayerObject();
-            var player = playerObject.GetComponent<HelloWorldPlayer>();
-            player.Move();
-        }
     }
 }
 
