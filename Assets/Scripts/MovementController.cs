@@ -5,15 +5,14 @@ using UnityEngine.AI;
 public class MovementController : NetworkBehaviour
 {    
     [SerializeField] private LayerMask _layerMask;
+    [SerializeField] private Camera _playerCamera;
     public NetworkVariable<Vector3> Position = new NetworkVariable<Vector3>();
     private NavMeshAgent _navMeshAgent;
-    private Camera _playerCamera;
 
     private void Awake()
     {
         _navMeshAgent = GetComponent<NavMeshAgent>();
         Position.Value = transform.position;
-        _playerCamera = Camera.main;
     }
 
     private void Update()
