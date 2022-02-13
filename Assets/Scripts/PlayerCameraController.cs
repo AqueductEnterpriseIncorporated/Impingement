@@ -5,11 +5,7 @@ using UnityEngine;
 
 public class PlayerCameraController : NetworkBehaviour
 {
-    [SerializeField] GameObject Target;   
     [SerializeField] private CinemachineVirtualCamera _virtualCamera;
-    [SerializeField] private int _targetOffsetX;
-    [SerializeField] private int _targetOffsetY;
-    [SerializeField] private int _targetOffsetZ;
     [SerializeField] private int _cameraRotationX;
     [SerializeField] private int _cameraRotationY;
     [SerializeField] private int _cameraRotationZ;
@@ -40,7 +36,7 @@ public class PlayerCameraController : NetworkBehaviour
         {
             ZoomScreen(z);
         }
-        _virtualCamera.transform.rotation = Quaternion.Euler(_cameraRotationX, _cameraRotationY ,_cameraRotationZ);
+        //_virtualCamera.transform.rotation = Quaternion.Euler(_cameraRotationX, _cameraRotationY ,_cameraRotationZ);
     }
 
     private void ZoomScreen(float increment)
