@@ -6,9 +6,6 @@ using UnityEngine;
 public class PlayerCameraController : NetworkBehaviour
 {
     [SerializeField] private CinemachineVirtualCamera _virtualCamera;
-    [SerializeField] private int _cameraRotationX;
-    [SerializeField] private int _cameraRotationY;
-    [SerializeField] private int _cameraRotationZ;
     [SerializeField] private float _zoomSpeed = 3f;
     [SerializeField] private float _zoomInMax = 40f;
     [SerializeField] private float _zoomOutMax = 40f;
@@ -36,7 +33,6 @@ public class PlayerCameraController : NetworkBehaviour
         {
             ZoomScreen(z);
         }
-        //_virtualCamera.transform.rotation = Quaternion.Euler(_cameraRotationX, _cameraRotationY ,_cameraRotationZ);
     }
 
     private void ZoomScreen(float increment)

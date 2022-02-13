@@ -5,9 +5,212 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e797b75-f4f0-4ea9-b141-84d8d653dbe9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Unarmed.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Unarmed/HumanoidIdle.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Unarmed/HumanoidIdle.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Unarmed/HumanoidRun.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Unarmed/HumanoidRun.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Unarmed/HumanoidWalk.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Unarmed/HumanoidWalk.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Demo Scene.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Demo Scene/Demo.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Demo Scene/Demo.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Characters_Texture_Black.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Characters_Texture_Black.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Characters_Texture_Blue.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Characters_Texture_Blue.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Characters_Texture_Orange.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Characters_Texture_Orange.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Characters_Texture_Red.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Characters_Texture_Red.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyAdventureMaterial_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyAdventureMaterial_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyAdventureMaterial_Water_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyAdventureMaterial_Water_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyAdventureTexture_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyAdventureTexture_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyKnights_Character_Mat_Black.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyKnights_Character_Mat_Black.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyKnights_Character_Mat_Orange.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyKnights_Character_Mat_Orange.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyKnights_Mat_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyKnights_Mat_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyVikings_Fire_FX.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyVikings_Fire_FX.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyVikings_Material_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyVikings_Material_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolygonSamurai_Mat_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolygonSamurai_Mat_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolygonSamurai_Tex_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolygonSamurai_Tex_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Texture_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Texture_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Texture_01_Vikings.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Texture_01_Vikings.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/Characters_POLYGON_Knights.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/Characters_POLYGON_Knights.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_Fence_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_Fence_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_House_Base_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_House_Base_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_House_Door_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_House_Door_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_House_Roof_Wood_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_House_Roof_Wood_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_Hut_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_Hut_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_Village_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_Village_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Bush_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Bush_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_FloorTile_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_FloorTile_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_FloorTile_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_FloorTile_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Flower_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Flower_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Grass_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Grass_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Grass_Large_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Grass_Large_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_GroundMound_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_GroundMound_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_GroundMounds_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_GroundMounds_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Hill_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Hill_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Rock_015.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Rock_015.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Tile_Grass_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Tile_Grass_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_TreeLog_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_TreeLog_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Tree_010.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Tree_010.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Tree_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Tree_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Prop_Crate_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Prop_Crate_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Prop_Pumpkin_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Prop_Pumpkin_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Wep_Rapier_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Wep_Rapier_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Wep_Sword_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Wep_Sword_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/Character_Knights_Soldier_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/Character_Knights_Soldier_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/Character_Knights_Soldier_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/Character_Knights_Soldier_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/FX_Fire.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/FX_Fire.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Fence_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Fence_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_House_Base_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_House_Base_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_House_Door_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_House_Door_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_House_Roof_Wood_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_House_Roof_Wood_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Hut_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Hut_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Village_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Village_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Bush_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Bush_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_FloorTile_05.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_FloorTile_05.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Flower_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Flower_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Grass_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Grass_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Grass_Large_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Grass_Large_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_GroundMound_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_GroundMound_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_GroundMounds_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_GroundMounds_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Hill_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Hill_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Rock_015.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Rock_015.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tile_Grass_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tile_Grass_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_TreeLog_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_TreeLog_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tree_010.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tree_010.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tree_03.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tree_03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Water.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Water.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Prop_Crate_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Prop_Crate_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Prop_Pumpkin_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Prop_Pumpkin_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Wep_Rapier_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Wep_Rapier_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Wep_Sword_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Wep_Sword_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/README - Usage Rights for these assets.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/README - Usage Rights for these assets.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/Characters_Texture_Black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/Characters_Texture_Black.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/Characters_Texture_Blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/Characters_Texture_Blue.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/Characters_Texture_Orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/Characters_Texture_Orange.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/Characters_Texture_Red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/Characters_Texture_Red.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/PolyAdventureTexture_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/PolyAdventureTexture_01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/PolygonSamurai_Tex_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/PolygonSamurai_Tex_01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/Texture_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/Texture_01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/Texture_01_Vikings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/Texture_01_Vikings.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Brown Dirt.BMP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Brown Dirt.BMP.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Brown Mud.BMP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Brown Mud.BMP.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Cliff.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Cliff.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Cobblestone Floor Dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Cobblestone Floor Dark.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Cobblestone Floor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Cobblestone Floor.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Cracked Soil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Cracked Soil.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Green Grass.BMP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Green Grass.BMP.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Light Green Grass.BMP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Light Green Grass.BMP.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Characters.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Characters/Character.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Characters/Character.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerAnimationController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerAnimationController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerCameraController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerCameraController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerCameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerCameraController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerCameraController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerCameraController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +307,7 @@
       <workItem from="1643880348982" duration="1411000" />
       <workItem from="1643883349395" duration="5458000" />
       <workItem from="1643969181088" duration="6229000" />
-      <workItem from="1644750592116" duration="1717000" />
+      <workItem from="1644750592116" duration="3353000" />
     </task>
     <servers />
   </component>
