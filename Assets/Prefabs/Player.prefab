@@ -417,3 +417,4 @@ MonoBehaviour:
   _zoomInMax: 40
   _zoomOutMax: 15
   _inputProvider: {fileID: 3107830899513510761}
+  _camera: {fileID: 9026976201311714660}

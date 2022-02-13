@@ -17,6 +17,7 @@ public class PlayerCameraController : NetworkBehaviour
     [SerializeField] private float _zoomInMax = 40f;
     [SerializeField] private float _zoomOutMax = 40f;
     [SerializeField] private CinemachineInputProvider _inputProvider;
+    [SerializeField] private Camera _camera;
     public override void OnNetworkSpawn()
     {
         if (IsOwner)
@@ -26,7 +27,12 @@ public class PlayerCameraController : NetworkBehaviour
         }
         base.OnNetworkSpawn();
     }
-    
+
+    private void Awake()
+    {
+        _camera.fieldOfView = _virtualCamera.m_Lens.FieldOfView;
+    }
+
     private void Update()
     { 
         float z = _inputProvider.GetAxisValue(2);
@@ -34,20 +40,6 @@ public class PlayerCameraController : NetworkBehaviour
         {
             ZoomScreen(z);
         }
-        //TODO: CameraZoom
-        /*if (Input.mouseScrollDelta.y != 0)
-        {
-            
-            //print(mouseScrollValue);
-            //_targetOffsetY -= 
-        }
-        
-        if(Input.GetAxis("Mouse ScrollWheel") != 0) {
-            var mouseScrollValue = Vector3.forward * Input.GetAxis("Mouse ScrollWheel") * 20;
-            print(mouseScrollValue);
-        }*/
-        
-        //_virtualCamera.transform.position = Target.transform.position + new Vector3(_targetOffsetX, _targetOffsetY, _targetOffsetZ);
         _virtualCamera.transform.rotation = Quaternion.Euler(_cameraRotationX, _cameraRotationY ,_cameraRotationZ);
     }
 
@@ -56,6 +48,7 @@ public class PlayerCameraController : NetworkBehaviour
         float fov = _virtualCamera.m_Lens.FieldOfView;
         float target = Mathf.Clamp(fov + increment, _zoomInMax, _zoomOutMax);
         _virtualCamera.m_Lens.FieldOfView = Mathf.Lerp(fov, target, _zoomSpeed * Time.deltaTime);
+        _camera.fieldOfView = Mathf.Lerp(fov, target, _zoomSpeed * Time.deltaTime);
     }
 }
 
