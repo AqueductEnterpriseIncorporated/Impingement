@@ -8,7 +8,7 @@ namespace Impingement.Control
     {
         [SerializeField] private LayerMask _layerMask;
         [SerializeField] private Camera _playerCamera;
-
+        
         private void Update()
         {
             if (ProcessCombat()) { return; }

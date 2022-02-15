@@ -390,6 +390,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   _playerCamera: {fileID: 6620677304114840789}
+  _playerClass: {fileID: 11400000, guid: 76f6de53ec7a48440abb0996033b826f, type: 2}
 --- !u!114 &1068887940676717934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -420,8 +421,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9fbafd111ac43f489bf9ee05ad587d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Position:
-    m_InternalValue: {x: 0, y: 0, z: 0}
 --- !u!195 &8119962802189991056
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -444,6 +443,19 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &8490220534489566479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5321640620009874445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e17a8b4cf15493d8ba8e41cc6309160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _weaponRange: 2
 --- !u!114 &8656019635504427321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -459,15 +471,3 @@ MonoBehaviour:
   m_Animator: {fileID: 5321640620000380651}
   m_ParameterSendBits: 1
   m_SendRate: 0.1
---- !u!114 &8490220534489566479
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5321640620009874445}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e17a8b4cf15493d8ba8e41cc6309160, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
