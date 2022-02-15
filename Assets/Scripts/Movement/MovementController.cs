@@ -1,11 +1,11 @@
-using Impingement.Combat;
+using Impingement.Core;
 using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.AI;
 
 namespace Impingement.Movement
 {
-    public class MovementController : NetworkBehaviour
+    public class MovementController : NetworkBehaviour, IAction
     {
         //public NetworkVariable<Vector3> Position = new NetworkVariable<Vector3>();
         private NavMeshAgent _navMeshAgent;
@@ -32,7 +32,8 @@ namespace Impingement.Movement
 
         public void StartMoving(Vector3 worldPosition)
         {
-            GetComponent<CombatController>().RemoveTarget();
+            GetComponent<ActionScheduleController>().StartAction(this);
+            //GetComponent<CombatController>().RemoveTarget();
             Move(worldPosition);
         }
         
@@ -47,6 +48,11 @@ namespace Impingement.Movement
             {
                 SubmitStopRequestServerRpc();
             }
+        }
+        
+        public void Cancel()
+        {
+            Stop();
         }
 
         #region Client

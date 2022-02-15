@@ -1,11 +1,11 @@
-﻿using System;
+﻿using Impingement.Core;
 using Impingement.Movement;
 using Unity.Netcode;
 using UnityEngine;
 
 namespace Impingement.Combat
 {
-    public class CombatController : NetworkBehaviour
+    public class CombatController : NetworkBehaviour, IAction
     {
         [SerializeField] private float _weaponRange = 2f;
         private MovementController _movementController;
@@ -36,12 +36,18 @@ namespace Impingement.Combat
 
         public void SetTarget(CombatTarget target)
         {
+            GetComponent<ActionScheduleController>().StartAction(this);
             _targetTransform = target.transform;
         }
 
-        public void RemoveTarget()
+        private void RemoveTarget()
         {
             _targetTransform = null;
+        }
+
+        public void Cancel()
+        {
+            RemoveTarget();
         }
     }
 }
