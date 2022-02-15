@@ -12,7 +12,7 @@ namespace Impingement.Core
         [SerializeField] private float _zoomOutMax = 40f;
         [SerializeField] private CinemachineInputProvider _inputProvider;
         [SerializeField] private Camera _camera;
-
+        
         public override void OnNetworkSpawn()
         {
             if (IsOwner)
@@ -22,6 +22,11 @@ namespace Impingement.Core
             }
 
             base.OnNetworkSpawn();
+        }
+
+        public Camera GetPlayerCamera()
+        {
+            return _camera;
         }
 
         private void Awake()

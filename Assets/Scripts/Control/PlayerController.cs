@@ -1,4 +1,5 @@
 ﻿using Impingement.Combat;
+using Impingement.Core;
 using Impingement.Movement;
 using UnityEngine;
 
@@ -7,7 +8,6 @@ namespace Impingement.Control
     public class PlayerController : MonoBehaviour
     {
         [SerializeField] private LayerMask _layerMask;
-        [SerializeField] private Camera _playerCamera;
         
         private void Update()
         {
@@ -48,7 +48,8 @@ namespace Impingement.Control
 
         private Ray GetMouseRay()
         {
-            return _playerCamera.ScreenPointToRay(Input.mousePosition);
+            return GetComponent<PlayerCameraController>().
+                GetPlayerCamera().ScreenPointToRay(Input.mousePosition);
         }
     }
 }

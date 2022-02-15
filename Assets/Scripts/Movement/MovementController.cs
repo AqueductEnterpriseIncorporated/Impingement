@@ -33,7 +33,6 @@ namespace Impingement.Movement
         public void StartMoving(Vector3 worldPosition)
         {
             GetComponent<ActionScheduleController>().StartAction(this);
-            //GetComponent<CombatController>().RemoveTarget();
             Move(worldPosition);
         }
         
