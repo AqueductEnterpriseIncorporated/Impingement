@@ -1,4 +1,3 @@
-using System;
 using Impingement.Combat;
 using Unity.Netcode;
 using UnityEngine;
@@ -8,7 +7,7 @@ namespace Impingement.Movement
 {
     public class MovementController : NetworkBehaviour
     {
-        public NetworkVariable<Vector3> Position = new NetworkVariable<Vector3>();
+        //public NetworkVariable<Vector3> Position = new NetworkVariable<Vector3>();
         private NavMeshAgent _navMeshAgent;
 
         private void Start()
@@ -16,23 +15,19 @@ namespace Impingement.Movement
             _navMeshAgent = GetComponent<NavMeshAgent>();
         }
 
-        private void Update()
-        {
-            _navMeshAgent.destination = Position.Value;
-        }
-
         public void Move(Vector3 worldPosition)
         {
-            if (NetworkManager.Singleton.IsServer || NetworkManager.IsHost)
+            if(!IsOwner) { return; }
+            if (NetworkManager.IsServer)
             {
-                Position.Value = worldPosition;
-                _navMeshAgent.destination = Position.Value;
+                _navMeshAgent.destination = worldPosition;
+                _navMeshAgent.isStopped = false;   
+                SubmitPositionRequestClientRpc(worldPosition);
             }
             else
             {
                 SubmitPositionRequestServerRpc(worldPosition);
             }
-            _navMeshAgent.isStopped = false;
         }
 
         public void StartMoving(Vector3 worldPosition)
@@ -41,33 +36,50 @@ namespace Impingement.Movement
             Move(worldPosition);
         }
         
-        //todo: server - client bug
         public void Stop()
         {
-            if (NetworkManager.Singleton.IsServer || NetworkManager.IsHost)
+            if (NetworkManager.IsServer)
             {
                 _navMeshAgent.isStopped = true;
-
+                SubmitStopRequestClientRpc();
             }
             else
             {
                 SubmitStopRequestServerRpc();
             }
-            _navMeshAgent.isStopped = true;
         }
-        
-        [ServerRpc]
-        private void SubmitStopRequestServerRpc()
+
+        #region Client
+        [ClientRpc]
+        private void SubmitStopRequestClientRpc(ServerRpcParams rpcParams = default)
         {
             _navMeshAgent.isStopped = true;
         }
+        
+        [ClientRpc]
+        private void SubmitPositionRequestClientRpc(Vector3 worldPosition, ServerRpcParams rpcParams = default)
+        {
+            _navMeshAgent.destination = worldPosition;
+            _navMeshAgent.isStopped = false;            
+        }
+        #endregion
 
+        #region Server
+        [ServerRpc]
+        private void SubmitStopRequestServerRpc(ServerRpcParams rpcParams = default)
+        {
+            _navMeshAgent.isStopped = true;
+            SubmitStopRequestClientRpc();
+        }
 
         [ServerRpc]
         private void SubmitPositionRequestServerRpc(Vector3 worldPosition, ServerRpcParams rpcParams = default)
         {
-            Position.Value = worldPosition;
+            _navMeshAgent.destination = worldPosition;
+            _navMeshAgent.isStopped = false;
+            SubmitPositionRequestClientRpc(worldPosition);
         }
+        #endregion
     }
 
 }

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\UnityProjects\Impingement" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Asset Packs" t="Include">
+          <e p="Synty - Polygon Student Sample" t="Include">
+            <e p="README - Usage Rights for these assets.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Combat" t="Include">
+            <e p="CombatController.cs" t="Include" />
+            <e p="CombatTarget.cs" t="Include" />
+          </e>
+          <e p="Control" t="Include">
+            <e p="PlayerController.cs" t="Include" />
+          </e>
+          <e p="Core" t="Include">
+            <e p="PlayerAnimationController.cs" t="Include" />
+            <e p="PlayerCameraController.cs" t="Include" />
+          </e>
+          <e p="GUIManager.cs" t="Include" />
+          <e p="HelloWorldPlayer.cs" t="Include" />
+          <e p="Movement" t="Include">
+            <e p="MovementController.cs" t="Include" />
+          </e>
+          <e p="NetworkCommandLine.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Impingement.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+    <e p="C:\Users\vadim\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\vadim\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Impingement.-253278842.00" t="ExcludeRecursive" />
+  </component>
+</project>
