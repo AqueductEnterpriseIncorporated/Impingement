@@ -10,11 +10,6 @@ namespace Impingement.Core
         [SerializeField] private Animator _animator;
         [SerializeField] private NavMeshAgent _navMeshAgent;
 
-        private void Start()
-        {
-            //
-        }
-
         private void Update()
         {
             Vector3 globalVelocity = _navMeshAgent.velocity;
