@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e797b75-f4f0-4ea9-b141-84d8d653dbe9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Characters/Character.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Characters/Character.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Unarmed/RPG-Character@Unarmed-Attack-L3.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Unarmed/RPG-Character@Unarmed-Attack-L3.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player/Player.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player/Player.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/DemoScene/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/DemoScene/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerAnimationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerAnimationController.cs" afterDir="false" />
-    </list>
+    <list default="true" id="5e797b75-f4f0-4ea9-b141-84d8d653dbe9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,6 +122,7 @@
       <workItem from="1644830188014" duration="11231000" />
       <workItem from="1644906000223" duration="7939000" />
       <workItem from="1644926772307" duration="2385000" />
+      <workItem from="1645008940245" duration="709000" />
     </task>
     <servers />
   </component>

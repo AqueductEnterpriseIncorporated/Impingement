@@ -23,7 +23,7 @@ namespace Impingement.Core
             if (NetworkManager.IsServer)
             {
                 _animator.SetTrigger("attack");
-                SubmitAnimationRequestClientRpc();
+                //SubmitAnimationRequestClientRpc();
             }
             else
             {
@@ -44,8 +44,8 @@ namespace Impingement.Core
         [ServerRpc]
         private void SubmitAnimationRequestServerRpc(ServerRpcParams rpcParams = default)
         {
-            _animator.SetTrigger("attack");
-            SubmitAnimationRequestClientRpc();
+            _animator.SetTrigger("attack"); 
+            //SubmitAnimationRequestClientRpc();
         }
         #endregion
     }
