@@ -5,10 +5,16 @@ using UnityEngine.AI;
 
 namespace Impingement.Core
 {
-    public class PlayerAnimationController : NetworkBehaviour
+    public class AnimationController : NetworkBehaviour
     {
-        [SerializeField] private Animator _animator;
-        [SerializeField] private NavMeshAgent _navMeshAgent;
+        private Animator _animator;
+        private NavMeshAgent _navMeshAgent;
+
+        private void Start()
+        {
+            _navMeshAgent = GetComponentInChildren<NavMeshAgent>();
+            _animator = GetComponentInChildren<Animator>();
+        }
 
         private void Update()
         {
@@ -23,7 +29,6 @@ namespace Impingement.Core
             if (NetworkManager.IsServer)
             {
                 _animator.SetTrigger("attack");
-                //SubmitAnimationRequestClientRpc();
             }
             else
             {

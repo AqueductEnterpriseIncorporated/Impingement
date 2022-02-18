@@ -6,32 +6,26 @@ namespace Impingement.Core
 {
     public class PlayerCameraController : NetworkBehaviour
     {
-        [SerializeField] private CinemachineVirtualCamera _virtualCamera;
-        [SerializeField] private float _zoomSpeed = 3f;
-        [SerializeField] private float _zoomInMax = 40f;
-        [SerializeField] private float _zoomOutMax = 40f;
-        [SerializeField] private CinemachineInputProvider _inputProvider;
-        [SerializeField] private Camera _camera;
-        
-        public override void OnNetworkSpawn()
-        {
-            if (IsOwner)
-            {
-                _virtualCamera.gameObject.SetActive(true);
-                enabled = true;
-            }
+        [SerializeField] private float _zoomSpeed = 10f;
+        [SerializeField] private float _zoomInMax = 30f;
+        [SerializeField] private float _zoomOutMax = 20f;
+        private CinemachineVirtualCamera _virtualCamera;
+        private CinemachineInputProvider _inputProvider;
+        private Camera _camera;
 
-            base.OnNetworkSpawn();
+        private void Start()
+        {
+            if(!IsOwner) { return; }
+            _virtualCamera = FindObjectOfType<CinemachineVirtualCamera>();
+            _inputProvider = _virtualCamera.GetComponent<CinemachineInputProvider>();
+            _camera = _virtualCamera.GetComponent<Camera>();
+            _virtualCamera.m_Follow = gameObject.transform;
+            _camera.fieldOfView = _virtualCamera.m_Lens.FieldOfView;
         }
 
         public Camera GetPlayerCamera()
         {
             return _camera;
-        }
-
-        private void Awake()
-        {
-            _camera.fieldOfView = _virtualCamera.m_Lens.FieldOfView;
         }
 
         private void Update()
@@ -49,6 +43,7 @@ namespace Impingement.Core
             float target = Mathf.Clamp(fov + increment, _zoomInMax, _zoomOutMax);
             _virtualCamera.m_Lens.FieldOfView = Mathf.Lerp(fov, target, _zoomSpeed * Time.deltaTime);
             _camera.fieldOfView = Mathf.Lerp(fov, target, _zoomSpeed * Time.deltaTime);
+            print(_virtualCamera.m_Lens.FieldOfView);
         }
     }
 }

@@ -37,7 +37,7 @@ namespace Impingement.Combat
         {
             if (_timeSinceLastAttack > _timeBetweenAttacks)
             {
-                GetComponent<PlayerAnimationController>().PlayAttackAnimation();
+                GetComponent<AnimationController>().PlayAttackAnimation();
                 _timeSinceLastAttack = 0;
             }
         }

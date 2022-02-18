@@ -1,4 +1,5 @@
-﻿using Impingement.Combat;
+﻿using System;
+using Impingement.Combat;
 using Impingement.Core;
 using Impingement.Movement;
 using UnityEngine;
@@ -8,7 +9,18 @@ namespace Impingement.Control
     public class PlayerController : MonoBehaviour
     {
         [SerializeField] private LayerMask _layerMask;
-        
+
+        private CombatController _combatController;
+        private MovementController _movementController;
+        private PlayerCameraController _playerCameraController;
+
+        private void Start()
+        {
+            _combatController = GetComponent<CombatController>();
+            _movementController = GetComponent<MovementController>();
+            _playerCameraController = GetComponent<PlayerCameraController>();
+        }
+
         private void Update()
         {
             if (ProcessCombat()) { return; }
@@ -24,7 +36,7 @@ namespace Impingement.Control
                 {
                     if (Input.GetMouseButtonDown(0))
                     {
-                        GetComponent<CombatController>().SetTarget(combatTarget);
+                        _combatController.SetTarget(combatTarget);
                     }
                     return true;
                 }
@@ -39,7 +51,7 @@ namespace Impingement.Control
             {
                 if (Input.GetMouseButton(0))
                 {
-                    GetComponent<MovementController>().StartMoving(hit.point);
+                    _movementController.StartMoving(hit.point);
                 }
                 return true;
             }
@@ -48,7 +60,7 @@ namespace Impingement.Control
 
         private Ray GetMouseRay()
         {
-            return GetComponent<PlayerCameraController>().
+            return _playerCameraController.
                 GetPlayerCamera().ScreenPointToRay(Input.mousePosition);
         }
     }
