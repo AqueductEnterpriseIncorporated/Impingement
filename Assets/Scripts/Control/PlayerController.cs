@@ -34,6 +34,8 @@ namespace Impingement.Control
             {
                 if (hit.transform.TryGetComponent<CombatTarget>(out var combatTarget))
                 {
+                    if(!_combatController.CanAttack(combatTarget)) { continue; }
+                    
                     if (Input.GetMouseButtonDown(0))
                     {
                         _combatController.SetTarget(combatTarget);

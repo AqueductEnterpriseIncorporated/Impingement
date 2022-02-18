@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: _healthPoints
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: -5269223953129559562, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
       propertyPath: m_Height
       value: 2

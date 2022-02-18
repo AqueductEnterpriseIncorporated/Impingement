@@ -10,34 +10,52 @@ namespace Impingement.Combat
         [SerializeField] private float _weaponRange = 2f;
         [SerializeField] private float _timeBetweenAttacks = 1f;
         private MovementController _movementController;
-        private Transform _targetTransform;
+        private AnimationController _animationController;
+        private HealthController _target;
         private float _timeSinceLastAttack;
         private float _weaponDamage = 5f;
+        
         private void Start()
         {
             _movementController = GetComponent<MovementController>();
+            _animationController = GetComponent<AnimationController>();
         }
 
         private void Update()
         {
             _timeSinceLastAttack += Time.deltaTime;
-            if(_targetTransform == null) { return; }
+            
+            if(_target == null) { return; }
+
+            if (_target.IsDead())
+            {
+                _target = null;
+                return;
+            }
+            
             if (!GetIsInRange())
             {
-                _movementController.Move(_targetTransform.position);
+                _movementController.Move(_target.transform.position);
             }
             else
             {
                 _movementController.Stop();
+                transform.LookAt(_target.transform);
                 AttackBehavior();
             }
         }
-
+        
+        public bool CanAttack(CombatTarget combatTarget)
+        {
+            return !combatTarget.GetComponent<HealthController>().IsDead() || combatTarget != null;
+        }
+        
         private void AttackBehavior()
         {
             if (_timeSinceLastAttack > _timeBetweenAttacks)
             {
-                GetComponent<AnimationController>().PlayAttackAnimation();
+                _animationController.ResetTriggerAnimation("cancelAttack");
+                _animationController.PlayTriggerAnimation("attack");
                 _timeSinceLastAttack = 0;
             }
         }
@@ -52,30 +70,33 @@ namespace Impingement.Combat
 
         private void DealDamage()
         {
-            if (_targetTransform == null) { return; }
+            if (_target == null) { return; }
 
-            _targetTransform.GetComponent<HealthController>().TakeDamage(_weaponDamage);
+            _target.TakeDamage(_weaponDamage);
         }
 
+        
         private bool GetIsInRange()
         {
-            return Vector3.Distance(transform.position, _targetTransform.position) < _weaponRange;
+            return Vector3.Distance(transform.position, _target.transform.position) < _weaponRange;
         }
 
         public void SetTarget(CombatTarget target)
         {
             GetComponent<ActionScheduleController>().StartAction(this);
-            _targetTransform = target.transform;
+            _target = target.GetComponent<HealthController>();
         }
 
         private void RemoveTarget()
         {
-            _targetTransform = null;
+            _target = null;
         }
 
         public void Cancel()
         {
             RemoveTarget();
+            _animationController.ResetTriggerAnimation("attack");
+            _animationController.PlayTriggerAnimation("cancelAttack");
         }
     }
 }

@@ -43,7 +43,6 @@ namespace Impingement.Core
             float target = Mathf.Clamp(fov + increment, _zoomInMax, _zoomOutMax);
             _virtualCamera.m_Lens.FieldOfView = Mathf.Lerp(fov, target, _zoomSpeed * Time.deltaTime);
             _camera.fieldOfView = Mathf.Lerp(fov, target, _zoomSpeed * Time.deltaTime);
-            print(_virtualCamera.m_Lens.FieldOfView);
         }
     }
 }

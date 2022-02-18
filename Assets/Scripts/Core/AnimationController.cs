@@ -24,33 +24,50 @@ namespace Impingement.Core
             _animator.SetFloat("forwardSpeed", speed);
         }
 
-        public void PlayAttackAnimation()
+        public void PlayTriggerAnimation(string triggerName)
         {
             if (NetworkManager.IsServer)
             {
-                _animator.SetTrigger("attack");
+                _animator.SetTrigger(triggerName);
             }
             else
             {
-                SubmitAnimationRequestServerRpc();
+                SubmitAnimationRequestServerRpc(triggerName);
             }
         }
         
-        
-        #region Client
-        [ClientRpc]
-        private void SubmitAnimationRequestClientRpc(ServerRpcParams rpcParams = default)
+        public void ResetTriggerAnimation(string triggerName)
         {
-            _animator.SetTrigger("attack");
+            if (NetworkManager.IsServer)
+            {
+                _animator.ResetTrigger(triggerName);
+            }
+            else
+            {
+                SubmitResetAnimationRequestServerRpc(triggerName);
+            }
         }
-        #endregion
+
+        // #region Client
+        // [ClientRpc]
+        // private void SubmitAnimationRequestClientRpc(ServerRpcParams rpcParams = default)
+        // {
+        //     _animator.SetTrigger("attack");
+        // }
+        // #endregion
 
         #region Server
         [ServerRpc]
-        private void SubmitAnimationRequestServerRpc(ServerRpcParams rpcParams = default)
+        private void SubmitAnimationRequestServerRpc(string triggerName, ServerRpcParams rpcParams = default)
         {
-            _animator.SetTrigger("attack"); 
+            _animator.SetTrigger(triggerName); 
             //SubmitAnimationRequestClientRpc();
+        }
+        
+        [ServerRpc]
+        private void SubmitResetAnimationRequestServerRpc(string triggerName, ServerRpcParams rpcParams = default)
+        {
+            _animator.ResetTrigger(triggerName); 
         }
         #endregion
     }
