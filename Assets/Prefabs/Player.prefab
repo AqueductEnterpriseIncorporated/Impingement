@@ -319,6 +319,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 565074086760499575, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 590389474693227773, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: _rotateSpeed
+      value: 330
+      objectReference: {fileID: 0}
     - target: {fileID: 4653223554790168374, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 951099334
@@ -463,5 +471,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Animator: {fileID: 6023749405867441891}
-  m_ParameterSendBits: 3
+  m_ParameterSendBits: 15
   m_SendRate: 0.1

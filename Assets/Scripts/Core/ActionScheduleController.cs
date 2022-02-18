@@ -14,5 +14,10 @@ namespace Impingement.Core
 
             _action = action;
         }
+
+        public void CancelCurrentAction()
+        {
+            StartAction(null);
+        }
     }
 }

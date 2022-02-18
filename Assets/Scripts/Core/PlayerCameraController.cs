@@ -17,6 +17,7 @@ namespace Impingement.Core
         {
             if(!IsOwner) { return; }
             _virtualCamera = FindObjectOfType<CinemachineVirtualCamera>();
+            _virtualCamera.m_Lens.FieldOfView = _zoomInMax;
             _inputProvider = _virtualCamera.GetComponent<CinemachineInputProvider>();
             _camera = _virtualCamera.GetComponent<Camera>();
             _virtualCamera.m_Follow = gameObject.transform;
@@ -30,6 +31,7 @@ namespace Impingement.Core
 
         private void Update()
         {
+            if(!IsOwner) { return;}
             float z = _inputProvider.GetAxisValue(2);
             if (z != 0)
             {

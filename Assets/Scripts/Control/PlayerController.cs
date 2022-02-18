@@ -1,28 +1,33 @@
-﻿using System;
-using Impingement.Combat;
+﻿using Impingement.Combat;
 using Impingement.Core;
 using Impingement.Movement;
+using Unity.Netcode;
 using UnityEngine;
+
 
 namespace Impingement.Control
 {
-    public class PlayerController : MonoBehaviour
+    public class PlayerController : NetworkBehaviour
     {
         [SerializeField] private LayerMask _layerMask;
 
         private CombatController _combatController;
         private MovementController _movementController;
         private PlayerCameraController _playerCameraController;
-
+        private HealthController _healthController;
+        
         private void Start()
         {
             _combatController = GetComponent<CombatController>();
             _movementController = GetComponent<MovementController>();
             _playerCameraController = GetComponent<PlayerCameraController>();
+            _healthController = GetComponent<HealthController>();
         }
-
+        
         private void Update()
         {
+            if(!IsOwner) { return; }
+            if (_healthController.IsDead()) { return; }
             if (ProcessCombat()) { return; }
             if (ProcessMovement()) { return; }        
         }
@@ -34,11 +39,11 @@ namespace Impingement.Control
             {
                 if (hit.transform.TryGetComponent<CombatTarget>(out var combatTarget))
                 {
-                    if(!_combatController.CanAttack(combatTarget)) { continue; }
+                    if(!_combatController.CanAttack(combatTarget.gameObject)) { continue; }
                     
                     if (Input.GetMouseButtonDown(0))
                     {
-                        _combatController.SetTarget(combatTarget);
+                        _combatController.SetTarget(combatTarget.gameObject);
                     }
                     return true;
                 }

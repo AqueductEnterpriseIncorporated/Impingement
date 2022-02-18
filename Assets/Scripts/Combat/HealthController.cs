@@ -1,19 +1,21 @@
 ﻿using Impingement.Core;
+using Unity.Netcode;
 using UnityEngine;
-using UnityEngine.AI;
 
 namespace Impingement.Combat
 {
-    public class HealthController : MonoBehaviour
+    public class HealthController : NetworkBehaviour
     {
         [SerializeField]
         private float _healthPoints = 100f;
 
-        private bool _isDead;
+        private NetworkVariable<bool> _isDead = new NetworkVariable<bool>();
+        //private bool _isDead;
+        
 
         public bool IsDead()
         {
-            return _isDead;
+            return _isDead.Value;
         }
 
         //public event Death OnDeath;
@@ -29,12 +31,17 @@ namespace Impingement.Combat
 
         private void Die()
         {
-            if(_isDead) { return; }
+            if(_isDead.Value) { return; }
             //OnDeath?.Invoke(this, transform);
             GetComponent<AnimationController>().PlayTriggerAnimation("die");
-            _isDead = true;
-            //GetComponent<CapsuleCollider>().enabled = false;
-            //GetComponent<NavMeshAgent>().enabled = false;
+            ChangeIsDeadValueServerRpc(true);
+            GetComponent<ActionScheduleController>().CancelCurrentAction();
+        }
+
+        [ServerRpc(RequireOwnership = false)]
+        private void ChangeIsDeadValueServerRpc(bool value)
+        {
+            _isDead.Value = value;
         }
     }
 

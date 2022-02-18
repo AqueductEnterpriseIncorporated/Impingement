@@ -1,4 +1,3 @@
-using System;
 using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.AI;
@@ -24,11 +23,13 @@ namespace Impingement.Core
             _animator.SetFloat("forwardSpeed", speed);
         }
 
+        //bug: multiple triggers (client-server)
         public void PlayTriggerAnimation(string triggerName)
         {
             if (NetworkManager.IsServer)
             {
                 _animator.SetTrigger(triggerName);
+                //SubmitAnimationRequestClientRpc(triggerName);
             }
             else
             {
@@ -47,27 +48,27 @@ namespace Impingement.Core
                 SubmitResetAnimationRequestServerRpc(triggerName);
             }
         }
-
-        // #region Client
-        // [ClientRpc]
-        // private void SubmitAnimationRequestClientRpc(ServerRpcParams rpcParams = default)
-        // {
-        //     _animator.SetTrigger("attack");
-        // }
-        // #endregion
-
+        
         #region Server
         [ServerRpc]
         private void SubmitAnimationRequestServerRpc(string triggerName, ServerRpcParams rpcParams = default)
         {
-            _animator.SetTrigger(triggerName); 
-            //SubmitAnimationRequestClientRpc();
+            //_animator.SetTrigger(triggerName); 
+            SubmitAnimationRequestClientRpc(triggerName);
         }
-        
+
         [ServerRpc]
         private void SubmitResetAnimationRequestServerRpc(string triggerName, ServerRpcParams rpcParams = default)
         {
             _animator.ResetTrigger(triggerName); 
+        }
+        #endregion
+
+        #region Client
+        [ClientRpc]
+        private void SubmitAnimationRequestClientRpc(string triggerName, ServerRpcParams rpcParams = default)
+        {
+            _animator.SetTrigger(triggerName); 
         }
         #endregion
     }

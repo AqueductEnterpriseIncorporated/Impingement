@@ -1,3 +1,4 @@
+using Impingement.Combat;
 using Impingement.Core;
 using Unity.Netcode;
 using UnityEngine;
@@ -9,15 +10,21 @@ namespace Impingement.Movement
     {
         //public NetworkVariable<Vector3> Position = new NetworkVariable<Vector3>();
         private NavMeshAgent _navMeshAgent;
+        private HealthController _healthController;
 
         private void Start()
         {
             _navMeshAgent = GetComponent<NavMeshAgent>();
+            _healthController = GetComponent<HealthController>();
+        }
+
+        private void Update()
+        {
+            _navMeshAgent.enabled = !_healthController.IsDead();
         }
 
         public void Move(Vector3 worldPosition)
         {
-            if(!IsOwner) { return; }
             if (NetworkManager.IsServer)
             {
                 _navMeshAgent.destination = worldPosition;
@@ -70,14 +77,14 @@ namespace Impingement.Movement
         #endregion
 
         #region Server
-        [ServerRpc]
+        [ServerRpc(RequireOwnership = false)]
         private void SubmitStopRequestServerRpc(ServerRpcParams rpcParams = default)
         {
             _navMeshAgent.isStopped = true;
             SubmitStopRequestClientRpc();
         }
 
-        [ServerRpc]
+        [ServerRpc(RequireOwnership = false)]
         private void SubmitPositionRequestServerRpc(Vector3 worldPosition, ServerRpcParams rpcParams = default)
         {
             _navMeshAgent.destination = worldPosition;
