@@ -35,7 +35,7 @@ namespace Impingement.Combat
             
             if (!GetIsInRange())
             {
-                _movementController.Move(_target.transform.position);
+                _movementController.Move(_target.transform.position, 1);
             }
             else
             {

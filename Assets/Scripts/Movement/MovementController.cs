@@ -8,6 +8,7 @@ namespace Impingement.Movement
 {
     public class MovementController : NetworkBehaviour, IAction
     {
+        [SerializeField] private float _maximumSpeed = 6f; 
         //public NetworkVariable<Vector3> Position = new NetworkVariable<Vector3>();
         private NavMeshAgent _navMeshAgent;
         private HealthController _healthController;
@@ -23,11 +24,12 @@ namespace Impingement.Movement
             _navMeshAgent.enabled = !_healthController.IsDead();
         }
 
-        public void Move(Vector3 worldPosition)
+        public void Move(Vector3 worldPosition, float speedFraction)
         {
             if (NetworkManager.IsServer)
             {
                 _navMeshAgent.destination = worldPosition;
+                _navMeshAgent.speed = _maximumSpeed * Mathf.Clamp01(speedFraction);
                 _navMeshAgent.isStopped = false;   
                 SubmitPositionRequestClientRpc(worldPosition);
             }
@@ -37,10 +39,10 @@ namespace Impingement.Movement
             }
         }
 
-        public void StartMoving(Vector3 worldPosition)
+        public void StartMoving(Vector3 worldPosition, float speedFraction)
         {
             GetComponent<ActionScheduleController>().StartAction(this);
-            Move(worldPosition);
+            Move(worldPosition, speedFraction);
         }
         
         public void Stop()

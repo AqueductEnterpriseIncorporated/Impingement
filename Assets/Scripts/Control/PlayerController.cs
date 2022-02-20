@@ -58,7 +58,7 @@ namespace Impingement.Control
             {
                 if (Input.GetMouseButton(0))
                 {
-                    _movementController.StartMoving(hit.point);
+                    _movementController.StartMoving(hit.point, 1);
                 }
                 return true;
             }

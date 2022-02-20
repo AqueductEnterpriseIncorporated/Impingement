@@ -8,6 +8,8 @@ namespace Impingement.Control
 {
     public class AIController: NetworkBehaviour
     {
+        [Range(0,1)]
+        [SerializeField] private float _patrolSpeedFraction = 0.2f;
         [SerializeField] private float _chaseDistance = 5f;
         [SerializeField] private float _suspicionTime =  5f;   
         [SerializeField] private float _waypointDwellTime =  3f;   
@@ -75,7 +77,7 @@ namespace Impingement.Control
 
             if (_timeSinceArrivedAtWaypoint > _waypointDwellTime)
             {
-                _movementController.StartMoving(nextPosition);
+                _movementController.StartMoving(nextPosition, _patrolSpeedFraction);
             }
         }
 
