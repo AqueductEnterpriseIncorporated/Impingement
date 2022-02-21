@@ -7,21 +7,25 @@ namespace Impingement.Combat
 {
     public class CombatController : NetworkBehaviour, IAction
     {
-        [SerializeField] private float _weaponRange = 2f;
         [SerializeField] private float _timeBetweenAttacks = 1f;
-        [SerializeField] private float _weaponDamage = 5f;
         [SerializeField] private float _rotateSpeed = 5f;
+        [SerializeField] private Transform _rightHandTransform = null;
+        [SerializeField] private Transform _leftHandTransform = null;
+        [SerializeField] private Weapon _defaultWeapon = null;
+        [SerializeField] private string _weaponName = "";
         private MovementController _movementController;
         private AnimationController _animationController;
         private HealthController _target;
         private float _timeSinceLastAttack = Mathf.Infinity;
+        private Weapon _currentWeapon = null;
         
         private void Start()
         {
             _movementController = GetComponent<MovementController>();
             _animationController = GetComponent<AnimationController>();
+            //Weapon weapon = Resources.Load<Weapon>(_weaponName);
+            EquipWeapon(_defaultWeapon);
         }
-
         private void Update()
         {
             _timeSinceLastAttack += Time.deltaTime;
@@ -43,6 +47,13 @@ namespace Impingement.Combat
                 LookAtTarget();
                 AttackBehavior();
             }
+        }
+        
+        public void EquipWeapon(Weapon weapon)
+        {
+            _currentWeapon = weapon;
+            Animator animator = GetComponent<Animator>();
+            weapon.Spawn(_rightHandTransform, _leftHandTransform, animator);
         }
 
         //bug: client doesn't rotate
@@ -82,18 +93,33 @@ namespace Impingement.Combat
         {
             DealDamage();
         }
+        
+        /// <summary>
+        /// Animation event
+        /// </summary>
+        private void Shoot()
+        {
+            Hit();
+        }
 
         private void DealDamage()
         {
             if (_target == null) { return; }
 
-            _target.TakeDamage(_weaponDamage);
+            if (_currentWeapon.HasProjectile())
+            {
+                _currentWeapon.LaunchProjectile(_leftHandTransform, _rightHandTransform, _target);
+            }
+            else
+            {
+                _target.TakeDamage(_currentWeapon.GetDamage());
+            }
         }
 
         
         private bool GetIsInRange()
         {
-            return Vector3.Distance(transform.position, _target.transform.position) < _weaponRange;
+            return Vector3.Distance(transform.position, _target.transform.position) < _currentWeapon.GetRange();
         }
 
         public void SetTarget(GameObject target)

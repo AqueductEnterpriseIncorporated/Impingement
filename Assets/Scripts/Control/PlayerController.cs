@@ -4,13 +4,12 @@ using Impingement.Movement;
 using Unity.Netcode;
 using UnityEngine;
 
-
 namespace Impingement.Control
 {
     public class PlayerController : NetworkBehaviour
     {
         [SerializeField] private LayerMask _layerMask;
-
+        private GameObject _spawnPoint;
         private CombatController _combatController;
         private MovementController _movementController;
         private PlayerCameraController _playerCameraController;
@@ -18,6 +17,11 @@ namespace Impingement.Control
         
         private void Start()
         {
+            _spawnPoint = GameObject.FindWithTag("SpawnPoint");
+            if (_spawnPoint != null)
+            {
+                transform.position = _spawnPoint.transform.position;
+            }
             _combatController = GetComponent<CombatController>();
             _movementController = GetComponent<MovementController>();
             _playerCameraController = GetComponent<PlayerCameraController>();
@@ -57,7 +61,7 @@ namespace Impingement.Control
             if (Physics.Raycast(GetMouseRay(), out var hit, Mathf.Infinity, _layerMask))
             {
                 if (Input.GetMouseButton(0))
-                {
+                { 
                     _movementController.StartMoving(hit.point, 1);
                 }
                 return true;

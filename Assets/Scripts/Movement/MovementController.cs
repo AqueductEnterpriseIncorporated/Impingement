@@ -9,6 +9,8 @@ namespace Impingement.Movement
     public class MovementController : NetworkBehaviour, IAction
     {
         [SerializeField] private float _maximumSpeed = 6f; 
+        [Range(0,1)]
+        [SerializeField] private float _speedModifier = 1f; 
         //public NetworkVariable<Vector3> Position = new NetworkVariable<Vector3>();
         private NavMeshAgent _navMeshAgent;
         private HealthController _healthController;
@@ -29,7 +31,7 @@ namespace Impingement.Movement
             if (NetworkManager.IsServer)
             {
                 _navMeshAgent.destination = worldPosition;
-                _navMeshAgent.speed = _maximumSpeed * Mathf.Clamp01(speedFraction);
+                _navMeshAgent.speed = _maximumSpeed * Mathf.Clamp01(speedFraction * _speedModifier);
                 _navMeshAgent.isStopped = false;   
                 SubmitPositionRequestClientRpc(worldPosition);
             }
