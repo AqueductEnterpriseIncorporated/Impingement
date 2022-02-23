@@ -5,369 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e797b75-f4f0-4ea9-b141-84d8d653dbe9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Club.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Club/Materials and Model.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Club/Materials and Model/SM_Wep_Club_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Club/Materials and Model/SM_Wep_Club_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Club/Prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Club/Prefab/SM_Wep_Club_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Club/Prefab/SM_Wep_Club_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Hoe.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Hoe/Materials and Model.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Hoe/Materials and Model/Dirt Old Hoe.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Hoe/Materials and Model/Dirt Old Hoe.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Hoe/Materials and Model/Dirty Old Hoe.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Hoe/Materials and Model/Dirty Old Hoe.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Hoe/Materials and Model/Dirty Old Hoe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Hoe/Materials and Model/Dirty Old Hoe.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Hoe/Prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Hoe/Prefab/Dirty Old Hoe.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Hoe/Prefab/Dirty Old Hoe.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Pitchfork.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Pitchfork/Materials and Model.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Pitchfork/Materials and Model/SM_Wep_Pitchfork_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Pitchfork/Materials and Model/SM_Wep_Pitchfork_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Pitchfork/Prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Pitchfork/Prefab/SM_Wep_Pitchfork_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Pitchfork/Prefab/SM_Wep_Pitchfork_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Rod of Death.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Rod of Death/Materials and Model.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Rod of Death/Materials and Model/PineTree_Trunk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Rod of Death/Materials and Model/PineTree_Trunk.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Rod of Death/Materials and Model/Wood_Normal.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Rod of Death/Materials and Model/Wood_Normal.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Rod of Death/Prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Rod of Death/Prefab/Rod Of Death.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Rod of Death/Prefab/Rod Of Death.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Simple Arrow.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Simple Arrow/Materials &amp; Meshes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Simple Arrow/Materials &amp; Meshes/Arrow.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Simple Arrow/Materials &amp; Meshes/Arrow.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Simple Arrow/Materials &amp; Meshes/Arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Simple Arrow/Materials &amp; Meshes/Arrow.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Simple Arrow/Materials &amp; Meshes/Simple Arrow.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Simple Arrow/Materials &amp; Meshes/Simple Arrow.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Simple Arrow/Prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Simple Arrow/Prefab/Simple Arrow.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Simple Arrow/Prefab/Simple Arrow.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Simple Bow.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Materials and Model.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Materials and Model/Simple Bow.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Materials and Model/Simple Bow.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Materials and Model/Simple Bow.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Materials and Model/Simple Bow.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Materials and Model/Simple Bow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Materials and Model/Simple Bow.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Prefab/Simple Bow.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Prefab/Simple Bow.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Materials/FX_Base.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Materials/FX_Base.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Materials/FX_Glow.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Materials/FX_Glow.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Materials/FX_GunFlash.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Materials/FX_GunFlash.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Materials/FX_Lightray.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Materials/FX_Lightray.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Materials/FX_Rubble.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Materials/FX_Rubble.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Materials/FX_Splash.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Materials/FX_Splash.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Materials/FX_Water.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Materials/FX_Water.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Materials/UnlitVertexColour_Alpha.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Materials/UnlitVertexColour_Alpha.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Models.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Models/FX_GunFlash.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Models/FX_GunFlash.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Models/FX_Lightray.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Models/FX_Lightray.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Models/FX_PoolSplash_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Models/FX_PoolSplash_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Models/FX_PoolSplash_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Models/FX_PoolSplash_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Models/FX_PoolSplash_03.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Models/FX_PoolSplash_03.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Models/FX_Rubble.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Models/FX_Rubble.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_BloodSplatter.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_BloodSplatter.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_DirtSplatter.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_DirtSplatter.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_Dust_Prefab_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_Dust_Prefab_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_Dust_Prefab_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_Dust_Prefab_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_Dust_Prefab_03.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_Dust_Prefab_03.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_Explosion_Rubble.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_Explosion_Rubble.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_Fire.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_Fire.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_Fireworks_Blue_Large.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_Fireworks_Blue_Large.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_Fireworks_Blue_Small .prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_Fireworks_Blue_Small .prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_Fireworks_Green_Large.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_Fireworks_Green_Large.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_Fireworks_Green_Small.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_Fireworks_Green_Small.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_Fireworks_Yellow_Large.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_Fireworks_Yellow_Large.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_Fireworks_Yellow_Small.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_Fireworks_Yellow_Small.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_FlameThrower.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_FlameThrower.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_GunFlash.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_GunFlash.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_Lightray.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_Lightray.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_PoolSplash_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_PoolSplash_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_PoolSplash_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_PoolSplash_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_PoolSplash_03.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_PoolSplash_03.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_Rubble.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_Rubble.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_Smoke.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_Smoke.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_Steam.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_Steam.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_TireSmoke.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_TireSmoke.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_WaterSplash.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_WaterSplash.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_WaterSplatter.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/SimpleFX/Prefabs/FX_WaterSplatter.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free).meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Demo.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Demo/Assets_Preview.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Demo/Assets_Preview/Assets_Preview.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Demo/Assets_Preview/Assets_Preview.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Demo/Demo_Scene.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Demo/Demo_Scene/Demo_Scene.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Demo/Demo_Scene/Demo_Scene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Demo/Demo_Scene/Demo_Scene.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Demo/Demo_Scene/Demo_Scene/LightingData.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Demo/Demo_Scene/Demo_Scene/LightingData.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Demo/Demo_Scene/Demo_Scene/Lightmap-0_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Demo/Demo_Scene/Demo_Scene/Lightmap-0_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Demo/Demo_Scene/Demo_Scene/Lightmap-0_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Demo/Demo_Scene/Demo_Scene/Lightmap-0_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Materials/Dungeon_Mat_01.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Materials/Dungeon_Mat_01.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Materials/Dungeon_Mat_02.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Materials/Dungeon_Mat_02.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Originals.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Originals/Door.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Originals/Door.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Originals/Floor.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Originals/Floor.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Originals/Lamp_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Originals/Lamp_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Originals/Lamp_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Originals/Lamp_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Originals/Pillar.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Originals/Pillar.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Originals/Wall.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Originals/Wall.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Originals/Wall_Entrance.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Originals/Wall_Entrance.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Prefabs/Door.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Prefabs/Door.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Prefabs/Floor.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Prefabs/Floor.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Prefabs/Lamp_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Prefabs/Lamp_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Prefabs/Lamp_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Prefabs/Lamp_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Prefabs/Pillar.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Prefabs/Pillar.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Prefabs/Wall.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Prefabs/Wall.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Prefabs/Wall_Entrance.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Prefabs/Wall_Entrance.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Textures/Dungeon_01_Diffuse.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Textures/Dungeon_01_Diffuse.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Textures/Dungeon_02_Diffuse.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Textures/Dungeon_02_Diffuse.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Textures/Dungeon_02_Emission.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Textures/Dungeon_02_Emission.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/New Terrain 1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/New Terrain 1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Core.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/Camera.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/Camera.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/Cameras.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/Cameras.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/GUIManager.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/GUIManager.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/NetworkManager.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/NetworkManager.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/Portal.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/Portal.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Dungeon.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Floor.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Floor.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Room.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Room.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/RoomLittle.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/RoomLittle.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/RoomWithSpawnpoint.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/RoomWithSpawnpoint.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects/ArrowImpactEffect.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects/ArrowImpactEffect.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects/Fireball Impact.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects/Fireball Impact.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Enemy.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Enemy.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/EnemyArcher.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/EnemyArcher.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/PatrolPath.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/PatrolPath.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Pickups.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Pickups/BowPickup.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Pickups/BowPickup.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Pickups/FireballPickup.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Pickups/FireballPickup.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Pickups/RootPickup.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Pickups/RootPickup.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Pickups/SwordPickup.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Pickups/SwordPickup.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Player/Character.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Player/Character.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Player/Player.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Player/Player.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/ArrowProjectileRed.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/ArrowProjectileRed.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/FireballProjectile.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/FireballProjectile.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/RootArrowProjectile.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/RootArrowProjectile.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Bow.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Bow/BowAnimatorOverride.overrideController" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Bow/BowAnimatorOverride.overrideController.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Bow/BowRedProjectile.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Bow/BowRedProjectile.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Bow/EquippedBow.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Bow/EquippedBow.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Magic.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Magic/Fireball.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Magic/Fireball/FireballAnimatorOverride.overrideController" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Magic/Fireball/FireballAnimatorOverride.overrideController.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Bow.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Bow.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Fireball.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Fireball.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Sword.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Sword.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Unarmed.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Unarmed.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Sword.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Sword/EquippedSword.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Sword/EquippedSword.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Sword/SwordAnimatorOverride.overrideController" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Sword/SwordAnimatorOverride.overrideController.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Unarmed.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Dungeon.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Dungeon/Dungeon.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Dungeon/Dungeon/Dungeon.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Dungeon/Dungeon/Dungeon.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Dungeon/Dungeon/NavMesh.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Dungeon/Dungeon/NavMesh.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMesh.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMesh.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/SampleScene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/SampleScene.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Scene02.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Scene02/Scene02.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Scene02/Scene02.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Scene02/Scene02.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Scene02/Scene02/NavMesh.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Scene02/Scene02/NavMesh.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Test.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Test/NavMesh.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Test/NavMesh.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Test/Test.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Test/Test.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/Projectile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/Projectile.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/Weapon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/Weapon.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponPickup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponPickup.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DestroyAfterEffect.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DestroyAfterEffect.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/DungeonGenerator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/DungeonGenerator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/RoomBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/RoomBehaviour.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/WallCollision.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/WallCollision.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NavMesh.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NavMesh/NavMeshLink.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NavMesh/NavMeshLink.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NavMesh/NavMeshModifier.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NavMesh/NavMeshModifier.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NavMesh/NavMeshModifierVolume.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NavMesh/NavMeshModifierVolume.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NavMesh/NavMeshSurface.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NavMesh/NavMeshSurface.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Saving.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Saving/ISaveable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Saving/ISaveable.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Saving/SaveableEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Saving/SaveableEntity.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Saving/SavingSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Saving/SavingSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Saving/SerializableVector3.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Saving/SerializableVector3.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManagement.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManagement/Portal.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManagement/Portal.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/NavMeshComponents.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/NavMeshComponents/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/NavMeshComponents/Editor/NavMeshLinkEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/NavMeshComponents/Editor/NavMeshLinkEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/NavMeshComponents/Editor/NavMeshModifierEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/NavMeshComponents/Editor/NavMeshModifierEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/NavMeshComponents/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/NavMeshComponents/Scripts/NavMeshBaker.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/NavMeshComponents/Scripts/NavMeshLink.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/NavMeshComponents/Scripts/NavMeshLink.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/NavMeshComponents/Scripts/NavMeshModifier.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/NavMeshComponents/Scripts/NavMeshModifier.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/NavMeshComponents/Scripts/NavMeshModifierVolume.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/NavMeshComponents/Scripts/NavMeshModifierVolume.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/NavMeshComponents/Scripts/NavMeshSurface.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/NavMeshComponents/Scripts/NavMeshSurface.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Dungeon/Dungeon/Dungeon.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyAdventureMaterial_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyAdventureMaterial_01.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyVikings_Material_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyVikings_Material_01.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyVikings_Material_01.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyVikings_Material_01.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/Texture_01_Vikings.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/Texture_01_Vikings.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Camera.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Camera.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Character.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Character.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PatrolPath.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PatrolPath.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/DemoScene.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/DemoScene/SampleScene.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/DemoScene/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/DemoScene/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/DemoScene/SampleScene/NavMesh.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/DemoScene/SampleScene/NavMesh.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Classes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement/MovementController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Movement/MovementController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Floor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Floor.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Room.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Room.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dungeon/Dungeon/Dungeon.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dungeon/Dungeon/Dungeon.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/DungeonGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/DungeonGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -387,14 +55,15 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@1.0.0-pre.5/Runtime/Core/NetworkBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@1.0.0-pre.5/Runtime/NetworkVariable/NetworkVariable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HelloWorldPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@1.0.0-pre.5/Runtime/Spawning/NetworkSpawnManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@1.0.0-pre.5/Runtime/SceneManagement/NetworkSceneManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GUIManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HelloWorldPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@1.0.0-pre.5/Runtime/Core/NetworkManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@1.0.0-pre.5/Runtime/Messaging/Messages/RpcMessage.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@1.0.0-pre.5/Runtime/Core/NetworkBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@1.0.0-pre.5/Runtime/NetworkVariable/NetworkVariable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Asset Packs/NavMeshComponents/Scripts/NavMeshBaker.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -413,6 +82,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Classes/Stats/IntellegenceStat.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Classes/Stats/IntelligenceStat.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Asset Packs/NavMeshComponents/Scripts/DirectedAgent.cs" />
+      <option value="$PROJECT_DIR$/Assets/Asset Packs/NavMeshComponents/Scripts/NavigationBaker.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/DungeonGenerator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Asset Packs/NavMeshComponents/Scripts/NavMeshBaker.cs" />
     </changedPaths>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -429,6 +102,8 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -456,17 +131,15 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="21604">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
-      <option name="projectPathOnTarget" />
+      <option name="pid" value="21604" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -496,6 +169,7 @@
       <workItem from="1645262029175" duration="7652000" />
       <workItem from="1645361412604" duration="1750000" />
       <workItem from="1645427537426" duration="24311000" />
+      <workItem from="1645516561038" duration="4585000" />
     </task>
     <servers />
   </component>
@@ -515,6 +189,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

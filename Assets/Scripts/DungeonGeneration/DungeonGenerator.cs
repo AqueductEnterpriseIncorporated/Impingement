@@ -36,7 +36,7 @@ namespace Impingement.DungeonGeneration
             }
 
         }
-        [SerializeField] private NavMeshSurface _surface;
+        [SerializeField] private NavMeshBaker _navMeshBaker;
 
         public Vector2Int size;
         public int startPos = 0;
@@ -49,7 +49,9 @@ namespace Impingement.DungeonGeneration
         void Start()
         {
             MazeGenerator();
-            _surface.BuildNavMesh();
+            //_navMeshBaker.GetSurfaces();
+            //_navMeshBaker.BakeFloors();
+            //_surface.BuildNavMesh();
         }
 
         void GenerateDungeon()

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\UnityProjects\Impingement" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Asset Packs" t="Include">
+          <e p="NavMeshComponents" t="Include">
+            <e p="Editor" t="Include">
+              <e p="NavMeshAssetManager.cs" t="Include" />
+              <e p="NavMeshComponentsEditor.asmdef" t="Include" />
+              <e p="NavMeshComponentsGUIUtility.cs" t="Include" />
+              <e p="NavMeshLinkEditor.cs" t="Include" />
+              <e p="NavMeshModifierEditor.cs" t="Include" />
+              <e p="NavMeshModifierVolumeEditor.cs" t="Include" />
+              <e p="NavMeshSurfaceEditor.cs" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="NavMeshBaker.cs" t="Include" />
+              <e p="NavMeshComponents.asmdef" t="Include" />
+              <e p="NavMeshLink.cs" t="Include" />
+              <e p="NavMeshModifier.cs" t="Include" />
+              <e p="NavMeshModifierVolume.cs" t="Include" />
+              <e p="NavMeshSurface.cs" t="Include" />
+            </e>
+          </e>
+          <e p="SimpleFX" t="Include">
+            <e p="Materials" t="Include">
+              <e p="UnlitVertexColour_Alpha.shader" t="Include" />
+            </e>
+          </e>
+          <e p="Synty - Polygon Student Sample" t="Include">
+            <e p="README - Usage Rights for these assets.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Combat" t="Include">
+            <e p="CombatController.cs" t="Include" />
+            <e p="CombatTarget.cs" t="Include" />
+            <e p="HealthController.cs" t="Include" />
+            <e p="Projectile.cs" t="Include" />
+            <e p="Weapon.cs" t="Include" />
+            <e p="WeaponPickup.cs" t="Include" />
+          </e>
+          <e p="Control" t="Include">
+            <e p="AIController.cs" t="Include" />
+            <e p="PatrolPath.cs" t="Include" />
+            <e p="PlayerController.cs" t="Include" />
+          </e>
+          <e p="Core" t="Include">
+            <e p="ActionScheduleController.cs" t="Include" />
+            <e p="AnimationController.cs" t="Include" />
+            <e p="DestroyAfterEffect.cs" t="Include" />
+            <e p="IAction.cs" t="Include" />
+            <e p="PlayerCameraController.cs" t="Include" />
+          </e>
+          <e p="DungeonGeneration" t="Include">
+            <e p="DungeonGenerator.cs" t="Include" />
+            <e p="RoomBehaviour.cs" t="Include" />
+            <e p="WallCollision.cs" t="Include" />
+          </e>
+          <e p="GUIManager.cs" t="Include" />
+          <e p="HelloWorldPlayer.cs" t="Include" />
+          <e p="Movement" t="Include">
+            <e p="MovementController.cs" t="Include" />
+          </e>
+          <e p="NavMesh" t="Include">
+            <e p="NavMeshLink.cs" t="Include" />
+            <e p="NavMeshModifier.cs" t="Include" />
+            <e p="NavMeshModifierVolume.cs" t="Include" />
+            <e p="NavMeshSurface.cs" t="Include" />
+          </e>
+          <e p="NetworkCommandLine.cs" t="Include" />
+          <e p="Saving" t="Include">
+            <e p="ISaveable.cs" t="Include" />
+            <e p="SaveableEntity.cs" t="Include" />
+            <e p="SavingSystem.cs" t="Include" />
+            <e p="SerializableVector3.cs" t="Include" />
+          </e>
+          <e p="SceneManagement" t="Include">
+            <e p="Portal.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Impingement.sln" t="IncludeFlat" />
+      <e p="NavMeshComponents.csproj" t="IncludeRecursive" />
+      <e p="NavMeshComponentsEditor.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+    <e p="C:\Users\vadim\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\vadim\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Impingement.-253278842.00" t="ExcludeRecursive" />
+  </component>
+</project>
