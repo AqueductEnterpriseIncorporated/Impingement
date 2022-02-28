@@ -1,18 +1,20 @@
-using Unity.Netcode;
+using Photon.Pun;
 using UnityEngine;
 using UnityEngine.AI;
 
 namespace Impingement.Core
 {
-    public class AnimationController : NetworkBehaviour
+    public class AnimationController : MonoBehaviour
     {
         private Animator _animator;
         private NavMeshAgent _navMeshAgent;
+        private PhotonView _photonView;
 
         private void Start()
         {
             _navMeshAgent = GetComponentInChildren<NavMeshAgent>();
             _animator = GetComponentInChildren<Animator>();
+            _photonView = GetComponent<PhotonView>();
         }
 
         private void Update()
@@ -23,53 +25,16 @@ namespace Impingement.Core
             _animator.SetFloat("forwardSpeed", speed);
         }
 
-        //bug: multiple triggers (client-server)
+        //[PunRPC]
         public void PlayTriggerAnimation(string triggerName)
         {
-            if (NetworkManager.IsServer)
-            {
-                _animator.SetTrigger(triggerName);
-                //SubmitAnimationRequestClientRpc(triggerName);
-            }
-            else
-            {
-                SubmitAnimationRequestServerRpc(triggerName);
-            }
+            _animator.SetTrigger(triggerName);
         }
         
+        //[PunRPC]
         public void ResetTriggerAnimation(string triggerName)
         {
-            if (NetworkManager.IsServer)
-            {
-                _animator.ResetTrigger(triggerName);
-            }
-            else
-            {
-                SubmitResetAnimationRequestServerRpc(triggerName);
-            }
+            _animator.ResetTrigger(triggerName);
         }
-        
-        #region Server
-        [ServerRpc]
-        private void SubmitAnimationRequestServerRpc(string triggerName, ServerRpcParams rpcParams = default)
-        {
-            //_animator.SetTrigger(triggerName); 
-            SubmitAnimationRequestClientRpc(triggerName);
-        }
-
-        [ServerRpc]
-        private void SubmitResetAnimationRequestServerRpc(string triggerName, ServerRpcParams rpcParams = default)
-        {
-            _animator.ResetTrigger(triggerName); 
-        }
-        #endregion
-
-        #region Client
-        [ClientRpc]
-        private void SubmitAnimationRequestClientRpc(string triggerName, ServerRpcParams rpcParams = default)
-        {
-            _animator.SetTrigger(triggerName); 
-        }
-        #endregion
     }
 }

@@ -1,11 +1,11 @@
 ﻿using Impingement.Core;
 using Impingement.Movement;
-using Unity.Netcode;
+using Photon.Pun;
 using UnityEngine;
 
 namespace Impingement.Combat
 {
-    public class CombatController : NetworkBehaviour, IAction
+    public class CombatController : MonoBehaviour, IAction
     {
         [SerializeField] private float _timeBetweenAttacks = 1f;
         [SerializeField] private float _rotateSpeed = 5f;
@@ -13,7 +13,9 @@ namespace Impingement.Combat
         [SerializeField] private Transform _leftHandTransform = null;
         [SerializeField] private Weapon _defaultWeapon = null;
         [SerializeField] private string _weaponName = "";
+        private PhotonView _photonView;
         private MovementController _movementController;
+        private HealthController _healthController;
         private AnimationController _animationController;
         private HealthController _target;
         private float _timeSinceLastAttack = Mathf.Infinity;
@@ -22,12 +24,15 @@ namespace Impingement.Combat
         private void Start()
         {
             _movementController = GetComponent<MovementController>();
+            _healthController = GetComponent<HealthController>();
             _animationController = GetComponent<AnimationController>();
+            _photonView = GetComponent<PhotonView>();
             //Weapon weapon = Resources.Load<Weapon>(_weaponName);
             EquipWeapon(_defaultWeapon);
         }
         private void Update()
         {
+            if(_healthController.IsDead()) { return; }
             _timeSinceLastAttack += Time.deltaTime;
             if(_target == null) { return; }
 
@@ -56,32 +61,28 @@ namespace Impingement.Combat
             weapon.Spawn(_rightHandTransform, _leftHandTransform, animator);
         }
 
-        //bug: client doesn't rotate
         private void LookAtTarget()
         {
-            if (NetworkManager.Singleton.IsServer)
-            {
-                var lookRotation = Quaternion.LookRotation(_target.transform.position - transform.position);
-                transform.rotation = Quaternion.RotateTowards(transform.rotation, lookRotation, _rotateSpeed * Time.deltaTime);
-                SubmitLookAtTargetRequestClientRpc();
-            }
-            else
-            {
-                SubmitLookAtTargetRequestServerRpc();
-            }
+            //transform.LookAt(_target.transform);
+            var lookRotation = Quaternion.LookRotation(_target.transform.position - transform.position);
+            transform.rotation =
+                Quaternion.RotateTowards(transform.rotation, lookRotation, _rotateSpeed * Time.deltaTime);
         }
 
         public bool CanAttack(GameObject combatTarget)
         {
-            return !combatTarget.GetComponent<HealthController>().IsDead() || combatTarget != null;
+            return !combatTarget.GetComponent<HealthController>().IsDead() && combatTarget != null;
         }
         
+        //bug: не создается импакт эффект от проджектайлов, микро лаги анимации стрельбы, не удаляются проджектайлы после импакта
         private void AttackBehavior()
         {
             if (_timeSinceLastAttack > _timeBetweenAttacks)
             {
                 _animationController.ResetTriggerAnimation("cancelAttack");
                 _animationController.PlayTriggerAnimation("attack");
+                //_photonView.RPC(nameof(_animationController.ResetTriggerAnimation), RpcTarget.All, "cancelAttack");
+                //_photonView.RPC(nameof(_animationController.PlayTriggerAnimation), RpcTarget.All, "attack");
                 _timeSinceLastAttack = 0;
             }
         }
@@ -116,12 +117,11 @@ namespace Impingement.Combat
             }
         }
 
-        
         private bool GetIsInRange()
         {
             return Vector3.Distance(transform.position, _target.transform.position) < _currentWeapon.GetRange();
         }
-
+        
         public void SetTarget(GameObject target)
         {
             GetComponent<ActionScheduleController>().StartAction(this);
@@ -133,7 +133,7 @@ namespace Impingement.Combat
             return _target;
         }
 
-        private void RemoveTarget()
+        public void RemoveTarget()
         {
             _target = null;
         }
@@ -141,29 +141,11 @@ namespace Impingement.Combat
         public void Cancel()
         {
             RemoveTarget();
-            _animationController.ResetTriggerAnimation("attack");
-            _animationController.PlayTriggerAnimation("cancelAttack");
+            
+            _animationController.ResetTriggerAnimation("cancelAttack");
+            _animationController.PlayTriggerAnimation("attack");
+            //_photonView.RPC(nameof(_animationController.ResetTriggerAnimation), RpcTarget.All, "cancelAttack");
+           // _photonView.RPC(nameof(_animationController.PlayTriggerAnimation), RpcTarget.All, "attack");
         }
-
-        //bug: bug
-        #region Server
-        [ServerRpc(RequireOwnership = false)]
-        private void SubmitLookAtTargetRequestServerRpc(ServerRpcParams rpcParams = default)
-        {
-            var lookRotation = Quaternion.LookRotation(_target.transform.position - transform.position);
-            transform.rotation = Quaternion.RotateTowards(transform.rotation, lookRotation, _rotateSpeed * Time.deltaTime);
-            //transform.LookAt(_target.transform);
-            SubmitLookAtTargetRequestClientRpc();
-        }
-        #endregion
-        
-        #region Client
-        [ClientRpc]
-        private void SubmitLookAtTargetRequestClientRpc(ServerRpcParams rpcParams = default)
-        {
-            var lookRotation = Quaternion.LookRotation(_target.transform.position - transform.position);
-            transform.rotation = Quaternion.RotateTowards(transform.rotation, lookRotation, _rotateSpeed * Time.deltaTime);    
-        }
-        #endregion
     }
 }

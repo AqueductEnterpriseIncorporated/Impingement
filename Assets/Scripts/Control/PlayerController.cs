@@ -1,15 +1,16 @@
 ﻿using Impingement.Combat;
 using Impingement.Core;
 using Impingement.Movement;
-using Unity.Netcode;
+using Photon.Pun;
 using UnityEngine;
 
 namespace Impingement.Control
 {
-    public class PlayerController : NetworkBehaviour
+    public class PlayerController : MonoBehaviour
     {
         [SerializeField] private LayerMask _layerMask;
-        private GameObject _spawnPoint;
+        [SerializeField] private Camera _camera;
+        private PhotonView _photonView;
         private CombatController _combatController;
         private MovementController _movementController;
         private PlayerCameraController _playerCameraController;
@@ -17,10 +18,10 @@ namespace Impingement.Control
         
         private void Start()
         {
-            _spawnPoint = GameObject.FindWithTag("SpawnPoint");
-            if (_spawnPoint != null)
+            _photonView = GetComponent<PhotonView>();
+            if (!_photonView.IsMine)
             {
-                transform.position = _spawnPoint.transform.position;
+                _camera.gameObject.SetActive(false);
             }
             _combatController = GetComponent<CombatController>();
             _movementController = GetComponent<MovementController>();
@@ -30,7 +31,7 @@ namespace Impingement.Control
         
         private void Update()
         {
-            if(!IsOwner) { return; }
+            if(!_photonView.IsMine) { return;}
             if (_healthController.IsDead()) { return; }
             if (ProcessCombat()) { return; }
             if (ProcessMovement()) { return; }        

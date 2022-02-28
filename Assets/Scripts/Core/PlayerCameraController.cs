@@ -1,25 +1,24 @@
 using Cinemachine;
-using Unity.Netcode;
+using Photon.Pun;
 using UnityEngine;
 
 namespace Impingement.Core
 {
-    public class PlayerCameraController : NetworkBehaviour
+    public class PlayerCameraController : MonoBehaviour
     {
         [SerializeField] private float _zoomSpeed = 10f;
         [SerializeField] private float _zoomInMax = 30f;
         [SerializeField] private float _zoomOutMax = 20f;
-        private CinemachineVirtualCamera _virtualCamera;
-        private CinemachineInputProvider _inputProvider;
-        private Camera _camera;
+        [SerializeField] CinemachineVirtualCamera _virtualCamera;
+        [SerializeField] CinemachineInputProvider _inputProvider;
+        [SerializeField] Camera _camera;
+        private PhotonView _photonView;
 
         private void Start()
         {
-            if(!IsOwner) { return; }
-            _virtualCamera = FindObjectOfType<CinemachineVirtualCamera>();
+            _photonView = GetComponent<PhotonView>();
+            if (!_photonView.IsMine) { return; }
             _virtualCamera.m_Lens.FieldOfView = _zoomInMax;
-            _inputProvider = _virtualCamera.GetComponent<CinemachineInputProvider>();
-            _camera = _virtualCamera.GetComponent<Camera>();
             _virtualCamera.m_Follow = gameObject.transform;
             _camera.fieldOfView = _virtualCamera.m_Lens.FieldOfView;
         }
@@ -31,7 +30,7 @@ namespace Impingement.Core
 
         private void Update()
         {
-            if(!IsOwner) { return;}
+            //if(!IsOwner) { return;}
             float z = _inputProvider.GetAxisValue(2);
             if (z != 0)
             {

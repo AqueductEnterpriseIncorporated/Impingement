@@ -1,21 +1,25 @@
-﻿using Impingement.Core;
-using Unity.Netcode;
+﻿using System;
+using Impingement.Core;
+using Photon.Pun;
 using UnityEngine;
 
 namespace Impingement.Combat
 {
-    public class HealthController : NetworkBehaviour
+    public class HealthController : MonoBehaviour, IPunObservable
     {
-        [SerializeField]
-        private float _healthPoints = 100f;
+        [SerializeField] private float _healthPoints = 100f;
+        [SerializeField] private bool _isDead;
+        private PhotonView _photonView;
 
-        private NetworkVariable<bool> _isDead = new NetworkVariable<bool>();
-        //private bool _isDead;
-        
+        private void Start()
+        {
+            _photonView = GetComponent<PhotonView>();
+            
+        }
 
         public bool IsDead()
         {
-            return _isDead.Value;
+            return _isDead;
         }
 
         //public event Death OnDeath;
@@ -31,19 +35,34 @@ namespace Impingement.Combat
 
         private void Die()
         {
-            if(_isDead.Value) { return; }
-            //OnDeath?.Invoke(this, transform);
-            GetComponent<AnimationController>().PlayTriggerAnimation("die");
-            ChangeIsDeadValueServerRpc(true);
+            if (_isDead)
+            {
+                return;
+            }
+
+            AnimationController animationController = GetComponent<AnimationController>();
+            animationController.PlayTriggerAnimation("die");
+            //_photonView.RPC(nameof(animationController.PlayTriggerAnimation), RpcTarget.AllBufferedViaServer, "die");
             GetComponent<ActionScheduleController>().CancelCurrentAction();
+            _photonView.RPC(nameof(SyncHealthState), RpcTarget.AllBufferedViaServer, true);
         }
 
-        [ServerRpc(RequireOwnership = false)]
-        private void ChangeIsDeadValueServerRpc(bool value)
+        [PunRPC]
+        private void SyncHealthState(bool value)
         {
-            _isDead.Value = value;
+            _isDead = value;
+        }
+
+        public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+        {
+            if (stream.IsWriting)
+            {
+                stream.SendNext(_isDead);
+            }
+            else
+            {
+                _isDead = (bool)stream.ReceiveNext();
+            }
         }
     }
-
-    //public delegate void Death(object sender, Transform targetTransform);
 }

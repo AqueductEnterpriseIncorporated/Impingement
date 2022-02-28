@@ -1,12 +1,12 @@
 ﻿using Impingement.Combat;
 using Impingement.Core;
 using Impingement.Movement;
-using Unity.Netcode;
+using Photon.Pun;
 using UnityEngine;
 
 namespace Impingement.Control
 {
-    public class AIController: NetworkBehaviour
+    public class AIController: MonoBehaviourPun
     {
         [Range(0,1)]
         [SerializeField] private float _patrolSpeedFraction = 0.2f;
@@ -15,10 +15,11 @@ namespace Impingement.Control
         [SerializeField] private float _waypointDwellTime =  3f;   
         [SerializeField] private float _waypointTolerance = 1;
         [SerializeField] private PatrolPath _patrolPath;
+        GameObject _playerTarget;
+        private PhotonView _photonView;
         private CombatController _combatController;
         private HealthController _healthController;
         private MovementController _movementController;
-        private GameObject[] _players;
         private Vector3 _guardPosition;
         private float _timeSinceLastSawPlayer = Mathf.Infinity;
         private float _timeSinceArrivedAtWaypoint = Mathf.Infinity;
@@ -29,29 +30,50 @@ namespace Impingement.Control
             _combatController = GetComponent<CombatController>();
             _healthController = GetComponent<HealthController>();
             _movementController = GetComponent<MovementController>();
+            _photonView = GetComponent<PhotonView>();
             _guardPosition = transform.position;
         }
 
         private void Update()
         {
+            _photonView.RPC(nameof(ProcessAIControllerRPC), RpcTarget.AllViaServer);
+        }
+
+        [PunRPC]
+        private void ProcessAIControllerRPC()
+        {
+            //if(!PhotonNetwork.IsMasterClient) { return; }
+            
             if (_healthController.IsDead()) { return; }
+
+            UpdateTimers();
 
             var players = GameObject.FindGameObjectsWithTag("Player");
             if (players.Length == 0) { return; }
-            UpdateTimers();
-
+            
             foreach (var player in players)
             {
-                if(player.GetComponent<HealthController>().IsDead()) { continue; }
-                
-                if (InAttackRange(player) && _combatController.CanAttack(player))
+                if (player.GetComponent<HealthController>().IsDead())
                 {
-                    AttackBehaviour(player);
-                    return;
+                    continue;
                 }
+                
+                if (!(InAttackRange(player.gameObject) || !_combatController.CanAttack(player.gameObject)))
+                {
+                    continue;
+                }
+                
+                _playerTarget = player;
             }
             
-            if(_timeSinceLastSawPlayer < _suspicionTime)
+            if (_playerTarget != null && InAttackRange(_playerTarget) && _combatController.CanAttack(_playerTarget))
+            {
+                AttackBehaviour(_playerTarget);
+                return;
+            }
+
+            //bug: в мультиплеере нпс не ждут и сразу идут патрулировать дальше
+            if (_timeSinceLastSawPlayer < _suspicionTime)
             {
                 GetComponent<ActionScheduleController>().CancelCurrentAction();
             }

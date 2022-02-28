@@ -1,4 +1,5 @@
 using MyNamespace;
+using Photon.Pun;
 using UnityEngine;
 
 namespace Impingement.Combat
@@ -62,8 +63,8 @@ namespace Impingement.Combat
 
         public void LaunchProjectile(Transform rightHand, Transform leftHand, HealthController target)
         {
-            Projectile projectileInstance = Instantiate(_projectile, GetTransform(rightHand, leftHand).position,
-                Quaternion.identity);
+            Projectile projectileInstance = PhotonNetwork.Instantiate(_projectile.name, GetTransform(rightHand, leftHand).position,
+                Quaternion.identity).GetComponent<Projectile>();
             projectileInstance.SetTarget(target, _weaponDamage);
         }
         
