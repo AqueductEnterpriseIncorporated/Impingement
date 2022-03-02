@@ -50,10 +50,11 @@ MonoBehaviour:
   _speed: 15
   _isHoming: 0
   _maxLifeTime: 10
-  _lifeAfterImpact: 2
+  _lifeAfterImpact: 0.2
   _destroyOnHit:
   - {fileID: 1585163934314799294}
   _hitEffect: {fileID: 8023261613495714487, guid: ce48ec69137e7cd4ebf9f498946a434c, type: 3}
+  _photonView: {fileID: 6454990774696933219}
 --- !u!65 &5455816889336898752
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -116,7 +117,7 @@ MonoBehaviour:
   m_RotationModel:
     SynchronizeEnabled: 1
     InterpolateOption: 1
-    InterpolateRotateTowardsSpeed: 180
+    InterpolateRotateTowardsSpeed: 5000
     InterpolateLerpSpeed: 5
   m_ScaleModel:
     SynchronizeEnabled: 1
@@ -190,3 +191,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4750687242688692, guid: c7f49c6920d49ba468b083941d79f2c0, type: 3}
   m_PrefabInstance: {fileID: 1583656818802616128}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7670510505102568432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585163934314799294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0

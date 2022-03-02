@@ -74,7 +74,6 @@ namespace Impingement.Combat
             return !combatTarget.GetComponent<HealthController>().IsDead() && combatTarget != null;
         }
         
-        //bug: не создается импакт эффект от проджектайлов, микро лаги анимации стрельбы, не удаляются проджектайлы после импакта
         private void AttackBehavior()
         {
             if (_timeSinceLastAttack > _timeBetweenAttacks)
@@ -109,6 +108,7 @@ namespace Impingement.Combat
 
             if (_currentWeapon.HasProjectile())
             {
+                if(!_photonView.IsMine){ return; }
                 _currentWeapon.LaunchProjectile(_leftHandTransform, _rightHandTransform, _target);
             }
             else
@@ -142,8 +142,8 @@ namespace Impingement.Combat
         {
             RemoveTarget();
             
-            _animationController.ResetTriggerAnimation("cancelAttack");
-            _animationController.PlayTriggerAnimation("attack");
+            _animationController.ResetTriggerAnimation("attack");
+            _animationController.PlayTriggerAnimation("cancelAttack");
             //_photonView.RPC(nameof(_animationController.ResetTriggerAnimation), RpcTarget.All, "cancelAttack");
            // _photonView.RPC(nameof(_animationController.PlayTriggerAnimation), RpcTarget.All, "attack");
         }

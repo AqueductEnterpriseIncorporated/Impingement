@@ -48,6 +48,15 @@ MonoBehaviour:
   - ProcessAIControllerRPC
   - PlayTriggerAnimation
   - ResetTriggerAnimation
+  - DealDamageRPC
+  - DestroyProjectileRPC
+  - DestroyGameObjectRPC
+  - DestroyChieldsRPC
+  - LaunchProjectileRPC
+  - ProcessProjectileRPC
+  - DestroyGameObjectsRPC
+  - DestroyRPC
+  - DieRPC
   DisableAutoOpenWizard: 1
   ShowSettings: 1
   DevRegionSetOnce: 1

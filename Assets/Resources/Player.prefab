@@ -414,7 +414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _timeBetweenAttacks: 1
-  _rotateSpeed: 330
+  _rotateSpeed: 800
   _rightHandTransform: {fileID: 7629206920910321221}
   _leftHandTransform: {fileID: 7629206920910247469}
   _defaultWeapon: {fileID: 11400000, guid: 6f78eb2955acb174f85f8e2c831052df, type: 2}
@@ -600,7 +600,7 @@ MonoBehaviour:
   m_RotationModel:
     SynchronizeEnabled: 1
     InterpolateOption: 1
-    InterpolateRotateTowardsSpeed: 330
+    InterpolateRotateTowardsSpeed: 800
     InterpolateLerpSpeed: 5
   m_ScaleModel:
     SynchronizeEnabled: 1

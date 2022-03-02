@@ -106,6 +106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _healthPoints: 100
+  _isDead: 0
 --- !u!136 &-5269223953129559562
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -138,7 +139,8 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: -7522279031675299040}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0

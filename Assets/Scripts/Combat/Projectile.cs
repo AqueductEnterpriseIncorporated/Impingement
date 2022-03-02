@@ -1,9 +1,8 @@
-
-using System;
-using Impingement.Combat;
+using System.Collections;
+using Photon.Pun;
 using UnityEngine;
 
-namespace MyNamespace
+namespace Impingement.Combat
 {
     public class Projectile : MonoBehaviour
     {
@@ -13,11 +12,14 @@ namespace MyNamespace
         [SerializeField] private float _lifeAfterImpact = 2f;
         [SerializeField] private GameObject[] _destroyOnHit = null;
         [SerializeField] private GameObject _hitEffect = null;
+        [SerializeField] private PhotonView _photonView;
         private HealthController _target = null;
+        private float _lifeTimeTimer = Mathf.Infinity;
         private float _damage = 0f;
 
         private void Start()
         {
+            if(_target == null) { return; }
             transform.LookAt(GetAimLocation());
         }
 
@@ -37,7 +39,7 @@ namespace MyNamespace
             _target = target;
             _damage = damage;
             
-            Destroy(gameObject, _maxLifeTime);
+            _photonView.RPC(nameof(DestroyGameObjectRPC), RpcTarget.AllViaServer, _maxLifeTime);
         }
 
         private Vector3 GetAimLocation()
@@ -56,22 +58,42 @@ namespace MyNamespace
             {
                 if (healthController != _target) { return; }
                 if(_target.IsDead()) { return; }
-                healthController.TakeDamage(_damage);
-
+                
                 _speed = 0;
                 
                 if (_hitEffect != null)
                 {
-                    Instantiate(_hitEffect, GetAimLocation(), transform.rotation);
+                    PhotonNetwork.Instantiate(_hitEffect.name, GetAimLocation(), transform.rotation);
                 }
 
-                foreach (var toDestroy in _destroyOnHit)
-                {
-                    Destroy(toDestroy);
-                }
+                _photonView.RPC(nameof(DestroyGameObjectsRPC), RpcTarget.AllViaServer);
+
                 
-                Destroy(gameObject, _lifeAfterImpact);
+                _photonView.RPC(nameof(DestroyGameObjectRPC), RpcTarget.AllViaServer, _lifeAfterImpact);
+                
+                healthController.TakeDamage(_damage);
             }
+        }
+
+        [PunRPC]
+        private void DestroyGameObjectRPC(float lifeTime)
+        {
+            StartCoroutine(WaitForSeconds(lifeTime));
+        }
+        
+        [PunRPC]
+        private void DestroyGameObjectsRPC()
+        {
+            foreach (var toDestroy in _destroyOnHit)
+            {
+                Destroy(toDestroy);
+            }
+        }
+
+        private IEnumerator WaitForSeconds(float lifeTime)
+        {
+            yield return new WaitForSeconds(lifeTime);
+            Destroy(gameObject, lifeTime);
         }
     }
 }

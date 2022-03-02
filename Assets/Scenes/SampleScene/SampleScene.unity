@@ -994,6 +994,10 @@ PrefabInstance:
       propertyPath: _patrolPath
       value: 
       objectReference: {fileID: 2038055613}
+    - target: {fileID: 483585389993161155, guid: 029cab191bfff714ea4413dc4b927194, type: 3}
+      propertyPath: _defaultWeapon
+      value: 
+      objectReference: {fileID: 11400000, guid: 6d1e8034ea1c9214faff9750d43f6b36, type: 2}
     - target: {fileID: 671315223919402057, guid: 029cab191bfff714ea4413dc4b927194, type: 3}
       propertyPath: m_Name
       value: Enemy (2)

@@ -72,7 +72,7 @@ namespace Impingement.Control
                 return;
             }
 
-            //bug: в мультиплеере нпс не ждут и сразу идут патрулировать дальше
+            //bug: баг анимации пока ждут _suspicionTime
             if (_timeSinceLastSawPlayer < _suspicionTime)
             {
                 GetComponent<ActionScheduleController>().CancelCurrentAction();

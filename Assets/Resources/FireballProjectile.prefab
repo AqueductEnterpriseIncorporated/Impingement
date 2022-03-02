@@ -55,6 +55,7 @@ MonoBehaviour:
   _destroyOnHit:
   - {fileID: 8172097050872611381}
   _hitEffect: {fileID: 2302457091093092515, guid: 69d1b1037536b504884c93bb73d662db, type: 3}
+  _photonView: {fileID: 4425723965044899118}
 --- !u!65 &5455816889336898752
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -117,7 +118,7 @@ MonoBehaviour:
   m_RotationModel:
     SynchronizeEnabled: 1
     InterpolateOption: 1
-    InterpolateRotateTowardsSpeed: 180
+    InterpolateRotateTowardsSpeed: 5000
     InterpolateLerpSpeed: 5
   m_ScaleModel:
     SynchronizeEnabled: 1
@@ -135,6 +136,7 @@ GameObject:
   - component: {fileID: 410924486541851862}
   - component: {fileID: 644413639381489611}
   - component: {fileID: 8449950623267615648}
+  - component: {fileID: 6964098990469391886}
   m_Layer: 0
   m_Name: FireballHead
   m_TagString: Untagged
@@ -4986,6 +4988,28 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!114 &6964098990469391886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8172097050872611381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1001 &973195307803272793
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -29,16 +29,16 @@ namespace Impingement.Combat
             _healthPoints = Mathf.Max(_healthPoints - damage, 0);
             if (_healthPoints == 0)
             {
-                Die();
+                _photonView.RPC(nameof(DieRPC), RpcTarget.AllBufferedViaServer);
+
+                //DieRPC();
             }
         }
 
-        private void Die()
+        [PunRPC]
+        private void DieRPC()
         {
-            if (_isDead)
-            {
-                return;
-            }
+            if (_isDead) { return; }
 
             AnimationController animationController = GetComponent<AnimationController>();
             animationController.PlayTriggerAnimation("die");
