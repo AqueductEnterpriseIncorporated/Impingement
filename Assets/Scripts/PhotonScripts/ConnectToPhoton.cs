@@ -35,7 +35,8 @@ namespace Impingement.PhotonScripts
 
         public override void OnJoinedRoom()
         {
-            PhotonNetwork.LoadLevel("Scenes/SampleScene/SampleScene");
+            //PhotonNetwork.LoadLevel("Scenes/SampleScene/SampleScene");
+            PhotonNetwork.LoadLevel("Dungeon2");
         }
     }
 }

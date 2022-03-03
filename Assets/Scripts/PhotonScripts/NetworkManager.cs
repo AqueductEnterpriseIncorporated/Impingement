@@ -11,6 +11,11 @@ namespace Impingement.PhotonScripts
     
         private void Start()
         {
+            if (_spawnTransform == null)
+            {
+                _spawnTransform = GameObject.FindGameObjectWithTag("PlayerSpawnPoint").transform;
+            }
+
             PhotonNetwork.AutomaticallySyncScene = true;
             PhotonNetwork.Instantiate(_playerPrfab.name, _spawnTransform.position, Quaternion.identity);
         }

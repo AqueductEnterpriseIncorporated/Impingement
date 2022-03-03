@@ -214,7 +214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _patrolSpeedFraction: 0.576
-  _chaseDistance: 5
+  _chaseDistance: 2.5
   _suspicionTime: 15
   _waypointDwellTime: 3
   _waypointTolerance: 1

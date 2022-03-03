@@ -7,6 +7,10 @@ TagManager:
   - Cameras
   - SpawnPoint
   - Floor
+  - Rooms
+  - RoomTemplates
+  - PlayerSpawnPoint
+  - EntryRoom
   layers:
   - Default
   - TransparentFX

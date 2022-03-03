@@ -427,6 +427,13 @@
           <e p="DungeonGeneration" t="Include">
             <e p="DungeonGenerator.cs" t="Include" />
             <e p="RoomBehaviour.cs" t="Include" />
+            <e p="v2" t="Include">
+              <e p="RoomDestroyer.cs" t="Include" />
+              <e p="RoomScriptableObject.cs" t="Include" />
+              <e p="RoomSpawner.cs" t="Include" />
+              <e p="RoomTemplates.cs" t="Include" />
+              <e p="RoomView.cs" t="Include" />
+            </e>
             <e p="WallCollision.cs" t="Include" />
           </e>
           <e p="Movement" t="Include">
