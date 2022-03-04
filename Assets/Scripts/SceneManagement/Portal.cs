@@ -1,4 +1,5 @@
 ﻿using System;
+using Photon.Pun;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -19,6 +20,7 @@ namespace SceneManagement
             if (other.CompareTag("Player"))
             {
                 //_networkManager.SceneManager.LoadScene(_sceneToLoad, LoadSceneMode.Single);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
         }
     }

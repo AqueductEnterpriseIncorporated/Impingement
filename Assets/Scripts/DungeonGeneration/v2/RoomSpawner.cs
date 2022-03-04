@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using Impingement.NavMesh;
 using Photon.Pun;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -25,6 +26,7 @@ namespace Impingement.DungeonGeneration
             //Destroy(gameObject);
             Invoke(nameof(ProcessRoomSpawning), _spawnDelay);
             Invoke(nameof(SelfDestroy), _destroyDelay);
+            FindObjectOfType<NavigationBaker>().Bake();
         }
 
         private void SelfDestroy()
