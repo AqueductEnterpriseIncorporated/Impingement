@@ -40,6 +40,7 @@ namespace Impingement.Combat
         {
             if (_isDead) { return; }
 
+            _isDead = true;
             AnimationController animationController = GetComponent<AnimationController>();
             animationController.PlayTriggerAnimation("die");
             //_photonView.RPC(nameof(animationController.PlayTriggerAnimation), RpcTarget.AllBufferedViaServer, "die");

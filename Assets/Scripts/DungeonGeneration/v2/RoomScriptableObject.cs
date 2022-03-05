@@ -62,7 +62,7 @@ namespace Impingement.DungeonGeneration
             cubeSize.x = cubeTrans.localScale.x * boxCollider.size.x;
             cubeSize.z = cubeTrans.localScale.z * boxCollider.size.z;
 
-            Vector3 randomPosition = new Vector3(Random.Range(-cubeSize.x / 3, cubeSize.x / 3),0, Random.Range(-cubeSize.z / 3, cubeSize.z / 3));
+            Vector3 randomPosition = new Vector3(Random.Range(-cubeSize.x / 2, cubeSize.x / 2),0, Random.Range(-cubeSize.z / 2, cubeSize.z / 2));
             return cubeCenter + randomPosition;
         }
     }

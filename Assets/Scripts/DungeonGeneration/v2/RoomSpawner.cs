@@ -9,6 +9,7 @@ namespace Impingement.DungeonGeneration
     public class RoomSpawner : MonoBehaviour
     {
         [SerializeField] private int _openingDirection;
+        [SerializeField] private Transform _roomParentTransform;
         private float _spawnDelay = 0.1f;
         private float _destroyDelay = 4f;
         private bool _isSpawned;

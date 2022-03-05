@@ -1,6 +1,4 @@
-﻿using System;
-using Photon.Pun;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 namespace SceneManagement
