@@ -1,5 +1,7 @@
 ﻿using System;
+using Impingement.Saving;
 using Photon.Pun;
+using RPG.Saving;
 using UnityEngine;
 
 namespace Impingement.DungeonGeneration
@@ -7,7 +9,8 @@ namespace Impingement.DungeonGeneration
     public class RoomView : MonoBehaviour
     {
         public RoomScriptableObject _roomVariant;
-        private RoomTemplates _roomTemplates;
+        private DungeonManager _dungeonManager;
+        public string RoomPrefabName { get; set; }
 
         public RoomScriptableObject RoomVariant
         {
@@ -17,19 +20,17 @@ namespace Impingement.DungeonGeneration
                 _roomVariant = value; 
             }
         }
-
+        
         private void Awake()
         {
-            _roomTemplates = GameObject.FindGameObjectWithTag("RoomTemplates").GetComponent<RoomTemplates>();
-            _roomTemplates.Rooms.Add(gameObject);
+            _dungeonManager = GameObject.FindGameObjectWithTag("RoomTemplates").GetComponent<DungeonManager>();
+            _dungeonManager.Rooms.Add(gameObject);
+            print("Room added");
         }
 
         public void StartRoomAction()
         {
-            if(!PhotonNetwork.IsMasterClient) { return;}
-
             _roomVariant.RoomAction();
         }
-        
     }
 }

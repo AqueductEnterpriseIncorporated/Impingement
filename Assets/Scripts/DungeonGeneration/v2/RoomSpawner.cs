@@ -1,6 +1,7 @@
 ﻿using System.Linq;
 using Impingement.NavMesh;
 using Photon.Pun;
+using Playfab;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -13,21 +14,35 @@ namespace Impingement.DungeonGeneration
         private float _spawnDelay = 0.1f;
         private float _destroyDelay = 4f;
         private bool _isSpawned;
-        private RoomTemplates _roomTemplates;
-
-        private void Awake()
-        {
-            _roomTemplates = GameObject.FindGameObjectWithTag("RoomTemplates").GetComponent<RoomTemplates>();
-        }
+        private DungeonManager _dungeonManager;
+        private bool _isForceQuit;
 
         private void Start()
         {
-            if(!PhotonNetwork.IsMasterClient) { return;}
-            //ProcessRoomSpawning();
-            //Destroy(gameObject);
-            Invoke(nameof(ProcessRoomSpawning), _spawnDelay);
-            Invoke(nameof(SelfDestroy), _destroyDelay);
+            _dungeonManager = GameObject.FindGameObjectWithTag("RoomTemplates").GetComponent<DungeonManager>();
+            if (_dungeonManager.IsDungBuilded)
+            {
+                return;
+            }
+            
+            _isForceQuit = FindObjectOfType<PlayfabManager>().IsForceQuit;
+
+            if (PhotonNetwork.IsMasterClient)
+            {
+                if (_isForceQuit)
+                {
+                    FindObjectOfType<SavingWrapper>().Load();
+                    _dungeonManager.IsDungBuilded = true;
+                }
+
+                if (!_isForceQuit)
+                {
+                    Invoke(nameof(ProcessRoomSpawning), _spawnDelay);
+                    Invoke(nameof(SelfDestroy), _destroyDelay);
+                }
+            }
             FindObjectOfType<NavigationBaker>().Bake();
+
         }
 
         private void SelfDestroy()
@@ -43,25 +58,25 @@ namespace Impingement.DungeonGeneration
             {
                 case 1:
                 {
-                    var rooms = _roomTemplates.BottomRooms;
+                    var rooms = _dungeonManager.BottomRooms;
                     SpawnRoom(rooms);
                     break;
                 }
                 case 2:
                 {
-                    var rooms = _roomTemplates.TopRooms;
+                    var rooms = _dungeonManager.TopRooms;
                     SpawnRoom(rooms);
                     break;
                 }
                 case 3:
                 {
-                    var rooms = _roomTemplates.LeftRooms;
+                    var rooms = _dungeonManager.LeftRooms;
                     SpawnRoom(rooms);
                     break;
                 }
                 case 4:
                 {
-                    var rooms = _roomTemplates.RightRooms;
+                    var rooms = _dungeonManager.RightRooms;
                     SpawnRoom(rooms);
                     break;
                 }
@@ -77,9 +92,9 @@ namespace Impingement.DungeonGeneration
             var randomRoom = rooms[randomNumber];
             
             var spawnChanceValue = Random.Range(0f, 1f);
-            var sortedRoomVariants = _roomTemplates.RoomVariants.OrderBy(x => x.ChanceToSpawn).ToList();
+            var sortedRoomVariants = _dungeonManager.RoomVariants.OrderBy(x => x.ChanceToSpawn).ToList();
 
-            var localRoomPrefab = PhotonNetwork.Instantiate(randomRoom.name, transform.position, Quaternion.identity);
+            var localRoomPrefab = PhotonNetwork.Instantiate("Rooms/" + randomRoom.name, transform.position, Quaternion.identity);
 
             //check each chance to spawn room type 
             foreach (var roomVariant in sortedRoomVariants)
@@ -103,7 +118,7 @@ namespace Impingement.DungeonGeneration
                     if (pickedRoomVariant.MaximumRoomSpawns > -1)
                     {
                         int spawnCount = 0;
-                        foreach (var spawnedRooms in _roomTemplates.Rooms)
+                        foreach (var spawnedRooms in _dungeonManager.Rooms)
                         {
                             if (spawnedRooms.GetComponent<RoomView>()._roomVariant == pickedRoomVariant)
                             {
@@ -120,8 +135,11 @@ namespace Impingement.DungeonGeneration
                     
                     //spawn room type
                     pickedRoomVariant.SetRoom(localRoomPrefab.GetComponent<RoomView>().gameObject);
-                    localRoomPrefab.GetComponent<RoomView>().RoomVariant = pickedRoomVariant;
-                    localRoomPrefab.GetComponent<RoomView>().StartRoomAction();
+                    var localRoomView = localRoomPrefab.GetComponent<RoomView>();
+                    var newRoomName = randomRoom.name.Replace("(Clone)", "");
+                    localRoomView.RoomPrefabName = newRoomName;
+                    localRoomView.RoomVariant = pickedRoomVariant;
+                    localRoomView.StartRoomAction();
                         
                     break;
                 }
@@ -130,6 +148,13 @@ namespace Impingement.DungeonGeneration
 
         private void OnTriggerEnter(Collider other)
         {
+            _isForceQuit = FindObjectOfType<PlayfabManager>().IsForceQuit;
+            if (_isForceQuit) { return; }
+            print(_isForceQuit);
+            print(2);
+            
+            if(!PhotonNetwork.IsMasterClient) { return; }
+            
             if (other.CompareTag("EntryRoom"))
             {
                 PhotonNetwork.Destroy(gameObject);
@@ -140,10 +165,11 @@ namespace Impingement.DungeonGeneration
             {
                 if (!other.GetComponent<RoomSpawner>()._isSpawned && !_isSpawned)
                 {
-                    PhotonNetwork.Instantiate(_roomTemplates.ClosedRoom.name, transform.position, Quaternion.identity);
+                    _dungeonManager = GameObject.FindGameObjectWithTag("RoomTemplates").GetComponent<DungeonManager>();
+                    PhotonNetwork.Instantiate("Rooms/" + _dungeonManager.ClosedRoom.name, transform.position, Quaternion.identity);
                     PhotonNetwork.Destroy(gameObject);
                 }
-
+            
                 _isSpawned = true;
             }
         }

@@ -266,6 +266,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2250005272229604711, guid: 28cdd2ca15a865140bd23687a0c6f8a6, type: 3}
+      propertyPath: sceneViewId
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6970973863804812274, guid: 28cdd2ca15a865140bd23687a0c6f8a6, type: 3}
       propertyPath: m_Name
       value: BowPickup
@@ -286,6 +290,10 @@ PrefabInstance:
     - target: {fileID: 1809331405415222814, guid: 029cab191bfff714ea4413dc4b927194, type: 3}
       propertyPath: _health
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2595814693419925216, guid: 029cab191bfff714ea4413dc4b927194, type: 3}
+      propertyPath: uniqueIdentifier
+      value: 7436703e-c41a-48ea-a2a2-2f55db8b4522
       objectReference: {fileID: 0}
     - target: {fileID: 5626372985534005768, guid: 029cab191bfff714ea4413dc4b927194, type: 3}
       propertyPath: GlobalObjectIdHash
@@ -427,6 +435,10 @@ PrefabInstance:
     - target: {fileID: 966078276150866760, guid: 5a2583a0b80a66e428b20fa7b2aea077, type: 3}
       propertyPath: m_Name
       value: EnemyArcher
+      objectReference: {fileID: 0}
+    - target: {fileID: 2323541867569746401, guid: 5a2583a0b80a66e428b20fa7b2aea077, type: 3}
+      propertyPath: uniqueIdentifier
+      value: 4381c8e4-1aa0-4590-8cef-1e0b0b216f58
       objectReference: {fileID: 0}
     - target: {fileID: 5344693977292303625, guid: 5a2583a0b80a66e428b20fa7b2aea077, type: 3}
       propertyPath: GlobalObjectIdHash
@@ -677,6 +689,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -2363755654452444257, guid: 153c9cf21e089da42a0f0f93259a099b, type: 3}
+      propertyPath: sceneViewId
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1883893163282196793, guid: 153c9cf21e089da42a0f0f93259a099b, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -812,6 +828,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7133275208480635518, guid: 0b52a8166598d3c4dba52f34bb87fba5, type: 3}
+      propertyPath: sceneViewId
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b52a8166598d3c4dba52f34bb87fba5, type: 3}
 --- !u!4 &1257046963 stripped
@@ -829,6 +849,10 @@ PrefabInstance:
     - target: {fileID: 2088381108260428179, guid: d48e5e9ad8de59947a056f0f9079b243, type: 3}
       propertyPath: m_Name
       value: FireballPickup
+      objectReference: {fileID: 0}
+    - target: {fileID: 5663553994393112734, guid: d48e5e9ad8de59947a056f0f9079b243, type: 3}
+      propertyPath: sceneViewId
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8612636327294805453, guid: d48e5e9ad8de59947a056f0f9079b243, type: 3}
       propertyPath: m_RootOrder
@@ -903,6 +927,10 @@ PrefabInstance:
     - target: {fileID: 1809331405415222814, guid: 029cab191bfff714ea4413dc4b927194, type: 3}
       propertyPath: _health
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2595814693419925216, guid: 029cab191bfff714ea4413dc4b927194, type: 3}
+      propertyPath: uniqueIdentifier
+      value: 99a97578-cfed-43e7-9604-7e40ff9c0fee
       objectReference: {fileID: 0}
     - target: {fileID: 5626372985534005768, guid: 029cab191bfff714ea4413dc4b927194, type: 3}
       propertyPath: GlobalObjectIdHash
@@ -1170,6 +1198,10 @@ PrefabInstance:
     - target: {fileID: 1809331405415222814, guid: 029cab191bfff714ea4413dc4b927194, type: 3}
       propertyPath: _healthPoints
       value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 2595814693419925216, guid: 029cab191bfff714ea4413dc4b927194, type: 3}
+      propertyPath: uniqueIdentifier
+      value: 60ff2100-eb39-425d-9b46-828d2bca58a5
       objectReference: {fileID: 0}
     - target: {fileID: 5626372985534005768, guid: 029cab191bfff714ea4413dc4b927194, type: 3}
       propertyPath: GlobalObjectIdHash

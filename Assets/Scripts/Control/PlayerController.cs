@@ -23,6 +23,8 @@ namespace Impingement.Control
             {
                 _camera.gameObject.SetActive(false);
             }
+
+            PhotonNetwork.NickName = "player" + Random.Range(0,10);
             _combatController = GetComponent<CombatController>();
             _movementController = GetComponent<MovementController>();
             _playerCameraController = GetComponent<PlayerCameraController>();

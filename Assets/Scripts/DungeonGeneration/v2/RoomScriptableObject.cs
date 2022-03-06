@@ -1,5 +1,6 @@
 ﻿using Photon.Pun;
 using UnityEngine;
+using UnityEngine.AI;
 
 namespace Impingement.DungeonGeneration
 {
@@ -44,10 +45,10 @@ namespace Impingement.DungeonGeneration
             int spawnAmount = Random.Range(_minimumSpawns, _maximumSpawns);
             while (currentEnemyCount < spawnAmount)
             {
-                var localPrefab = PhotonNetwork.Instantiate(_spawnPrefabs[Random.Range(0, _spawnPrefabs.Length)].name,
+                var localPrefab = PhotonNetwork.Instantiate("RoomSpawns/" + _spawnPrefabs[Random.Range(0, _spawnPrefabs.Length)].name,
                     GetRandomPosition(), Quaternion.identity);
-                localPrefab.transform.parent = _room.transform;
-                //localPrefab.transform.position = GetRandomPosition();
+                FindObjectOfType<DungeonManager>().Enemies.Add(localPrefab);
+                //localPrefab.transform.parent = _room.transform;
                 currentEnemyCount++;
             }
         }

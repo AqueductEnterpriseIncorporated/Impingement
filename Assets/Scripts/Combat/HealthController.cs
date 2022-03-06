@@ -1,11 +1,12 @@
 ﻿using System;
 using Impingement.Core;
 using Photon.Pun;
+using RPG.Saving;
 using UnityEngine;
 
 namespace Impingement.Combat
 {
-    public class HealthController : MonoBehaviour, IPunObservable
+    public class HealthController : MonoBehaviour, IPunObservable, ISaveable
     {
         [SerializeField] private float _healthPoints = 100f;
         [SerializeField] private bool _isDead;
@@ -63,6 +64,20 @@ namespace Impingement.Combat
             else
             {
                 _isDead = (bool)stream.ReceiveNext();
+            }
+        }
+
+        public object CaptureState()
+        {
+            return _healthPoints;
+        }
+
+        public void RestoreState(object state)
+        {
+            _healthPoints = (float)state;
+            if (_healthPoints == 0)
+            {
+                DieRPC();
             }
         }
     }

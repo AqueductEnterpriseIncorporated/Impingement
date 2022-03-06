@@ -17,7 +17,7 @@ namespace Impingement.PhotonScripts
             }
 
             PhotonNetwork.AutomaticallySyncScene = true;
-            PhotonNetwork.Instantiate(_playerPrfab.name, _spawnTransform.position, Quaternion.identity);
+            PhotonNetwork.Instantiate("player/" + _playerPrfab.name, _spawnTransform.position, Quaternion.identity);
         }
     }
 }

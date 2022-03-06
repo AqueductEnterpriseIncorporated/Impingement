@@ -36,7 +36,15 @@ namespace Impingement.Control
 
         private void Update()
         {
-            _photonView.RPC(nameof(ProcessAIControllerRPC), RpcTarget.AllViaServer);
+            if (PhotonNetwork.IsConnected)
+            {
+                _photonView.RPC(nameof(ProcessAIControllerRPC), RpcTarget.AllViaServer);
+            }
+
+            else
+            {
+                ProcessAIControllerRPC();
+            }
         }
 
         [PunRPC]
