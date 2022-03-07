@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using Impingement.NavMesh;
 using Impingement.Saving;
 using Photon.Pun;
 using RPG.Saving;
@@ -13,16 +15,30 @@ namespace Impingement.DungeonGeneration
         public RoomScriptableObject[] RoomVariants;
         public List<GameObject> Rooms = new List<GameObject>();
         public List<GameObject> Enemies = new List<GameObject>();
-        public bool IsDungBuilded;
+        public int CurrentMaxRooms { get; set; } = 10;
         [SerializeField] private GameObject _bossPrefab;
-        [SerializeField] private float _waitTime = 2f;
+        [SerializeField] private float _waitTime = 5f;
         [SerializeField] private GameObject[] _bottomRooms;
         [SerializeField] private GameObject[] _topRooms;
         [SerializeField] private GameObject[] _leftRooms;
         [SerializeField] private GameObject[] _rightRooms;
         [SerializeField] private GameObject _closedRoom;
         private bool _isBossSpawned;
+        private bool _isDungBuilded;
         
+        public bool IsDungBuilded
+        {
+            get => _isDungBuilded;
+            set
+            {
+                if (value)
+                {
+                    SpawnBossAndCloseRooms();
+                }
+
+                _isDungBuilded = value;
+            }
+        }
         public GameObject[] BottomRooms => _bottomRooms;
 
         public GameObject[] TopRooms => _topRooms;
@@ -32,20 +48,54 @@ namespace Impingement.DungeonGeneration
         public GameObject[] RightRooms => _rightRooms;
 
         public GameObject ClosedRoom => _closedRoom;
-        
+
         private void Update()
         {
-            if(_isBossSpawned) { return; }
-            if (_waitTime <= 0)
+            if (!IsDungBuilded)
             {
-                PhotonNetwork.Instantiate(_bossPrefab.name, Rooms[Rooms.Count - 1].transform.position, Quaternion.identity);
-                GameObject.Find("LoadPanel").SetActive(false);
-                _isBossSpawned = true;
+                return;
             }
-            else
+
+            if (_isBossSpawned)
             {
-                _waitTime -= Time.deltaTime;
+                return;
             }
+
+            //SpawnBossAndCloseRooms();
+        }
+
+        private void SpawnBossAndCloseRooms()
+        {
+            foreach (var room in Rooms.ToList())
+            {
+                var roomView = room.GetComponent<RoomView>();
+                if (roomView.OpenedDirections.Count != 0)
+                {
+                    foreach (var spawnPont in roomView.SpawnPonts)
+                    {
+                        if (spawnPont.name == "SpawnPoint_" + roomView.OpenedDirections[0])
+                        {
+                            // print("spawning closed room at:" + spawnPont.gameObject.name + ", room: " + spawnPont.transform.parent.transform.parent.gameObject.name);
+                            // var closedRoomPrefab = PhotonNetwork.Instantiate("Rooms/" + _closedRoom.name,
+                            //     spawnPont.transform.position, Quaternion.identity);
+                            // closedRoomPrefab.GetComponent<RoomView>().ConnectedRooms.Add(roomView);
+                            // roomView.OpenedDirections.RemoveAt(0);
+                            // break;
+                        }
+                    }
+
+                    //print("possible opened room: " + room.gameObject.name + ", direction: ");
+                    foreach (var openedDirection in roomView.OpenedDirections)
+                    {
+                        //print(openedDirection);
+                    }
+                }
+            }
+
+            PhotonNetwork.Instantiate(_bossPrefab.name, Rooms[Rooms.Count - 2].transform.position, Quaternion.identity);
+            FindObjectOfType<NavigationBaker>().Bake();
+            GameObject.Find("LoadPanel").SetActive(false);
+            _isBossSpawned = true;
         }
 
         [Serializable]
@@ -75,6 +125,8 @@ namespace Impingement.DungeonGeneration
                 var newName = enemy.gameObject.name.Replace("(Clone)", "");
                 roomsAndEnemyData.EnemyNameList.Add(newName);
             }
+
+            print("rooms and enemies captured");
 
             return roomsAndEnemyData;
         }

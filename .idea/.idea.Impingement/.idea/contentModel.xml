@@ -586,7 +586,6 @@
           </e>
         </e>
         <e p="RoomItemView.cs" t="Include" />
-        <e p="SavingWrapper.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Combat" t="Include">
             <e p="CombatController.cs" t="Include" />
@@ -622,6 +621,9 @@
             </e>
             <e p="WallCollision.cs" t="Include" />
           </e>
+          <e p="enums" t="Include">
+            <e p="enumRoomTypes.cs" t="Include" />
+          </e>
           <e p="Movement" t="Include">
             <e p="MovementController.cs" t="Include" />
           </e>
@@ -643,6 +645,7 @@
             <e p="ISaveable.cs" t="Include" />
             <e p="SaveableEntity.cs" t="Include" />
             <e p="SavingSystem.cs" t="Include" />
+            <e p="SavingWrapper.cs" t="Include" />
             <e p="SerializableVector3.cs" t="Include" />
           </e>
           <e p="SceneManagement" t="Include">

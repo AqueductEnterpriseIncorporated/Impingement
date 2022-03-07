@@ -9,7 +9,13 @@ namespace Impingement.DungeonGeneration
         {
             if (other.CompareTag("SpawnPoint"))
             {
-                PhotonNetwork.Destroy(other.gameObject);
+                //PhotonNetwork.Destroy(transform.parent.gameObject);
+
+                //PhotonNetwork.Destroy(other.gameObject);
+            }
+            if (other.CompareTag("ClosedRoom"))
+            {
+                PhotonNetwork.Destroy(other.transform.parent.gameObject);
             }
         }
     }

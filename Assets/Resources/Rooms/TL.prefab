@@ -2664,7 +2664,6 @@ GameObject:
   - component: {fileID: 8917866777165274048}
   - component: {fileID: -860431809423442896}
   - component: {fileID: -7900860636915292476}
-  - component: {fileID: 993926155850317165}
   m_Layer: 0
   m_Name: TL
   m_TagString: Untagged
@@ -2724,6 +2723,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21b9eb534de34b1eab6959611657ba6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RoomTypes: 0400000002000000
+  OpenedDirections: 
+  RoomTypesToClose: 0100000003000000
+  SpawnPonts:
+  - {fileID: 7231987956316149726}
+  - {fileID: 9033856773667030293}
+  ConnectedRooms: []
   _roomVariant: {fileID: 0}
 --- !u!65 &-7900860636915292476
 BoxCollider:
@@ -2738,19 +2744,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 10, y: 4.49, z: 6.13}
   m_Center: {x: 2.02, y: 1, z: 2.2}
---- !u!114 &993926155850317165
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7955540768934041952}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ea9374b509b70f4bba37e4a2ca8cf00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uniqueIdentifier: 5b074129-d44d-4879-8229-0c3b1937ae0f
 --- !u!1 &7955540769041517850
 GameObject:
   m_ObjectHideFlags: 0
@@ -3017,6 +3010,10 @@ PrefabInstance:
       propertyPath: sceneViewId
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2376431974484391671, guid: 5e9a13442099b8e4b9f24dd28044a507, type: 3}
+      propertyPath: _myRoomView
+      value: 
+      objectReference: {fileID: -860431809423442896}
     - target: {fileID: 7981793332475771196, guid: 5e9a13442099b8e4b9f24dd28044a507, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -3071,6 +3068,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e9a13442099b8e4b9f24dd28044a507, type: 3}
+--- !u!1 &9033856773667030293 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7981793332475771197, guid: 5e9a13442099b8e4b9f24dd28044a507, type: 3}
+  m_PrefabInstance: {fileID: 1412919034955086888}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &9033856773667030292 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7981793332475771196, guid: 5e9a13442099b8e4b9f24dd28044a507, type: 3}
@@ -3135,12 +3137,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3401774713153393320, guid: 85cfdaf2e3987984aa830e86431d0064, type: 3}
+      propertyPath: _myRoomView
+      value: 
+      objectReference: {fileID: -860431809423442896}
     - target: {fileID: 8035665571566861746, guid: 85cfdaf2e3987984aa830e86431d0064, type: 3}
       propertyPath: sceneViewId
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85cfdaf2e3987984aa830e86431d0064, type: 3}
+--- !u!1 &7231987956316149726 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 247088611942883773, guid: 85cfdaf2e3987984aa830e86431d0064, type: 3}
+  m_PrefabInstance: {fileID: 7435719453088085603}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7231987956316149727 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 247088611942883772, guid: 85cfdaf2e3987984aa830e86431d0064, type: 3}

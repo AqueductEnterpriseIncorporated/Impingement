@@ -642,6 +642,80 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 1.5000001, z: 0}
   m_TimeToStationary: 0.5
+--- !u!1 &1789890327547602227
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7442284024822213678}
+  - component: {fileID: 592407104320877202}
+  - component: {fileID: 1885286579146484002}
+  - component: {fileID: 3305884049898142593}
+  m_Layer: 0
+  m_Name: Destroyer
+  m_TagString: ClosedRoom
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7442284024822213678
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789890327547602227}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 621954463866965876}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &592407104320877202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789890327547602227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61d5c8b8cc6249b18822d0234a498b36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &1885286579146484002
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789890327547602227}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &3305884049898142593
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789890327547602227}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2, z: 2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2240241914109909933
 GameObject:
   m_ObjectHideFlags: 0
@@ -1865,7 +1939,7 @@ GameObject:
   m_Component:
   - component: {fileID: 621954463866965876}
   - component: {fileID: 2922612856336298564}
-  - component: {fileID: -2701685887539611169}
+  - component: {fileID: 8609835614841995568}
   m_Layer: 0
   m_Name: ClosedRoom
   m_TagString: Untagged
@@ -1886,6 +1960,7 @@ Transform:
   m_Children:
   - {fileID: 6018704172328334826}
   - {fileID: 903416339894868991}
+  - {fileID: 7442284024822213678}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1911,7 +1986,7 @@ MonoBehaviour:
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
---- !u!114 &-2701685887539611169
+--- !u!114 &8609835614841995568
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1920,10 +1995,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 5509747371194840796}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ea9374b509b70f4bba37e4a2ca8cf00, type: 3}
+  m_Script: {fileID: 11500000, guid: 21b9eb534de34b1eab6959611657ba6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uniqueIdentifier: 00ac2860-49a2-41be-b708-ef4a50ee6224
+  RoomTypes: 01000000020000000400000003000000
+  OpenedDirections: 
+  RoomTypesToClose: 
+  SpawnPonts: []
+  ConnectedRooms: []
+  _roomVariant: {fileID: 0}
 --- !u!1 &5810672970281822532
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,7 +11,6 @@ public class SavingWrapper : MonoBehaviour
     private void Start()
     {
         _savingSystem = GetComponent<SavingSystem>();
-        //Load();
     }
     
     private void OnApplicationQuit()
@@ -22,7 +21,6 @@ public class SavingWrapper : MonoBehaviour
             {"ForceQuit", "true"}
         });
         Save();
-        //FindObjectOfType<PlayfabManager>().UploadFile();
     }
     
     public void LoadLastScene()

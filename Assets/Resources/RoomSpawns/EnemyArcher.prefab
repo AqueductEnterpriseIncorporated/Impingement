@@ -27,10 +27,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyArcher
       objectReference: {fileID: 0}
-    - target: {fileID: 2595814693419925216, guid: 029cab191bfff714ea4413dc4b927194, type: 3}
-      propertyPath: uniqueIdentifier
-      value: 2f49b400-84ef-4c3e-b73d-f0d6d003c530
-      objectReference: {fileID: 0}
     - target: {fileID: 5626372985534005768, guid: 029cab191bfff714ea4413dc4b927194, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 951099334
@@ -106,6 +102,7 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 5223136501551798757, guid: 029cab191bfff714ea4413dc4b927194, type: 3}
     - {fileID: 7729677233108363671, guid: 029cab191bfff714ea4413dc4b927194, type: 3}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 029cab191bfff714ea4413dc4b927194, type: 3}
 --- !u!1 &966078276150866760 stripped
 GameObject:

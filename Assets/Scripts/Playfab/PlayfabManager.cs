@@ -43,7 +43,7 @@ namespace Playfab
         }
         
 
-        private void OnDataReceived(GetUserDataResult result)
+        private void OnDataReceivedIsForceQuit(GetUserDataResult result)
         {
             if (result.Data != null && result.Data.ContainsKey("ForceQuit"))
             {
@@ -77,7 +77,7 @@ namespace Playfab
             _entityType = result.EntityToken.Entity.Type;
             Debug.Log("Login Success");
             
-            LoadData(OnDataReceived);
+            LoadData(OnDataReceivedIsForceQuit);
         }
 
         private void OnLoginFailure(PlayFabError error)

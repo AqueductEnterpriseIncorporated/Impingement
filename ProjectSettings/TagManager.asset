@@ -11,6 +11,7 @@ TagManager:
   - RoomTemplates
   - PlayerSpawnPoint
   - EntryRoom
+  - ClosedRoom
   layers:
   - Default
   - TransparentFX

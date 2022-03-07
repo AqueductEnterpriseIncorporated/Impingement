@@ -5,178 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e797b75-f4f0-4ea9-b141-84d8d653dbe9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/LeaveRoomView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/LobbyManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/LobbyManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/PersistentObjects.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/PersistentObjects.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/RoomButton.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/RoomButton.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Player.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/BowPickup.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/BowPickup.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/Enemy.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/Enemy.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/EnemyArcher.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/EnemyArcher.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/FireballPickup.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/FireballPickup.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/SwordPickup.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/SwordPickup.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/B.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/B.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/ClosedRoom.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/ClosedRoom.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/L.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/L.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/LR.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/LR.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/R.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/R.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/RB.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/RB.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/RoomRoot.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/RoomRoot.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/SpawnPoint_B.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/SpawnPoint_B.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/SpawnPoint_L.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/SpawnPoint_L.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/SpawnPoint_R.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/SpawnPoint_R.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/SpawnPoint_T.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/SpawnPoint_T.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/T.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/T.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/TB.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/TB.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/TL.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/TL.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/TR.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/TR.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/VFX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/VFX/ArrowImpactEffect.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/VFX/ArrowImpactEffect.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/VFX/Fireball Impact.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/VFX/Fireball Impact.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Weapons.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Weapons/ArrowProjectileRed.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Weapons/ArrowProjectileRed.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Weapons/FireballProjectile.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Weapons/FireballProjectile.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Weapons/RootArrowProjectile.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Weapons/RootArrowProjectile.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/RoomItemView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/RoomItemView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SavingWrapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Hideout.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Hideout/NavMesh.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Hideout/NavMesh.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Tests.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Tests.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/ConnectToPlayfab.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PersistentObjectSpawner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PersistentObjectSpawner.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/DungeonManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Playfab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Playfab/EntityFileExample.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Playfab/EntityFileExample.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManagement/PortalView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StartGame.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StartGame.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/enums.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/enums/enumRoomTypes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/enums/enumRoomTypes.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Character/Character.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Character/Character.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Rooms/RoomTemplates.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Rooms/RoomTemplates.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ArrowImpactEffect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ArrowImpactEffect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ArrowProjectileRed.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ArrowProjectileRed.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/B.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/B.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/BowPickup.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/BowPickup.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ClosedRoom.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ClosedRoom.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Enemy.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Enemy.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/EnemyArcher.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/EnemyArcher.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fireball Impact.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fireball Impact.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/FireballPickup.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/FireballPickup.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/FireballProjectile.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/FireballProjectile.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/L.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/L.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LR.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LR.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Player.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Player.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Portal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Portal.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/R.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/R.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/RB.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/RB.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/RootArrowProjectile.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/RootArrowProjectile.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/SpawnPoint_B.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/SpawnPoint_B.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/SpawnPoint_L.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/SpawnPoint_L.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/SpawnPoint_R.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/SpawnPoint_R.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/SpawnPoint_T.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/SpawnPoint_T.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/SwordPickup.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/SwordPickup.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/T.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/T.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/TB.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/TB.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/TL.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/TL.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/TR.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/TR.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Data/PlayFabDataModels.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayFabSDK/Data/PlayFabDataModels.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Rooms/EnrtryRoom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Rooms/EnrtryRoom.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/BowPickup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/BowPickup.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/EnemyArcher.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/EnemyArcher.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/FireballPickup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/FireballPickup.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/SwordPickup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/SwordPickup.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Rooms/B.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/B.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Rooms/ClosedRoom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/ClosedRoom.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Rooms/L.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/L.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Rooms/LR.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/LR.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Rooms/R.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/R.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Rooms/RB.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/RB.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Rooms/RoomRoot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/RoomRoot.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Rooms/T.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/T.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Rooms/TB.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/TB.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Rooms/TL.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/TL.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Rooms/TR.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/TR.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SavingWrapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Saving/SavingWrapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SavingWrapper.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Saving/SavingWrapper.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dungeon2/Dungeon2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dungeon2/Dungeon2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/HealthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/HealthController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DontDestroyOnLoad.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DontDestroyOnLoad.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/RoomScriptableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/RoomScriptableObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/ConnectToPlayfab.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/ConnectToPlayfab.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/DungeonManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/DungeonManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/RoomDestroyer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/RoomDestroyer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/RoomSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/RoomSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/RoomTemplates.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/RoomTemplates.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/DungeonManager.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/RoomView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/RoomView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement/MovementController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Movement/MovementController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PhotonScripts/ConnectToPhoton.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PhotonScripts/ConnectToPhoton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/ConnectToPlayfab.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PhotonScripts/NetworkManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PhotonScripts/NetworkManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RoomListManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RoomListManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeaveRoomView.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Saving/SavingSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Saving/SavingSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManagement/Portal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManagement/Portal.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManagement/PortalView.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/RoomListElementView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/RoomListElementView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/RoomListPanelView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/RoomListPanelView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,13 +58,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D3B66F0A-D4E3-4A55-B6EF-91AB84878193/ab/9a4f6406/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SavingWrapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Saving/SavingWrapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Asset Packs/NavMeshComponents/Scripts/NavMeshBaker.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/MovementController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Classes/IBaseClass.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Classes/BaseClassScriptableObject.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Classes/Stats/Strength.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Classes/IClass.cs" />
@@ -221,7 +81,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/Room.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/AddRoom.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/EnemyRoom.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/RoomDestroyer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/IRoom.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/NavMesh/NavigationBaker.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PhotonScripts/NetworkManager.cs" />
@@ -237,20 +96,23 @@
       <option value="$PROJECT_DIR$/Assets/PlayFabSDK/Client/PlayFabClientAPI.cs" />
       <option value="$PROJECT_DIR$/Assets/PlayFabSDK/Data/PlayFabDataAPI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Playfab/EntityFileExample.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Saving/SavingSystem.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Movement/MovementController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/RoomListPanelView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagement/Portal.cs" />
       <option value="$PROJECT_DIR$/Assets/LobbyManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Core/ConnectToPlayfab.cs" />
-      <option value="$PROJECT_DIR$/Assets/SavingWrapper.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagement/PortalView.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/RoomTemplates.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/RoomView.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/DungeonManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/RoomScriptableObject.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/enums/enumRoomTypes.cs" />
+      <option value="$PROJECT_DIR$/Assets/SavingWrapper.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/RoomView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/RoomDestroyer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/DungeonManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Saving/SavingSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Saving/SavingWrapper.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/ConnectToPlayfab.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/RoomSpawner.cs" />
     </changedPaths>
   </component>
@@ -303,10 +165,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="31248">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="31248" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -345,6 +207,7 @@
       <workItem from="1646485784131" duration="1953000" />
       <workItem from="1646557336866" duration="1444000" />
       <workItem from="1646558921925" duration="42835000" />
+      <workItem from="1646642416085" duration="20966000" />
     </task>
     <servers />
   </component>

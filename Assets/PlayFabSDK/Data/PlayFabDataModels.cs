@@ -375,7 +375,7 @@ namespace PlayFab.DataModels
         /// <summary>
         /// The entity to perform this action on.
         /// </summary>
-        public EntityKey Entity;
+        public ClientModels.EntityKey Entity;
         /// <summary>
         /// Optional field used for concurrency control. By specifying the previously returned value of ProfileVersion from
         /// GetProfile API, you can ensure that the object set will only be performed if the profile has not been updated by any
