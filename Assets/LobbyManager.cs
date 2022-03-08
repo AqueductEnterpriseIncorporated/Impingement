@@ -13,7 +13,6 @@ public class LobbyManager : MonoBehaviourPunCallbacks
     [SerializeField] private GameObject _portalPrefab;
     [SerializeField] private GameObject _lobbyPanel;
     [SerializeField] private GameObject _roomPanel;
-    [SerializeField] private GameObject _loadPanel;
     [SerializeField] private TMP_Text _roomName;
     [SerializeField] private RoomItemView _roomItemPrefab;
     [SerializeField] private Transform _contentTransform;
@@ -31,7 +30,6 @@ public class LobbyManager : MonoBehaviourPunCallbacks
 
     public void StartSoloGame()
     {
-        _loadPanel.SetActive(true);
         _startGamePanel.SetActive(false);
         PhotonNetwork.ConnectUsingSettings();
         DontDestroyOnLoad(GameObject.FindGameObjectWithTag("Player"));

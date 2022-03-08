@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using Impingement.Control;
+using Impingement.Stats;
 using PlayFab;
 using UnityEngine;
 using PlayFab.ClientModels;
+using UnityEngine.SceneManagement;
 
 namespace Playfab
 {
@@ -35,21 +38,16 @@ namespace Playfab
         private readonly Dictionary<string, string> _entityFileJson = new Dictionary<string, string>();
         private bool _isForceQuit;
         const string _fileName = @"C:\Users\vadim\AppData\LocalLow\AqueductEnterpriseIncorporated\Impingement\save.sav";
-
+        
+        private void Start()
+        {
+            SceneManager.sceneLoaded += SceneManagerOnSceneLoaded;
+        }
+        
         public void Login(string login)
         {
             var request = new LoginWithCustomIDRequest {CustomId = login, CreateAccount = true};
             PlayFabClientAPI.LoginWithCustomID(request, OnLoginSuccess, OnLoginFailure);
-        }
-        
-
-        private void OnDataReceivedIsForceQuit(GetUserDataResult result)
-        {
-            if (result.Data != null && result.Data.ContainsKey("ForceQuit"))
-            {
-                IsForceQuit = Convert.ToBoolean(result.Data["ForceQuit"].Value);
-                ValueSyncedAndConnected?.Invoke(IsForceQuit);
-            }
         }
         
         public void UploadData(Dictionary<string, string> data)
@@ -71,18 +69,32 @@ namespace Playfab
             
         }
         
+        private void SceneManagerOnSceneLoaded(Scene arg0, LoadSceneMode arg1)
+        {
+        }
+        
         private void OnLoginSuccess(LoginResult result)
         {    
             _entityId = result.EntityToken.Entity.Id;
             _entityType = result.EntityToken.Entity.Type;
             Debug.Log("Login Success");
-            
+
+            //LoadData(OnDataReceivedPlayerExp);
             LoadData(OnDataReceivedIsForceQuit);
         }
 
         private void OnLoginFailure(PlayFabError error)
         {
             Debug.LogError(error.GenerateErrorReport());
+        }
+        
+        private void OnDataReceivedIsForceQuit(GetUserDataResult result)
+        {
+            if (result.Data != null && result.Data.ContainsKey("ForceQuit"))
+            {
+                IsForceQuit = Convert.ToBoolean(result.Data["ForceQuit"].Value);
+            }
+            ValueSyncedAndConnected?.Invoke(IsForceQuit);
         }
     }
 }

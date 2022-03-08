@@ -1,6 +1,5 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using enums;
+﻿using System.Linq;
+using Impingement.enums;
 using Impingement.NavMesh;
 using Photon.Pun;
 using Playfab;

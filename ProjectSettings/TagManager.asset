@@ -12,6 +12,7 @@ TagManager:
   - PlayerSpawnPoint
   - EntryRoom
   - ClosedRoom
+  - PersistentObjects
   layers:
   - Default
   - TransparentFX

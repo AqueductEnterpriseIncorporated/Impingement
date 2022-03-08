@@ -8,6 +8,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: _baseStats
+      value: 
+      objectReference: {fileID: 8342166703643444589}
+    - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
       propertyPath: _healthPoints
       value: 10
       objectReference: {fileID: 0}
@@ -153,6 +157,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3abd92ed8e5643c98591ea73c6ced921, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8342166703643444589 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9025814175190224979, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+  m_PrefabInstance: {fileID: 1046935459850376510}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 671315223919402057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c6c9be1c408497da41b13b5dd852020, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!54 &3025012501358811055

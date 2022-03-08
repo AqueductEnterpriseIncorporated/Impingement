@@ -1,4 +1,5 @@
 using System.Collections;
+using Impingement.Resources;
 using Photon.Pun;
 using UnityEngine;
 
@@ -13,6 +14,7 @@ namespace Impingement.Combat
         [SerializeField] private GameObject[] _destroyOnHit = null;
         [SerializeField] private GameObject _hitEffect = null;
         [SerializeField] private PhotonView _photonView;
+        private GameObject _instigator = null;
         private HealthController _target = null;
         private float _lifeTimeTimer = Mathf.Infinity;
         private float _damage = 0f;
@@ -34,11 +36,12 @@ namespace Impingement.Combat
             transform.Translate(Vector3.forward * _speed * Time.deltaTime);
         }
 
-        public void SetTarget(HealthController target, float damage)
+        public void SetTarget(HealthController target,GameObject instigator, float damage)
         {
             _target = target;
+            _instigator = instigator;
             _damage = damage;
-            
+
             _photonView.RPC(nameof(DestroyGameObjectRPC), RpcTarget.AllViaServer, _maxLifeTime);
         }
 
@@ -71,7 +74,7 @@ namespace Impingement.Combat
                 
                 _photonView.RPC(nameof(DestroyGameObjectRPC), RpcTarget.AllViaServer, _lifeAfterImpact);
                 
-                healthController.TakeDamage(_damage);
+                healthController.TakeDamage(_instigator, _damage);
             }
         }
 

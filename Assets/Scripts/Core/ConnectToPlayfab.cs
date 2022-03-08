@@ -19,13 +19,12 @@ namespace Impingement.Core
 
         private void OnValueSyncedAndConnected(bool value)
         {
-            SceneManager.LoadScene("Hideout");
+            SceneManager.LoadSceneAsync("Hideout");
         }
 
         public void LoadHideout()
         {
             if (_inputField.text == null) { return; }
-            
             FindObjectOfType<PlayfabManager>().Login(_inputField.text);
         }
     }

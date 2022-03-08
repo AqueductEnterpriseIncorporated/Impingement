@@ -94,7 +94,7 @@ namespace Impingement.DungeonGeneration
 
             PhotonNetwork.Instantiate(_bossPrefab.name, Rooms[Rooms.Count - 2].transform.position, Quaternion.identity);
             FindObjectOfType<NavigationBaker>().Bake();
-            GameObject.Find("LoadPanel").SetActive(false);
+            Destroy(GameObject.Find("LoadPanel"));
             _isBossSpawned = true;
         }
 

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Impingement.Resources;
+using UnityEngine;
 
 namespace Impingement.Combat
 {

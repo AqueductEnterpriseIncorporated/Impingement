@@ -55,6 +55,10 @@ PrefabInstance:
       propertyPath: ObservedComponents.Array.data[4]
       value: 
       objectReference: {fileID: 1487759394210934484}
+    - target: {fileID: 8342166703643444589, guid: 029cab191bfff714ea4413dc4b927194, type: 3}
+      propertyPath: _characterClass
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8468443467580918897, guid: 029cab191bfff714ea4413dc4b927194, type: 3}
       propertyPath: m_RootOrder
       value: 0

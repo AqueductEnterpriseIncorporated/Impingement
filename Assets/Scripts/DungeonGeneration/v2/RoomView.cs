@@ -1,10 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using enums;
-using Impingement.Saving;
-using Photon.Pun;
-using RPG.Saving;
+using Impingement.enums;
 using UnityEngine;
 
 namespace Impingement.DungeonGeneration

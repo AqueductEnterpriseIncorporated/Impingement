@@ -1,4 +1,4 @@
-﻿namespace enums
+﻿namespace Impingement.enums
 {
     public enum enumRoomTypes
     {

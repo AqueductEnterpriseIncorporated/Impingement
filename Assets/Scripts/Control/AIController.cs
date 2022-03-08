@@ -1,6 +1,7 @@
 ﻿using Impingement.Combat;
 using Impingement.Core;
 using Impingement.Movement;
+using Impingement.Resources;
 using Photon.Pun;
 using UnityEngine;
 

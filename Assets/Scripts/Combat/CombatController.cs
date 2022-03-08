@@ -1,5 +1,8 @@
 ﻿using Impingement.Core;
+using Impingement.enums;
 using Impingement.Movement;
+using Impingement.Resources;
+using Impingement.Stats;
 using Photon.Pun;
 using UnityEngine;
 
@@ -53,7 +56,7 @@ namespace Impingement.Combat
                 AttackBehavior();
             }
         }
-        
+
         public void EquipWeapon(Weapon weapon)
         {
             _currentWeapon = weapon;
@@ -106,14 +109,15 @@ namespace Impingement.Combat
         {
             if (_target == null) { return; }
 
+            var damage = GetComponent<BaseStats>().GetStat(enumStats.Damage);
             if (_currentWeapon.HasProjectile())
             {
                 if(!_photonView.IsMine){ return; }
-                _currentWeapon.LaunchProjectile(_leftHandTransform, _rightHandTransform, _target);
+                _currentWeapon.LaunchProjectile(_leftHandTransform, _rightHandTransform, _target, gameObject, damage);
             }
             else
             {
-                _target.TakeDamage(_currentWeapon.GetDamage());
+                _target.TakeDamage(gameObject, damage);
             }
         }
 

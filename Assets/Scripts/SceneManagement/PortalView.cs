@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using Impingement.DungeonGeneration;
 using Impingement.Saving;
+using Impingement.Stats;
 using Playfab;
 using RPG.Saving;
 using UnityEngine;
@@ -12,7 +13,10 @@ namespace SceneManagement
     public class PortalView : MonoBehaviour, ISaveable
     {
         [SerializeField] private string _sceneToLoad = "";
+        [SerializeField] private GameObject _loadPanel;
+        private PlayfabManager _playfabManager;
         private SavingWrapper _savingWrapper;
+        private GameObject _incomingPlayer = null;
         //private NetworkManager _networkManager;
 
         private void Start()
@@ -30,15 +34,30 @@ namespace SceneManagement
         {
             if (other.CompareTag("Player"))
             {
-                if (SceneManager.GetActiveScene().name == "Dungeon2")
-                {
-                    FindObjectOfType<PlayfabManager>().IsForceQuit = false;
-                    GameObject.FindGameObjectWithTag("RoomTemplates").GetComponent<DungeonManager>().IsDungBuilded = false;
-                }
-                other.GetComponentInChildren<NavMeshAgent>().enabled = false;
-                SceneManager.LoadSceneAsync("Dungeon2"); 
-                other.GetComponentInChildren<NavMeshAgent>().enabled = true;
+                Instantiate(_loadPanel);
+                _playfabManager = FindObjectOfType<PlayfabManager>();
+                _incomingPlayer = other.gameObject;
+                ManageSceneChanging();
             }
+        }
+
+        private void ManageSceneChanging()
+        {
+            //save player's exp
+            _playfabManager.UploadData(new Dictionary<string, string>()
+            {
+                {"Experience", _incomingPlayer.GetComponent<ExperienceController>().GetExperiencePoints().ToString()}
+            });
+
+            if (SceneManager.GetActiveScene().name == "Dungeon2")
+            {
+                _playfabManager.IsForceQuit = false;
+                GameObject.FindGameObjectWithTag("RoomTemplates").GetComponent<DungeonManager>().IsDungBuilded = false;
+            }
+
+            _incomingPlayer.GetComponentInChildren<NavMeshAgent>().enabled = false;
+            SceneManager.LoadSceneAsync("Dungeon2");
+            _incomingPlayer.GetComponentInChildren<NavMeshAgent>().enabled = true;
         }
 
         public object CaptureState()

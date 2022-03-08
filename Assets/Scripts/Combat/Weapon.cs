@@ -1,3 +1,4 @@
+using Impingement.Resources;
 using Photon.Pun;
 using UnityEngine;
 
@@ -60,11 +61,11 @@ namespace Impingement.Combat
             return _projectile != null;
         }
 
-        public void LaunchProjectile(Transform rightHand, Transform leftHand, HealthController target)
+        public void LaunchProjectile(Transform rightHand, Transform leftHand, HealthController target, GameObject instigator, float calculatedDamage)
         {
             Projectile projectileInstance = PhotonNetwork.Instantiate(_projectile.name, GetTransform(rightHand, leftHand).position,
                 Quaternion.identity).GetComponent<Projectile>();
-            projectileInstance.SetTarget(target, _weaponDamage);
+            projectileInstance.SetTarget(target, instigator, calculatedDamage);
         }
         
         public float GetDamage()
