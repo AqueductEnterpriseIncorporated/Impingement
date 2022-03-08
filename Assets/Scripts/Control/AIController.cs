@@ -26,12 +26,16 @@ namespace Impingement.Control
         private float _timeSinceArrivedAtWaypoint = Mathf.Infinity;
         private int _currentWaypointIndex;
 
-        private void Start()
+        private void Awake()
         {
             _combatController = GetComponent<CombatController>();
             _healthController = GetComponent<HealthController>();
             _movementController = GetComponent<MovementController>();
             _photonView = GetComponent<PhotonView>();
+        }
+
+        private void Start()
+        {
             _guardPosition = transform.position;
         }
 

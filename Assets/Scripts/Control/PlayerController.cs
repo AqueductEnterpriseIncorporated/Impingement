@@ -1,9 +1,11 @@
-﻿using Impingement.Combat;
+﻿using System;
+using Impingement.Combat;
 using Impingement.Core;
 using Impingement.Movement;
 using Impingement.Resources;
 using Photon.Pun;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace Impingement.Control
 {
@@ -16,20 +18,23 @@ namespace Impingement.Control
         private MovementController _movementController;
         private PlayerCameraController _playerCameraController;
         private HealthController _healthController;
-        
-        private void Start()
-        {
-            _photonView = GetComponent<PhotonView>();
-            if (!_photonView.IsMine)
-            {
-                _camera.gameObject.SetActive(false);
-            }
 
-            PhotonNetwork.NickName = "player" + Random.Range(0,10);
+        private void Awake()
+        {
             _combatController = GetComponent<CombatController>();
             _movementController = GetComponent<MovementController>();
             _playerCameraController = GetComponent<PlayerCameraController>();
             _healthController = GetComponent<HealthController>();
+            _photonView = GetComponent<PhotonView>();
+        }
+
+        private void Start()
+        {
+            if (!_photonView.IsMine)
+            {
+                _camera.gameObject.SetActive(false);
+            }
+            PhotonNetwork.NickName = "player" + Random.Range(0,10);
         }
         
         private void Update()

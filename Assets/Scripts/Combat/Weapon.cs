@@ -11,6 +11,7 @@ namespace Impingement.Combat
         [SerializeField] private GameObject _equippedPrefab = null;
         [SerializeField] private float _weaponRange = 2f;
         [SerializeField] private float _weaponDamage = 5f;
+        [SerializeField] private float _weaponPercentageBonus = 0f;
         [SerializeField] private bool _isRightHand = true;
         [SerializeField] private Projectile _projectile = null;
 
@@ -71,6 +72,11 @@ namespace Impingement.Combat
         public float GetDamage()
         {
             return _weaponDamage;
+        }
+        
+        public float GetPercentageBonus()
+        {
+            return _weaponPercentageBonus;
         }
         
         public float GetRange()

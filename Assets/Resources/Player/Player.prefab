@@ -688,6 +688,7 @@ MonoBehaviour:
   _progression: {fileID: 11400000, guid: 516bdd27a8fa15945bf621ed61c9ed2f, type: 2}
   _experienceController: {fileID: 8950967779405781275}
   _levelUpEffect: {fileID: 0}
+  _shouldUseModifiers: 1
 --- !u!114 &8950967779405781275
 MonoBehaviour:
   m_ObjectHideFlags: 0

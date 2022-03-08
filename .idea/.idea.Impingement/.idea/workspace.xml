@@ -5,408 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e797b75-f4f0-4ea9-b141-84d8d653dbe9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/LoadManager.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/LoadManager.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/Progression.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/Progression.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/VFX/LevelUpEffect.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/VFX/LevelUpEffect.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/TargetHealthDisplay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/TargetHealthDisplay.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Control/PlayfabPlayerDataController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Control/PlayfabPlayerDataController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Resources.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Resources/HealthDisplay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Resources/HealthDisplay.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Stats.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Stats/BaseStats.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Stats/BaseStats.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Stats/ExperienceController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Stats/ExperienceController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Stats/ExperienceDisplay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Stats/ExperienceDisplay.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Stats/LevelDisplay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Stats/LevelDisplay.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Stats/Progression.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Stats/Progression.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/enums/enumCharacterClass.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/enums/enumCharacterClass.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/enums/enumStats.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/enums/enumStats.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Stats/IModifierProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Stats/IModifierProvider.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LobbyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LobbyManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/PlayFabEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/PlayFabEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Resources.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Resources.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Resources/MostRecentPackage.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Resources/PlayFabEditorPrefsSO.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Resources/PlayFabEditorPrefsSO.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Components.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Components/ProgressBar.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Components/ProgressBar.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Components/SubMenuComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Components/SubMenuComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Components/TitleDataEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Components/TitleDataEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Components/TitleDataViewer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Components/TitleDataViewer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Components/TitleInternalDataEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Components/TitleInternalDataEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Components/TitleInternalDataViewer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Components/TitleInternalDataViewer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorAuthenticate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorAuthenticate.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorDataMenu.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorDataMenu.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorHeader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorHeader.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorHelpMenu.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorHelpMenu.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorMenu.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorMenu.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorPackages.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorPackages.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorSDKTools.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorSDKTools.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorSettings.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorToolsMenu.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorToolsMenu.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/PlayFabEditorSDK.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/PlayFabEditorSDK/ISerializer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/PlayFabEditorSDK/ISerializer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/PlayFabEditorSDK/PlayFabEditorApi.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/PlayFabEditorSDK/PlayFabEditorApi.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/PlayFabEditorSDK/PlayFabEditorHttp.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/PlayFabEditorSDK/PlayFabEditorHttp.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/PlayFabEditorSDK/PlayFabEditorModels.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/PlayFabEditorSDK/PlayFabEditorModels.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/PlayFabEditorSDK/SimpleJson.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/PlayFabEditorSDK/SimpleJson.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Utils.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/EditorCoroutine.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/EditorCoroutine.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorDataService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorDataService.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorHelper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorHelper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorPrefsSO.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorPrefsSO.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorUtils.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorUtils.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorVersion.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorVersion.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabGuiFieldHelper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabGuiFieldHelper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Fonts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Fonts/Avalon Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Fonts/Avalon Bold.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Fonts/Avalon.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Fonts/Avalon.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/Black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/Black.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/Clear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/Clear.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/Gray_base.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/Gray_base.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/Gray_dk1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/Gray_dk1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/Gray_lt1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/Gray_lt1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/Gray_lt2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/Gray_lt2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/Orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/Orange.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/Square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/Square.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/White.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/White.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/checkmark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/checkmark.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/checkmark_off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/checkmark_off.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/checkmark_on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/checkmark_on.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/dashboardIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/dashboardIcon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/dashboardIconHover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/dashboardIconHover.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/dn_colored.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/dn_colored.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/dn_gray.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/dn_gray.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/green.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/pfFullLogo_O.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/pfFullLogo_O.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/pfFullLogo_W.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/pfFullLogo_W.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/playfablogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/playfablogo.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/r_colored.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/r_colored.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/r_gray.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/r_gray.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/red.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/yellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/yellow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/PlayFabStyles.guiskin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/PlayFabStyles.guiskin.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Admin.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Admin/PlayFabAdminAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Admin/PlayFabAdminAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Admin/PlayFabAdminInstanceAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Admin/PlayFabAdminInstanceAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Admin/PlayFabAdminModels.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Admin/PlayFabAdminModels.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Admin/PlayFabEvents.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Admin/PlayFabEvents.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Authentication.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Authentication/PlayFabAuthenticationAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Authentication/PlayFabAuthenticationAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Authentication/PlayFabAuthenticationInstanceAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Authentication/PlayFabAuthenticationInstanceAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Authentication/PlayFabAuthenticationModels.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Authentication/PlayFabAuthenticationModels.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Authentication/PlayFabEvents.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Authentication/PlayFabEvents.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Client.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Client/PlayFabClientAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Client/PlayFabClientAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Client/PlayFabClientInstanceAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Client/PlayFabClientInstanceAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Client/PlayFabClientModels.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Client/PlayFabClientModels.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Client/PlayFabDeviceUtil.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Client/PlayFabDeviceUtil.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Client/PlayFabEvents.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Client/PlayFabEvents.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/CloudScript.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/CloudScript/PlayFabCloudScriptAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/CloudScript/PlayFabCloudScriptAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/CloudScript/PlayFabCloudScriptInstanceAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/CloudScript/PlayFabCloudScriptInstanceAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/CloudScript/PlayFabCloudScriptModels.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/CloudScript/PlayFabCloudScriptModels.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/CloudScript/PlayFabEvents.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/CloudScript/PlayFabEvents.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Data.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Data/PlayFabDataAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Data/PlayFabDataAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Data/PlayFabDataInstanceAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Data/PlayFabDataInstanceAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Data/PlayFabDataModels.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Data/PlayFabDataModels.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Data/PlayFabEvents.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Data/PlayFabEvents.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Economy.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Economy/PlayFabEconomyAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Economy/PlayFabEconomyAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Economy/PlayFabEconomyInstanceAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Economy/PlayFabEconomyInstanceAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Economy/PlayFabEconomyModels.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Economy/PlayFabEconomyModels.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Economy/PlayFabEvents.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Economy/PlayFabEvents.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Entity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Entity/ScreenTimeTracker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Entity/ScreenTimeTracker.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Events.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Events/PlayFabEvents.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Events/PlayFabEvents.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Events/PlayFabEventsAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Events/PlayFabEventsAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Events/PlayFabEventsInstanceAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Events/PlayFabEventsInstanceAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Events/PlayFabEventsModels.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Events/PlayFabEventsModels.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Experimentation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Experimentation/PlayFabEvents.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Experimentation/PlayFabEvents.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Experimentation/PlayFabExperimentationAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Experimentation/PlayFabExperimentationAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Experimentation/PlayFabExperimentationInstanceAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Experimentation/PlayFabExperimentationInstanceAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Experimentation/PlayFabExperimentationModels.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Experimentation/PlayFabExperimentationModels.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Groups.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Groups/PlayFabEvents.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Groups/PlayFabEvents.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Groups/PlayFabGroupsAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Groups/PlayFabGroupsAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Groups/PlayFabGroupsInstanceAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Groups/PlayFabGroupsInstanceAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Groups/PlayFabGroupsModels.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Groups/PlayFabGroupsModels.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Insights.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Insights/PlayFabEvents.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Insights/PlayFabEvents.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Insights/PlayFabInsightsAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Insights/PlayFabInsightsAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Insights/PlayFabInsightsInstanceAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Insights/PlayFabInsightsInstanceAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Insights/PlayFabInsightsModels.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Insights/PlayFabInsightsModels.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Localization.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Localization/PlayFabEvents.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Localization/PlayFabEvents.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Localization/PlayFabLocalizationAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Localization/PlayFabLocalizationAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Localization/PlayFabLocalizationInstanceAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Localization/PlayFabLocalizationInstanceAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Localization/PlayFabLocalizationModels.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Localization/PlayFabLocalizationModels.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Matchmaker.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Matchmaker/PlayFabEvents.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Matchmaker/PlayFabEvents.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Matchmaker/PlayFabMatchmakerAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Matchmaker/PlayFabMatchmakerAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Matchmaker/PlayFabMatchmakerInstanceAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Matchmaker/PlayFabMatchmakerInstanceAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Matchmaker/PlayFabMatchmakerModels.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Matchmaker/PlayFabMatchmakerModels.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Multiplayer.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Multiplayer/PlayFabEvents.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Multiplayer/PlayFabEvents.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Multiplayer/PlayFabMultiplayerAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Multiplayer/PlayFabMultiplayerAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Multiplayer/PlayFabMultiplayerInstanceAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Multiplayer/PlayFabMultiplayerInstanceAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Multiplayer/PlayFabMultiplayerModels.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Multiplayer/PlayFabMultiplayerModels.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/PlayFab.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/PlayFab.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Profiles.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Profiles/PlayFabEvents.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Profiles/PlayFabEvents.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Profiles/PlayFabProfilesAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Profiles/PlayFabProfilesAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Profiles/PlayFabProfilesInstanceAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Profiles/PlayFabProfilesInstanceAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Profiles/PlayFabProfilesModels.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Profiles/PlayFabProfilesModels.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Server.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Server/PlayFabEvents.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Server/PlayFabEvents.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Server/PlayFabServerAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Server/PlayFabServerAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Server/PlayFabServerInstanceAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Server/PlayFabServerInstanceAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Server/PlayFabServerModels.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Server/PlayFabServerModels.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Editor/MakeSharedSettingsObj.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Editor/MakeSharedSettingsObj.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Editor/PlayFabHelp.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Editor/PlayFabHelp.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Editor/PlayFablogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Editor/PlayFablogo.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Internal.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Internal/ISerializer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Internal/ISerializer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Internal/Log.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Internal/Log.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Internal/PlayFabErrors.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Internal/PlayFabErrors.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Internal/PlayFabHttp.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Internal/PlayFabHttp/IPlayFabHttp.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Internal/PlayFabHttp/IPlayFabHttp.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabHTTP.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabHTTP.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabUnityHttp.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabUnityHttp.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabWWW.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabWWW.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabWebRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabWebRequest.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Internal/SimpleJson.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Internal/SimpleJson.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Internal/SingletonMonoBehaviour.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Internal/SingletonMonoBehaviour.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Internal/Util.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Internal/Util.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Internal/wsaReflectionExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Internal/wsaReflectionExtensions.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Models/PlayFabSharedSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Models/PlayFabSharedSettings.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Models/SharedModels.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Models/SharedModels.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Public.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Public/IPlayFabPlugin.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Public/IPlayFabPlugin.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Public/ISerializerPlugin.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Public/ISerializerPlugin.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Public/ITransportPlugin.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Public/ITransportPlugin.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Public/PlayFabApiSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Public/PlayFabApiSettings.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Public/PlayFabAuthenticationContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Public/PlayFabAuthenticationContext.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Public/PlayFabDataGatherer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Public/PlayFabDataGatherer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Public/PlayFabEvents.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Public/PlayFabEvents.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Public/PlayFabLogger.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Public/PlayFabLogger.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Public/PlayFabSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Public/PlayFabSettings.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Public/PluginContract.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Public/PluginContract.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Public/PluginContractKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Public/PluginContractKey.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Public/PluginManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Public/PluginManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Public/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Public/Resources/PlayFabSharedSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/Shared/Public/Resources/PlayFabSharedSettings.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/link.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayFabSDK/link.xml.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Character/Character.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Character/Character.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Core/PersistentObjects.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/PersistentObjects.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/LoadPanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/LoadPanel.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Portal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Portal.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/Enemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/EnemyArcher.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/EnemyArcher.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/HealthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Resources/HealthController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/HealthController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Resources/HealthController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/Projectile.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/Weapon.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/ConnectToPlayfab.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/ConnectToPlayfab.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/DestroyAfterEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DestroyAfterEffect.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/DungeonManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/DungeonManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/RoomSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/RoomSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/RoomView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/RoomView.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement/MovementController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Movement/MovementController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Saving/SavingWrapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Saving/SavingWrapper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManagement/PortalView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManagement/PortalView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/enums/enumRoomTypes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/enums/enumRoomTypes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stats/BaseStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Stats/BaseStats.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -432,7 +43,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/RoomItemView.cs" />
       <option value="$PROJECT_DIR$/Assets/LeaveRoomView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayFabLogin.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PhotonScripts/ConnectToPhoton.cs" />
@@ -455,15 +65,12 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/enums/enumCharacterClass.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/HealthController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Movement/MovementController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/HealthDisplay.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/Projectile.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Resources/Experience.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Resources/ExperienceController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Saving/SavingWrapper.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Core/ConnectToPlayfab.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Resources/ExperienceDisplay.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Stats/ExperienceDisplay.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Stats/Progression.cs" />
@@ -473,16 +80,20 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Control/PlayfabPlayerDataController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/TargetHealthDisplay.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Resources/HealthDisplay.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/Weapon.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/enums/enumStats.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Stats/ExperienceController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Stats/BaseStats.cs" />
       <option value="$PROJECT_DIR$/Assets/LobbyManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagement/PortalView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/DungeonManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Resources/HealthController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/ConnectToPlayfab.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Stats/IModifierProvider.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/Weapon.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Movement/MovementController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Stats/BaseStats.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" />
     </changedPaths>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -515,6 +126,11 @@
     <property name="rider.run.widget.enabled.cache" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="weapon" />
+    </option>
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
@@ -578,6 +194,7 @@
       <workItem from="1646558921925" duration="42835000" />
       <workItem from="1646642416085" duration="20966000" />
       <workItem from="1646725282158" duration="19419000" />
+      <workItem from="1646764705167" duration="3330000" />
     </task>
     <servers />
   </component>

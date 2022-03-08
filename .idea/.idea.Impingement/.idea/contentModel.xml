@@ -662,6 +662,7 @@
             <e p="BaseStats.cs" t="Include" />
             <e p="ExperienceController.cs" t="Include" />
             <e p="ExperienceDisplay.cs" t="Include" />
+            <e p="IModifierProvider.cs" t="Include" />
             <e p="LevelDisplay.cs" t="Include" />
             <e p="Progression.cs" t="Include" />
           </e>

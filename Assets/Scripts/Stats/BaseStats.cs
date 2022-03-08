@@ -14,14 +14,27 @@ namespace Impingement.Stats
         [SerializeField] private Progression _progression = null;
         [SerializeField] private ExperienceController _experienceController = null;
         [SerializeField] private GameObject _levelUpEffect = null;
+        [SerializeField] private bool _shouldUseModifiers = true;
         private int _currentLevel = 0;
 
         private void Start()
         {
             _currentLevel = CalculateLevel();
+        }
+
+        private void OnEnable()
+        {
             if (_experienceController != null)
             {
                 _experienceController.OnExperienceGained += UpdateLevel;
+            }
+        }
+
+        private void OnDisable()
+        {
+            if (_experienceController != null)
+            {
+                _experienceController.OnExperienceGained -= UpdateLevel;
             }
         }
 
@@ -49,6 +62,11 @@ namespace Impingement.Stats
 
         public float GetStat(enumStats stat)
         {
+            return GetBaseStat(stat) + GetAdditiveModifiers(stat) * (1 + GetPercentageModifiers(stat)/100);
+        }
+
+        private float GetBaseStat(enumStats stat)
+        {
             return _progression.GetStat(stat, _characterClass, GetLevel());
         }
 
@@ -61,7 +79,7 @@ namespace Impingement.Stats
             return _currentLevel;
         }
 
-        public int CalculateLevel()
+        private int CalculateLevel()
         {
             if (_experienceController == null) { return _startLevel;}
             
@@ -77,6 +95,44 @@ namespace Impingement.Stats
             }
 
             return penultimateLevel + 1;
+        }
+        
+        private float GetAdditiveModifiers(enumStats stat)
+        {
+            if (!_shouldUseModifiers)
+            {
+                return 0;
+            }
+            
+            float total = 0;
+            foreach (var provider in GetComponents<IModifierProvider>())
+            {
+                foreach (var additiveModifier in provider.GetAdditiveModifiers(stat))
+                {
+                    total += additiveModifier;
+                }
+            }
+
+            return total;
+        }
+        
+        private float GetPercentageModifiers(enumStats stat)
+        {
+            if (!_shouldUseModifiers)
+            {
+                return 0;
+            }
+            
+            float total = 0;
+            foreach (var provider in GetComponents<IModifierProvider>())
+            {
+                foreach (var additiveModifier in provider.GetPercentageModifiers(stat))
+                {
+                    total += additiveModifier;
+                }
+            }
+
+            return total;
         }
     }
 }

@@ -1,3 +1,4 @@
+using System;
 using Impingement.Combat;
 using Impingement.Core;
 using Impingement.Resources;
@@ -16,12 +17,12 @@ namespace Impingement.Movement
         private NavMeshAgent _navMeshAgent;
         private HealthController _healthController;
 
-        private void Start()
+        private void Awake()
         {
             _navMeshAgent = GetComponent<NavMeshAgent>();
             _healthController = GetComponent<HealthController>();
         }
-
+        
         private void Update()
         {
             _navMeshAgent.enabled = !_healthController.IsDead();
@@ -58,9 +59,9 @@ namespace Impingement.Movement
         public void RestoreState(object state)
         {
             SerializableVector3 position = (SerializableVector3) state;
-            GetComponent<NavMeshAgent>().enabled = false;
+            _navMeshAgent.enabled = false;
             transform.position = position.ToVector();
-            GetComponent<NavMeshAgent>().enabled = true;
+            _navMeshAgent.enabled = true;
         }
     }
 }

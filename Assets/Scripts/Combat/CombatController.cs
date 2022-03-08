@@ -1,4 +1,6 @@
-﻿using Impingement.Core;
+﻿using System;
+using System.Collections.Generic;
+using Impingement.Core;
 using Impingement.enums;
 using Impingement.Movement;
 using Impingement.Resources;
@@ -8,7 +10,7 @@ using UnityEngine;
 
 namespace Impingement.Combat
 {
-    public class CombatController : MonoBehaviour, IAction
+    public class CombatController : MonoBehaviour, IAction, IModifierProvider
     {
         [SerializeField] private float _timeBetweenAttacks = 1f;
         [SerializeField] private float _rotateSpeed = 5f;
@@ -23,16 +25,24 @@ namespace Impingement.Combat
         private HealthController _target;
         private float _timeSinceLastAttack = Mathf.Infinity;
         private Weapon _currentWeapon = null;
-        
-        private void Start()
+
+        private void Awake()
         {
             _movementController = GetComponent<MovementController>();
             _healthController = GetComponent<HealthController>();
             _animationController = GetComponent<AnimationController>();
             _photonView = GetComponent<PhotonView>();
-            //Weapon weapon = Resources.Load<Weapon>(_weaponName);
-            EquipWeapon(_defaultWeapon);
         }
+
+        private void Start()
+        {
+            if (_currentWeapon == null)
+            {
+                EquipWeapon(_defaultWeapon);
+
+            }
+        }
+        
         private void Update()
         {
             if(_healthController.IsDead()) { return; }
@@ -150,6 +160,22 @@ namespace Impingement.Combat
             _animationController.PlayTriggerAnimation("cancelAttack");
             //_photonView.RPC(nameof(_animationController.ResetTriggerAnimation), RpcTarget.All, "cancelAttack");
            // _photonView.RPC(nameof(_animationController.PlayTriggerAnimation), RpcTarget.All, "attack");
+        }
+        
+        public IEnumerable<float> GetAdditiveModifiers(enumStats stat)
+        {
+            if (stat == enumStats.Damage)
+            {
+                yield return _currentWeapon.GetDamage();
+            }
+        }
+
+        public IEnumerable<float> GetPercentageModifiers(enumStats stat)
+        {
+            if (stat == enumStats.Damage)
+            {
+                yield return _currentWeapon.GetPercentageBonus();
+            }
         }
     }
 }
