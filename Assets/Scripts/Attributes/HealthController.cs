@@ -48,7 +48,6 @@ namespace Impingement.Attributes
             return _isDead;
         }
 
-        //public event Death OnDeath;
 
         public void TakeDamage(GameObject instigator, float damage)
         {
@@ -74,6 +73,11 @@ namespace Impingement.Attributes
         public float GetMaxHealthPoints()
         {
             return _baseStats.GetStat(enumStats.Health);
+        }
+        
+        public void Heal(float healthToRestore)
+        {
+            _healthPoints.value = Mathf.Min(_healthPoints.value + healthToRestore, GetMaxHealthPoints());
         }
 
         [PunRPC]

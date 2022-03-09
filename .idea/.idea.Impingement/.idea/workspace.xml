@@ -5,63 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e797b75-f4f0-4ea9-b141-84d8d653dbe9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/MusicAndSfx/Master.mixer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MusicAndSfx/Master.mixer.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/InGameUI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/InGameUI/DamageText.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/InGameUI/DamageText.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/InGameUI/DamageTextFade.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/InGameUI/DamageTextFade.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/InGameUI/DamageTextSpawner.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/InGameUI/DamageTextSpawner.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/InGameUI/HealthBarPrefab.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/InGameUI/HealthBarPrefab.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthBar.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/Healthbar.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CameraFacing.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CameraFacing.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/DamageText.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/DamageText/DamageText.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/DamageText/DamageText.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/DamageText/DamageTextSpawner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/DamageText/DamageTextSpawner.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Unarmed/EquippedUnarmed.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Unarmed/EquippedUnarmed.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/EnemyDummy.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/EnemyDummy.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout/NavMesh.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout/NavMesh.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponConfig.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeaveRoomView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeaveRoomView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LobbyManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LobbyManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Terrain 1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Terrain 1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Character/Character.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Character/Character.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Core/Progression.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/Progression.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Floor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Floor.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Rooms/EnrtryRoom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Rooms/EnrtryRoom.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Bow/BowRedProjectile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Bow/BowRedProjectile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Bow/EquippedBow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Bow/EquippedBow.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Bow.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Bow.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Sword.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Sword.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Unarmed.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Unarmed.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Sword/EquippedSword.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Sword/EquippedSword.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/BowPickup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/BowPickup.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/Enemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Weapons/RootArrowProjectile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Weapons/RootArrowProjectile.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RoomItemView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RoomItemView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dungeon2/Dungeon2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dungeon2/Dungeon2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/FireballPickup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/FireballPickup.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/SwordPickup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/SwordPickup.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/Projectile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/TargetHealthDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/TargetHealthDisplay.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/Weapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/Weapon.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/Weapon.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponPickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponPickup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement/MovementController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Movement/MovementController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Resources.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Resources/HealthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Resources/HealthController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Resources/HealthDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthDisplay.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Resources/HealthDisplay.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthDisplay.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Saving/SavingWrapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Saving/SavingWrapper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StartGame.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StartGame.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +62,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/RoomScriptableObject.cs" />
       <option value="$PROJECT_DIR$/Assets/SavingWrapper.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/RoomDestroyer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Saving/SavingSystem.cs" />
@@ -108,7 +82,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/DestroyAfterEffect.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Control/PlayfabPlayerDataController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/TargetHealthDisplay.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Resources/HealthDisplay.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/enums/enumStats.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Stats/ExperienceController.cs" />
@@ -117,27 +90,29 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/DungeonManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/ConnectToPlayfab.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Stats/IModifierProvider.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Movement/MovementController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Stats/BaseStats.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/enums/enumCursorTypes.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/structs/CursorMapping.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Control/IRaycastable.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponPickup.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/enums/enumCursorType.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/DamageText/DamageText.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Resources/HealthController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/DamageText/DamageTextSpawner.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthDisplay.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/Weapon.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Attributes/Healthbar.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthBar.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/CameraFacing.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/Projectile.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/Weapon.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponPickup.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Movement/MovementController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/TargetHealthDisplay.cs" />
     </changedPaths>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -239,7 +214,7 @@
       <workItem from="1646642416085" duration="20966000" />
       <workItem from="1646725282158" duration="19419000" />
       <workItem from="1646764705167" duration="3330000" />
-      <workItem from="1646809811971" duration="20317000" />
+      <workItem from="1646809811971" duration="28513000" />
     </task>
     <servers />
   </component>

@@ -78,8 +78,9 @@ namespace Impingement.Control
                     continue;
                 }
                 
-                if (!(InAttackRange(player.gameObject) || !_combatController.CanAttack(player.gameObject)))
+                if (!_combatController.CanAttack(player.gameObject))
                 {
+                    print(player);
                     continue;
                 }
                 

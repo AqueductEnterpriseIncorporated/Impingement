@@ -1,4 +1,5 @@
 ﻿using System;
+using Impingement.Attributes;
 using Impingement.Control;
 using Impingement.enums;
 using UnityEngine;
@@ -7,18 +8,27 @@ namespace Impingement.Combat
 {
     public class WeaponPickup : MonoBehaviour, IRaycastable
     {
-        [SerializeField] private Weapon _weapon = null;
+        [SerializeField] private WeaponConfig weaponConfig = null;
+        [SerializeField] private float _healthToRestore = 0;
         private void OnTriggerEnter(Collider other)
         {
             if (other.CompareTag("Player"))
             {
-                Pickup(other.GetComponent<CombatController>());
+                Pickup(other.gameObject);
             }
         }
 
-        private void Pickup(CombatController combatController)
+        private void Pickup(GameObject subject)
         {
-            combatController.EquipWeapon(_weapon);  
+            if (weaponConfig != null)
+            {
+                subject.GetComponent<CombatController>().EquipWeapon(weaponConfig);
+            }
+
+            if (_healthToRestore > 0)
+            {
+                subject.GetComponent<HealthController>().Heal(_healthToRestore);
+            }
             Destroy(gameObject);
         }
 
@@ -26,7 +36,7 @@ namespace Impingement.Combat
         {
             if (Input.GetMouseButtonDown(0))
             {
-                Pickup(callingController.GetComponent<CombatController>());
+                Pickup(callingController.gameObject);
             }
 
             return true;

@@ -16,7 +16,7 @@ namespace Impingement.Combat
         [SerializeField] private float _rotateSpeed = 5f;
         [SerializeField] private Transform _rightHandTransform = null;
         [SerializeField] private Transform _leftHandTransform = null;
-        [SerializeField] private Weapon _defaultWeapon = null;
+        [SerializeField] private WeaponConfig defaultWeaponConfig = null;
         [SerializeField] private string _weaponName = "";
         private PhotonView _photonView;
         private MovementController _movementController;
@@ -24,6 +24,7 @@ namespace Impingement.Combat
         private AnimationController _animationController;
         private HealthController _target;
         private float _timeSinceLastAttack = Mathf.Infinity;
+        private WeaponConfig _currentWeaponConfig;
         private LazyValue<Weapon> _currentWeapon;
 
         private void Awake()
@@ -32,13 +33,13 @@ namespace Impingement.Combat
             _healthController = GetComponent<HealthController>();
             _animationController = GetComponent<AnimationController>();
             _photonView = GetComponent<PhotonView>();
+            _currentWeaponConfig = defaultWeaponConfig;
             _currentWeapon = new LazyValue<Weapon>(SetupDefaultWeapon);
         }
 
         private Weapon SetupDefaultWeapon()
         {
-            AttachWeapon(_defaultWeapon);
-            return _defaultWeapon;
+            return AttachWeapon(defaultWeaponConfig);
         }
 
         private void Start()
@@ -58,7 +59,7 @@ namespace Impingement.Combat
                 return;
             }
             
-            if (!GetIsInRange())
+            if (!GetIsInRange(_target.gameObject))
             {
                 _movementController.Move(_target.transform.position, 1);
             }
@@ -70,16 +71,16 @@ namespace Impingement.Combat
             }
         }
 
-        public void EquipWeapon(Weapon weapon)
+        public void EquipWeapon(WeaponConfig weaponConfig)
         {
-            _currentWeapon.value = weapon;
-            AttachWeapon(weapon);
+            _currentWeaponConfig = weaponConfig;
+            _currentWeapon.value = AttachWeapon(weaponConfig);
         }
 
-        private void AttachWeapon(Weapon weapon)
+        private Weapon AttachWeapon(WeaponConfig weaponConfig)
         {
             Animator animator = GetComponent<Animator>();
-            weapon.Spawn(_rightHandTransform, _leftHandTransform, animator);
+            return weaponConfig.Spawn(_rightHandTransform, _leftHandTransform, animator);
         }
 
         private void LookAtTarget()
@@ -92,7 +93,9 @@ namespace Impingement.Combat
 
         public bool CanAttack(GameObject combatTarget)
         {
-            return !combatTarget.GetComponent<HealthController>().IsDead() && combatTarget != null;
+            //if (_movementController.CanMoveTo(combatTarget.transform.position) && !GetIsInRange(combatTarget)) { return false; }
+            if (!GetIsInRange(combatTarget)) { return false; }
+            return !combatTarget.GetComponent<HealthController>().IsDead();
         }
         
         private void AttackBehavior()
@@ -128,10 +131,16 @@ namespace Impingement.Combat
             if (_target == null) { return; }
 
             var damage = GetComponent<BaseStats>().GetStat(enumStats.Damage);
-            if (_currentWeapon.value.HasProjectile())
+
+            if (_currentWeapon.value != null)
+            {
+                _currentWeapon.value.OnHit();
+            }
+            
+            if (_currentWeaponConfig.HasProjectile())
             {
                 if(!_photonView.IsMine){ return; }
-                _currentWeapon.value.LaunchProjectile(_leftHandTransform, _rightHandTransform, _target, gameObject, damage);
+                _currentWeaponConfig.LaunchProjectile(_leftHandTransform, _rightHandTransform, _target, gameObject, damage);
             }
             else
             {
@@ -139,9 +148,9 @@ namespace Impingement.Combat
             }
         }
 
-        private bool GetIsInRange()
+        private bool GetIsInRange(GameObject target)
         {
-            return Vector3.Distance(transform.position, _target.transform.position) < _currentWeapon.value.GetRange();
+            return Vector3.Distance(transform.position, target.transform.position) < _currentWeaponConfig.GetRange();
         }
         
         public void SetTarget(GameObject target)
@@ -174,7 +183,7 @@ namespace Impingement.Combat
         {
             if (stat == enumStats.Damage)
             {
-                yield return _currentWeapon.value.GetDamage();
+                yield return _currentWeaponConfig.GetDamage();
             }
         }
 
@@ -182,7 +191,7 @@ namespace Impingement.Combat
         {
             if (stat == enumStats.Damage)
             {
-                yield return _currentWeapon.value.GetPercentageBonus();
+                yield return _currentWeaponConfig.GetPercentageBonus();
             }
         }
     }

@@ -602,6 +602,7 @@
             <e p="Projectile.cs" t="Include" />
             <e p="TargetHealthDisplay.cs" t="Include" />
             <e p="Weapon.cs" t="Include" />
+            <e p="WeaponConfig.cs" t="Include" />
             <e p="WeaponPickup.cs" t="Include" />
           </e>
           <e p="Control" t="Include">

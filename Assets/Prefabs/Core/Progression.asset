@@ -45,9 +45,12 @@ MonoBehaviour:
     - stat: 0
       Levels:
       - 150
+      - 150
+      - 99999
     - stat: 1
       Levels:
       - 5
+      - 10
       - 10
     - stat: 3
       Levels:
