@@ -5,143 +5,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e797b75-f4f0-4ea9-b141-84d8d653dbe9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Utils.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Utils/LazyValue.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Utils/LazyValue.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_01.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_02.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_03.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_04.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_05.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_06.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_07.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_08.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_09.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_10.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_11.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_12.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_13.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_14.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_15.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_16.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_17.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_18.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_19.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_20.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_21.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_22.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_23.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_24.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_25.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_26.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_26.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_27.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_28.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_28.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_29.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_30.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_30.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_31.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_31.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_32.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_33.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_33.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_34.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_34.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_35.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_35.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_36.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_37.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_37.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_38.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_38.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_39.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_39.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_40.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_41.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_41.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_42.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_42.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_43.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_43.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_44.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_44.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_45.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_45.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_46.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_46.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_47.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_47.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_48.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_49.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_49.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/Bonus_50.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/basic_01 BLUE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/basic_01 BLUE.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/basic_01 GREEN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/basic_01 GREEN.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/basic_01 PURPLE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/basic_01 PURPLE.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/basic_01 RED.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/basic_01 RED.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/basic_01 YELLOW.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/basic_01 YELLOW.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/basic_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Pixel Cursors/Cursors/basic_01.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Control/IRaycastable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Control/IRaycastable.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/enums/enumCursorType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/enums/enumCursorType.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/structs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/structs/CursorMapping.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/structs/CursorMapping.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MusicAndSfx/Master.mixer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MusicAndSfx/Master.mixer.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/InGameUI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/InGameUI/DamageText.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/InGameUI/DamageText.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/InGameUI/DamageTextFade.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/InGameUI/DamageTextFade.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/InGameUI/DamageTextSpawner.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/InGameUI/DamageTextSpawner.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/InGameUI/HealthBarPrefab.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/InGameUI/HealthBarPrefab.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthBar.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/Healthbar.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CameraFacing.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CameraFacing.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/DamageText.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/DamageText/DamageText.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/DamageText/DamageText.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/DamageText/DamageTextSpawner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/DamageText/DamageTextSpawner.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeaveRoomView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeaveRoomView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LobbyManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LobbyManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Terrain 1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Terrain 1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Character/Character.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Character/Character.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Core/Progression.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/Progression.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Floor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Floor.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Rooms/EnrtryRoom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Rooms/EnrtryRoom.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Weapons/RootArrowProjectile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Weapons/RootArrowProjectile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RoomItemView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RoomItemView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dungeon2/Dungeon2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dungeon2/Dungeon2.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponPickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponPickup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/Projectile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/TargetHealthDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/TargetHealthDisplay.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/Weapon.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Resources/HealthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Resources/HealthController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stats/BaseStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Stats/BaseStats.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement/MovementController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Movement/MovementController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Resources.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Resources/HealthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Resources/HealthController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Resources/HealthDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthDisplay.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Resources/HealthDisplay.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthDisplay.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Saving/SavingWrapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Saving/SavingWrapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StartGame.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StartGame.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -167,13 +87,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/StartGame.cs" />
-      <option value="$PROJECT_DIR$/Assets/PlayFabSDK/Client/PlayFabClientAPI.cs" />
-      <option value="$PROJECT_DIR$/Assets/PlayFabSDK/Data/PlayFabDataAPI.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Playfab/EntityFileExample.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/UI/RoomListPanelView.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagement/Portal.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/RoomTemplates.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/RoomScriptableObject.cs" />
       <option value="$PROJECT_DIR$/Assets/SavingWrapper.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/RoomDestroyer.cs" />
@@ -184,7 +97,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/enums/enumCharacterClass.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/HealthController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/HealthDisplay.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/Projectile.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Resources/Experience.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Resources/ExperienceController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Saving/SavingWrapper.cs" />
@@ -205,19 +117,27 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/DungeonManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/ConnectToPlayfab.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Stats/IModifierProvider.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/Weapon.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Movement/MovementController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Stats/BaseStats.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Resources/HealthController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/enums/enumCursorTypes.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/structs/CursorMapping.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Control/IRaycastable.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponPickup.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/enums/enumCursorType.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/DamageText/DamageText.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Resources/HealthController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/DamageText/DamageTextSpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthDisplay.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/Weapon.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Attributes/Healthbar.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthBar.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/CameraFacing.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/Projectile.cs" />
     </changedPaths>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -319,7 +239,7 @@
       <workItem from="1646642416085" duration="20966000" />
       <workItem from="1646725282158" duration="19419000" />
       <workItem from="1646764705167" duration="3330000" />
-      <workItem from="1646809811971" duration="5606000" />
+      <workItem from="1646809811971" duration="20317000" />
     </task>
     <servers />
   </component>

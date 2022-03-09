@@ -1,8 +1,7 @@
-﻿using System;
-using TMPro;
+﻿using TMPro;
 using UnityEngine;
 
-namespace Impingement.Resources
+namespace Impingement.Attributes
 {
     public class HealthDisplay : MonoBehaviour
     {

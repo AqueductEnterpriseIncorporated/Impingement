@@ -1,4 +1,4 @@
-using Impingement.Resources;
+using Impingement.Attributes;
 using Photon.Pun;
 using UnityEngine;
 

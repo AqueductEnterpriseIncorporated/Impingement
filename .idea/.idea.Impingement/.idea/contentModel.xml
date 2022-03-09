@@ -590,10 +590,12 @@
             <e p="README - Usage Rights for these assets.txt" t="Include" />
           </e>
         </e>
-        <e p="LeaveRoomView.cs" t="Include" />
-        <e p="LobbyManager.cs" t="Include" />
-        <e p="RoomItemView.cs" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="Attributes" t="Include">
+            <e p="Healthbar.cs" t="Include" />
+            <e p="HealthController.cs" t="Include" />
+            <e p="HealthDisplay.cs" t="Include" />
+          </e>
           <e p="Combat" t="Include">
             <e p="CombatController.cs" t="Include" />
             <e p="CombatTarget.cs" t="Include" />
@@ -612,6 +614,7 @@
           <e p="Core" t="Include">
             <e p="ActionScheduleController.cs" t="Include" />
             <e p="AnimationController.cs" t="Include" />
+            <e p="CameraFacing.cs" t="Include" />
             <e p="ConnectToPlayfab.cs" t="Include" />
             <e p="DestroyAfterEffect.cs" t="Include" />
             <e p="IAction.cs" t="Include" />
@@ -636,6 +639,8 @@
             <e p="enumRoomTypes.cs" t="Include" />
             <e p="enumStats.cs" t="Include" />
           </e>
+          <e p="LeaveRoomView.cs" t="Include" />
+          <e p="LobbyManager.cs" t="Include" />
           <e p="Movement" t="Include">
             <e p="MovementController.cs" t="Include" />
           </e>
@@ -653,10 +658,7 @@
             <e p="EntityFileExample.cs" t="Include" />
             <e p="PlayfabManager.cs" t="Include" />
           </e>
-          <e p="Resources" t="Include">
-            <e p="HealthController.cs" t="Include" />
-            <e p="HealthDisplay.cs" t="Include" />
-          </e>
+          <e p="RoomItemView.cs" t="Include" />
           <e p="Saving" t="Include">
             <e p="ISaveable.cs" t="Include" />
             <e p="SaveableEntity.cs" t="Include" />
@@ -667,6 +669,7 @@
           <e p="SceneManagement" t="Include">
             <e p="PortalView.cs" t="Include" />
           </e>
+          <e p="StartGame.cs" t="Include" />
           <e p="Stats" t="Include">
             <e p="BaseStats.cs" t="Include" />
             <e p="ExperienceController.cs" t="Include" />
@@ -678,8 +681,13 @@
           <e p="structs" t="Include">
             <e p="CursorMapping.cs" t="Include" />
           </e>
+          <e p="UI" t="Include">
+            <e p="DamageText" t="Include">
+              <e p="DamageText.cs" t="Include" />
+              <e p="DamageTextSpawner.cs" t="Include" />
+            </e>
+          </e>
         </e>
-        <e p="StartGame.cs" t="Include" />
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
             <e p="LiberationSans - OFL.txt" t="Include" />

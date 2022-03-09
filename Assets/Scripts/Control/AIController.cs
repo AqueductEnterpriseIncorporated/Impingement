@@ -2,7 +2,7 @@
 using Impingement.Combat;
 using Impingement.Core;
 using Impingement.Movement;
-using Impingement.Resources;
+using Impingement.Attributes;
 using Photon.Pun;
 using UnityEngine;
 

@@ -90,6 +90,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _openingDirection: 0
   _myRoomView: {fileID: 0}
+  _spawningRoomView: {fileID: 0}
+  _spawningRoomType: 0
 --- !u!114 &342917769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -489,7 +491,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_BuildHeightMesh: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 9abfd109381edb04f8a55f32d8a66333, type: 2}
 --- !u!65 &7813609722795009057
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -606,7 +608,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RoomTypes: 
+  OpenedDirections: 
   RoomTypesToClose: 
+  SpawnPonts: []
   ConnectedRooms: []
   _roomVariant: {fileID: 0}
 --- !u!1 &1924931906955401207

@@ -1,7 +1,7 @@
 using System;
 using Impingement.Combat;
 using Impingement.Core;
-using Impingement.Resources;
+using Impingement.Attributes;
 using Impingement.Saving;
 using RPG.Saving;
 using UnityEngine;

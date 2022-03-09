@@ -1,6 +1,6 @@
 ﻿using Impingement.Control;
 using Impingement.enums;
-using Impingement.Resources;
+using Impingement.Attributes;
 using UnityEngine;
 
 namespace Impingement.Combat

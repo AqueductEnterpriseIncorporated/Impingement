@@ -1,18 +1,24 @@
-﻿using GameDevTV.Utils;
+﻿using System;
+using GameDevTV.Utils;
 using Impingement.Core;
 using Impingement.enums;
 using Impingement.Stats;
 using Photon.Pun;
 using RPG.Saving;
 using UnityEngine;
+using UnityEngine.Events;
 
-namespace Impingement.Resources
+namespace Impingement.Attributes
 {
     public class HealthController : MonoBehaviour, IPunObservable, ISaveable
     {
-        private LazyValue<float> _healthPoints;
-        [SerializeField] private bool _isDead;
+        [Serializable] public class TakeDamageEvent : UnityEvent<float> { }
+        [SerializeField] private UnityEvent _onDie;
         [SerializeField] private BaseStats _baseStats = null;
+        [SerializeField] private TakeDamageEvent _takeDamage;
+        [SerializeField] private bool _showDamageText;
+        [SerializeField] private bool _isDead;
+        private LazyValue<float> _healthPoints;
         private PhotonView _photonView;
 
         private void Awake()
@@ -47,8 +53,13 @@ namespace Impingement.Resources
         public void TakeDamage(GameObject instigator, float damage)
         {
             _healthPoints.value = Mathf.Max(_healthPoints.value - damage, 0);
+            if(_showDamageText)
+            {
+                _takeDamage.Invoke(damage);
+            }
             if (_healthPoints.value == 0)
             {
+                _onDie.Invoke();
                 _photonView.RPC(nameof(DieRPC), RpcTarget.AllBufferedViaServer);
                 AwardExperience(instigator);
                 //DieRPC();

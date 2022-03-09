@@ -3,10 +3,12 @@ using Impingement.Combat;
 using Impingement.Core;
 using Impingement.enums;
 using Impingement.Movement;
-using Impingement.Resources;
+using Impingement.Attributes;
 using Impingement.structs;
+using Impingement.UI.DamageText;
 using Photon.Pun;
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.EventSystems;
 using Random = UnityEngine.Random;
 
@@ -17,15 +19,15 @@ namespace Impingement.Control
         [SerializeField] private LayerMask _layerMask;
         [SerializeField] private Camera _camera;
         [SerializeField] private CursorMapping[] _cursorMappings;
+        //[SerializeField] private float _maxNavMeshProjectionDistance = 1f;
+        [SerializeField] private float _maxNavPathLength = 40f;
         private PhotonView _photonView;
-        private CombatController _combatController;
         private MovementController _movementController;
         private PlayerCameraController _playerCameraController;
         private HealthController _healthController;
 
         private void Awake()
         {
-            _combatController = GetComponent<CombatController>();
             _movementController = GetComponent<MovementController>();
             _playerCameraController = GetComponent<PlayerCameraController>();
             _healthController = GetComponent<HealthController>();
@@ -103,7 +105,11 @@ namespace Impingement.Control
 
         private bool ProcessMovement()
         {
-            if (Physics.Raycast(GetMouseRay(), out var hit, Mathf.Infinity, _layerMask))
+            Vector3 target;
+            //bug:
+            //bool hasHit = RaycastNavMesh(out target);
+            bool hasHit = Physics.Raycast(GetMouseRay(), out var hit, Mathf.Infinity, _layerMask);
+            if (hasHit)
             {
                 if (Input.GetMouseButton(0))
                 { 
@@ -114,7 +120,44 @@ namespace Impingement.Control
             }
             return false;
         }
-        
+
+        private bool RaycastNavMesh(out Vector3 target)
+        {
+            RaycastHit hit;
+            target = new Vector3();
+            bool hasHit = Physics.Raycast(GetMouseRay(), out hit);
+            if (!hasHit) { return false; }
+            
+            NavMeshHit navMeshHit;
+            var hasCastToNavMesh = UnityEngine.AI.NavMesh.SamplePosition(hit.point, out navMeshHit,
+                Mathf.Infinity,
+                UnityEngine.AI.NavMesh.AllAreas);
+            if (!hasCastToNavMesh) { return false;}
+            target = navMeshHit.position;
+            NavMeshPath navMeshPath = new NavMeshPath();
+            bool hasPath = UnityEngine.AI.NavMesh.CalculatePath(transform.position, target,
+                UnityEngine.AI.NavMesh.AllAreas, navMeshPath);
+            if (!hasPath) { return false; }
+            if (navMeshPath.status != NavMeshPathStatus.PathComplete) { return false; }
+
+            if (GetPathLength(navMeshPath) > _maxNavPathLength) { return false; }
+            return true;
+        }
+
+        private float GetPathLength(NavMeshPath navMeshPath)
+        {
+            float totalDistance = 0;
+
+            if (navMeshPath.corners.Length < 2) { return totalDistance; }
+            
+            for (int i = 0; i < navMeshPath.corners.Length-1; i++)
+            {
+                totalDistance += Vector3.Distance(navMeshPath.corners[i], navMeshPath.corners[i + 1]);
+            }
+
+            return totalDistance;
+        }
+
         private void SetCursor(enumCursorType cursorType)
         {
             CursorMapping cursorMapping = GetCursorMapping(cursorType);

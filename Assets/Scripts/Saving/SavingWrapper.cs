@@ -1,5 +1,5 @@
 using System;
-using Impingement.Resources;
+using Impingement.Attributes;
 using Impingement.Saving;
 using Photon.Pun;
 using Playfab;

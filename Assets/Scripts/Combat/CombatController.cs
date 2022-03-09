@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using GameDevTV.Utils;
+using Impingement.Attributes;
 using Impingement.Core;
 using Impingement.enums;
 using Impingement.Movement;
-using Impingement.Resources;
 using Impingement.Stats;
 using Photon.Pun;
 using UnityEngine;

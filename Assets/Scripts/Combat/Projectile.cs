@@ -1,12 +1,14 @@
 using System.Collections;
-using Impingement.Resources;
+using Impingement.Attributes;
 using Photon.Pun;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace Impingement.Combat
 {
     public class Projectile : MonoBehaviour
     {
+        [SerializeField] private UnityEvent _onHit;
         [SerializeField] private float _speed = 1f;
         [SerializeField] private bool _isHoming = false;
         [SerializeField] private float  _maxLifeTime = 10f;
@@ -63,6 +65,8 @@ namespace Impingement.Combat
                 if(_target.IsDead()) { return; }
                 
                 _speed = 0;
+                
+                _onHit.Invoke();
                 
                 if (_hitEffect != null)
                 {
