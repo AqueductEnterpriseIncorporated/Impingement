@@ -1,4 +1,5 @@
-﻿using Impingement.Combat;
+﻿using GameDevTV.Utils;
+using Impingement.Combat;
 using Impingement.Core;
 using Impingement.Movement;
 using Impingement.Resources;
@@ -21,7 +22,7 @@ namespace Impingement.Control
         private CombatController _combatController;
         private HealthController _healthController;
         private MovementController _movementController;
-        private Vector3 _guardPosition;
+        private LazyValue<Vector3> _guardPosition;
         private float _timeSinceLastSawPlayer = Mathf.Infinity;
         private float _timeSinceArrivedAtWaypoint = Mathf.Infinity;
         private int _currentWaypointIndex;
@@ -32,11 +33,17 @@ namespace Impingement.Control
             _healthController = GetComponent<HealthController>();
             _movementController = GetComponent<MovementController>();
             _photonView = GetComponent<PhotonView>();
+            _guardPosition = new LazyValue<Vector3>(GetGuardPosition);
+        }
+
+        private Vector3 GetGuardPosition()
+        {
+            return transform.position;
         }
 
         private void Start()
         {
-            _guardPosition = transform.position;
+            _guardPosition.ForceInit();
         }
 
         private void Update()
@@ -98,7 +105,7 @@ namespace Impingement.Control
 
         private void PatrolBehaviour()
         {
-            Vector3 nextPosition = _guardPosition;
+            Vector3 nextPosition = _guardPosition.value;
             if (_patrolPath != null)
             {
                 if (AtWaypoint())

@@ -5,6 +5,13 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Asset Packs" t="Include">
+          <e p="GameDev.tv Assets" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Utils" t="Include">
+                <e p="LazyValue.cs" t="Include" />
+              </e>
+            </e>
+          </e>
           <e p="NavMeshComponents" t="Include">
             <e p="Editor" t="Include">
               <e p="NavMeshAssetManager.cs" t="Include" />
@@ -597,6 +604,7 @@
           </e>
           <e p="Control" t="Include">
             <e p="AIController.cs" t="Include" />
+            <e p="IRaycastable.cs" t="Include" />
             <e p="PatrolPath.cs" t="Include" />
             <e p="PlayerController.cs" t="Include" />
             <e p="PlayfabPlayerDataController.cs" t="Include" />
@@ -624,6 +632,7 @@
           </e>
           <e p="enums" t="Include">
             <e p="enumCharacterClass.cs" t="Include" />
+            <e p="enumCursorType.cs" t="Include" />
             <e p="enumRoomTypes.cs" t="Include" />
             <e p="enumStats.cs" t="Include" />
           </e>
@@ -665,6 +674,9 @@
             <e p="IModifierProvider.cs" t="Include" />
             <e p="LevelDisplay.cs" t="Include" />
             <e p="Progression.cs" t="Include" />
+          </e>
+          <e p="structs" t="Include">
+            <e p="CursorMapping.cs" t="Include" />
           </e>
         </e>
         <e p="StartGame.cs" t="Include" />

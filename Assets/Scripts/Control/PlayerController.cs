@@ -1,10 +1,13 @@
 ﻿using System;
 using Impingement.Combat;
 using Impingement.Core;
+using Impingement.enums;
 using Impingement.Movement;
 using Impingement.Resources;
+using Impingement.structs;
 using Photon.Pun;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using Random = UnityEngine.Random;
 
 namespace Impingement.Control
@@ -13,6 +16,7 @@ namespace Impingement.Control
     {
         [SerializeField] private LayerMask _layerMask;
         [SerializeField] private Camera _camera;
+        [SerializeField] private CursorMapping[] _cursorMappings;
         private PhotonView _photonView;
         private CombatController _combatController;
         private MovementController _movementController;
@@ -39,29 +43,61 @@ namespace Impingement.Control
         
         private void Update()
         {
-            if(!_photonView.IsMine) { return;}
-            if (_healthController.IsDead()) { return; }
-            if (ProcessCombat()) { return; }
-            if (ProcessMovement()) { return; }        
+            if(InteractWithUI()) { return; }
+
+            if (!_photonView.IsMine) { return; }
+
+            if (_healthController.IsDead())
+            {
+                SetCursor(enumCursorType.None);
+                return;
+            }
+
+            if (InteractWithComponent()) { return; }
+            if (ProcessMovement()) { return; }    
+            
+            SetCursor(enumCursorType.None);
         }
 
-        private bool ProcessCombat()
+        private bool InteractWithComponent()
         {
-            var hits = Physics.RaycastAll(GetMouseRay());
+            var hits = RaycastAllSorted();
             foreach (var hit in hits)
             {
-                if (hit.transform.TryGetComponent<CombatTarget>(out var combatTarget))
+                var raycastables = hit.transform.GetComponents<IRaycastable>();
+                foreach (var raycastable in raycastables)
                 {
-                    if(!_combatController.CanAttack(combatTarget.gameObject)) { continue; }
-                    
-                    if (Input.GetMouseButtonDown(0))
+                    if (raycastable.HandleRaycast(this))
                     {
-                        _combatController.SetTarget(combatTarget.gameObject);
+                        SetCursor(raycastable.GetCursorType());
+                        return true;
                     }
-                    return true;
                 }
-
             }
+
+            return false;
+        }
+
+        private RaycastHit[] RaycastAllSorted()
+        {
+            var hits = Physics.RaycastAll(GetMouseRay());
+            float[] distances = new float[hits.Length];
+            for (int i = 0; i < hits.Length; i++)
+            {
+                distances[i] = hits[i].distance;
+            }
+            Array.Sort(distances, hits);
+            return hits;
+        }
+
+        private bool InteractWithUI()
+        {
+            if (EventSystem.current.IsPointerOverGameObject())
+            {
+                SetCursor(enumCursorType.UI);
+                return true;
+            }
+
             return false;
         }
 
@@ -73,9 +109,29 @@ namespace Impingement.Control
                 { 
                     _movementController.StartMoving(hit.point, 1);
                 }
+                SetCursor(enumCursorType.Movement);
                 return true;
             }
             return false;
+        }
+        
+        private void SetCursor(enumCursorType cursorType)
+        {
+            CursorMapping cursorMapping = GetCursorMapping(cursorType);
+            Cursor.SetCursor(cursorMapping.texture, cursorMapping.hotspot, CursorMode.Auto);
+        }
+
+        private CursorMapping GetCursorMapping(enumCursorType type)
+        {
+            foreach (var cursorMapping in _cursorMappings)
+            {
+                if (cursorMapping.Type == type)
+                {
+                    return cursorMapping;
+                }
+            }
+
+            return _cursorMappings[0];
         }
 
         private Ray GetMouseRay()

@@ -1,4 +1,5 @@
-﻿using Impingement.Core;
+﻿using GameDevTV.Utils;
+using Impingement.Core;
 using Impingement.enums;
 using Impingement.Stats;
 using Photon.Pun;
@@ -9,17 +10,24 @@ namespace Impingement.Resources
 {
     public class HealthController : MonoBehaviour, IPunObservable, ISaveable
     {
-        private float _healthPoints = -1f;
+        private LazyValue<float> _healthPoints;
         [SerializeField] private bool _isDead;
         [SerializeField] private BaseStats _baseStats = null;
         private PhotonView _photonView;
 
+        private void Awake()
+        {
+            _healthPoints = new LazyValue<float>(GetInitialHealth);
+        }
+
+        private float GetInitialHealth()
+        {
+            return _baseStats.GetStat(enumStats.Health);
+        }
+
         private void Start()
         {
-            if (_healthPoints < 0)
-            {
-                _healthPoints = _baseStats.GetStat(enumStats.Health);
-            }
+            _healthPoints.ForceInit();
             _photonView = GetComponent<PhotonView>();
             _baseStats.OnLevelUp += RegenerateHealth;
         }
@@ -38,8 +46,8 @@ namespace Impingement.Resources
 
         public void TakeDamage(GameObject instigator, float damage)
         {
-            _healthPoints = Mathf.Max(_healthPoints - damage, 0);
-            if (_healthPoints == 0)
+            _healthPoints.value = Mathf.Max(_healthPoints.value - damage, 0);
+            if (_healthPoints.value == 0)
             {
                 _photonView.RPC(nameof(DieRPC), RpcTarget.AllBufferedViaServer);
                 AwardExperience(instigator);
@@ -49,7 +57,7 @@ namespace Impingement.Resources
 
         public float GetHealthPoints()
         {
-            return _healthPoints;
+            return _healthPoints.value;
         }
         
         public float GetMaxHealthPoints()
@@ -86,7 +94,7 @@ namespace Impingement.Resources
         
         private void RegenerateHealth()
         {
-            _healthPoints = GetMaxHealthPoints();
+            _healthPoints.value = GetMaxHealthPoints();
         }
 
         public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
@@ -108,8 +116,8 @@ namespace Impingement.Resources
 
         public void RestoreState(object state)
         {
-            _healthPoints = (float)state;
-            if (_healthPoints == 0)
+            _healthPoints.value = (float)state;
+            if (_healthPoints.value == 0)
             {
                 DieRPC();
             }

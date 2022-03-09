@@ -1,4 +1,5 @@
 ﻿using System;
+using GameDevTV.Utils;
 using Impingement.enums;
 using Photon.Pun;
 using UnityEngine;
@@ -15,11 +16,16 @@ namespace Impingement.Stats
         [SerializeField] private ExperienceController _experienceController = null;
         [SerializeField] private GameObject _levelUpEffect = null;
         [SerializeField] private bool _shouldUseModifiers = true;
-        private int _currentLevel = 0;
+        private LazyValue<int> _currentLevel;
+
+        private void Awake()
+        {
+            _currentLevel = new LazyValue<int>(CalculateLevel);
+        }
 
         private void Start()
         {
-            _currentLevel = CalculateLevel();
+            _currentLevel.ForceInit();
         }
 
         private void OnEnable()
@@ -41,9 +47,9 @@ namespace Impingement.Stats
         private void UpdateLevel()
         {
             var newLevel = CalculateLevel();
-            if (newLevel > _currentLevel)
+            if (newLevel > _currentLevel.value)
             {
-                _currentLevel = newLevel;
+                _currentLevel.value = newLevel;
                 LevelUp();
             }
         }
@@ -72,11 +78,7 @@ namespace Impingement.Stats
 
         public int GetLevel()
         {
-            if (_currentLevel < 1)
-            {
-                _currentLevel = CalculateLevel();
-            }
-            return _currentLevel;
+            return _currentLevel.value;
         }
 
         private int CalculateLevel()
