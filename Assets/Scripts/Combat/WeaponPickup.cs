@@ -2,6 +2,7 @@
 using Impingement.Attributes;
 using Impingement.Control;
 using Impingement.enums;
+using Impingement.Movement;
 using UnityEngine;
 
 namespace Impingement.Combat
@@ -36,7 +37,7 @@ namespace Impingement.Combat
         {
             if (Input.GetMouseButtonDown(0))
             {
-                Pickup(callingController.gameObject);
+                callingController.GetComponent<MovementController>().StartMoving(transform.position, 1f);
             }
 
             return true;

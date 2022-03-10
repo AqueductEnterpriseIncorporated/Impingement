@@ -68,6 +68,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _maximumSpeed: 6
   _speedModifier: 1
+  _maxNavPathLength: 40
 --- !u!114 &590389474693227773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84,7 +85,7 @@ MonoBehaviour:
   _rotateSpeed: 5
   _rightHandTransform: {fileID: 0}
   _leftHandTransform: {fileID: 0}
-  _defaultWeapon: {fileID: 0}
+  defaultWeaponConfig: {fileID: 0}
   _weaponName: 
 --- !u!114 &135469272407308897
 MonoBehaviour:

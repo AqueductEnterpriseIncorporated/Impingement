@@ -15,6 +15,34 @@ PrefabInstance:
       propertyPath: _healthPoints
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: _takeDamage.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: _takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: _takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: -2829501607284361151}
+    - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: _takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: _takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: Aggrevate
+      objectReference: {fileID: 0}
+    - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: _takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: Impingement.Control.AIController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: _takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: -5269223953129559562, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
       propertyPath: m_Height
       value: 2
@@ -255,11 +283,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _patrolSpeedFraction: 0.576
+  _shoutDistance: 5
   _chaseDistance: 2.5
   _suspicionTime: 15
+  _aggroCooldownTime: 5
+  _timeSinceAggrevated: Infinity
   _waypointDwellTime: 3
   _waypointTolerance: 1
   _patrolPath: {fileID: 0}
+  _playerTarget: {fileID: 0}
 --- !u!114 &-1730835153503389246
 MonoBehaviour:
   m_ObjectHideFlags: 0

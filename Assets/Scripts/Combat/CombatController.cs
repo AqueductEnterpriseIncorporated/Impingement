@@ -59,7 +59,7 @@ namespace Impingement.Combat
                 return;
             }
             
-            if (!GetIsInRange(_target.gameObject))
+            if (!GetIsInRange(_target.transform))
             {
                 _movementController.Move(_target.transform.position, 1);
             }
@@ -93,11 +93,20 @@ namespace Impingement.Combat
 
         public bool CanAttack(GameObject combatTarget)
         {
-            //if (_movementController.CanMoveTo(combatTarget.transform.position) && !GetIsInRange(combatTarget)) { return false; }
-            if (!GetIsInRange(combatTarget)) { return false; }
+            if (combatTarget == null)
+            {
+                return false;
+            }
+
+            if (!_movementController.CanMoveTo(combatTarget.transform.position) &&
+                !GetIsInRange(combatTarget.transform))
+            {
+                return false;
+            }
+
             return !combatTarget.GetComponent<HealthController>().IsDead();
         }
-        
+
         private void AttackBehavior()
         {
             if (_timeSinceLastAttack > _timeBetweenAttacks)
@@ -148,9 +157,9 @@ namespace Impingement.Combat
             }
         }
 
-        private bool GetIsInRange(GameObject target)
+        private bool GetIsInRange(Transform targetTransform)
         {
-            return Vector3.Distance(transform.position, target.transform.position) < _currentWeaponConfig.GetRange();
+            return Vector3.Distance(transform.position, targetTransform.position) < _currentWeaponConfig.GetRange();
         }
         
         public void SetTarget(GameObject target)

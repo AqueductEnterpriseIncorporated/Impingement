@@ -155,6 +155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _photonView: {fileID: -908863093774600155}
+  _targetToDestroy: {fileID: 0}
 --- !u!114 &-908863093774600155
 MonoBehaviour:
   m_ObjectHideFlags: 0

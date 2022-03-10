@@ -12,12 +12,15 @@ namespace Impingement.Control
     {
         [Range(0,1)]
         [SerializeField] private float _patrolSpeedFraction = 0.2f;
+        [SerializeField] private float _shoutDistance = 5f;
         [SerializeField] private float _chaseDistance = 5f;
-        [SerializeField] private float _suspicionTime =  5f;   
-        [SerializeField] private float _waypointDwellTime =  3f;   
+        [SerializeField] private float _suspicionTime =  5f;
+        [SerializeField] private float _aggroCooldownTime =  5f;
+        [SerializeField] private float _timeSinceAggrevated =  Mathf.Infinity;
+        [SerializeField] private float _waypointDwellTime =  3f;
         [SerializeField] private float _waypointTolerance = 1;
         [SerializeField] private PatrolPath _patrolPath;
-        GameObject _playerTarget;
+        [SerializeField] GameObject _playerTarget;
         private PhotonView _photonView;
         private CombatController _combatController;
         private HealthController _healthController;
@@ -75,33 +78,68 @@ namespace Impingement.Control
             {
                 if (player.GetComponent<HealthController>().IsDead())
                 {
+                    if (_playerTarget == player)
+                    {
+                        _playerTarget = null;
+                    }
                     continue;
                 }
                 
-                if (!_combatController.CanAttack(player.gameObject))
+                if (IsAggrevated(player) || _combatController.CanAttack(player.gameObject))
                 {
-                    print(player);
-                    continue;
+                    _playerTarget = player;
+                }
+                else
+                {
+                    _playerTarget = null;
                 }
                 
-                _playerTarget = player;
-            }
-            
-            if (_playerTarget != null && InAttackRange(_playerTarget) && _combatController.CanAttack(_playerTarget))
-            {
-                AttackBehaviour(_playerTarget);
-                return;
+                if (_playerTarget != null)
+                {
+                    AttackBehaviour(_playerTarget);
+                }
+                else if (_timeSinceLastSawPlayer < _suspicionTime)
+                {
+                    SuspicionBehaviour();
+                }
+                else
+                {
+                    PatrolBehaviour();
+                }
             }
 
-            //bug: баг анимации пока ждут _suspicionTime
-            if (_timeSinceLastSawPlayer < _suspicionTime)
-            {
-                GetComponent<ActionScheduleController>().CancelCurrentAction();
-            }
-            else
-            {
-                PatrolBehaviour();
-            }
+            
+
+            // if (!_combatController.CanAttack(_playerTarget.gameObject) || !IsAggrevated(_playerTarget))
+            // {
+            //     _playerTarget = null;
+            // }
+            //
+            // if (_playerTarget != null)
+            // {
+            //     AttackBehaviour(_playerTarget);
+            //     return;
+            // }
+            //
+            // //bug: баг анимации пока ждут _suspicionTime
+            // if (_timeSinceLastSawPlayer < _suspicionTime)
+            // {
+            // }
+            // else
+            // {
+            //     PatrolBehaviour();
+            // }
+        }
+
+        private void SuspicionBehaviour()
+        {
+            _playerTarget = null;
+            GetComponent<ActionScheduleController>().CancelCurrentAction();
+        }
+
+        public void Aggrevate()
+        {
+            _timeSinceAggrevated = 0;
         }
 
         private void PatrolBehaviour()
@@ -128,12 +166,27 @@ namespace Impingement.Control
         {
             _timeSinceLastSawPlayer = 0;
             _combatController.SetTarget(player);
+
+            AggrevateNearbyEnemies();
+        }
+
+        private void AggrevateNearbyEnemies()
+        {
+            var hits = Physics.SphereCastAll(transform.position, _shoutDistance, Vector3.up, 0);
+            foreach (var hit in hits)
+            {
+                if (hit.transform.TryGetComponent<AIController>(out var aiController))
+                {
+                    aiController.Aggrevate();
+                }
+            }
         }
 
         private void UpdateTimers()
         {
             _timeSinceLastSawPlayer += Time.deltaTime;
             _timeSinceArrivedAtWaypoint += Time.deltaTime;
+            _timeSinceAggrevated += Time.deltaTime;
         }
 
         private Vector3 GetCurrentWaypoint()
@@ -152,10 +205,11 @@ namespace Impingement.Control
             return distance < _waypointTolerance;
         }
 
-        private bool InAttackRange(GameObject player)
+        private bool IsAggrevated(GameObject player)
         {
             var distance = Vector3.Distance(transform.position, player.transform.position);
-            return distance < _chaseDistance;
+            print(_timeSinceAggrevated < _aggroCooldownTime);
+            return distance < _chaseDistance || _timeSinceAggrevated < _aggroCooldownTime;
         }
 
         private void OnDrawGizmosSelected()

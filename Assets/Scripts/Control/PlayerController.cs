@@ -18,6 +18,7 @@ namespace Impingement.Control
         [SerializeField] private Camera _camera;
         [SerializeField] private CursorMapping[] _cursorMappings;
         [SerializeField] private float _maxNavMeshProjectionDistance = 1f;
+        [SerializeField] private float _raycastRadius = 1f;
         private PhotonView _photonView;
         private MovementController _movementController;
         private PlayerCameraController _playerCameraController;
@@ -79,7 +80,7 @@ namespace Impingement.Control
 
         private RaycastHit[] RaycastAllSorted()
         {
-            var hits = Physics.RaycastAll(GetMouseRay());
+            var hits = Physics.SphereCastAll(GetMouseRay(), _raycastRadius);
             float[] distances = new float[hits.Length];
             for (int i = 0; i < hits.Length; i++)
             {

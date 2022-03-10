@@ -68,7 +68,7 @@ namespace Impingement.Combat
 
         public void LaunchProjectile(Transform rightHand, Transform leftHand, HealthController target, GameObject instigator, float calculatedDamage)
         {
-            Projectile projectileInstance = PhotonNetwork.Instantiate(_projectile.name, GetTransform(rightHand, leftHand).position,
+            Projectile projectileInstance = PhotonNetwork.Instantiate("Weapons/" + _projectile.name, GetTransform(rightHand, leftHand).position,
                 Quaternion.identity).GetComponent<Projectile>();
             projectileInstance.SetTarget(target, instigator, calculatedDamage);
         }

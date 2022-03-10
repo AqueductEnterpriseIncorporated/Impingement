@@ -70,7 +70,7 @@ namespace Impingement.Combat
                 
                 if (_hitEffect != null)
                 {
-                    PhotonNetwork.Instantiate(_hitEffect.name, GetAimLocation(), transform.rotation);
+                    PhotonNetwork.Instantiate("VFX/" + _hitEffect.name, GetAimLocation(), transform.rotation);
                 }
 
                 _photonView.RPC(nameof(DestroyGameObjectsRPC), RpcTarget.AllViaServer);
