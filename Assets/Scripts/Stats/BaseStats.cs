@@ -54,6 +54,12 @@ namespace Impingement.Stats
             }
         }
 
+        public void SetLevel(int value)
+        {
+            _currentLevel.value = value;
+            LevelUp();
+        }
+
         private void LevelUp()
         {
             if (_levelUpEffect != null)
@@ -63,7 +69,6 @@ namespace Impingement.Stats
                 //localPrefab.transform.SetParent(); = transform.parent.transform;
             }
             OnLevelUp?.Invoke();
-            print("LevelledUp");
         }
 
         public float GetStat(enumStats stat)

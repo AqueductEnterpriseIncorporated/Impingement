@@ -1,7 +1,7 @@
 using Photon.Pun;
 using UnityEngine;
 
-namespace Impingement.DungeonGeneration
+namespace Impingement.Dungeon
 {
     public class WallCollision : MonoBehaviour
     {

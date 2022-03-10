@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b863516c0bce4e5ea8ca57cc6b4a97cc, type: 3}
   m_Name: LootModifier
   m_EditorClassIdentifier: 
-  MaximumRoomSpawns: 2
+  MaximumModifierSpawns: 1
   _spawnPrefabs:
   - {fileID: 6970973863804812274, guid: 28cdd2ca15a865140bd23687a0c6f8a6, type: 3}
   - {fileID: 2088381108260428179, guid: d48e5e9ad8de59947a056f0f9079b243, type: 3}
   - {fileID: 3108868447340156948, guid: 0b52a8166598d3c4dba52f34bb87fba5, type: 3}
-  _minimumSpawns: 1
-  _maximumSpawns: 1
-  _chanceToSpawn: 0.2
+  _minimumObjectSpawns: 1
+  _maximumObjectSpawns: 1
+  _isEnemy: 0
+  _chanceToSpawn: 0.4

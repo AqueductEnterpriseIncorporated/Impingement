@@ -4,7 +4,7 @@ using Photon.Pun;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace Impingement.DungeonGeneration
+namespace Impingement.Dungeon
 {
     public class DungeonGenerator : MonoBehaviour
     {
@@ -48,6 +48,7 @@ namespace Impingement.DungeonGeneration
 
         private void Start()
         {
+            size = FindObjectOfType<DungeonProgressionManager>().DungeonSize;
             MazeGenerator();
             _dungeonManager.Manage();
         }

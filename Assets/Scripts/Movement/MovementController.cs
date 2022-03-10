@@ -37,7 +37,6 @@ namespace Impingement.Movement
             if (!hasPath) { return false; }
             if (navMeshPath.status != NavMeshPathStatus.PathComplete) { return false; }
             if (GetPathLength(navMeshPath) > _maxNavPathLength) { return false; }
-
             return true;
         }
         

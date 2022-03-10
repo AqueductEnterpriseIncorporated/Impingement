@@ -653,9 +653,10 @@
             <e p="PersistentObjectSpawner.cs" t="Include" />
             <e p="PlayerCameraController.cs" t="Include" />
           </e>
-          <e p="DungeonGeneration" t="Include">
+          <e p="Dungeon" t="Include">
             <e p="DungeonGenerator.cs" t="Include" />
             <e p="DungeonManager.cs" t="Include" />
+            <e p="DungeonProgressionManager.cs" t="Include" />
             <e p="RoomBehaviour.cs" t="Include" />
             <e p="RoomModifierScriptableObject.cs" t="Include" />
             <e p="WallCollision.cs" t="Include" />

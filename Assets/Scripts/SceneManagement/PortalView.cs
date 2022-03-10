@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Impingement.DungeonGeneration;
+using Impingement.Dungeon;
 using Impingement.Saving;
 using Impingement.Stats;
 using Playfab;
@@ -15,13 +15,8 @@ namespace SceneManagement
         [SerializeField] private string _sceneToLoad = "";
         [SerializeField] private GameObject _loadPanel;
         private PlayfabManager _playfabManager;
-        private SavingWrapper _savingWrapper;
-        private GameObject _incomingPlayer = null;
-        //private NetworkManager _networkManager;
-
         private void Start()
         {
-            _savingWrapper = FindObjectOfType<SavingWrapper>();
             //_networkManager = FindObjectOfType<NetworkManager>();
         }
         
@@ -36,27 +31,32 @@ namespace SceneManagement
             {
                 Instantiate(_loadPanel);
                 _playfabManager = FindObjectOfType<PlayfabManager>();
-                _incomingPlayer = other.gameObject;
-                ManageSceneChanging();
+                
+                if (SceneManager.GetActiveScene().name == "Dungeon")
+                {
+                    FindObjectOfType<DungeonProgressionManager>().CompleteLevel();
+                    _playfabManager.IsForceQuit = false;
+                }
+                
+                ManageSceneChanging(other.gameObject);
+                SavePlayerData(other.gameObject);
+
             }
         }
 
-        private void ManageSceneChanging()
+        private void ManageSceneChanging(GameObject player)
         {
-            //save player's exp
+            player.GetComponentInChildren<NavMeshAgent>().enabled = false;
+            SceneManager.LoadSceneAsync("Dungeon");
+            player.GetComponentInChildren<NavMeshAgent>().enabled = true;
+        }
+
+        private void SavePlayerData(GameObject player)
+        {
             _playfabManager.UploadData(new Dictionary<string, string>()
             {
-                {"Experience", _incomingPlayer.GetComponent<ExperienceController>().GetExperiencePoints().ToString()}
+                {"Experience", player.GetComponent<ExperienceController>().GetExperiencePoints().ToString()}
             });
-
-            if (SceneManager.GetActiveScene().name == "Dungeon3")
-            {
-                _playfabManager.IsForceQuit = false;
-            }
-
-            _incomingPlayer.GetComponentInChildren<NavMeshAgent>().enabled = false;
-            SceneManager.LoadSceneAsync("Dungeon");
-            _incomingPlayer.GetComponentInChildren<NavMeshAgent>().enabled = true;
         }
 
         public object CaptureState()

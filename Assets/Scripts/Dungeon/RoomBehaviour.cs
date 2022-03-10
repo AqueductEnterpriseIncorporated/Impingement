@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Impingement.DungeonGeneration
+namespace Impingement.Dungeon
 {
     public class RoomBehaviour : MonoBehaviour
     {

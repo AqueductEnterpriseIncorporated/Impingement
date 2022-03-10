@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b863516c0bce4e5ea8ca57cc6b4a97cc, type: 3}
   m_Name: EnemyModifier
   m_EditorClassIdentifier: 
-  MaximumRoomSpawns: -1
+  MaximumModifierSpawns: -1
   _spawnPrefabs:
   - {fileID: 671315223919402057, guid: 029cab191bfff714ea4413dc4b927194, type: 3}
-  _minimumSpawns: 1
-  _maximumSpawns: 2
+  _minimumObjectSpawns: 1
+  _maximumObjectSpawns: 3
+  _isEnemy: 1
   _chanceToSpawn: 1

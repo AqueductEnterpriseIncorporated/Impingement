@@ -4,12 +4,13 @@ using System.Linq;
 using Impingement.NavMesh;
 using Impingement.PhotonScripts;
 using Impingement.Saving;
+using Impingement.Stats;
 using Photon.Pun;
 using RPG.Saving;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace Impingement.DungeonGeneration
+namespace Impingement.Dungeon
 {
     public class DungeonManager : MonoBehaviour, ISaveable
     {
@@ -19,18 +20,26 @@ namespace Impingement.DungeonGeneration
         [SerializeField] private NavigationBaker _navigationBaker;
         [SerializeField] private GameObject _bossPrefab;
         [SerializeField] private GameObject _spawnPoint;
+        private DungeonProgressionManager _dungeonProgressionManager;
         
         public void Manage()
         {
+            _dungeonProgressionManager = FindObjectOfType<DungeonProgressionManager>();
             _navigationBaker.Bake();
             for (int i = 1; i < Rooms.Count-2; i++)
             {
                 AddModifier(Rooms[i]);
-                break;
             }
+
+            foreach (var enemy in Enemies)
+            {
+                enemy.GetComponent<BaseStats>().SetLevel(_dungeonProgressionManager.AreaLevel);
+            }
+            SpawnBoss();
+            
             SetSpawnPoint();
             FindObjectOfType<NetworkManager>().Spawn();
-            SpawnBoss();
+            
             Destroy(GameObject.Find("LoadPanel"));
         }
 
@@ -67,7 +76,7 @@ namespace Impingement.DungeonGeneration
                     var pickedRoomVariant =
                         roomVariantsWithSameChanceToSpawn[Random.Range(0, roomVariantsWithSameChanceToSpawn.Count)];
                     
-                    if (pickedRoomVariant.MaximumRoomSpawns > -1)
+                    if (pickedRoomVariant.MaximumModifierSpawns > -1)
                     {
                         int spawnCount = 0;
                         foreach (var spawnedRooms in Rooms)
@@ -78,7 +87,7 @@ namespace Impingement.DungeonGeneration
                             }
                         }
                         
-                        if (spawnCount >= pickedRoomVariant.MaximumRoomSpawns)
+                        if (spawnCount >= pickedRoomVariant.MaximumModifierSpawns)
                         {
                             break;
                             //break;

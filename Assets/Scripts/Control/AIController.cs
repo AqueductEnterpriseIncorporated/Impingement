@@ -85,8 +85,6 @@ namespace Impingement.Control
                     }
                     continue;
                 }
-                //print("aggro: " + IsAggrevated(player));
-                //print("can attack: " + _combatController.CanAttack(player.gameObject));
                 if (IsAggrevated(player) || _combatController.CanAttack(player.gameObject))
                 {
                     _playerTarget = player;
@@ -178,8 +176,8 @@ namespace Impingement.Control
             foreach (var hit in hits)
             {
                 AIController ai = hit.collider.GetComponent<AIController>();
-                if (ai == null) continue;
-
+                if (hit.collider.GetComponent<AIController>() == this) { continue; }
+                if (ai == null) { continue; }
                 ai.Aggrevate();
             }
         }

@@ -1,7 +1,7 @@
 ﻿using Photon.Pun;
 using UnityEngine;
 
-namespace Impingement.DungeonGeneration
+namespace Impingement.Dungeon
 {
     [CreateAssetMenu(fileName = "Modifier", menuName = "Room Modifiers/New modifier", order = 1)]
     public class RoomModifierScriptableObject : ScriptableObject
@@ -10,17 +10,12 @@ namespace Impingement.DungeonGeneration
 
         [Header("Spawn objects")]
         [Tooltip("-1 as no limit")]
-        public float MaximumRoomSpawns = -1;
+        public float MaximumModifierSpawns = -1;
         [SerializeField] private GameObject[] _spawnPrefabs;
-        [SerializeField] private int _minimumSpawns;
-        [SerializeField] private int _maximumSpawns;
-        // [Header("SpawnPosition")]
-        // [SerializeField] private float _mininmumX;
-        // [SerializeField] private float _maximumX;
-        // [SerializeField] private float _mininmumZ;
-        // [SerializeField] private float _maximumZ;
-        // [SerializeField] private float _y;
-        [Header("Room chance spawn")]
+        [SerializeField] private int _minimumObjectSpawns;
+        [SerializeField] private int _maximumObjectSpawns;
+        [SerializeField] private bool _isEnemy;
+        [Header("Modifier's spawn chance")]
         [Range(0,1)]
         [SerializeField] private float _chanceToSpawn = .5f;
         private GameObject _room;
@@ -40,15 +35,20 @@ namespace Impingement.DungeonGeneration
         
         private void Spawn()
         {
-            int currentEnemyCount = 0;
-            int spawnAmount = Random.Range(_minimumSpawns, _maximumSpawns);
-            while (currentEnemyCount < spawnAmount)
+            int currentObjectCount = 0;
+            int spawnAmount = Random.Range(_minimumObjectSpawns, _maximumObjectSpawns);
+            while (currentObjectCount < spawnAmount)
             {
                 var localPrefab = PhotonNetwork.Instantiate("RoomSpawns/" + _spawnPrefabs[Random.Range(0, _spawnPrefabs.Length)].name,
                     GetRandomPosition(), Quaternion.identity);
-                FindObjectOfType<DungeonManager>().Enemies.Add(localPrefab);
+
+                if (_isEnemy)
+                {
+                    FindObjectOfType<DungeonManager>().Enemies.Add(localPrefab);
+                }
+
                 //localPrefab.transform.parent = _room.transform;
-                currentEnemyCount++;
+                currentObjectCount++;
             }
         }
         
