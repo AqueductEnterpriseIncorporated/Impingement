@@ -1,19 +1,19 @@
-﻿using UnityEngine;
+using Photon.Pun;
+using UnityEngine;
 
 namespace Impingement.DungeonGeneration
 {
     public class WallCollision : MonoBehaviour
     {
-        // Start is called before the first frame update
-        void Start()
+        private void Start()
         {
             Collider[] colliders = Physics.OverlapSphere(transform.position, .01f);
 
             foreach (Collider collider in colliders)
             {
-                if(collider.tag == "Wall")
+                if (collider.tag == "Wall")
                 {
-                    Destroy(gameObject);
+                    PhotonNetwork.Destroy(gameObject);
                     return;
                 }
             }
@@ -21,4 +21,5 @@ namespace Impingement.DungeonGeneration
             GetComponent<Collider>().enabled = true;
         }
     }
+
 }

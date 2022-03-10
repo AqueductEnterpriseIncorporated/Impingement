@@ -1,11 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Impingement.Control;
-using Impingement.Stats;
 using PlayFab;
 using UnityEngine;
 using PlayFab.ClientModels;
-using UnityEngine.SceneManagement;
 
 namespace Playfab
 {
@@ -39,11 +36,6 @@ namespace Playfab
         private bool _isForceQuit;
         const string _fileName = @"C:\Users\vadim\AppData\LocalLow\AqueductEnterpriseIncorporated\Impingement\save.sav";
         
-        private void Start()
-        {
-            SceneManager.sceneLoaded += SceneManagerOnSceneLoaded;
-        }
-        
         public void Login(string login)
         {
             var request = new LoginWithCustomIDRequest {CustomId = login, CreateAccount = true};
@@ -67,10 +59,6 @@ namespace Playfab
         public void LoadFile()
         {
             
-        }
-        
-        private void SceneManagerOnSceneLoaded(Scene arg0, LoadSceneMode arg1)
-        {
         }
         
         private void OnLoginSuccess(LoginResult result)

@@ -283,7 +283,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _patrolSpeedFraction: 0.576
-  _shoutDistance: 5
   _chaseDistance: 2.5
   _suspicionTime: 15
   _aggroCooldownTime: 5

@@ -1,5 +1,4 @@
 ﻿using Photon.Pun;
-using Photon.Realtime;
 using UnityEngine;
 
 namespace Impingement.PhotonScripts
@@ -10,6 +9,11 @@ namespace Impingement.PhotonScripts
         [SerializeField] private Transform _spawnTransform;
     
         private void Start()
+        {
+            //Spawn();
+        }
+
+        public void Spawn()
         {
             if (_spawnTransform == null)
             {

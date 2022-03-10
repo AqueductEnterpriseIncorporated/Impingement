@@ -13,6 +13,7 @@ TagManager:
   - EntryRoom
   - ClosedRoom
   - PersistentObjects
+  - Wall
   layers:
   - Default
   - TransparentFX

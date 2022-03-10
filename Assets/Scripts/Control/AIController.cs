@@ -12,7 +12,6 @@ namespace Impingement.Control
     {
         [Range(0,1)]
         [SerializeField] private float _patrolSpeedFraction = 0.2f;
-        [SerializeField] private float _shoutDistance = 5f;
         [SerializeField] private float _chaseDistance = 5f;
         [SerializeField] private float _suspicionTime =  5f;
         [SerializeField] private float _aggroCooldownTime =  5f;
@@ -21,6 +20,8 @@ namespace Impingement.Control
         [SerializeField] private float _waypointTolerance = 1;
         [SerializeField] private PatrolPath _patrolPath;
         [SerializeField] GameObject _playerTarget;
+        private float _shoutDistance = 3f;
+
         private PhotonView _photonView;
         private CombatController _combatController;
         private HealthController _healthController;
@@ -84,7 +85,8 @@ namespace Impingement.Control
                     }
                     continue;
                 }
-                
+                //print("aggro: " + IsAggrevated(player));
+                //print("can attack: " + _combatController.CanAttack(player.gameObject));
                 if (IsAggrevated(player) || _combatController.CanAttack(player.gameObject))
                 {
                     _playerTarget = player;
@@ -175,10 +177,10 @@ namespace Impingement.Control
             var hits = Physics.SphereCastAll(transform.position, _shoutDistance, Vector3.up, 0);
             foreach (var hit in hits)
             {
-                if (hit.transform.TryGetComponent<AIController>(out var aiController))
-                {
-                    aiController.Aggrevate();
-                }
+                AIController ai = hit.collider.GetComponent<AIController>();
+                if (ai == null) continue;
+
+                ai.Aggrevate();
             }
         }
 
@@ -208,7 +210,8 @@ namespace Impingement.Control
         private bool IsAggrevated(GameObject player)
         {
             var distance = Vector3.Distance(transform.position, player.transform.position);
-            print(_timeSinceAggrevated < _aggroCooldownTime);
+            //print("distance: " + (distance < _chaseDistance));
+            //print("agroCdReady: " + (_timeSinceAggrevated < _aggroCooldownTime));
             return distance < _chaseDistance || _timeSinceAggrevated < _aggroCooldownTime;
         }
 

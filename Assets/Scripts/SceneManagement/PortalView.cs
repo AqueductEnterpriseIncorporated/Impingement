@@ -49,14 +49,13 @@ namespace SceneManagement
                 {"Experience", _incomingPlayer.GetComponent<ExperienceController>().GetExperiencePoints().ToString()}
             });
 
-            if (SceneManager.GetActiveScene().name == "Dungeon2")
+            if (SceneManager.GetActiveScene().name == "Dungeon3")
             {
                 _playfabManager.IsForceQuit = false;
-                GameObject.FindGameObjectWithTag("RoomTemplates").GetComponent<DungeonManager>().IsDungBuilded = false;
             }
 
             _incomingPlayer.GetComponentInChildren<NavMeshAgent>().enabled = false;
-            SceneManager.LoadSceneAsync("Dungeon2");
+            SceneManager.LoadSceneAsync("Dungeon");
             _incomingPlayer.GetComponentInChildren<NavMeshAgent>().enabled = true;
         }
 

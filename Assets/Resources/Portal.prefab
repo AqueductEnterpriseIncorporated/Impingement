@@ -77,7 +77,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31cd3c63d48d42df9a1fce42b09aef8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _sceneToLoad: Dungeon2
+  _sceneToLoad: Dungeon
   _loadPanel: {fileID: 1515610120654951544, guid: eacb84601ed23ee4bb86b426f8aac809, type: 3}
 --- !u!114 &-2363755654452444257
 MonoBehaviour:

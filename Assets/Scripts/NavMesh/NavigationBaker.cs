@@ -11,6 +11,7 @@ namespace Impingement.NavMesh
             _surfaces = GameObject.FindGameObjectsWithTag("Floor");
             foreach (var surface in _surfaces)
             {
+                surface.GetComponent<NavMeshSurface>().RemoveData();
                 surface.GetComponent<NavMeshSurface>().BuildNavMesh();
             }
         }

@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1260892826528953081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1260892826528953087}
+  - component: {fileID: 1260892826528953086}
+  - component: {fileID: 1260892826528953085}
+  - component: {fileID: 6017943958963618161}
+  m_Layer: 0
+  m_Name: Generator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1260892826528953087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260892826528953081}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1260892826528953086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260892826528953081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96ffce321199b56418f4617a78d3b0cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dungeonManager: {fileID: 1260892826528953085}
+  size: {x: 5, y: 5}
+  startPos: 0
+  rooms:
+  - room: {fileID: 1504553577447387329, guid: 05d40bdc405fee44ea783a9b27ebc9e4, type: 3}
+    minPosition: {x: 0, y: 0}
+    maxPosition: {x: 0, y: 0}
+    obligatory: 0
+  offset: {x: 6, y: 6}
+--- !u!114 &1260892826528953085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260892826528953081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 177cc29d8e6f4f6f9e27bc2aee9642c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RoomVariants:
+  - {fileID: 11400000, guid: 8cadb3df9c43bf9448cd88f08a6a0a5e, type: 2}
+  - {fileID: 11400000, guid: 74b2783848bf3d6418337e97675e9e4f, type: 2}
+  - {fileID: 11400000, guid: ea8aa7bbefec992478feaa50b2477fa1, type: 2}
+  Rooms: []
+  Enemies: []
+  _navigationBaker: {fileID: 0}
+  _bossPrefab: {fileID: 3041630961408660215, guid: 153c9cf21e089da42a0f0f93259a099b, type: 3}
+  _spawnPoint: {fileID: 1141858244942623283, guid: b2e35db22db4da742899bf93ec60f194, type: 3}
+--- !u!114 &6017943958963618161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260892826528953081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0

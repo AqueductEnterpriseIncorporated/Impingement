@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-using Impingement.NavMesh;
+using Photon.Pun;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -8,6 +8,8 @@ namespace Impingement.DungeonGeneration
 {
     public class DungeonGenerator : MonoBehaviour
     {
+        [SerializeField] private DungeonManager _dungeonManager;
+
         public class Cell
         {
             public bool visited = false;
@@ -36,7 +38,6 @@ namespace Impingement.DungeonGeneration
             }
 
         }
-        [SerializeField] private NavMeshBaker _navMeshBaker;
 
         public Vector2Int size;
         public int startPos = 0;
@@ -45,18 +46,14 @@ namespace Impingement.DungeonGeneration
 
         List<Cell> board;
 
-        // Start is called before the first frame update
-        void Start()
+        private void Start()
         {
             MazeGenerator();
-            //_navMeshBaker.GetSurfaces();
-            //_navMeshBaker.BakeFloors();
-            //_surface.BuildNavMesh();
+            _dungeonManager.Manage();
         }
 
-        void GenerateDungeon()
+        private void GenerateDungeon()
         {
-
             for (int i = 0; i < size.x; i++)
             {
                 for (int j = 0; j < size.y; j++)
@@ -95,19 +92,19 @@ namespace Impingement.DungeonGeneration
                         }
 
 
-                        var newRoom =
-                            Instantiate(rooms[randomRoom].room, new Vector3(i * offset.x, 0, -j * offset.y),
-                                Quaternion.identity, transform).GetComponent<RoomBehaviour>();
+                        var newRoom = PhotonNetwork
+                            .Instantiate("Rooms/" + rooms[randomRoom].room.name,
+                                new Vector3(i * offset.x, 0, -j * offset.y), Quaternion.identity)
+                            .GetComponent<RoomBehaviour>();
                         newRoom.UpdateRoom(currentCell.status);
                         newRoom.name += " " + i + "-" + j;
-
+                        _dungeonManager.Rooms.Add(newRoom);
                     }
                 }
             }
-
         }
 
-        void MazeGenerator()
+        private void MazeGenerator()
         {
             board = new List<Cell>();
 
@@ -196,7 +193,7 @@ namespace Impingement.DungeonGeneration
             GenerateDungeon();
         }
 
-        List<int> CheckNeighbors(int cell)
+        private List<int> CheckNeighbors(int cell)
         {
             List<int> neighbors = new List<int>();
 
@@ -227,4 +224,5 @@ namespace Impingement.DungeonGeneration
             return neighbors;
         }
     }
+
 }
