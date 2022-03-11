@@ -1,10 +1,13 @@
 using System;
+using System.Collections.Generic;
 using Impingement.Attributes;
+using Impingement.Dungeon;
 using Impingement.Saving;
 using Photon.Pun;
 using Playfab;
 using PlayFab.AdminModels;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using GetUserDataResult = PlayFab.ClientModels.GetUserDataResult;
 
 public class SavingWrapper : MonoBehaviour
@@ -20,12 +23,13 @@ public class SavingWrapper : MonoBehaviour
 
     private void OnApplicationQuit()
     {
-        // if(SceneManager.GetActiveScene().name != "Dungeon2") { return; }
-        // FindObjectOfType<PlayfabManager>().UploadData(new Dictionary<string, string>
-        // {
-        //     {"ForceQuit", "true"}
-        // });
-        // Save();
+        if(SceneManager.GetActiveScene().name != "Dungeon") { return; }
+        FindObjectOfType<PlayfabManager>().UploadData(new Dictionary<string, string>
+        {
+            {"ForceQuit", "true"}
+        });
+        FindObjectOfType<DungeonManager>().GenerateJson();
+        //Save();
     }
     
     public void LoadLastScene()

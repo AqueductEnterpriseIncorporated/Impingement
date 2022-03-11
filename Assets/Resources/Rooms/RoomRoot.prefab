@@ -208,6 +208,8 @@ MonoBehaviour:
   - {fileID: 3239571095769846969}
   - {fileID: 3239571094979691349}
   - {fileID: 3239571094128025106}
+  RandomlyGeneratedObjectSpawnsAmount: 0
+  RandomlyGeneratedObjectPrefabNamesList: []
   roomModifierVariant: {fileID: 0}
 --- !u!65 &5527766900735841924
 BoxCollider:

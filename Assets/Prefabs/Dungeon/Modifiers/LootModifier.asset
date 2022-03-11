@@ -20,4 +20,5 @@ MonoBehaviour:
   _minimumObjectSpawns: 1
   _maximumObjectSpawns: 1
   _isEnemy: 0
+  _isPickup: 1
   _chanceToSpawn: 0.4

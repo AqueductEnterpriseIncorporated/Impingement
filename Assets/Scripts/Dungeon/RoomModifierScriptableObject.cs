@@ -1,4 +1,5 @@
-﻿using Photon.Pun;
+﻿using System.Collections.Generic;
+using Photon.Pun;
 using UnityEngine;
 
 namespace Impingement.Dungeon
@@ -7,20 +8,24 @@ namespace Impingement.Dungeon
     public class RoomModifierScriptableObject : ScriptableObject
     {
         public float ChanceToSpawn => _chanceToSpawn;
-
         [Header("Spawn objects")]
         [Tooltip("-1 as no limit")]
         public float MaximumModifierSpawns = -1;
+
+
         [SerializeField] private GameObject[] _spawnPrefabs;
         [SerializeField] private int _minimumObjectSpawns;
         [SerializeField] private int _maximumObjectSpawns;
         [SerializeField] private bool _isEnemy;
+        [SerializeField] private bool _isPickup;
+
         [Header("Modifier's spawn chance")]
         [Range(0,1)]
         [SerializeField] private float _chanceToSpawn = .5f;
-        private GameObject _room;
 
-        public void SetRoom(GameObject room)
+        private RoomBehaviour _room;
+
+        public void SetRoom(RoomBehaviour room)
         {
             _room = room;
         }
@@ -33,21 +38,58 @@ namespace Impingement.Dungeon
             }
         }
         
+        public void SetRoomAction()
+        {
+            if (_spawnPrefabs != null)
+            {
+                Load();
+            }
+        }
+        
         private void Spawn()
         {
             int currentObjectCount = 0;
-            int spawnAmount = Random.Range(_minimumObjectSpawns, _maximumObjectSpawns);
-            while (currentObjectCount < spawnAmount)
+            _room.RandomlyGeneratedObjectSpawnsAmount = Random.Range(_minimumObjectSpawns, _maximumObjectSpawns);
+            while (currentObjectCount < _room.RandomlyGeneratedObjectSpawnsAmount)
             {
-                var localPrefab = PhotonNetwork.Instantiate("RoomSpawns/" + _spawnPrefabs[Random.Range(0, _spawnPrefabs.Length)].name,
+                var randomPrefabNumber = Random.Range(0, _spawnPrefabs.Length);
+                var randomPrefab = _spawnPrefabs[randomPrefabNumber].name;
+                _room.RandomlyGeneratedObjectPrefabNamesList.Add(randomPrefab);
+                var localPrefab = PhotonNetwork.Instantiate("RoomSpawns/" + randomPrefab,
                     GetRandomPosition(), Quaternion.identity);
 
                 if (_isEnemy)
                 {
                     FindObjectOfType<DungeonManager>().Enemies.Add(localPrefab);
                 }
+                if (_isPickup)
+                {
+                    FindObjectOfType<DungeonManager>().Pikcups.Add(localPrefab);
+                }
 
                 //localPrefab.transform.parent = _room.transform;
+                currentObjectCount++;
+            }
+        }
+
+        public void Load()
+        {
+            int currentObjectCount = 0;
+            while (currentObjectCount < _room.RandomlyGeneratedObjectSpawnsAmount)
+            {
+                var randomPrefab = _room.RandomlyGeneratedObjectPrefabNamesList[currentObjectCount];
+                var localPrefab = PhotonNetwork.Instantiate("RoomSpawns/" + randomPrefab,
+                    GetRandomPosition(), Quaternion.identity);
+
+                if (_isEnemy)
+                {
+                    FindObjectOfType<DungeonManager>().Enemies.Add(localPrefab);
+                }
+                if (_isPickup)
+                {
+                    FindObjectOfType<DungeonManager>().Pikcups.Add(localPrefab);
+                }
+
                 currentObjectCount++;
             }
         }

@@ -3,20 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using Impingement.NavMesh;
 using Impingement.PhotonScripts;
-using Impingement.Saving;
+using Impingement.SerializationAPI;
 using Impingement.Stats;
 using Photon.Pun;
-using RPG.Saving;
+using Playfab;
 using UnityEngine;
 using Random = UnityEngine.Random;
+using Impingement.Serialization.SerializationClasses;
 
 namespace Impingement.Dungeon
 {
-    public class DungeonManager : MonoBehaviour, ISaveable
+    public class DungeonManager : MonoBehaviour
     {
         public RoomModifierScriptableObject[] RoomVariants;
         public List<RoomBehaviour> Rooms = new List<RoomBehaviour>();
         public List<GameObject> Enemies = new List<GameObject>();
+        public List<GameObject> Pikcups = new List<GameObject>();
+        public SerializableDungeonData LoadedDungeonData = new SerializableDungeonData();
         [SerializeField] private NavigationBaker _navigationBaker;
         [SerializeField] private GameObject _bossPrefab;
         [SerializeField] private GameObject _spawnPoint;
@@ -25,22 +28,50 @@ namespace Impingement.Dungeon
         public void Manage()
         {
             _dungeonProgressionManager = FindObjectOfType<DungeonProgressionManager>();
+            var isForceQuit = FindObjectOfType<PlayfabManager>().IsForceQuit;
             _navigationBaker.Bake();
-            for (int i = 1; i < Rooms.Count-2; i++)
-            {
-                AddModifier(Rooms[i]);
-            }
 
-            foreach (var enemy in Enemies)
+            if (isForceQuit)
             {
-                enemy.GetComponent<BaseStats>().SetLevel(_dungeonProgressionManager.AreaLevel);
+                SetAreaLevel();
+                SetRoomModifiers();
             }
+            else
+            {
+                AddRoomModifiers();
+            }
+            SetEnemyLevel();
             SpawnBoss();
-            
             SetSpawnPoint();
             FindObjectOfType<NetworkManager>().Spawn();
             
             Destroy(GameObject.Find("LoadPanel"));
+        }
+
+        private void SetAreaLevel()
+        {
+            FindObjectOfType<DungeonProgressionManager>().AreaLevel = Convert.ToInt32(LoadedDungeonData.AreaLevel);
+        }
+
+        private void SetEnemyLevel()
+        {
+            foreach (var enemy in Enemies)
+            {
+                enemy.GetComponent<BaseStats>().SetLevel(_dungeonProgressionManager.AreaLevel);
+            }
+        }
+
+        private void AddRoomModifiers()
+        {
+            for (int i = 1; i < Rooms.Count - 1; i++)
+            {
+                AddModifier(Rooms[i]);
+            }
+        }
+        
+        private void SetRoomModifiers()
+        {
+            SetModifier();
         }
 
         private void SetSpawnPoint()
@@ -53,7 +84,33 @@ namespace Impingement.Dungeon
             PhotonNetwork.Instantiate(_bossPrefab.name, Rooms[Rooms.Count - 1].transform.position, Quaternion.identity);
         }
         
-        public void AddModifier(RoomBehaviour room)
+        private void SetModifier()
+        {
+            for (int i = 1; i < LoadedDungeonData.RoomModifiers.Count - 1; i++)
+            {
+                RoomModifierScriptableObject pickedRoomVariant = null;
+                foreach (var roomVariant in RoomVariants)
+                {
+                    if (roomVariant.ToString() == LoadedDungeonData.RoomModifiers[i].ModifierName)
+                    {
+                        pickedRoomVariant = roomVariant;
+                        break;
+                    }
+                }
+                pickedRoomVariant.SetRoom(Rooms[i]);
+                Rooms[i].RoomModifierVariant = pickedRoomVariant;
+                Rooms[i].SetRoomAction();
+            }
+
+            foreach (var roomModifier in LoadedDungeonData.RoomModifiers)
+            {
+                
+                
+                
+            }
+        }
+        
+        private void AddModifier(RoomBehaviour room)
         {
             var spawnChanceValue = Random.Range(0f, 1f);
 
@@ -89,14 +146,14 @@ namespace Impingement.Dungeon
                         
                         if (spawnCount >= pickedRoomVariant.MaximumModifierSpawns)
                         {
-                            break;
+                            continue;
                             //break;
                         }
                     }
                     
                     
                     //spawn room type
-                    pickedRoomVariant.SetRoom(room.gameObject);
+                    pickedRoomVariant.SetRoom(room);
                     room.RoomModifierVariant = pickedRoomVariant;
                     room.StartRoomAction();
                         
@@ -106,57 +163,85 @@ namespace Impingement.Dungeon
         }
 
         [Serializable]
-        struct RoomsAndEnemyData
+        public struct DungeonData
         {
-            public List<SerializableVector3> RoomPositionList;
-            public List<string> RoomNameList;
-            public List<SerializableVector3> EnemyPositionList;
+            public List<string> RoomModifiersList;
+            public List<string> EnemyPositionList;
             public List<string> EnemyNameList;
+            public List<string> PickupsPositionList;
+            public List<string> PickupsNameList;
+            public List<DungeonGenerator.Cell> board;
+            public string DungeonSize;
+            public string AreaLevel;
         }
-
-        public object CaptureState()
+        
+        public void GenerateJson()
         {
-            RoomsAndEnemyData roomsAndEnemyData = new RoomsAndEnemyData
+            SerializableDungeonData dungeonData = new SerializableDungeonData
             {
-                RoomPositionList = new List<SerializableVector3>(), RoomNameList = new List<string>(),
-                EnemyNameList = new List<string>(), EnemyPositionList = new List<SerializableVector3>()
+                Board = new List<DungeonGenerator.Cell>(),
+                Enemies = new List<Enemies>(),
+                Pickups = new List<Pickups>(),
+                DungeonSize = String.Empty,
+                AreaLevel = String.Empty,
+                RoomModifiers = new List<RoomModifier>()
             };
-            foreach (var room in Rooms)
-            {
-                roomsAndEnemyData.RoomPositionList.Add(new SerializableVector3(room.transform.position));
-                roomsAndEnemyData.RoomNameList.Add(room.GetComponent<RoomBehaviour>().RoomPrefabName);
-            }
+            
+            dungeonData.Board = FindObjectOfType<DungeonGenerator>().Board;
+
             foreach (var enemy in Enemies)
             {
-                roomsAndEnemyData.EnemyPositionList.Add(new SerializableVector3(enemy.transform.position));
-                var newName = enemy.gameObject.name.Replace("(Clone)", "");
-                roomsAndEnemyData.EnemyNameList.Add(newName);
+                dungeonData.Enemies.Add(new Enemies
+                {
+                    EnemyName = enemy.gameObject.name.Replace("(Clone)", ""),
+                    EnemyPosition = enemy.transform.position.ToString()
+                });
             }
             
-            return roomsAndEnemyData;
+            foreach (var pickup in Pikcups)
+            {
+                dungeonData.Pickups.Add(new Pickups
+                {
+                    PickupName = pickup.gameObject.name.Replace("(Clone)", ""),
+                    PickupPosition = pickup.transform.position.ToString()
+                });
+            }
+            
+            var progressionManager = FindObjectOfType<DungeonProgressionManager>();
+            dungeonData.DungeonSize = progressionManager.GetDungeonSize().ToString();
+            dungeonData.AreaLevel = progressionManager.AreaLevel.ToString();
+            
+            foreach (var room in Rooms)
+            {
+                if (room.RoomModifierVariant == null)
+                {
+                    dungeonData.RoomModifiers.Add(new RoomModifier
+                    {
+                        ModifierName = String.Empty,
+                        RandomlyGeneratedObjectSpawnsAmount = String.Empty,
+                        RandomlyGeneratedObjectPrefabNamesList = null
+                    });
+                }
+                else
+                {
+                    dungeonData.RoomModifiers.Add(new RoomModifier
+                    {
+                        ModifierName = room.RoomModifierVariant.ToString(),
+                        RandomlyGeneratedObjectSpawnsAmount =
+                            room.RandomlyGeneratedObjectSpawnsAmount.ToString(),
+                        RandomlyGeneratedObjectPrefabNamesList =
+                            room.RandomlyGeneratedObjectPrefabNamesList
+                    });
+                }
+            }
+            
+            var data = StringSerializationAPI.Serialize(typeof(SerializableDungeonData),  dungeonData);
+            FindObjectOfType<PlayfabManager>().UploadJson(data);
         }
 
-        public void RestoreState(object state)
+        public SerializableDungeonData GetData(string data)
         {
-            RoomsAndEnemyData roomsAndEnemyData = (RoomsAndEnemyData) state;
-            var roomNameList = roomsAndEnemyData.RoomNameList;
-            var roomPositionList = roomsAndEnemyData.RoomPositionList;
-            var enemyNameList = roomsAndEnemyData.EnemyNameList;
-            var enemyPositionList = roomsAndEnemyData.EnemyPositionList;
-            Rooms.Clear();
-            for (int i = 0; i < roomNameList.Count; i++)
-            {
-                var localRoomPrefab = PhotonNetwork.Instantiate("Rooms/" + roomNameList[i], roomPositionList[i].ToVector(),
-                    Quaternion.identity);
-                Rooms.Add(localRoomPrefab.GetComponent<RoomBehaviour>());
-            }
-            
-            for (int i = 0; i < enemyNameList.Count; i++)
-            {
-                var localRoomPrefab = PhotonNetwork.Instantiate("RoomSpawns/" + enemyNameList[i], enemyPositionList[i].ToVector(),
-                    Quaternion.identity);
-                Enemies.Add(localRoomPrefab);
-            }
+            return (SerializableDungeonData) StringSerializationAPI.Deserialize(typeof(SerializableDungeonData), data);
         }
     }
 }

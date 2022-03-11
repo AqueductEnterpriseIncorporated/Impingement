@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace Impingement.Dungeon
@@ -7,9 +8,11 @@ namespace Impingement.Dungeon
         public GameObject[] walls; // 0 - Up 1 -Down 2 - Right 3- Left
         public GameObject[] doors;
 
+        public int RandomlyGeneratedObjectSpawnsAmount;
+        public List<string> RandomlyGeneratedObjectPrefabNamesList = new List<string>();
+
         public RoomModifierScriptableObject roomModifierVariant;
         private DungeonManager _dungeonManager;
-        public string RoomPrefabName { get; set; }
 
         public void UpdateRoom(bool[] status)
         {
@@ -29,6 +32,11 @@ namespace Impingement.Dungeon
         public void StartRoomAction()
         {
             roomModifierVariant.RoomAction();
+        }
+        
+        public void SetRoomAction()
+        {
+            roomModifierVariant.SetRoomAction();
         }
     }
 

@@ -36,9 +36,9 @@ public class LobbyManager : MonoBehaviourPunCallbacks
     
     public void StartMultiplayerGame()
     {
-        _isMultiplayer = true;
-        _connectingPanel.SetActive(true);
-        PhotonNetwork.ConnectUsingSettings(); 
+        // _isMultiplayer = true;
+        // _connectingPanel.SetActive(true);
+        // PhotonNetwork.ConnectUsingSettings(); 
     }
 
     public override void OnConnectedToMaster()

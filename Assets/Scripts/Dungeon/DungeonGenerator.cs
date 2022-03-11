@@ -1,6 +1,9 @@
 using System;
 using System.Collections.Generic;
+using Impingement.Serialization.SerializationClasses;
 using Photon.Pun;
+using Playfab;
+using PlayFab.ClientModels;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -44,13 +47,40 @@ namespace Impingement.Dungeon
         public Rule[] rooms;
         public Vector2 offset;
 
-        List<Cell> board;
+        public List<Cell> Board;
+        private SerializableDungeonData _dungeonData;
 
         private void Start()
         {
-            size = FindObjectOfType<DungeonProgressionManager>().DungeonSize;
-            MazeGenerator();
-            _dungeonManager.Manage();
+            var isForceQuit = FindObjectOfType<PlayfabManager>().IsForceQuit;
+            
+            if (isForceQuit)
+            {
+                FindObjectOfType<PlayfabManager>().LoadJson(OnDataReceived);
+            }
+            else
+            {
+                var dungeonSize = FindObjectOfType<DungeonProgressionManager>().GetDungeonSize();
+                size = dungeonSize;
+                MazeGenerator();
+                GenerateDungeon();
+                _dungeonManager.Manage();
+            }
+        }
+
+        private void OnDataReceived(GetUserDataResult result)
+        {
+            if (result != null && result.Data.ContainsKey("DungeonData"))
+            {
+                var json = result.Data["DungeonData"].Value;
+                var dungeonManager = FindObjectOfType<DungeonManager>();
+                _dungeonData = dungeonManager.GetData(json);
+                dungeonManager.LoadedDungeonData = _dungeonData;
+                Board = _dungeonData.Board;
+                size = StringToVector2(_dungeonData.DungeonSize);
+                GenerateDungeon();
+                _dungeonManager.Manage();
+            }
         }
 
         private void GenerateDungeon()
@@ -59,7 +89,7 @@ namespace Impingement.Dungeon
             {
                 for (int j = 0; j < size.y; j++)
                 {
-                    Cell currentCell = board[(i + j * size.x)];
+                    Cell currentCell = Board[(i + j * size.x)];
                     if (currentCell.visited)
                     {
                         int randomRoom = -1;
@@ -99,6 +129,18 @@ namespace Impingement.Dungeon
                             .GetComponent<RoomBehaviour>();
                         newRoom.UpdateRoom(currentCell.status);
                         newRoom.name += " " + i + "-" + j;
+                        if (_dungeonData != null)
+                        {
+                            if (_dungeonData
+                                .RoomModifiers[_dungeonManager.Rooms.Count].RandomlyGeneratedObjectSpawnsAmount != "")
+                            {
+                                newRoom.RandomlyGeneratedObjectSpawnsAmount = Convert.ToInt32(_dungeonData
+                                    .RoomModifiers[_dungeonManager.Rooms.Count].RandomlyGeneratedObjectSpawnsAmount);
+                                newRoom.RandomlyGeneratedObjectPrefabNamesList = _dungeonData
+                                    .RoomModifiers[_dungeonManager.Rooms.Count].RandomlyGeneratedObjectPrefabNamesList;
+                            }
+                        }
+
                         _dungeonManager.Rooms.Add(newRoom);
                     }
                 }
@@ -107,13 +149,13 @@ namespace Impingement.Dungeon
 
         private void MazeGenerator()
         {
-            board = new List<Cell>();
+            Board = new List<Cell>();
 
             for (int i = 0; i < size.x; i++)
             {
                 for (int j = 0; j < size.y; j++)
                 {
-                    board.Add(new Cell());
+                    Board.Add(new Cell());
                 }
             }
 
@@ -127,9 +169,9 @@ namespace Impingement.Dungeon
             {
                 k++;
 
-                board[currentCell].visited = true;
+                Board[currentCell].visited = true;
 
-                if (currentCell == board.Count - 1)
+                if (currentCell == Board.Count - 1)
                 {
                     break;
                 }
@@ -159,15 +201,15 @@ namespace Impingement.Dungeon
                         //down or right
                         if (newCell - 1 == currentCell)
                         {
-                            board[currentCell].status[2] = true;
+                            Board[currentCell].status[2] = true;
                             currentCell = newCell;
-                            board[currentCell].status[3] = true;
+                            Board[currentCell].status[3] = true;
                         }
                         else
                         {
-                            board[currentCell].status[1] = true;
+                            Board[currentCell].status[1] = true;
                             currentCell = newCell;
-                            board[currentCell].status[0] = true;
+                            Board[currentCell].status[0] = true;
                         }
                     }
                     else
@@ -175,23 +217,21 @@ namespace Impingement.Dungeon
                         //up or left
                         if (newCell + 1 == currentCell)
                         {
-                            board[currentCell].status[3] = true;
+                            Board[currentCell].status[3] = true;
                             currentCell = newCell;
-                            board[currentCell].status[2] = true;
+                            Board[currentCell].status[2] = true;
                         }
                         else
                         {
-                            board[currentCell].status[0] = true;
+                            Board[currentCell].status[0] = true;
                             currentCell = newCell;
-                            board[currentCell].status[1] = true;
+                            Board[currentCell].status[1] = true;
                         }
                     }
 
                 }
 
             }
-
-            GenerateDungeon();
         }
 
         private List<int> CheckNeighbors(int cell)
@@ -199,31 +239,43 @@ namespace Impingement.Dungeon
             List<int> neighbors = new List<int>();
 
             //check up neighbor
-            if (cell - size.x >= 0 && !board[(cell - size.x)].visited)
+            if (cell - size.x >= 0 && !Board[(cell - size.x)].visited)
             {
                 neighbors.Add((cell - size.x));
             }
 
             //check down neighbor
-            if (cell + size.x < board.Count && !board[(cell + size.x)].visited)
+            if (cell + size.x < Board.Count && !Board[(cell + size.x)].visited)
             {
                 neighbors.Add((cell + size.x));
             }
 
             //check right neighbor
-            if ((cell + 1) % size.x != 0 && !board[(cell + 1)].visited)
+            if ((cell + 1) % size.x != 0 && !Board[(cell + 1)].visited)
             {
                 neighbors.Add((cell + 1));
             }
 
             //check left neighbor
-            if (cell % size.x != 0 && !board[(cell - 1)].visited)
+            if (cell % size.x != 0 && !Board[(cell - 1)].visited)
             {
                 neighbors.Add((cell - 1));
             }
 
             return neighbors;
         }
-    }
+        
+        private Vector2Int StringToVector2(string sVector)
+        {
+            sVector = sVector.Substring(sVector.IndexOf("(") + 1, sVector.IndexOf(")") - 1);
+            
+            string[] sArray = sVector.Split(',');
+ 
+            Vector2Int result = new Vector2Int(
+                int.Parse(sArray[0]),
+                int.Parse(sArray[1]));
 
+            return result;
+        }
+    }
 }

@@ -55,11 +55,25 @@ namespace Playfab
         {
             PlayFabClientAPI.GetUserData(new GetUserDataRequest(), OnDataReceived, null);
         }
-
-        public void LoadFile()
+        
+        public void UploadJson(string json)
         {
-            
+
+            var request = new UpdateUserDataRequest
+            {
+                Data = new Dictionary<string, string>
+                {
+                    {"DungeonData", json}
+                }
+            };
+            PlayFabClientAPI.UpdateUserData(request, null, null);
         }
+
+        public void LoadJson(Action<GetUserDataResult> OnDataReceived)
+        {
+            PlayFabClientAPI.GetUserData(new GetUserDataRequest(), OnDataReceived, null);
+        }
+        
         
         private void OnLoginSuccess(LoginResult result)
         {    
