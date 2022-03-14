@@ -10,14 +10,14 @@ namespace Impingement.Combat
     {
         public bool HandleRaycast(PlayerController callingController)
         {
-            if (!callingController.GetComponent<CombatController>().CanAttack(gameObject))
+            if (!callingController.GetCombatController().CanAttack(gameObject))
             {
                 return false;
             }
 
             if (Input.GetMouseButtonDown(0))
             {
-                callingController.GetComponent<CombatController>().SetTarget(gameObject);
+                callingController.GetCombatController().SetTarget(gameObject);
             }
 
             return true;

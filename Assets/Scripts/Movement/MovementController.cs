@@ -1,20 +1,17 @@
-using System;
-using Impingement.Combat;
 using Impingement.Core;
 using Impingement.Attributes;
-using Impingement.Saving;
-using RPG.Saving;
 using UnityEngine;
 using UnityEngine.AI;
 
 namespace Impingement.Movement
 {
-    public class MovementController : MonoBehaviour, IAction, ISaveable
+    public class MovementController : MonoBehaviour, IAction
     {
         [SerializeField] private float _maximumSpeed = 6f; 
         [Range(0,1)]
         [SerializeField] private float _speedModifier = 1f; 
         [SerializeField] private float _maxNavPathLength = 40f;
+        [SerializeField] private ActionScheduleController _actionScheduleController;
         private NavMeshAgent _navMeshAgent;
         private HealthController _healthController;
 
@@ -63,7 +60,7 @@ namespace Impingement.Movement
 
         public void StartMoving(Vector3 worldPosition, float speedFraction)
         {
-            GetComponent<ActionScheduleController>().StartAction(this);
+            _actionScheduleController.StartAction(this);
             Move(worldPosition, speedFraction);
         }
 
@@ -75,19 +72,6 @@ namespace Impingement.Movement
         public void Cancel()
         {
             Stop();
-        }
-        
-        public object CaptureState()
-        {
-            return new SerializableVector3(transform.position);
-        }
-
-        public void RestoreState(object state)
-        {
-            SerializableVector3 position = (SerializableVector3) state;
-            _navMeshAgent.enabled = false;
-            transform.position = position.ToVector();
-            _navMeshAgent.enabled = true;
         }
     }
 }

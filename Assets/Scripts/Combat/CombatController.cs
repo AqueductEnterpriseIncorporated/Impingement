@@ -17,18 +17,19 @@ namespace Impingement.Combat
         [SerializeField] private Transform _rightHandTransform = null;
         [SerializeField] private Transform _leftHandTransform = null;
         [SerializeField] private WeaponConfig defaultWeaponConfig = null;
-        [SerializeField] private string _weaponName = "";
         private PhotonView _photonView;
         private MovementController _movementController;
         private HealthController _healthController;
         private AnimationController _animationController;
         private HealthController _target;
-        private float _timeSinceLastAttack = Mathf.Infinity;
         private WeaponConfig _currentWeaponConfig;
         private LazyValue<Weapon> _currentWeapon;
+        private ActionScheduleController _actionScheduleController;
+        private float _timeSinceLastAttack = Mathf.Infinity;
 
         private void Awake()
         {
+            _actionScheduleController = GetComponent<ActionScheduleController>();
             _movementController = GetComponent<MovementController>();
             _healthController = GetComponent<HealthController>();
             _animationController = GetComponent<AnimationController>();
@@ -164,7 +165,7 @@ namespace Impingement.Combat
         
         public void SetTarget(GameObject target)
         {
-            GetComponent<ActionScheduleController>().StartAction(this);
+            _actionScheduleController.StartAction(this);
             _target = target.GetComponent<HealthController>();
         }
         

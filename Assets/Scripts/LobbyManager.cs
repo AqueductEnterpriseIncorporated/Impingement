@@ -6,7 +6,6 @@ using UnityEngine;
 
 public class LobbyManager : MonoBehaviourPunCallbacks
 {
-    [SerializeField] private SavingWrapper _savingWrapper;
     [SerializeField] private GameObject _startGamePanel;
     [SerializeField] private GameObject _connectingPanel;
     [SerializeField] private GameObject _portalPrefab;
@@ -31,7 +30,6 @@ public class LobbyManager : MonoBehaviourPunCallbacks
     {
         _startGamePanel.SetActive(false);
         PhotonNetwork.ConnectUsingSettings();
-        DontDestroyOnLoad(GameObject.FindGameObjectWithTag("Player"));
     }
     
     public void StartMultiplayerGame()

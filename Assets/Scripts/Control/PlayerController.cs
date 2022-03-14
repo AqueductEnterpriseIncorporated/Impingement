@@ -3,10 +3,10 @@ using Impingement.Core;
 using Impingement.enums;
 using Impingement.Movement;
 using Impingement.Attributes;
+using Impingement.Combat;
 using Impingement.structs;
 using Photon.Pun;
 using UnityEngine;
-using UnityEngine.AI;
 using UnityEngine.EventSystems;
 using Random = UnityEngine.Random;
 
@@ -17,16 +17,25 @@ namespace Impingement.Control
         [SerializeField] private LayerMask _layerMask;
         [SerializeField] private Camera _camera;
         [SerializeField] private CursorMapping[] _cursorMappings;
-        [SerializeField] private float _maxNavMeshProjectionDistance = 1f;
         [SerializeField] private float _raycastRadius = 1f;
+        [SerializeField] private CombatController _combatController;
+        [SerializeField] private MovementController _movementController;
         private PhotonView _photonView;
-        private MovementController _movementController;
         private PlayerCameraController _playerCameraController;
         private HealthController _healthController;
 
+        public CombatController GetCombatController()
+        {
+            return _combatController;
+        }
+        
+        public MovementController GetMovementController()
+        {
+            return _movementController;
+        }
+        
         private void Awake()
         {
-            _movementController = GetComponent<MovementController>();
             _playerCameraController = GetComponent<PlayerCameraController>();
             _healthController = GetComponent<HealthController>();
             _photonView = GetComponent<PhotonView>();
@@ -43,9 +52,9 @@ namespace Impingement.Control
         
         private void Update()
         {
-            if(InteractWithUI()) { return; }
-
             if (!_photonView.IsMine) { return; }
+
+            if(InteractWithUI()) { return; }
 
             if (_healthController.IsDead())
             {
@@ -64,8 +73,7 @@ namespace Impingement.Control
             var hits = RaycastAllSorted();
             foreach (var hit in hits)
             {
-                var raycastables = hit.transform.GetComponents<IRaycastable>();
-                foreach (var raycastable in raycastables)
+                if (hit.transform.TryGetComponent<IRaycastable>(out var raycastable))
                 {
                     if (raycastable.HandleRaycast(this))
                     {
@@ -74,7 +82,6 @@ namespace Impingement.Control
                     }
                 }
             }
-
             return false;
         }
 
@@ -103,10 +110,7 @@ namespace Impingement.Control
 
         private bool InteractWithMovement()
         {
-            Vector3 target;
-            //bug:
-            bool hasHit = RaycastNavMesh(out target);
-            //bool hasHit = Physics.Raycast(GetMouseRay(), out var hit, Mathf.Infinity, _layerMask);
+            bool hasHit = RaycastNavMesh(out var target);
             Physics.Raycast(GetMouseRay(), out var hit, Mathf.Infinity, _layerMask);
             if (!_movementController.CanMoveTo(target)) { return false; }
             
@@ -125,12 +129,10 @@ namespace Impingement.Control
         private bool RaycastNavMesh(out Vector3 target)
         {
             target = new Vector3();
-            RaycastHit hit;
-            bool hasHit = Physics.Raycast(GetMouseRay(), out hit);
+            bool hasHit = Physics.Raycast(GetMouseRay(), out var hit);
             if (!hasHit) { return false; }
-            
-            NavMeshHit navMeshHit;
-            var hasCastToNavMesh = UnityEngine.AI.NavMesh.SamplePosition(hit.point, out navMeshHit,
+
+            var hasCastToNavMesh = UnityEngine.AI.NavMesh.SamplePosition(hit.point, out var navMeshHit,
                 Mathf.Infinity,
                 UnityEngine.AI.NavMesh.AllAreas);
             if (!hasCastToNavMesh) { return false;}

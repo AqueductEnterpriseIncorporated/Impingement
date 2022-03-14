@@ -1,6 +1,6 @@
 ﻿using System;
+using Impingement.Playfab;
 using Impingement.Stats;
-using Playfab;
 using PlayFab.ClientModels;
 using UnityEngine;
 

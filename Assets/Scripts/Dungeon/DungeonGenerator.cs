@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
+using Impingement.Playfab;
 using Impingement.Serialization.SerializationClasses;
 using Photon.Pun;
-using Playfab;
 using PlayFab.ClientModels;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -62,6 +62,7 @@ namespace Impingement.Dungeon
             {
                 var dungeonSize = FindObjectOfType<DungeonProgressionManager>().GetDungeonSize();
                 size = dungeonSize;
+                print("generating dungeon, size: " + size);
                 MazeGenerator();
                 GenerateDungeon();
                 _dungeonManager.Manage();

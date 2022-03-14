@@ -4,13 +4,12 @@ using Impingement.Core;
 using Impingement.enums;
 using Impingement.Stats;
 using Photon.Pun;
-using RPG.Saving;
 using UnityEngine;
 using UnityEngine.Events;
 
 namespace Impingement.Attributes
 {
-    public class HealthController : MonoBehaviour, IPunObservable, ISaveable
+    public class HealthController : MonoBehaviour, IPunObservable
     {
         [Serializable] public class TakeDamageEvent : UnityEvent<float> { }
         [SerializeField] private UnityEvent _onDie;
@@ -122,20 +121,6 @@ namespace Impingement.Attributes
             {
                 _isDead = (bool)stream.ReceiveNext();
             }
-        }
-
-        public object CaptureState()
-        {
-            return _healthPoints;
-        }
-
-        public void RestoreState(object state)
-        {
-            _healthPoints.value = (float)state;
-            if (_healthPoints.value == 0)
-            {
-                DieRPC();
-            }
-        }
+        } 
     }
 }

@@ -20,16 +20,18 @@ namespace Impingement.Control
         [SerializeField] private float _waypointTolerance = 1;
         [SerializeField] private PatrolPath _patrolPath;
         [SerializeField] GameObject _playerTarget;
-        private float _shoutDistance = 3f;
-
+        [SerializeField] private ActionScheduleController _actionScheduleController;
         private PhotonView _photonView;
         private CombatController _combatController;
         private HealthController _healthController;
         private MovementController _movementController;
         private LazyValue<Vector3> _guardPosition;
         private float _timeSinceLastSawPlayer = Mathf.Infinity;
+        private float _shoutDistance = 3f;
         private float _timeSinceArrivedAtWaypoint = Mathf.Infinity;
         private int _currentWaypointIndex;
+        private bool _isPatrolPathNotNull;
+        private GameObject[] _players;
 
         private void Awake()
         {
@@ -47,6 +49,8 @@ namespace Impingement.Control
 
         private void Start()
         {
+            _players = GameObject.FindGameObjectsWithTag("Player");
+            _isPatrolPathNotNull = _patrolPath != null;
             _guardPosition.ForceInit();
         }
 
@@ -72,10 +76,9 @@ namespace Impingement.Control
 
             UpdateTimers();
 
-            var players = GameObject.FindGameObjectsWithTag("Player");
-            if (players.Length == 0) { return; }
+            if (_players.Length == 0) { return; }
             
-            foreach (var player in players)
+            foreach (var player in _players)
             {
                 if (player.GetComponent<HealthController>().IsDead())
                 {
@@ -107,34 +110,12 @@ namespace Impingement.Control
                     PatrolBehaviour();
                 }
             }
-
-            
-
-            // if (!_combatController.CanAttack(_playerTarget.gameObject) || !IsAggrevated(_playerTarget))
-            // {
-            //     _playerTarget = null;
-            // }
-            //
-            // if (_playerTarget != null)
-            // {
-            //     AttackBehaviour(_playerTarget);
-            //     return;
-            // }
-            //
-            // //bug: баг анимации пока ждут _suspicionTime
-            // if (_timeSinceLastSawPlayer < _suspicionTime)
-            // {
-            // }
-            // else
-            // {
-            //     PatrolBehaviour();
-            // }
         }
 
         private void SuspicionBehaviour()
         {
             _playerTarget = null;
-            GetComponent<ActionScheduleController>().CancelCurrentAction();
+            _actionScheduleController.CancelCurrentAction();
         }
 
         public void Aggrevate()
@@ -145,7 +126,7 @@ namespace Impingement.Control
         private void PatrolBehaviour()
         {
             Vector3 nextPosition = _guardPosition.value;
-            if (_patrolPath != null)
+            if (_isPatrolPathNotNull)
             {
                 if (AtWaypoint())
                 {
@@ -208,8 +189,6 @@ namespace Impingement.Control
         private bool IsAggrevated(GameObject player)
         {
             var distance = Vector3.Distance(transform.position, player.transform.position);
-            //print("distance: " + (distance < _chaseDistance));
-            //print("agroCdReady: " + (_timeSinceAggrevated < _aggroCooldownTime));
             return distance < _chaseDistance || _timeSinceAggrevated < _aggroCooldownTime;
         }
 

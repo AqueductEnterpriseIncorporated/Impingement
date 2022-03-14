@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using Impingement.Dungeon;
 using PlayFab;
 using UnityEngine;
 using PlayFab.ClientModels;
+using UnityEngine.SceneManagement;
 
-namespace Playfab
+namespace Impingement.Playfab
 {
     public class PlayfabManager : MonoBehaviour
     {
@@ -27,14 +29,18 @@ namespace Playfab
             }
         }
 
-        public Dictionary<string, string> File { get; set; }
-        public event Action<Dictionary<string, string>> FileLoaded = delegate(Dictionary<string, string> dictionary) {  };
-        private string _entityId;
-        private string _entityType;
-        private string _activeUploadFileName;
-        private readonly Dictionary<string, string> _entityFileJson = new Dictionary<string, string>();
         private bool _isForceQuit;
-        const string _fileName = @"C:\Users\vadim\AppData\LocalLow\AqueductEnterpriseIncorporated\Impingement\save.sav";
+
+        private void OnApplicationQuit()
+        {
+            if(SceneManager.GetActiveScene().name != "Dungeon") { return; }
+            UploadData(new Dictionary<string, string>
+            {
+                {"ForceQuit", "true"}
+            });
+            FindObjectOfType<DungeonManager>().GenerateJson();
+        }
+        
         
         public void Login(string login)
         {
@@ -76,12 +82,8 @@ namespace Playfab
         
         
         private void OnLoginSuccess(LoginResult result)
-        {    
-            _entityId = result.EntityToken.Entity.Id;
-            _entityType = result.EntityToken.Entity.Type;
+        {
             Debug.Log("Login Success");
-
-            //LoadData(OnDataReceivedPlayerExp);
             LoadData(OnDataReceivedIsForceQuit);
         }
 

@@ -2767,7 +2767,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cde3c96d5ca44584aafe694b86c8befd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _savingWrapper: {fileID: 0}
   _startGamePanel: {fileID: 1267383304}
   _connectingPanel: {fileID: 2088457041}
   _portalPrefab: {fileID: 3041630961408660215, guid: 153c9cf21e089da42a0f0f93259a099b, type: 3}
@@ -6031,30 +6030,6 @@ Transform:
   m_Father: {fileID: 5564809338697552829}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1435697359895193149
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5965608249933304457}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea78f132fa134e4da8339d546dde34ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1435697360101024831
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5965608249593385099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea78f132fa134e4da8339d546dde34ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1442645836522493939
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8803,7 +8778,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1593490695888365859}
-  - component: {fileID: 1435697360101024831}
   m_Layer: 0
   m_Name: Room (1)
   m_TagString: Untagged
@@ -8820,7 +8794,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1593490696220551969}
-  - component: {fileID: 1435697359895193149}
   m_Layer: 0
   m_Name: Room
   m_TagString: Untagged

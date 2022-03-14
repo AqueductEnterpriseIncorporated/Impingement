@@ -1,16 +1,14 @@
 ﻿using System.Collections.Generic;
 using Impingement.Dungeon;
-using Impingement.Saving;
+using Impingement.Playfab;
 using Impingement.Stats;
-using Playfab;
-using RPG.Saving;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.SceneManagement;
 
 namespace SceneManagement
 {
-    public class PortalView : MonoBehaviour, ISaveable
+    public class PortalView : MonoBehaviour
     {
         [SerializeField] private string _sceneToLoad = "";
         [SerializeField] private GameObject _loadPanel;
@@ -57,16 +55,6 @@ namespace SceneManagement
             {
                 {"Experience", player.GetComponent<ExperienceController>().GetExperiencePoints().ToString()}
             });
-        }
-
-        public object CaptureState()
-        {
-            return new SerializableVector3(transform.position);
-        }
-
-        public void RestoreState(object state)
-        {
-            transform.position = ((SerializableVector3) state).ToVector();
         }
     }
 }

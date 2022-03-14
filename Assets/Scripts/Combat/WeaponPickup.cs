@@ -37,7 +37,7 @@ namespace Impingement.Combat
         {
             if (Input.GetMouseButtonDown(0))
             {
-                callingController.GetComponent<MovementController>().StartMoving(transform.position, 1f);
+                callingController.GetMovementController().StartMoving(transform.position, 1f);
             }
 
             return true;

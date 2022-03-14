@@ -15,7 +15,7 @@ namespace Impingement.Dungeon
         public void CompleteLevel()
         {
             AreaLevel++;
-            _dungeonSize += new Vector2Int(Random.Range(0,1), Random.Range(0,1));
+            _dungeonSize += new Vector2Int(Random.Range(0,2), Random.Range(0,2));
         }
     }
 }

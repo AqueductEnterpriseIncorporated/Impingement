@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using Photon.Pun;
+﻿using Photon.Pun;
 using UnityEngine;
 
 namespace Impingement.Dungeon

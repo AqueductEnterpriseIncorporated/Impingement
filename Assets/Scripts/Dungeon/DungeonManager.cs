@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using Impingement.NavMesh;
 using Impingement.PhotonScripts;
+using Impingement.Playfab;
 using Impingement.SerializationAPI;
 using Impingement.Stats;
 using Photon.Pun;
-using Playfab;
 using UnityEngine;
 using Random = UnityEngine.Random;
 using Impingement.Serialization.SerializationClasses;
@@ -44,8 +44,17 @@ namespace Impingement.Dungeon
             SpawnBoss();
             SetSpawnPoint();
             FindObjectOfType<NetworkManager>().Spawn();
-            
+            CleanUp();
             Destroy(GameObject.Find("LoadPanel"));
+        }
+
+        private void CleanUp()
+        {
+            foreach (var room in Rooms)
+            {
+                Destroy(room.GetComponent<BoxCollider>());
+                Destroy(room.GetComponent<RoomBehaviour>());
+            }
         }
 
         private void SetAreaLevel()
@@ -63,7 +72,7 @@ namespace Impingement.Dungeon
 
         private void AddRoomModifiers()
         {
-            for (int i = 1; i < Rooms.Count - 1; i++)
+            for (int i = 2; i < Rooms.Count - 1; i++)
             {
                 AddModifier(Rooms[i]);
             }
@@ -86,7 +95,7 @@ namespace Impingement.Dungeon
         
         private void SetModifier()
         {
-            for (int i = 1; i < LoadedDungeonData.RoomModifiers.Count - 1; i++)
+            for (int i = 2; i < LoadedDungeonData.RoomModifiers.Count - 1; i++)
             {
                 RoomModifierScriptableObject pickedRoomVariant = null;
                 foreach (var roomVariant in RoomVariants)

@@ -99,6 +99,10 @@ PrefabInstance:
       propertyPath: _speedModifier
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 2993159761695322296, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: _actionScheduleController
+      value: 
+      objectReference: {fileID: 8773989527534799842}
     - target: {fileID: 4653223554790168374, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 951099334
@@ -184,6 +188,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8863790192415676751, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
   m_PrefabInstance: {fileID: 1046935459850376510}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8773989527534799842 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8594010197609012956, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+  m_PrefabInstance: {fileID: 1046935459850376510}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 671315223919402057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88952875952e4b8ba2bfd83f1046f909, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1809331405415222814 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
@@ -241,19 +256,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &-3864383199057476013
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 671315223919402057}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ea9374b509b70f4bba37e4a2ca8cf00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uniqueIdentifier: be8d1f01-2317-48ec-bae9-e002999cba45
 --- !u!114 &-3218915831978746464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -291,6 +293,7 @@ MonoBehaviour:
   _waypointTolerance: 1
   _patrolPath: {fileID: 0}
   _playerTarget: {fileID: 0}
+  _actionScheduleController: {fileID: 8773989527534799842}
 --- !u!114 &-1730835153503389246
 MonoBehaviour:
   m_ObjectHideFlags: 0
