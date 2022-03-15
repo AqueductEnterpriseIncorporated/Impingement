@@ -52,8 +52,7 @@ namespace Impingement.Dungeon
         {
             foreach (var room in Rooms)
             {
-                Destroy(room.GetComponent<BoxCollider>());
-                Destroy(room.GetComponent<RoomBehaviour>());
+                room.CleanUp();
             }
         }
 

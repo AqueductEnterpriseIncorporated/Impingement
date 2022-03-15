@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using GameDevTV.Utils;
 using Impingement.Attributes;
+using Impingement.Control;
 using Impingement.Core;
 using Impingement.enums;
 using Impingement.Movement;
@@ -17,6 +18,7 @@ namespace Impingement.Combat
         [SerializeField] private Transform _rightHandTransform = null;
         [SerializeField] private Transform _leftHandTransform = null;
         [SerializeField] private WeaponConfig defaultWeaponConfig = null;
+        [SerializeField] private bool _isPlayer;
         private PhotonView _photonView;
         private MovementController _movementController;
         private HealthController _healthController;
@@ -46,27 +48,38 @@ namespace Impingement.Combat
         private void Start()
         {
             _currentWeapon.ForceInit();
+            _isPlayer = TryGetComponent<PlayerController>(out var component);
         }
         
         private void Update()
         {
             if(_healthController.IsDead()) { return; }
             _timeSinceLastAttack += Time.deltaTime;
-            if(_target == null) { return; }
+            if(_target is null) { return; }
 
             if (_target.IsDead())
             {
                 _target = null;
                 return;
             }
-            
-            if (!GetIsInRange(_target.transform))
+
+            if (!_isPlayer)
             {
-                _movementController.Move(_target.transform.position, 1);
+                if (!IsInRange(_target.transform))
+                {
+                    print("moving");
+                    _movementController.Move(_target.transform.position, 1);
+                }
+                else
+                {
+                    print("attack behaviour");
+                    _movementController.Stop();
+                    LookAtTarget();
+                    AttackBehavior();
+                }
             }
             else
             {
-                _movementController.Stop();
                 LookAtTarget();
                 AttackBehavior();
             }
@@ -86,26 +99,21 @@ namespace Impingement.Combat
 
         private void LookAtTarget()
         {
-            //transform.LookAt(_target.transform);
-            var lookRotation = Quaternion.LookRotation(_target.transform.position - transform.position);
-            transform.rotation =
-                Quaternion.RotateTowards(transform.rotation, lookRotation, _rotateSpeed * Time.deltaTime);
+            transform.LookAt(_target.transform);
+            // var lookRotation = Quaternion.LookRotation(_target.transform.position - transform.position);
+            // transform.rotation =
+            //     Quaternion.RotateTowards(transform.rotation, lookRotation, _rotateSpeed * Time.deltaTime);
         }
 
-        public bool CanAttack(GameObject combatTarget)
+        public bool CanAttack(HealthController combatTarget)
         {
-            if (combatTarget == null)
+            if (!IsInRange(combatTarget.transform) ||
+                !_movementController.CanMoveTo(combatTarget.transform.position))
             {
                 return false;
             }
 
-            if (!_movementController.CanMoveTo(combatTarget.transform.position) &&
-                !GetIsInRange(combatTarget.transform))
-            {
-                return false;
-            }
-
-            return !combatTarget.GetComponent<HealthController>().IsDead();
+            return !combatTarget.IsDead();
         }
 
         private void AttackBehavior()
@@ -158,15 +166,16 @@ namespace Impingement.Combat
             }
         }
 
-        private bool GetIsInRange(Transform targetTransform)
+        private bool IsInRange(Transform targetTransform)
         {
-            return Vector3.Distance(transform.position, targetTransform.position) < _currentWeaponConfig.GetRange();
+            var distance = Mathf.Abs((transform.position - targetTransform.transform.position).sqrMagnitude);
+            return distance < Mathf.Pow(_currentWeaponConfig.GetRange(), 2);
         }
         
-        public void SetTarget(GameObject target)
+        public void SetTarget(HealthController target)
         {
             _actionScheduleController.StartAction(this);
-            _target = target.GetComponent<HealthController>();
+            _target = target;
         }
         
         public HealthController GetTarget()

@@ -47,6 +47,7 @@ namespace Impingement.Dungeon
         public Rule[] rooms;
         public Vector2 offset;
 
+        //todo: check null reference Board
         public List<Cell> Board;
         private SerializableDungeonData _dungeonData;
 

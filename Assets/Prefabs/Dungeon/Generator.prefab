@@ -49,11 +49,11 @@ MonoBehaviour:
   size: {x: 5, y: 5}
   startPos: 0
   rooms:
-  - room: {fileID: 1504553577447387329, guid: 05d40bdc405fee44ea783a9b27ebc9e4, type: 3}
+  - room: {fileID: 3449465320135233070, guid: 66f69d45fae702c4eb55da878d4ad61d, type: 3}
     minPosition: {x: 0, y: 0}
     maxPosition: {x: 0, y: 0}
     obligatory: 0
-  offset: {x: 6, y: 6}
+  offset: {x: 12, y: 12}
 --- !u!114 &1260892826528953085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67,11 +67,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RoomVariants:
-  - {fileID: 11400000, guid: 8cadb3df9c43bf9448cd88f08a6a0a5e, type: 2}
-  - {fileID: 11400000, guid: 74b2783848bf3d6418337e97675e9e4f, type: 2}
-  - {fileID: 11400000, guid: ea8aa7bbefec992478feaa50b2477fa1, type: 2}
+  - {fileID: 11400000, guid: 0a9f670071d36da459d041c848b86005, type: 2}
+  - {fileID: 11400000, guid: 136ff9eddbec4304ba6accc928b00e76, type: 2}
   Rooms: []
   Enemies: []
+  Pikcups: []
   _navigationBaker: {fileID: 0}
   _bossPrefab: {fileID: 3041630961408660215, guid: 153c9cf21e089da42a0f0f93259a099b, type: 3}
   _spawnPoint: {fileID: 1141858244942623283, guid: b2e35db22db4da742899bf93ec60f194, type: 3}

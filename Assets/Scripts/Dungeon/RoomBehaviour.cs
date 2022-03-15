@@ -1,10 +1,13 @@
 using System.Collections.Generic;
+using Photon.Pun;
 using UnityEngine;
 
 namespace Impingement.Dungeon
 {
     public class RoomBehaviour : MonoBehaviour
     {
+        [SerializeField] private Collider _collider;
+        [SerializeField] private PhotonView _photonView;
         public GameObject[] walls; // 0 - Up 1 -Down 2 - Right 3- Left
         public GameObject[] doors;
 
@@ -38,6 +41,11 @@ namespace Impingement.Dungeon
         {
             roomModifierVariant.SetRoomAction();
         }
-    }
 
+        public void CleanUp()
+        {
+            Destroy(_photonView);
+            Destroy(_collider);
+        }
+    }
 }

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8855475117946292246}
   - component: {fileID: 5643087615239100466}
   - component: {fileID: -6076029268792479295}
+  - component: {fileID: 476654919614428892}
   m_Layer: 2
   m_Name: Up Door
   m_TagString: Floor
@@ -105,3 +106,17 @@ MonoBehaviour:
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!64 &476654919614428892
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3239571096032559204}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: ce8cc834ba277844da67143cfc370fa8, type: 3}

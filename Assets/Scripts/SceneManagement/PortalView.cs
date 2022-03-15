@@ -44,9 +44,7 @@ namespace SceneManagement
 
         private void ManageSceneChanging(GameObject player)
         {
-            player.GetComponentInChildren<NavMeshAgent>().enabled = false;
             SceneManager.LoadSceneAsync("Dungeon");
-            player.GetComponentInChildren<NavMeshAgent>().enabled = true;
         }
 
         private void SavePlayerData(GameObject player)

@@ -2,9 +2,32 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\UnityProjects\Impingement" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Asset Packs" t="Include">
+          <e p="EYE ADVANCED" t="Include">
+            <e p="_DEMO" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="ControllerCamera.cs" t="Include" />
+                <e p="ControllerGUI.cs" t="Include" />
+              </e>
+            </e>
+            <e p="_EyeAdvanced_ReadMe.txt" t="Include" />
+            <e p="_SRP" t="Include">
+              <e p="_SRP_ReadMe.txt" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="EyeAdv_AutoDilation.cs" t="Include" />
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="STANDARD" t="Include">
+                <e p="EyeAdvanced_LOD0.shader" t="Include" />
+                <e p="EyeAdvanced_LOD1.shader" t="Include" />
+                <e p="EyeAdvanced_LOD2.shader" t="Include" />
+              </e>
+            </e>
+          </e>
           <e p="GameDev.tv Assets" t="Include">
             <e p="Scripts" t="Include">
               <e p="Utils" t="Include">
@@ -621,6 +644,108 @@
             </e>
           </e>
         </e>
+        <e p="FImpossible Creations" t="Include">
+          <e p="Directories Description.txt" t="Include" />
+          <e p="Editor" t="Include">
+            <e p="Editor Tools" t="Include">
+              <e p="Files and Components Support" t="Include">
+                <e p="FEditor_ScriptMenuAddOptions.Components.cs" t="Include" />
+                <e p="FEditor_ScriptMenuAddOptions.cs" t="Include" />
+                <e p="FEditor_ScriptMenuAddOptions.Files.cs" t="Include" />
+                <e p="FEditor_ScriptMenuAddOptions.Prefabs.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Plugins - Editor - Animating" t="Include">
+              <e p="Eyes Animator" t="Include">
+                <e p="CheckForLookAnimatorImport.cs" t="Include" />
+                <e p="EyesAnimator.Editor.Blinking.cs" t="Include" />
+                <e p="EyesAnimator.Editor.Elements.cs" t="Include" />
+                <e p="EyesAnimator.Editor.Helpers.cs" t="Include" />
+                <e p="EyesAnimator.Editor.LookAnimator.cs" t="Include" />
+                <e p="EyesAnimator.Editor.Main.cs" t="Include" />
+                <e p="EyesAnimator.Editor.Tabs.cs" t="Include" />
+                <e p="EyesAnimator.Editor.Variables.cs" t="Include" />
+                <e p="FEyesAnimator_Editor.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Plugins - Animating" t="Include">
+            <e p="Eyes Animator" t="Include">
+              <e p="Code" t="Include">
+                <e p="EyesAnimator.AdditionalMotion.cs" t="Include" />
+                <e p="EyesAnimator.Blinking.cs" t="Include" />
+                <e p="EyesAnimator.Follow.cs" t="Include" />
+                <e p="EyesAnimator.Gizmos.cs" t="Include" />
+                <e p="EyesAnimator.Helpers.cs" t="Include" />
+                <e p="EyesAnimator.LookAnimator.cs" t="Include" />
+              </e>
+              <e p="FEyesAnimator.cs" t="Include" />
+              <e p="Packages" t="Include">
+                <e p="Look Animator Implementation.txt" t="Include" />
+              </e>
+              <e p="Read Me - Eyes Animator.txt" t="Include" />
+            </e>
+          </e>
+          <e p="Plugins - Shared" t="Include">
+            <e p="FBasic Assets" t="Include">
+              <e p="Behaviours" t="Include">
+                <e p="Cameras" t="Include">
+                  <e p="FBasic_FreeCameraBehaviour.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Math Helpers" t="Include">
+              <e p="Animating" t="Include">
+                <e p="FAnimationClips.cs" t="Include" />
+                <e p="FAnimatorMethods.cs" t="Include" />
+              </e>
+              <e p="Helpers" t="Include">
+                <e p="FColorMethods.cs" t="Include" />
+                <e p="FDebug.cs" t="Include" />
+                <e p="FStringMethods.cs" t="Include" />
+              </e>
+              <e p="Math" t="Include">
+                <e p="FEasing.cs" t="Include" />
+                <e p="FEngineering.cs" t="Include" />
+                <e p="FLogicMethods.cs" t="Include" />
+                <e p="FTransformMethods.cs" t="Include" />
+                <e p="FVectorMethods.cs" t="Include" />
+              </e>
+              <e p="MathHelpers - ReadMe.txt" t="Include" />
+            </e>
+            <e p="Utils" t="Include">
+              <e p="FBasic_Enums.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Shared Tools" t="Include">
+            <e p="Editor" t="Include">
+              <e p="Property Drawers" t="Include">
+                <e p="FPD_HeaderDrawer.cs" t="Include" />
+                <e p="FPD_SuffixDrawer.cs" t="Include" />
+              </e>
+              <e p="Support" t="Include">
+                <e p="FDefinesCompilation.cs" t="Include" />
+                <e p="FEditor_CustomInspectorHelpers.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Editor Tools" t="Include">
+              <e p="Inspector And Scene Tools" t="Include">
+                <e p="FEditor_Handles.cs" t="Include" />
+                <e p="FHierarchyIcons.cs" t="Include" />
+              </e>
+              <e p="Property Attributes" t="Include">
+                <e p="FPD_HeaderAttribute.cs" t="Include" />
+                <e p="FPD_SuffixAttribute.cs" t="Include" />
+              </e>
+            </e>
+            <e p="GUI Helpers" t="Include">
+              <e p="FGUI_Finders.cs" t="Include" />
+              <e p="FGUI_Handles.cs" t="Include" />
+              <e p="FGUI_Inspector.cs" t="Include" />
+              <e p="FGUI_Resources.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="Attributes" t="Include">
             <e p="Healthbar.cs" t="Include" />
@@ -647,11 +772,11 @@
             <e p="ActionScheduleController.cs" t="Include" />
             <e p="AnimationController.cs" t="Include" />
             <e p="CameraFacing.cs" t="Include" />
-            <e p="ConnectToPlayfab.cs" t="Include" />
             <e p="DestroyAfterEffect.cs" t="Include" />
             <e p="IAction.cs" t="Include" />
             <e p="PersistentObjectSpawner.cs" t="Include" />
             <e p="PlayerCameraController.cs" t="Include" />
+            <e p="StartSceneManager.cs" t="Include" />
           </e>
           <e p="Dungeon" t="Include">
             <e p="DungeonGenerator.cs" t="Include" />

@@ -8,16 +8,17 @@ namespace Impingement.Combat
     [RequireComponent(typeof(HealthController))]
     public class CombatTarget : MonoBehaviour, IRaycastable
     {
+        [SerializeField] private HealthController _healthController;
         public bool HandleRaycast(PlayerController callingController)
         {
-            if (!callingController.GetCombatController().CanAttack(gameObject))
+            //if (!callingController.GetCombatController().CanAttack(_healthController))
             {
-                return false;
+                //return false;
             }
 
             if (Input.GetMouseButtonDown(0))
             {
-                callingController.GetCombatController().SetTarget(gameObject);
+                callingController.GetCombatController().SetTarget(_healthController);
             }
 
             return true;
