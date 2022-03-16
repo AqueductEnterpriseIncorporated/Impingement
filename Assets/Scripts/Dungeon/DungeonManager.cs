@@ -24,11 +24,16 @@ namespace Impingement.Dungeon
         [SerializeField] private GameObject _bossPrefab;
         [SerializeField] private GameObject _spawnPoint;
         private DungeonProgressionManager _dungeonProgressionManager;
-        
-        public void Manage()
+        private NetworkManager _networkManager;
+
+        private void Awake()
         {
+            _networkManager = FindObjectOfType<NetworkManager>();
             _dungeonProgressionManager = FindObjectOfType<DungeonProgressionManager>();
-            var isForceQuit = FindObjectOfType<PlayfabManager>().IsForceQuit;
+        }
+
+        public void Manage(bool isForceQuit)
+        {
             _navigationBaker.Bake();
 
             if (isForceQuit)
@@ -43,7 +48,7 @@ namespace Impingement.Dungeon
             SetEnemyLevel();
             SpawnBoss();
             SetSpawnPoint();
-            FindObjectOfType<NetworkManager>().Spawn();
+            _networkManager.Spawn();
             CleanUp();
             Destroy(GameObject.Find("LoadPanel"));
         }
@@ -58,7 +63,7 @@ namespace Impingement.Dungeon
 
         private void SetAreaLevel()
         {
-            FindObjectOfType<DungeonProgressionManager>().AreaLevel = Convert.ToInt32(LoadedDungeonData.AreaLevel);
+            _dungeonProgressionManager.AreaLevel = Convert.ToInt32(LoadedDungeonData.AreaLevel);
         }
 
         private void SetEnemyLevel()
@@ -106,15 +111,9 @@ namespace Impingement.Dungeon
                     }
                 }
                 pickedRoomVariant.SetRoom(Rooms[i]);
+                pickedRoomVariant.SetDungeonManager(this);
                 Rooms[i].RoomModifierVariant = pickedRoomVariant;
                 Rooms[i].SetRoomAction();
-            }
-
-            foreach (var roomModifier in LoadedDungeonData.RoomModifiers)
-            {
-                
-                
-                
             }
         }
         
@@ -146,7 +145,7 @@ namespace Impingement.Dungeon
                         int spawnCount = 0;
                         foreach (var spawnedRooms in Rooms)
                         {
-                            if (spawnedRooms.GetComponent<RoomBehaviour>().roomModifierVariant == pickedRoomVariant)
+                            if (spawnedRooms.roomModifierVariant == pickedRoomVariant)
                             {
                                 spawnCount++;
                             }
@@ -162,6 +161,7 @@ namespace Impingement.Dungeon
                     
                     //spawn room type
                     pickedRoomVariant.SetRoom(room);
+                    pickedRoomVariant.SetDungeonManager(this);
                     room.RoomModifierVariant = pickedRoomVariant;
                     room.StartRoomAction();
                         

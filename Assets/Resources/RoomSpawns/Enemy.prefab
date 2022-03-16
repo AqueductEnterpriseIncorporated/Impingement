@@ -16,13 +16,45 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: _takeDamageClips.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: _takeDamageClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 6853026004931481821}
+    - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: _takeDamageClips.Array.data[1]
+      value: 
+      objectReference: {fileID: 666417008458025336}
+    - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: _takeDamageClips.Array.data[2]
+      value: 
+      objectReference: {fileID: 5322079487084364316}
+    - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: _takeDamageClips.Array.data[3]
+      value: 
+      objectReference: {fileID: 3468311087712770743}
+    - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: _takeDamageClips.Array.data[4]
+      value: 
+      objectReference: {fileID: 3596693672443645890}
+    - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: _takeDamageClips.Array.data[5]
+      value: 
+      objectReference: {fileID: 3596693672443645890}
+    - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
       propertyPath: _takeDamage.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
       propertyPath: _takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: _takeDamage.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: -2829501607284361151}
     - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
       propertyPath: _takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
@@ -32,8 +64,16 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: _takeDamage.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Aggrevate
+      objectReference: {fileID: 0}
+    - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
       propertyPath: _takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: Aggrevate
+      objectReference: {fileID: 0}
+    - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: _takeDamage.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Impingement.Control.AIController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
       propertyPath: _takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
@@ -50,6 +90,10 @@ PrefabInstance:
     - target: {fileID: -5269223953129559562, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
       propertyPath: m_Radius
       value: 0.32
+      objectReference: {fileID: 0}
+    - target: {fileID: -5269223953129559562, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -5269223953129559562, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
       propertyPath: m_Center.y
@@ -221,6 +265,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c6c9be1c408497da41b13b5dd852020, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!82 &6853026004931481821 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5881033260146935267, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+  m_PrefabInstance: {fileID: 1046935459850376510}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &666417008458025336 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 556441935478201414, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+  m_PrefabInstance: {fileID: 1046935459850376510}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &5322079487084364316 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5142166673891710754, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+  m_PrefabInstance: {fileID: 1046935459850376510}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &3468311087712770743 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4514468085239861129, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+  m_PrefabInstance: {fileID: 1046935459850376510}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &3596693672443645890 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4570436285952580348, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+  m_PrefabInstance: {fileID: 1046935459850376510}
+  m_PrefabAsset: {fileID: 0}
 --- !u!54 &3025012501358811055
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -285,7 +354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _patrolSpeedFraction: 0.576
-  _chaseDistance: 2.5
+  _chaseDistance: 5
   _suspicionTime: 15
   _aggroCooldownTime: 5
   _timeSinceAggrevated: Infinity
@@ -294,6 +363,7 @@ MonoBehaviour:
   _patrolPath: {fileID: 0}
   _playerTarget: {fileID: 0}
   _actionScheduleController: {fileID: 8773989527534799842}
+  _baseStats: {fileID: 0}
 --- !u!114 &-1730835153503389246
 MonoBehaviour:
   m_ObjectHideFlags: 0

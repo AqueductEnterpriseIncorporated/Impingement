@@ -6,12 +6,14 @@ using Impingement.Stats;
 using Photon.Pun;
 using UnityEngine;
 using UnityEngine.Events;
+using Random = UnityEngine.Random;
 
 namespace Impingement.Attributes
 {
     public class HealthController : MonoBehaviour, IPunObservable
     {
         [Serializable] public class TakeDamageEvent : UnityEvent<float> { }
+        [SerializeField] private AudioSource[] _takeDamageClips;
         [SerializeField] private UnityEvent _onDie;
         [SerializeField] private BaseStats _baseStats = null;
         [SerializeField] private TakeDamageEvent _takeDamage;
@@ -61,6 +63,10 @@ namespace Impingement.Attributes
                 _photonView.RPC(nameof(DieRPC), RpcTarget.AllBufferedViaServer);
                 AwardExperience(instigator);
                 //DieRPC();
+            }
+            else
+            {
+                _takeDamageClips[Random.Range(0, _takeDamageClips.Length)].Play();
             }
         }
 

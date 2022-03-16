@@ -67,12 +67,10 @@ namespace Impingement.Combat
             {
                 if (!IsInRange(_target.transform))
                 {
-                    print("moving");
                     _movementController.Move(_target.transform.position, 1);
                 }
                 else
                 {
-                    print("attack behaviour");
                     _movementController.Stop();
                     LookAtTarget();
                     AttackBehavior();
@@ -85,6 +83,11 @@ namespace Impingement.Combat
             }
         }
 
+        public WeaponConfig GetCurrentWeapon()
+        {
+            return _currentWeaponConfig;
+        }
+        
         public void EquipWeapon(WeaponConfig weaponConfig)
         {
             _currentWeaponConfig = weaponConfig;
@@ -166,7 +169,7 @@ namespace Impingement.Combat
             }
         }
 
-        private bool IsInRange(Transform targetTransform)
+        public bool IsInRange(Transform targetTransform)
         {
             var distance = Mathf.Abs((transform.position - targetTransform.transform.position).sqrMagnitude);
             return distance < Mathf.Pow(_currentWeaponConfig.GetRange(), 2);
@@ -174,8 +177,8 @@ namespace Impingement.Combat
         
         public void SetTarget(HealthController target)
         {
-            _actionScheduleController.StartAction(this);
             _target = target;
+            _actionScheduleController.StartAction(this);
         }
         
         public HealthController GetTarget()

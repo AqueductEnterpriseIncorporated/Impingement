@@ -63,10 +63,9 @@ namespace Impingement.Dungeon
             {
                 var dungeonSize = FindObjectOfType<DungeonProgressionManager>().GetDungeonSize();
                 size = dungeonSize;
-                print("generating dungeon, size: " + size);
                 MazeGenerator();
                 GenerateDungeon();
-                _dungeonManager.Manage();
+                _dungeonManager.Manage(false);
             }
         }
 
@@ -81,7 +80,7 @@ namespace Impingement.Dungeon
                 Board = _dungeonData.Board;
                 size = StringToVector2(_dungeonData.DungeonSize);
                 GenerateDungeon();
-                _dungeonManager.Manage();
+                _dungeonManager.Manage(true);
             }
         }
 

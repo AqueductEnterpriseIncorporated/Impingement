@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Impingement.Control;
 using Impingement.Dungeon;
 using PlayFab;
 using UnityEngine;
@@ -33,6 +34,8 @@ namespace Impingement.Playfab
 
         private void OnApplicationQuit()
         {
+            FindObjectOfType<PlayfabPlayerDataController>().SavePlayerData();
+
             if(SceneManager.GetActiveScene().name != "Dungeon") { return; }
             UploadData(new Dictionary<string, string>
             {
@@ -40,7 +43,6 @@ namespace Impingement.Playfab
             });
             FindObjectOfType<DungeonManager>().GenerateJson();
         }
-        
         
         public void Login(string login)
         {

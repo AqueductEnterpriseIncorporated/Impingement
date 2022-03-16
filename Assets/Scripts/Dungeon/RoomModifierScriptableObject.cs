@@ -23,6 +23,12 @@ namespace Impingement.Dungeon
         [SerializeField] private float _chanceToSpawn = .5f;
 
         private RoomBehaviour _room;
+        private DungeonManager _dungeonManager;
+
+        public void SetDungeonManager(DungeonManager dungeonManager)
+        {
+            _dungeonManager = dungeonManager;
+        }
 
         public void SetRoom(RoomBehaviour room)
         {
@@ -59,11 +65,11 @@ namespace Impingement.Dungeon
 
                 if (_isEnemy)
                 {
-                    FindObjectOfType<DungeonManager>().Enemies.Add(localPrefab);
+                    _dungeonManager.Enemies.Add(localPrefab);
                 }
                 if (_isPickup)
                 {
-                    FindObjectOfType<DungeonManager>().Pikcups.Add(localPrefab);
+                    _dungeonManager.Pikcups.Add(localPrefab);
                 }
 
                 //localPrefab.transform.parent = _room.transform;
@@ -82,11 +88,11 @@ namespace Impingement.Dungeon
 
                 if (_isEnemy)
                 {
-                    FindObjectOfType<DungeonManager>().Enemies.Add(localPrefab);
+                    _dungeonManager.Enemies.Add(localPrefab);
                 }
                 if (_isPickup)
                 {
-                    FindObjectOfType<DungeonManager>().Pikcups.Add(localPrefab);
+                    _dungeonManager.Pikcups.Add(localPrefab);
                 }
 
                 currentObjectCount++;
@@ -95,13 +101,12 @@ namespace Impingement.Dungeon
         
         private Vector3 GetRandomPosition()
         {
-            _room.TryGetComponent<BoxCollider>(out var boxCollider);
             Vector3 cubeSize;
             Vector3 cubeCenter;
-            Transform cubeTrans = boxCollider.GetComponent<Transform>();
+            Transform cubeTrans = _room.BoxCollider.transform;
             cubeCenter = cubeTrans.position;
-            cubeSize.x = cubeTrans.localScale.x * boxCollider.size.x;
-            cubeSize.z = cubeTrans.localScale.z * boxCollider.size.z;
+            cubeSize.x = cubeTrans.localScale.x * _room.BoxCollider.size.x;
+            cubeSize.z = cubeTrans.localScale.z * _room.BoxCollider.size.z;
 
             Vector3 randomPosition = new Vector3(Random.Range(-cubeSize.x / 2, cubeSize.x / 2),0, Random.Range(-cubeSize.z / 2, cubeSize.z / 2));
             return cubeCenter + randomPosition;

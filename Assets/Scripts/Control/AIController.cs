@@ -4,6 +4,7 @@ using Impingement.Combat;
 using Impingement.Core;
 using Impingement.Movement;
 using Impingement.Attributes;
+using Impingement.Stats;
 using Photon.Pun;
 using UnityEngine;
 
@@ -23,6 +24,7 @@ namespace Impingement.Control
         [SerializeField] private PatrolPath _patrolPath;
         [SerializeField] PlayerController _playerTarget;
         [SerializeField] private ActionScheduleController _actionScheduleController;
+        [SerializeField] private BaseStats _baseStats;
         private PlayerController[] _players;
         private PhotonView _photonView;
         private CombatController _combatController;
@@ -48,6 +50,11 @@ namespace Impingement.Control
         private Vector3 GetGuardPosition()
         {
             return transform.position;
+        }
+
+        public BaseStats GetBaseStats()
+        {
+            return _baseStats;
         }
 
         private void Start()
@@ -79,12 +86,7 @@ namespace Impingement.Control
 
             UpdateTimers();
 
-            if (_players.Length == 0)
-            {
-                //PatrolBehaviour();
-
-                return;
-            }
+            if (_players.Length == 0) { return; }
             
             foreach (var player in _players)
             {
@@ -96,18 +98,21 @@ namespace Impingement.Control
                     }
                     continue;
                 }
-     
+                
                 if (IsAggrevated(player.gameObject) || _combatController.CanAttack(player.GetHealthController()))
-                { 
+                {
                     _playerTarget = player;
-                    AttackBehaviour(_playerTarget);
                 }
                 else
                 {
                     _playerTarget = null;
                 }
                 
-                if (_timeSinceLastSawPlayer < _suspicionTime)
+                if (_playerTarget != null)
+                {
+                    AttackBehaviour(_playerTarget);
+                }
+                else if (_timeSinceLastSawPlayer < _suspicionTime)
                 {
                     SuspicionBehaviour();
                 }
@@ -154,7 +159,7 @@ namespace Impingement.Control
             _timeSinceLastSawPlayer = 0;
             _combatController.SetTarget(player.GetHealthController());
 
-            AggrevateNearbyEnemies();
+            //AggrevateNearbyEnemies();
         }
 
         private void AggrevateNearbyEnemies()

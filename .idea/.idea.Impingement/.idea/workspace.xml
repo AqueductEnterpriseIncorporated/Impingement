@@ -5,487 +5,842 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e797b75-f4f0-4ea9-b141-84d8d653dbe9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Characters/PlayerAnimation.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Characters/PlayerAnimation/Player.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Characters/PlayerAnimation/Player.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD2.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD2.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Mesh.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Mesh/EyeAdvancedObjects.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Mesh/EyeAdvancedObjects.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Prefabs/EyeAdvanced_0.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Prefabs/EyeAdvanced_0.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Prefabs/EyeAdvanced_1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Prefabs/EyeAdvanced_1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Prefabs/EyeAdvanced_2.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Prefabs/EyeAdvanced_2.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Prefabs/EyeAdvanced_LOD.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Prefabs/EyeAdvanced_LOD.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Scripts/EyeAdv_AutoDilation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Scripts/EyeAdv_AutoDilation.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Shaders.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Shaders/STANDARD.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Shaders/STANDARD/EyeAdvanced_LOD0.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Shaders/STANDARD/EyeAdvanced_LOD0.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Shaders/STANDARD/EyeAdvanced_LOD1.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Shaders/STANDARD/EyeAdvanced_LOD1.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Shaders/STANDARD/EyeAdvanced_LOD2.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Shaders/STANDARD/EyeAdvanced_LOD2.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_DIFF_Sclera.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_DIFF_Sclera.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_IRIS_01.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_IRIS_01.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_IRIS_02.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_IRIS_02.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_IRIS_03.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_IRIS_03.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_IRIS_04.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_IRIS_04.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_IRIS_05.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_IRIS_05.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_IRIS_06.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_IRIS_06.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_IRIS_07.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_IRIS_07.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_IRIS_08.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_IRIS_08.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_IRIS_09.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_IRIS_09.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_IRIS_10.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_IRIS_10.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_IRIS_11.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_IRIS_11.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_IRIS_12.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_IRIS_12.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_IRIS_13.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_IRIS_13.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_IRIS_14.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_IRIS_14.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_IRIS_CAT_01.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_IRIS_CAT_01.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_MASK_Cat.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_MASK_Cat.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_MASK_Normal.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_MASK_Normal.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_NORM_Iris.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_NORM_Iris.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_NORM_Pupil.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_NORM_Pupil.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_NORM_Sclera.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/eyeball_NORM_Sclera.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/shadows_Iris_01.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/shadows_Iris_01.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/shadows_sclera_01.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Textures/shadows_sclera_01.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_DEMO.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_DEMO/EyeAdvance_Demo.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_DEMO/EyeAdvance_Demo.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_DEMO/EyeAdvance_DemoSettings.lighting" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_DEMO/EyeAdvance_DemoSettings.lighting.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_DEMO/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_DEMO/Scripts/ControllerCamera.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_DEMO/Scripts/ControllerCamera.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_DEMO/Scripts/ControllerGUI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_DEMO/Scripts/ControllerGUI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_DEMO/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_DEMO/Textures/ReflectTex_Default_diffuse.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_DEMO/Textures/ReflectTex_Default_diffuse.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_DEMO/Textures/ReflectTex_Default_specular.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_DEMO/Textures/ReflectTex_Default_specular.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_DEMO/Textures/ea_TitleTex.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_DEMO/Textures/ea_TitleTex.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_DEMO/Textures/ea_div1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_DEMO/Textures/ea_div1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_DEMO/Textures/ea_slidea.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_DEMO/Textures/ea_slidea.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_DEMO/Textures/ea_slidec.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_DEMO/Textures/ea_slidec.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_DEMO/Textures/ea_slided.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_DEMO/Textures/ea_slided.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_DEMO/Textures/ea_tdTex.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_DEMO/Textures/ea_tdTex.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_DEMO/Textures/mat_reflections.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_DEMO/Textures/mat_reflections.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_DEMO/Textures/tex_DarkGround.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_DEMO/Textures/tex_DarkGround.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_EyeAdvanced_ReadMe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_EyeAdvanced_ReadMe.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_SRP.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_SRP/EyeAdvanced_ver1.1.0_SRP_HDRP.unitypackage.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_SRP/EyeAdvanced_ver1.1.0_SRP_URP.unitypackage.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_SRP/EyeAdvanced_ver1.1.0_STANDARD.unitypackage.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_SRP/_SRP_ReadMe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/_SRP/_SRP_ReadMe.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Directories Description.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Directories Description.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Editor Tools.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Editor Tools/Files and Components Support.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Editor Tools/Files and Components Support/FEditor_ScriptMenuAddOptions.Components.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Editor Tools/Files and Components Support/FEditor_ScriptMenuAddOptions.Components.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Editor Tools/Files and Components Support/FEditor_ScriptMenuAddOptions.Files.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Editor Tools/Files and Components Support/FEditor_ScriptMenuAddOptions.Files.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Editor Tools/Files and Components Support/FEditor_ScriptMenuAddOptions.Prefabs.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Editor Tools/Files and Components Support/FEditor_ScriptMenuAddOptions.Prefabs.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Editor Tools/Files and Components Support/FEditor_ScriptMenuAddOptions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Editor Tools/Files and Components Support/FEditor_ScriptMenuAddOptions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/CheckForLookAnimatorImport.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/CheckForLookAnimatorImport.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Blinking.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Blinking.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Elements.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Elements.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Helpers.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Helpers.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.LookAnimator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.LookAnimator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Main.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Main.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Tabs.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Tabs.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Variables.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Variables.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/FEyesAnimator_Editor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/FEyesAnimator_Editor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/BlinkingIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/BlinkingIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyeFollow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyeFollow.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyeIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyeIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyeLidDown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyeLidDown.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyeLidUp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyeLidUp.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyeRandom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyeRandom.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/Eyes Animator Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/Eyes Animator Icon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyesAnimator_Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyesAnimator_Icon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyesAnimator_IconSmall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyesAnimator_IconSmall.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/EyesAnimator.AdditionalMotion.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/EyesAnimator.AdditionalMotion.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/EyesAnimator.Blinking.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/EyesAnimator.Blinking.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/EyesAnimator.Follow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/EyesAnimator.Follow.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/EyesAnimator.Gizmos.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/EyesAnimator.Gizmos.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/EyesAnimator.Helpers.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/EyesAnimator.Helpers.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/EyesAnimator.LookAnimator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/EyesAnimator.LookAnimator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Eyes Animator - Quick Guide.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Eyes Animator - Quick Guide.pdf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/FEyesAnimator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/FEyesAnimator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Packages.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Packages/Eyes Animator - Demos.unitypackage.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Packages/Fimpossible Assembly Definitions.unitypackage.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Packages/Look Animator Implementation.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Packages/Look Animator Implementation.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Read Me - Eyes Animator.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Read Me - Eyes Animator.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/FBasic Assets.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/FBasic Assets/Behaviours.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/FBasic Assets/Behaviours/Cameras.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/FBasic Assets/Behaviours/Cameras/FBasic_FreeCameraBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/FBasic Assets/Behaviours/Cameras/FBasic_FreeCameraBehaviour.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Animating.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Animating/FAnimationClips.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Animating/FAnimationClips.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Animating/FAnimatorMethods.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Animating/FAnimatorMethods.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Helpers.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Helpers/FColorMethods.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Helpers/FColorMethods.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Helpers/FDebug.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Helpers/FDebug.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Helpers/FStringMethods.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Helpers/FStringMethods.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Math.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Math/FEasing.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Math/FEasing.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Math/FEngineering.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Math/FEngineering.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Math/FLogicMethods.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Math/FLogicMethods.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Math/FTransformMethods.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Math/FTransformMethods.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Math/FVectorMethods.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Math/FVectorMethods.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/MathHelpers - ReadMe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/MathHelpers - ReadMe.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Utils.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Utils/FBasic_Enums.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Utils/FBasic_Enums.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor Tools.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor Tools/Inspector And Scene Tools.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor Tools/Inspector And Scene Tools/FEditor_Handles.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor Tools/Inspector And Scene Tools/FEditor_Handles.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor Tools/Inspector And Scene Tools/FHierarchyIcons.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor Tools/Inspector And Scene Tools/FHierarchyIcons.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor Tools/Property Attributes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor Tools/Property Attributes/FPD_HeaderAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor Tools/Property Attributes/FPD_HeaderAttribute.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor Tools/Property Attributes/FPD_SuffixAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor Tools/Property Attributes/FPD_SuffixAttribute.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Property Drawers.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Property Drawers/FPD_HeaderDrawer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Property Drawers/FPD_HeaderDrawer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Property Drawers/FPD_SuffixDrawer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Property Drawers/FPD_SuffixDrawer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Additional.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Additional/SPR_SearchDirectory.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Additional/SPR_SearchDirectory.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Additional/SPR_SearchNumeric.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Additional/SPR_SearchNumeric.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FBGBox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FBGBox.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FButton.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FButton.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FButtonHover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FButtonHover.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FFrameBox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FFrameBox.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FHelpBox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FHelpBox.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FHelpBoxH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FHelpBoxH.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FInBox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FInBox.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FInBoxH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FInBoxH.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FInBoxLight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FInBoxLight.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FViewBox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FViewBox.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FbuttonPress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FbuttonPress.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/FImp_ColliderData Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/FImp_ColliderData Icon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FAdd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FAdd.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FExport.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FExport.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FExtension.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FExtension.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FGear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FGear.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FGearMain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FGearMain.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FGearSetup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FGearSetup.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FKnob.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FKnob.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FLimits.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FLimits.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FLoad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FLoad.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FModule.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FModule.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FOptimize.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FOptimize.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FPhysics.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FPhysics.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FRepair.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FRepair.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FSliders.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FSliders.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FTweaks.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FTweaks.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FABSwitch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FABSwitch.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FArrowDown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FArrowDown.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FArrowLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FArrowLeft.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FArrowRight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FArrowRight.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FArrowUp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FArrowUp.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FDefault.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FDefault.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FGizmos.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FGizmos.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FGizmosOff.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FGizmosOff.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FHierarchySwitch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FHierarchySwitch.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FLeftFolded.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FLeftFolded.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FManual.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FManual.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FRandom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FRandom.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FRect.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FRect.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FRightFolded.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FRightFolded.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FTutorials.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FTutorials.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FUnfolded.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FUnfolded.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FUpFolded.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FUpFolded.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FWait.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FWait.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FWebsite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FWebsite.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/Additional.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/Additional.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/Behaviour.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/Behaviour.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FBone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FBone.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FCollider.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FCollider.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FCurve.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FCurve.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FDebug.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FDebug.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FDistance.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FDistance.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FDragAndDrop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FDragAndDrop.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FError.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FError.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FHidden.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FHidden.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FInfo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FInfo.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FMovement.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FMovement.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FRefresh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FRefresh.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FRemove.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FRemove.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FRename.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FRename.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FRotation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FRotation.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FWarning.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FWarning.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/MiniGear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/MiniGear.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/MiniMotion.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/MiniMotion.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/Motion.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/Motion.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/Optimize.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/Optimize.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/Physics.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/Physics.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/SmallGear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/SmallGear.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/Target.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/Target.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/TEX_HumanScaleRef.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/TEX_HumanScaleRef.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Support.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Support/FDefinesCompilation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Support/FDefinesCompilation.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Support/FEditor_CustomInspectorHelpers.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Support/FEditor_CustomInspectorHelpers.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/GUI Helpers.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/GUI Helpers/FGUI_Finders.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/GUI Helpers/FGUI_Finders.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/GUI Helpers/FGUI_Handles.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/GUI Helpers/FGUI_Handles.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/GUI Helpers/FGUI_Inspector.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/GUI Helpers/FGUI_Inspector.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/GUI Helpers/FGUI_Resources.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/GUI Helpers/FGUI_Resources.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/DarkMaterial.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/DarkMaterial.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/EyeMaterial.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/EyeMaterial.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/New Lighting Settings.lighting" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/New Lighting Settings.lighting.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/uploads_files_646503_Eye+Final+stage.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/uploads_files_646503_Eye+Final+stage.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MusicAndSfx/Music.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MusicAndSfx/Music/Elden_Ring_OST_-_Opening.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MusicAndSfx/Music/Elden_Ring_OST_-_Opening.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MusicAndSfx/Music/Path_of_Exile_(Original_Game_Soundtrack)_-_Lioneye’s_Watch.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MusicAndSfx/Music/Path_of_Exile_(Original_Game_Soundtrack)_-_Lioneye’s_Watch.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu/LightingData.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu/LightingData.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu/ReflectionProbe-0.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu/ReflectionProbe-0.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu_Profiles.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu_Profiles/Main Camera Profile 1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu_Profiles/Main Camera Profile 1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu_Profiles/Main Camera Profile.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu_Profiles/Main Camera Profile.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu_Profiles/PostProcessing Profile.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu_Profiles/PostProcessing Profile.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/StartSceneManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/StartSceneManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/128 Light 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/128 Light 2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/128 Light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/128 Light.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/128.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/32 Light 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/32 Light 2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/32 Light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/32 Light.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/32.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/64 Light 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/64 Light 2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/64 Light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/64 Light.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/64.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/A.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/A.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Add Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Add Icon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/B.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/B.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/BTN_A1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/BTN_A1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/BTN_A2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/BTN_A2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/BTN_A3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/BTN_A3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/BTN_Line_4PX_Large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/BTN_Line_4PX_Large.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/BTN_Line_4PX_Medium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/BTN_Line_4PX_Medium.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/BTN_Line_4PX_Small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/BTN_Line_4PX_Small.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Bell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Bell.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/ButtonLargeRound.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/ButtonLargeRound.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/ButtonMediumRound.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/ButtonMediumRound.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/ButtonSmallRound.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/ButtonSmallRound.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Button_Large_A.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Button_Large_A.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Button_Medium_A.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Button_Medium_A.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Button_Small_A.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Button_Small_A.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/C.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/C.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/CIRCLE2PXLAR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/CIRCLE2PXLAR.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/CIRCLE2PXMED.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/CIRCLE2PXMED.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/CIRCLE2PXSMALL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/CIRCLE2PXSMALL.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/CIRCLE4PXLAR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/CIRCLE4PXLAR.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/CIRCLE4PXMED.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/CIRCLE4PXMED.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/CIRCLE4PXSMA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/CIRCLE4PXSMA.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Close BTN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Close BTN.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Coin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Coin.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/D.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/D.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Divider.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Divider.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Down Arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Down Arrow.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Down BTN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Down BTN.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/E.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/E.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/F.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/F.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Facebook 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Facebook 2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Facebook.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Gem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Gem.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Heart.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Icon Sets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Icon Sets.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Info.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/InputField.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/InputField.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Inventory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Inventory.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Left Arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Left Arrow.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Left BTN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Left BTN.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Lock.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Messages.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Messages.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Missions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Missions.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Music.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Ranks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Ranks.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Right Arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Right Arrow.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Right BTN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Right BTN.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Settings.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Shop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Shop.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Sound.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Sound.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Star.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Up Arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Up Arrow.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Up BTN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/Up BTN.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/World.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/World.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/X.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Free/X.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons/Close Button.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons/Close Button.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons/Content 1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons/Content 1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons/Facebook Button.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons/Facebook Button.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons/Info Button.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons/Info Button.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons/Inventory Button.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons/Inventory Button.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons/Item List.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons/Item List.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons/Messages Button.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons/Messages Button.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons/Missions Button.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons/Missions Button.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons/Music.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons/Music.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons/Notification.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons/Notification.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons/Play Button.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons/Play Button.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons/Ranking Button.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons/Ranking Button.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons/Send Hearts BTN.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons/Send Hearts BTN.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons/Settings Button.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons/Settings Button.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons/Shop.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons/Shop.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons/Sound.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Buttons/Sound.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Panel.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Panel/Facebook Login.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Panel/Facebook Login.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Panel/Inventory Panel.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Panel/Inventory Panel.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Panel/Lose.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Panel/Lose.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Panel/Missions.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Panel/Missions.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Panel/My Info Panel.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Panel/My Info Panel.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Panel/Panel.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Panel/Panel.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Panel/Ranking.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Panel/Ranking.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Panel/Settings.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Panel/Settings.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Panel/Shop.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Panel/Shop.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Panel/Win.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Dark UI/Prefabs Panel/Win.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Directories Description.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Directories Description.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Editor/Editor Tools.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Editor/Editor Tools/Files and Components Support.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Editor/Editor Tools/Files and Components Support/FEditor_ScriptMenuAddOptions.Components.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Editor/Editor Tools/Files and Components Support/FEditor_ScriptMenuAddOptions.Components.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Editor/Editor Tools/Files and Components Support/FEditor_ScriptMenuAddOptions.Files.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Editor/Editor Tools/Files and Components Support/FEditor_ScriptMenuAddOptions.Files.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Editor/Editor Tools/Files and Components Support/FEditor_ScriptMenuAddOptions.Prefabs.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Editor/Editor Tools/Files and Components Support/FEditor_ScriptMenuAddOptions.Prefabs.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Editor/Editor Tools/Files and Components Support/FEditor_ScriptMenuAddOptions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Editor/Editor Tools/Files and Components Support/FEditor_ScriptMenuAddOptions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Editor/Plugins - Editor - Animating.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Editor/Plugins - Editor - Animating/Eyes Animator.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Editor/Plugins - Editor - Animating/Eyes Animator/CheckForLookAnimatorImport.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Editor/Plugins - Editor - Animating/Eyes Animator/CheckForLookAnimatorImport.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Blinking.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Blinking.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Elements.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Elements.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Helpers.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Helpers.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.LookAnimator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.LookAnimator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Main.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Main.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Tabs.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Tabs.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Variables.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Variables.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Editor/Plugins - Editor - Animating/Eyes Animator/FEyesAnimator_Editor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Editor/Plugins - Editor - Animating/Eyes Animator/FEyesAnimator_Editor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/Editor/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/BlinkingIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/BlinkingIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyeFollow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyeFollow.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyeIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyeIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyeLidDown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyeLidDown.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyeLidUp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyeLidUp.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyeRandom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyeRandom.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/Eyes Animator Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/Eyes Animator Icon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyesAnimator_Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyesAnimator_Icon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyesAnimator_IconSmall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyesAnimator_IconSmall.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/EyesAnimator.AdditionalMotion.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/EyesAnimator.AdditionalMotion.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/EyesAnimator.Blinking.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/EyesAnimator.Blinking.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/EyesAnimator.Follow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/EyesAnimator.Follow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/EyesAnimator.Gizmos.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/EyesAnimator.Gizmos.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/EyesAnimator.Helpers.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/EyesAnimator.Helpers.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/EyesAnimator.LookAnimator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Code/EyesAnimator.LookAnimator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Eyes Animator - Quick Guide.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Eyes Animator - Quick Guide.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/FEyesAnimator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/FEyesAnimator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Packages.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Packages/Eyes Animator - Demos.unitypackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Packages/Fimpossible Assembly Definitions.unitypackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Packages/Look Animator Implementation.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Packages/Look Animator Implementation.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Read Me - Eyes Animator.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Animating/Eyes Animator/Read Me - Eyes Animator.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/FBasic Assets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/FBasic Assets/Behaviours.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/FBasic Assets/Behaviours/Cameras.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/FBasic Assets/Behaviours/Cameras/FBasic_FreeCameraBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/FBasic Assets/Behaviours/Cameras/FBasic_FreeCameraBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/Math Helpers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/Math Helpers/Animating.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/Math Helpers/Animating/FAnimationClips.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/Math Helpers/Animating/FAnimationClips.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/Math Helpers/Animating/FAnimatorMethods.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/Math Helpers/Animating/FAnimatorMethods.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/Math Helpers/Helpers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/Math Helpers/Helpers/FColorMethods.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/Math Helpers/Helpers/FColorMethods.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/Math Helpers/Helpers/FDebug.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/Math Helpers/Helpers/FDebug.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/Math Helpers/Helpers/FStringMethods.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/Math Helpers/Helpers/FStringMethods.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/Math Helpers/Math.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/Math Helpers/Math/FEasing.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/Math Helpers/Math/FEasing.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/Math Helpers/Math/FEngineering.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/Math Helpers/Math/FEngineering.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/Math Helpers/Math/FLogicMethods.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/Math Helpers/Math/FLogicMethods.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/Math Helpers/Math/FTransformMethods.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/Math Helpers/Math/FTransformMethods.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/Math Helpers/Math/FVectorMethods.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/Math Helpers/Math/FVectorMethods.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/Math Helpers/MathHelpers - ReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/Math Helpers/MathHelpers - ReadMe.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/Utils.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/Utils/FBasic_Enums.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Plugins - Shared/Utils/FBasic_Enums.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor Tools.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor Tools/Inspector And Scene Tools.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor Tools/Inspector And Scene Tools/FEditor_Handles.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor Tools/Inspector And Scene Tools/FEditor_Handles.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor Tools/Inspector And Scene Tools/FHierarchyIcons.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor Tools/Inspector And Scene Tools/FHierarchyIcons.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor Tools/Property Attributes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor Tools/Property Attributes/FPD_HeaderAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor Tools/Property Attributes/FPD_HeaderAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor Tools/Property Attributes/FPD_SuffixAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor Tools/Property Attributes/FPD_SuffixAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Property Drawers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Property Drawers/FPD_HeaderDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Property Drawers/FPD_HeaderDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Property Drawers/FPD_SuffixDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Property Drawers/FPD_SuffixDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Additional.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Additional/SPR_SearchDirectory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Additional/SPR_SearchDirectory.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Additional/SPR_SearchNumeric.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Additional/SPR_SearchNumeric.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Backgrounds.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Backgrounds/FBGBox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Backgrounds/FBGBox.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Backgrounds/FButton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Backgrounds/FButton.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Backgrounds/FButtonHover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Backgrounds/FButtonHover.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Backgrounds/FFrameBox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Backgrounds/FFrameBox.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Backgrounds/FHelpBox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Backgrounds/FHelpBox.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Backgrounds/FHelpBoxH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Backgrounds/FHelpBoxH.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Backgrounds/FInBox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Backgrounds/FInBox.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Backgrounds/FInBoxH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Backgrounds/FInBoxH.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Backgrounds/FInBoxLight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Backgrounds/FInBoxLight.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Backgrounds/FViewBox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Backgrounds/FViewBox.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Backgrounds/FbuttonPress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Backgrounds/FbuttonPress.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/FImp_ColliderData Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/FImp_ColliderData Icon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Icons.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Icons/FAdd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Icons/FAdd.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Icons/FExport.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Icons/FExport.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Icons/FExtension.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Icons/FExtension.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Icons/FGear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Icons/FGear.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Icons/FGearMain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Icons/FGearMain.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Icons/FGearSetup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Icons/FGearSetup.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Icons/FKnob.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Icons/FKnob.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Icons/FLimits.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Icons/FLimits.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Icons/FLoad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Icons/FLoad.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Icons/FModule.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Icons/FModule.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Icons/FOptimize.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Icons/FOptimize.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Icons/FPhysics.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Icons/FPhysics.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Icons/FRepair.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Icons/FRepair.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Icons/FSliders.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Icons/FSliders.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Icons/FTweaks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Icons/FTweaks.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FABSwitch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FABSwitch.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FArrowDown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FArrowDown.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FArrowLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FArrowLeft.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FArrowRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FArrowRight.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FArrowUp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FArrowUp.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FDefault.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FDefault.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FGizmos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FGizmos.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FGizmosOff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FGizmosOff.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FHierarchySwitch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FHierarchySwitch.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FLeftFolded.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FLeftFolded.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FManual.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FManual.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FRandom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FRandom.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FRect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FRect.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FRightFolded.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FRightFolded.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FTutorials.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FTutorials.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FUnfolded.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FUnfolded.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FUpFolded.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FUpFolded.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FWait.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FWait.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FWebsite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Misc Icons/FWebsite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/Additional.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/Additional.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/Behaviour.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/Behaviour.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/FBone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/FBone.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/FCollider.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/FCollider.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/FCurve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/FCurve.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/FDebug.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/FDebug.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/FDistance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/FDistance.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/FDragAndDrop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/FDragAndDrop.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/FError.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/FError.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/FHidden.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/FHidden.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/FInfo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/FInfo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/FMovement.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/FMovement.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/FRefresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/FRefresh.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/FRemove.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/FRemove.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/FRename.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/FRename.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/FRotation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/FRotation.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/FWarning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/FWarning.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/MiniGear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/MiniGear.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/MiniMotion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/MiniMotion.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/Motion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/Motion.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/Optimize.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/Optimize.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/Physics.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/Physics.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/SmallGear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/SmallGear.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/Target.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/Fimp/Small Icons/Target.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/TEX_HumanScaleRef.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Resources/TEX_HumanScaleRef.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Support.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Support/FDefinesCompilation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Support/FDefinesCompilation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Support/FEditor_CustomInspectorHelpers.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/Editor/Support/FEditor_CustomInspectorHelpers.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/GUI Helpers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/GUI Helpers/FGUI_Finders.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/GUI Helpers/FGUI_Finders.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/GUI Helpers/FGUI_Handles.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/GUI Helpers/FGUI_Handles.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/GUI Helpers/FGUI_Inspector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/GUI Helpers/FGUI_Inspector.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/GUI Helpers/FGUI_Resources.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Eye/Shared Tools/GUI Helpers/FGUI_Resources.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Sound.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Sound/Damage 1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Sound/Damage 1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Sound/Damage.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Sound/Damage.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/AreaLevelDisplay.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/AreaLevelDisplay.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/MinimapController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/MinimapController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Box.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Circle.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/MinimapTexture.renderTexture" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/MinimapTexture.renderTexture.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Characters/Character.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Characters/Character.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Characters/Character.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Characters/Character.controller.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Characters/SkeletonOverride Controller.overrideController" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Characters/SkeletonOverride Controller.overrideController" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Materials/Dungeon_Mat_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/StylizedHandPaintedDungeon(Free)/Materials/Dungeon_Mat_01.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MusicAndSfx/Master.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MusicAndSfx/Master.mixer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Core/Progression.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/Progression.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Generator.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Generator.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Directories Description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Directories Description.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Editor Tools.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Editor Tools/Files and Components Support.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Editor Tools/Files and Components Support/FEditor_ScriptMenuAddOptions.Components.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Editor Tools/Files and Components Support/FEditor_ScriptMenuAddOptions.Components.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Editor Tools/Files and Components Support/FEditor_ScriptMenuAddOptions.Files.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Editor Tools/Files and Components Support/FEditor_ScriptMenuAddOptions.Files.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Editor Tools/Files and Components Support/FEditor_ScriptMenuAddOptions.Prefabs.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Editor Tools/Files and Components Support/FEditor_ScriptMenuAddOptions.Prefabs.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Editor Tools/Files and Components Support/FEditor_ScriptMenuAddOptions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Editor Tools/Files and Components Support/FEditor_ScriptMenuAddOptions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/CheckForLookAnimatorImport.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/CheckForLookAnimatorImport.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Blinking.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Blinking.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Elements.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Elements.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Helpers.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Helpers.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.LookAnimator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.LookAnimator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Main.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Main.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Tabs.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Tabs.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Variables.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/EyesAnimator.Editor.Variables.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/FEyesAnimator_Editor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Eyes Animator/FEyesAnimator_Editor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/BlinkingIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/BlinkingIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyeFollow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyeFollow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyeIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyeIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyeLidDown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyeLidDown.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyeLidUp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyeLidUp.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyeRandom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyeRandom.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/Eyes Animator Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/Eyes Animator Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyesAnimator_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyesAnimator_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyesAnimator_IconSmall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/Editor/Resources/Eyes Animator/EyesAnimator_IconSmall.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/EyesAnimator.AdditionalMotion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/EyesAnimator.AdditionalMotion.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/EyesAnimator.Blinking.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/EyesAnimator.Blinking.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/EyesAnimator.Follow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/EyesAnimator.Follow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/EyesAnimator.Gizmos.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/EyesAnimator.Gizmos.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/EyesAnimator.Helpers.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/EyesAnimator.Helpers.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/EyesAnimator.LookAnimator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Code/EyesAnimator.LookAnimator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Eyes Animator - Quick Guide.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Eyes Animator - Quick Guide.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/FEyesAnimator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/FEyesAnimator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Packages.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Packages/Eyes Animator - Demos.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Packages/Fimpossible Assembly Definitions.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Packages/Look Animator Implementation.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Packages/Look Animator Implementation.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Read Me - Eyes Animator.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Eyes Animator/Read Me - Eyes Animator.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/FBasic Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/FBasic Assets/Behaviours.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/FBasic Assets/Behaviours/Cameras.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/FBasic Assets/Behaviours/Cameras/FBasic_FreeCameraBehaviour.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/FBasic Assets/Behaviours/Cameras/FBasic_FreeCameraBehaviour.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Animating.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Animating/FAnimationClips.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Animating/FAnimationClips.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Animating/FAnimatorMethods.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Animating/FAnimatorMethods.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Helpers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Helpers/FColorMethods.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Helpers/FColorMethods.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Helpers/FDebug.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Helpers/FDebug.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Helpers/FStringMethods.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Helpers/FStringMethods.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Math.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Math/FEasing.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Math/FEasing.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Math/FEngineering.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Math/FEngineering.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Math/FLogicMethods.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Math/FLogicMethods.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Math/FTransformMethods.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Math/FTransformMethods.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Math/FVectorMethods.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/Math/FVectorMethods.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/MathHelpers - ReadMe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Math Helpers/MathHelpers - ReadMe.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Utils.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Utils/FBasic_Enums.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Shared/Utils/FBasic_Enums.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor Tools.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor Tools/Inspector And Scene Tools.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor Tools/Inspector And Scene Tools/FEditor_Handles.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor Tools/Inspector And Scene Tools/FEditor_Handles.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor Tools/Inspector And Scene Tools/FHierarchyIcons.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor Tools/Inspector And Scene Tools/FHierarchyIcons.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor Tools/Property Attributes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor Tools/Property Attributes/FPD_HeaderAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor Tools/Property Attributes/FPD_HeaderAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor Tools/Property Attributes/FPD_SuffixAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor Tools/Property Attributes/FPD_SuffixAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Property Drawers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Property Drawers/FPD_HeaderDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Property Drawers/FPD_HeaderDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Property Drawers/FPD_SuffixDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Property Drawers/FPD_SuffixDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Additional.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Additional/SPR_SearchDirectory.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Additional/SPR_SearchDirectory.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Additional/SPR_SearchNumeric.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Additional/SPR_SearchNumeric.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FBGBox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FBGBox.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FButton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FButtonHover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FButtonHover.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FFrameBox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FFrameBox.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FHelpBox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FHelpBox.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FHelpBoxH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FHelpBoxH.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FInBox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FInBox.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FInBoxH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FInBoxH.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FInBoxLight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FInBoxLight.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FViewBox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FViewBox.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FbuttonPress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FbuttonPress.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/FImp_ColliderData Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/FImp_ColliderData Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FAdd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FAdd.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FExport.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FExport.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FExtension.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FExtension.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FGear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FGear.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FGearMain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FGearMain.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FGearSetup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FGearSetup.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FKnob.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FKnob.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FLimits.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FLimits.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FLoad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FLoad.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FModule.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FModule.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FOptimize.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FOptimize.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FPhysics.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FPhysics.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FRepair.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FRepair.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FSliders.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FSliders.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FTweaks.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FTweaks.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FABSwitch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FABSwitch.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FArrowDown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FArrowDown.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FArrowLeft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FArrowLeft.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FArrowRight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FArrowRight.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FArrowUp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FArrowUp.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FDefault.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FDefault.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FGizmos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FGizmos.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FGizmosOff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FGizmosOff.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FHierarchySwitch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FHierarchySwitch.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FLeftFolded.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FLeftFolded.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FManual.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FManual.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FRandom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FRandom.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FRect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FRect.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FRightFolded.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FRightFolded.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FTutorials.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FTutorials.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FUnfolded.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FUnfolded.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FUpFolded.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FUpFolded.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FWait.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FWait.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FWebsite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FWebsite.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/Additional.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/Additional.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/Behaviour.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/Behaviour.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FBone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FBone.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FCollider.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FCollider.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FCurve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FCurve.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FDebug.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FDebug.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FDistance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FDistance.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FDragAndDrop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FDragAndDrop.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FError.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FError.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FHidden.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FHidden.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FInfo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FInfo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FMovement.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FMovement.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FRefresh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FRefresh.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FRemove.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FRemove.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FRename.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FRename.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FRotation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FRotation.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FWarning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FWarning.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/MiniGear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/MiniGear.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/MiniMotion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/MiniMotion.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/Motion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/Motion.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/Optimize.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/Optimize.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/Physics.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/Physics.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/SmallGear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/SmallGear.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/Target.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/Target.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/TEX_HumanScaleRef.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Resources/TEX_HumanScaleRef.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Support.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Support/FDefinesCompilation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Support/FDefinesCompilation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Support/FEditor_CustomInspectorHelpers.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/Editor/Support/FEditor_CustomInspectorHelpers.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/GUI Helpers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/GUI Helpers/FGUI_Finders.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/GUI Helpers/FGUI_Finders.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/GUI Helpers/FGUI_Handles.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/GUI Helpers/FGUI_Handles.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/GUI Helpers/FGUI_Inspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/GUI Helpers/FGUI_Inspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/GUI Helpers/FGUI_Resources.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FImpossible Creations/Shared Tools/GUI Helpers/FGUI_Resources.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Character/Character.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Character/Character.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Up Door.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Up Door.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Wall.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Wall.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/LoadPanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/LoadPanel.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Rooms/RoomVariant4x4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/RoomVariant4x4.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dungeon/Dungeon.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dungeon/Dungeon.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout/NavMesh.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthDisplay.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponPickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponPickup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/TargetHealthDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/TargetHealthDisplay.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/AnimationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/AnimationController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/ConnectToPlayfab.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/ConnectToPlayfab.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/PlayfabPlayerDataController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/PlayfabPlayerDataController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/StartSceneManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/StartSceneManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonGenerator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonProgressionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonProgressionManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomModifierScriptableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomModifierScriptableObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Playfab/EntityFileExample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Playfab/EntityFileExample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManagement/PortalView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManagement/PortalView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stats/ExperienceDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Stats/ExperienceDisplay.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
@@ -507,21 +862,15 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D3B66F0A-D4E3-4A55-B6EF-91AB84878193/ab/9a4f6406/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/StartSceneManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/InputModules/BaseInputModule.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Asset Packs/NavMeshComponents/Scripts/NavMeshBaker.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon3/RoomModifier.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon3/RoomView.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon3/RoomBehaviour.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/RoomBehaviour2.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/RoomView2.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/RoomSpawner.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/DungeonGeneration/v2/DungeonManager2.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon3/RoomModifierScriptableObject.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon3/DungeonGenerator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon3/WallCollision.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon3/DungeonManager.cs" />
@@ -540,31 +889,39 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Serialization/SerializationClasses/SerializationPickups.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Serialization/SerializationClasses/SerializationRootClass.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Saving/SavingWrapper.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Control/PlayfabPlayerDataController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/PersistentObjectSpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/CameraFacing.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomModifierScriptableObject.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/DamageText/DamageText.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonGenerator.cs" />
       <option value="$PROJECT_DIR$/Assets/Asset Packs/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LobbyManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomBehaviour.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponPickup.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/AnimationController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Movement/MovementController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagement/PortalView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/VideoPlayerScirpt.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/ConnectToPlayfab.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/VideoPlayerScirpt.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/ActionScheduleController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/StartSceneManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonGenerator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonProgressionManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomModifierScriptableObject.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomBehaviour.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Stats/LevelDisplay.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Stats/ExperienceDisplay.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/AreaLevelDisaply.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/AreaLevelDisplay.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/MinimapController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthDisplay.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/TargetHealthDisplay.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Control/PlayfabPlayerDataController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagement/PortalView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonProgressionManager.cs" />
     </changedPaths>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -621,10 +978,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="12052">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="12052" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -670,6 +1027,7 @@
       <workItem from="1646895347225" duration="19786000" />
       <workItem from="1646976640393" duration="17718000" />
       <workItem from="1647239195160" duration="7389000" />
+      <workItem from="1647417089060" duration="11385000" />
     </task>
     <servers />
   </component>

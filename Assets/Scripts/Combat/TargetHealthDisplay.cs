@@ -1,6 +1,7 @@
 ﻿using Impingement.Attributes;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Impingement.Combat
 {
@@ -8,6 +9,8 @@ namespace Impingement.Combat
     {
         [SerializeField] private CombatController _combatController;
         [SerializeField] private TMP_Text _healthValueText;
+        [SerializeField] private Image _healthImage;
+        [SerializeField] private GameObject _imageParent;
 
         private void Update()
         {
@@ -15,12 +18,15 @@ namespace Impingement.Combat
             target = _combatController.GetTarget();
             if (target == null)
             {
-                _healthValueText.text = "";
+                _imageParent.SetActive(false);
             }
             else
             {
-                _healthValueText.text = target.GetHealthPoints().ToString();
-                _healthValueText.text += "/" + target.GetMaxHealthPoints();
+                _imageParent.SetActive(true);
+                _healthValueText.text = target.gameObject.name;
+                //_healthValueText.text = target.GetHealthPoints().ToString();
+                //_healthValueText.text += "/" + target.GetMaxHealthPoints();
+                _healthImage.fillAmount = target.GetMaxHealthPoints() / target.GetHealthPoints();
             }
         }
     }

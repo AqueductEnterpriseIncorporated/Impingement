@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using Impingement.Combat;
+using Impingement.Control;
 using Impingement.Dungeon;
 using Impingement.Playfab;
 using Impingement.Stats;
@@ -37,22 +39,13 @@ namespace SceneManagement
                 }
                 
                 ManageSceneChanging(other.gameObject);
-                SavePlayerData(other.gameObject);
-
+                other.GetComponent<PlayfabPlayerDataController>().SavePlayerData();
             }
         }
 
         private void ManageSceneChanging(GameObject player)
         {
             SceneManager.LoadSceneAsync("Dungeon");
-        }
-
-        private void SavePlayerData(GameObject player)
-        {
-            _playfabManager.UploadData(new Dictionary<string, string>()
-            {
-                {"Experience", player.GetComponent<ExperienceController>().GetExperiencePoints().ToString()}
-            });
         }
     }
 }

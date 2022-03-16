@@ -92,7 +92,7 @@ namespace Impingement.Core
                 lensDistortion.intensity.value = i;
                 yield return new WaitForSeconds(0.01f);
             }
-            for (float i = 0.3f; i < 3.3f; i += 0.1f)
+            for (float i = 0.3f; i < 1.5f; i += 0.1f)
             {
                 lensDistortion.scale.value = i;
                 yield return new WaitForSeconds(0.005f);

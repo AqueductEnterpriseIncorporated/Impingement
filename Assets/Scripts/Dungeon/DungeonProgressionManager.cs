@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace Impingement.Dungeon
 {
@@ -7,7 +8,7 @@ namespace Impingement.Dungeon
         public int AreaLevel = 1;
         [SerializeField] private Vector2Int _maximumDungeonSize = new Vector2Int(6, 6);
         private Vector2Int _dungeonSize = new Vector2Int(2, 3);
-
+        
         public Vector2Int GetDungeonSize()
         {
             return _dungeonSize;
@@ -18,7 +19,7 @@ namespace Impingement.Dungeon
             AreaLevel++;
             if (_dungeonSize != _maximumDungeonSize)
             {
-                _dungeonSize += new Vector2Int(Random.Range(0, 2), Random.Range(0, 2));
+                //_dungeonSize += new Vector2Int(Random.Range(0, 2), Random.Range(0, 2));
             }
         }
     }

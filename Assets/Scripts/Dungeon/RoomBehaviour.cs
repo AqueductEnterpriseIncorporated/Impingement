@@ -6,15 +6,14 @@ namespace Impingement.Dungeon
 {
     public class RoomBehaviour : MonoBehaviour
     {
-        [SerializeField] private Collider _collider;
-        [SerializeField] private PhotonView _photonView;
+        public BoxCollider BoxCollider;
         public GameObject[] walls; // 0 - Up 1 -Down 2 - Right 3- Left
         public GameObject[] doors;
-
         public int RandomlyGeneratedObjectSpawnsAmount;
         public List<string> RandomlyGeneratedObjectPrefabNamesList = new List<string>();
-
         public RoomModifierScriptableObject roomModifierVariant;
+        [SerializeField] private Collider _collider;
+        [SerializeField] private PhotonView _photonView;
         private DungeonManager _dungeonManager;
 
         public void UpdateRoom(bool[] status)
