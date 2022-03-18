@@ -706,6 +706,20 @@
               </e>
             </e>
           </e>
+          <e p="PortalsPackage" t="Include">
+            <e p="ScriptsAndShaders" t="Include">
+              <e p="BlendHDR.shader" t="Include" />
+              <e p="DistortionCullBack.shader" t="Include" />
+              <e p="Particle AddHDR.shader" t="Include" />
+              <e p="PortalDemoGUI.cs" t="Include" />
+              <e p="PortalFX_AxisRotateByTime.cs" t="Include" />
+              <e p="PortalFX_Turbulence.cs" t="Include" />
+              <e p="PortalFX_UVAnimation.cs" t="Include" />
+              <e p="PortalMask.shader" t="Include" />
+              <e p="PortalsFX_RandomMoves.cs" t="Include" />
+              <e p="PortalSky.shader" t="Include" />
+            </e>
+          </e>
           <e p="SimpleFX" t="Include">
             <e p="Materials" t="Include">
               <e p="UnlitVertexColour_Alpha.shader" t="Include" />
@@ -744,6 +758,15 @@
             <e p="Sprites" t="Include">
               <e p="EmojiOne Attribution.txt" t="Include" />
             </e>
+          </e>
+        </e>
+        <e p="Multistory Dungeons" t="Include">
+          <e p="Scenes" t="Include">
+            <e p="ReadMe (1-st person demo).txt" t="Include" />
+            <e p="ReadMe 2 (Presets Ols).txt" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="FPScounter.cs" t="Include" />
           </e>
         </e>
         <e p="Scripts" t="Include">

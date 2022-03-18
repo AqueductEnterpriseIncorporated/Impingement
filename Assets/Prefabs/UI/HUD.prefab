@@ -961,7 +961,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _tmpText: {fileID: 6317615705281257767}
   _textParent: {fileID: 29155311377857219}
-  _dungeonProgressionManager: {fileID: 0}
+  _minimap: {fileID: 6572987430221249606}
 --- !u!114 &635971430131042125
 MonoBehaviour:
   m_ObjectHideFlags: 0

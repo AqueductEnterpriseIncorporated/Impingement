@@ -5,483 +5,232 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e797b75-f4f0-4ea9-b141-84d8d653dbe9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Demo.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Demo.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/Bag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/Bag.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/Equip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/Equip.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/Fight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/Fight.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/Honor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/Honor.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/Inventory.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/Inventory.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/Menu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/Menu.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/Options.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/Options.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/Profession.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/Profession.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/Quest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/Quest.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/Scull.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/Scull.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/Scull2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/Scull2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/exit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/exit.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/greed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/greed.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/need.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/need.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/runes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/runes.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/skills.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/skills.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/trade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Icons/trade.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Hero_icon_frame.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Hero_icon_frame.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Hero_icon_frame_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Hero_icon_frame_bg.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Hero_icon_frame_elite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Hero_icon_frame_elite.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Hero_icon_frame_rare.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Hero_icon_frame_rare.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Hp_frame.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Hp_frame.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Hp_line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Hp_line.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Hp_line2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Hp_line2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Inventory_bar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Inventory_bar.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mana_line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mana_line.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mana_line2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mana_line2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_add.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_add_t.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_add_t.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_arrow_bot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_arrow_bot.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_arrow_bot2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_arrow_bot2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_arrow_bot2_t.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_arrow_bot2_t.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_arrow_left2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_arrow_left2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_arrow_left2_t.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_arrow_left2_t.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_arrow_right2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_arrow_right2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_arrow_right2_t.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_arrow_right2_t.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_arrow_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_arrow_top.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_arrow_top2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_arrow_top2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_arrow_top2_t.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_arrow_top2_t.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_exit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_exit.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_exit_t.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_exit_t.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_guild.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_guild.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_guild_t.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_guild_t.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_help.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_help.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_help_t.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_help_t.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_skip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_skip.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_skip_t.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_skip_t.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_speak.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_speak.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_speak_t.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Mini_speak_t.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Minus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Minus.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Paper_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Paper_01.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Paper_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Paper_02.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Plus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Plus.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Red_vert_panel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Red_vert_panel.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Round_fr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Round_fr.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Thin_frame.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Thin_frame.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Venom_line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/Venom_line.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/basic_bar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/basic_bar.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/basic_bar2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/basic_bar2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/basic_bar2_elite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/basic_bar2_elite.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/big_bar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/big_bar.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/big_bar_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/big_bar_bg.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/big_bar_frame.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/big_bar_frame.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/dialoge_frame.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/dialoge_frame.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/energy_line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/energy_line.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/energy_line2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/energy_line2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/info_window.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/info_window.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/info_window_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/info_window_2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/inventory_button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/inventory_button.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/inventory_button2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/inventory_button2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/inventory_button2_long.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/inventory_button2_long.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/inventory_frame.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/inventory_frame.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/inventory_frame_little.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/inventory_frame_little.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/inventory_frame_little_long.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/inventory_frame_little_long.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/inventory_frame_little_long_r.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/inventory_frame_little_long_r.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/inventory_frame_little_off.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/inventory_frame_little_off.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/inventory_frame_little_ready.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/inventory_frame_little_ready.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/inventory_frame_little_vert.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/inventory_frame_little_vert.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/lil_bar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/lil_bar.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/little_background_frame.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/little_background_frame.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/little_round_frame.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/little_round_frame.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/little_round_frame2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/little_round_frame2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/little_round_frame2_elite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/little_round_frame2_elite.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/long_button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/long_button.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/long_button_off.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/long_button_off.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/long_button_on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/long_button_on.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/long_frame_loading.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/long_frame_loading.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/long_line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/long_line.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/long_line2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/long_line2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/long_line2_elite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/long_line2_elite.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/longbutton_frame.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/longbutton_frame.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/mid_bar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/mid_bar.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/mid_bar_frame.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/mid_bar_frame.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/mid_button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/mid_button.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/mid_button_off.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/mid_button_off.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/mid_button_on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/mid_button_on.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/mid_button_vert.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/mid_button_vert.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/midbutton_frame.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/midbutton_frame.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/mini_button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/mini_button.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/minimap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/minimap.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/name_frame.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/name_frame.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/name_frame_mid_ready.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/name_frame_mid_ready.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/name_frame_ready.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/name_frame_ready.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/option_button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/option_button.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/option_line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/option_line.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/pattern.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/pattern.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/scroll_frame.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/scroll_frame.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/skill_bar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/skill_bar.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/skill_bar_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/skill_bar_background.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/skill_frame.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/skill_frame.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/xp_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/xp_background.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/xp_bar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/xp_bar.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/xp_line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/xp_line.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Bag_bar.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Bag_bar.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Chat_bar.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Chat_bar.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Game_Menu.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Game_Menu.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Inventory_bar.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Inventory_bar.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Loot_bar.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Loot_bar.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Lvl_up_bar.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Lvl_up_bar.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Options_bar.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Options_bar.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Pop_up_dialog.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Pop_up_dialog.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Quest_bar.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Quest_bar.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Quest_journal_bar.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Quest_journal_bar.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Rune_bar.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Rune_bar.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Shop_bar.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Shop_bar.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Source_fr_color.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Source_fr_color.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Spell_book.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Spell_book.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Status_bar.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Status_bar.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Trade_players_bar.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Trade_players_bar.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/roll_bar.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/roll_bar.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/skill_bar.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/skill_bar.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/skill_bar2.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/skill_bar2.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Silhouette.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Silhouette/Mage_silhouette_man.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Silhouette/Mage_silhouette_man.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Silhouette/Mage_silhouette_woman.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Silhouette/Mage_silhouette_woman.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Silhouette/archer_silhouette_man.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Silhouette/archer_silhouette_man.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Silhouette/archer_silhouette_woman.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Silhouette/archer_silhouette_woman.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Silhouette/assassin_silhouette_man.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Silhouette/assassin_silhouette_man.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Silhouette/assassin_silhouette_woman.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Silhouette/assassin_silhouette_woman.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Silhouette/berserk_silhouette_man.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Silhouette/berserk_silhouette_man.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Silhouette/berserk_silhouette_woman.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Silhouette/berserk_silhouette_woman.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Silhouette/druid_silhouette_man.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Silhouette/druid_silhouette_man.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Silhouette/druid_silhouette_woman.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Silhouette/druid_silhouette_woman.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Silhouette/shadowmage_silhouette_man.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Silhouette/shadowmage_silhouette_man.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Silhouette/shadowmage_silhouette_woman.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Silhouette/shadowmage_silhouette_woman.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Silhouette/warrior_silhouette_man.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Silhouette/warrior_silhouette_man.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Silhouette/warrior_silhouette_woman.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Silhouette/warrior_silhouette_woman.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/Rune_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/Rune_background.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/arrows_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/arrows_background.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/back_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/back_background.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/boots_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/boots_background.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/bracers_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/bracers_background.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/chest_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/chest_background.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/gloves_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/gloves_background.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/head_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/head_background.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/helm_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/helm_background.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/lock_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/lock_background.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/melee_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/melee_background.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/neck_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/neck_background.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/pants_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/pants_background.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/potion_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/potion_background.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/range_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/range_background.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/ring_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/ring_background.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/shield_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/shield_background.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/shoulder_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/shoulder_background.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/skill_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/skill_background.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/trinket_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/trinket_background.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/wand_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/frame_backgrounds/wand_background.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Background_blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Background_blue.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Background_green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Background_green.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Background_grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Background_grey.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Background_purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Background_purple.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Background_r_blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Background_r_blue.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Background_r_green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Background_r_green.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Background_r_grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Background_r_grey.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Background_r_purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Background_r_purple.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Background_r_red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Background_r_red.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Background_red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Background_red.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Book.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Book.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Destruction.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Destruction.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Frame_blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Frame_blue.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Frame_empty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Frame_empty.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Frame_green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Frame_green.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Frame_grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Frame_grey.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Frame_purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Frame_purple.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Frame_red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Frame_red.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Guitar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Guitar.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Ink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Ink.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/RoundFrame_blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/RoundFrame_blue.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/RoundFrame_green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/RoundFrame_green.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/RoundFrame_grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/RoundFrame_grey.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/RoundFrame_purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/RoundFrame_purple.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/RoundFrame_red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/RoundFrame_red.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/LoadPanel 1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/LoadPanel 1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/RespawnController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/RespawnController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/MenuPanel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/MenuPanel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/1.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/1/RPG_GUI_Border.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/1/RPG_GUI_Border.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/1/RPG_GUI_Border2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/1/RPG_GUI_Border2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/1/RPG_GUI_v1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/1/RPG_GUI_v1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/1/RPG_GUI_v1_source.xcf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/1/RPG_GUI_v1_source.xcf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/1/gradients.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/1/gradients.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/1/paper background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/1/paper background.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/1/wood background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/1/wood background.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/2.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/2/52x52 SpellSlotBorder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/2/52x52 SpellSlotBorder.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/2/DarkOrbBorder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/2/DarkOrbBorder.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/2/HealthManaPanels.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/2/HealthManaPanels.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/2/HealthPanel 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/2/HealthPanel 1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/2/HealthPanel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/2/HealthPanel.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/2/ManaPanel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/2/ManaPanel.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/2/SpellsPanel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/2/SpellsPanel.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Fonts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Fonts/Assets.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/Hermann-Gotisch NormalC SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/Hermann-Gotisch NormalC SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/INSULA__ SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/INSULA__ SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/Lombardina One SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/Lombardina One SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/Moyenage SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/Moyenage SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/RU.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/RU/Hermann-Gotisch NormalC SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/RU/Hermann-Gotisch NormalC SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/RU/INSULA__ SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/RU/INSULA__ SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/RU/Lombardina One SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/RU/Lombardina One SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/RU/Moyenage SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/RU/Moyenage SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/partybusiness SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/partybusiness SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Fonts/Hermann-Gotisch NormalC.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Fonts/Hermann-Gotisch NormalC.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Fonts/INSULA__.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Fonts/INSULA__.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Fonts/Lombardina One.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Fonts/Lombardina One.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Fonts/Moyenage.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Fonts/Moyenage.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Fonts/partybusiness.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Fonts/partybusiness.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Build.rar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Character/Character.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Character/Character.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Animations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/MD User Manual 1.4.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.1/Arch_Alley_02.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.1/Buttress_01.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.1/Wall_Arch_Corner_02.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.2.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.2/Barrel_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.2/Barrels_Preset_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.2/Barrels_Preset_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.2/Books_Preset_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.2/Books_Preset_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.2/Candles_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.2/Cupboard_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.2/Cupboard_Big_Preset_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.2/Cupboard_Preset_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.2/Cupboard_Preset_07.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.2/Drawer_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.2/Flask_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.2/Materials/Atlas_Furniture_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.2/Paper_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.2/Potion_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.2/Potion_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.2/Rostrum_Preset_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.2/Stand_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.2/Table_Preset_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.2/Table_Preset_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.2/Table_Preset_07.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.2/Wall_Arch_Corner_Preset_04.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.2/Wall_Bottom_Decor_Corner_05.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.2/Wall_Corner_Preset_02.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.2/Wall_Corner_Preset_04.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.2/Wall_Corner_Preset_09.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.2/Wall_Preset_02.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.2/Wall_Preset_02.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.3/Arch_Ceiling_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.3/Arch_Ceiling_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.3/Arch_Ceiling_Collider_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.3/Arch_Ceiling_Collider_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.3/Arch_Ceiling_Collider_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.3/Arch_Door_07.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.3/Arch_Tall_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.3/Arch_Tall_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.3/Arch_Top_01.fbm.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.3/Base_Stair_Big_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.3/Base_Stair_Big_01_Collider.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.3/Column_06.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.3/Column_Low_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.3/Column_Low_Part_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.3/Damaged_Bars_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.3/Damaged_Railing_07.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.3/Floor_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.3/Floor_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.3/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.3/Railing_Stair_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.3/Stair_Bottom_Decor_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.3/Stair_Bottom_Decor_07.fbm.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.3/Stair_Pool_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.3/Wall_05.fbm.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.3/Wall_Arch_07_Collider.fbm.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.3/Wall_Arch_07_Decorated.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.3/Wall_Bottom_Decor_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.3/Wall_Corner_Preset_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.3/Wall_Upper_Decor_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/1.3/Wall_Window_02.fbm.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Arch_Door_Half_02.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Base_01.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Base_Arch_03.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Base_Arch_03.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Base_Bridge_01.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Base_Rounded_02.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Colliders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Colliders/Damaged_Column_04_Collider.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Colliders/Damaged_Column_05_Collider.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Colliders/Railing_Stair_Big_Collider_01.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Colliders/Railing_Stair_Big_Collider_01_Mirrored.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Colliders/Railing_Stair_Big_Collider_02_Mirrored.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Colliders/Railing_Stair_Big_Flat_Collider_02.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Colliders/Railing_Stair_Flat_Collider_01.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Colliders/Stair_Collider_02.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Colliders/Stair_Pool_Collider_02.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Colliders/Stair_Thin_Collider_01.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Colliders/Stair_Thin_Collider_02.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Colliders/Stair_Thin_Collider_02.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Colliders/Wall_Bottom_Decor_Rounded_Collider_02.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Damaged/Damaged_Base_01.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Damaged/Damaged_Base_02.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Damaged/Damaged_Column_03.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Damaged/Damaged_Railing_02.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Materials/blinn18.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Materials/defaultMat.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Pedestal_03.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Props/Candle_01.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Props/Potion_Red_01.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Props/Scroll_01.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Props/Torch_01_1.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Props/Torch_01_1.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Props/Treasure_Chest_lid_01.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Railing_Stair_02.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Railing_Stair_02.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Railing_Stair_Big_01.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Stair_Thin_03.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Wall_01.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Meshes/Wall_Upper_Decor_01.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Arches/Arch_Big_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Arches/Damaged_Arch_Alley_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Base/Base_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Base/Base_Stair_Big_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Columns/Buttress_03.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Columns/Damaged_Column_03.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Damaged/Damaged_Wall_Bricks_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Damaged/Damaged_Wall_Bricks_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Damaged/Damaged_Wall_Right_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Doors/Arch_Door_08_Preset.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/DunGen Presets/Connectors/Exit_Blocker_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/DunGen Presets/Connectors/Exit_Blocker_Large_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/DunGen Presets/Connectors/Exit_Blocker_Large_03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/DunGen Presets/Connectors/Exit_Connection_Open_Large_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/DunGen Presets/Connectors/Railing_Connection_Open_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/DunGen Presets/Demo/First-Person Test Scene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/DunGen Presets/Doorways/FP Doorway Default.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/DunGen Presets/Doorways/Top-Down Doorway.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/DunGen Presets/First-Person Rooms/FP Corridor 01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/DunGen Presets/First-Person Rooms/FP Room 03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/DunGen Presets/First-Person Rooms/FP Room 07.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/DunGen Presets/First-Person Rooms/FP Room 09.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/DunGen Presets/First-Person Rooms/FP Room 12.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/DunGen Presets/First-Person Rooms/FP Staircase 02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/DunGen Presets/First-Person Rooms/FP Staircase 06.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/DunGen Presets/Random Props/Random_Cupboard_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/DunGen Presets/Top-Down Tiles/TD Tile 02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/DunGen Presets/Top-Down Tiles/TD Tile 10 A.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/DunGen Presets/Top-Down Tiles/TD Tile 21.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/DunGen Presets/Top-Down Tiles/TD Tile 32 Rotatable.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/DunGen Presets/Top-Down Tiles/TD Tile Exit 01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/FIRST-PERSON/FP Arches/Arch_Door_07.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/FIRST-PERSON/FP Arches/Arch_Double_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/FIRST-PERSON/FP Arches/Arch_Tall_03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/FIRST-PERSON/FP Arches/Arch_Tall_05.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/FIRST-PERSON/FP Columns/Column_07.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/FIRST-PERSON/FP Columns/Column_Low_Part_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/FIRST-PERSON/FP Columns/Column_Low_Special_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/FIRST-PERSON/FP Doors/Arch_Door_04_Preset.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/FIRST-PERSON/FP ROOMS/FP Connectors/Exit_Blocker_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/FIRST-PERSON/FP ROOMS/FP Corridor 02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/FIRST-PERSON/FP ROOMS/FP Room 04.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/FIRST-PERSON/FP ROOMS/FP Room 08.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/FIRST-PERSON/FP ROOMS/FP Room 11.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/FIRST-PERSON/FP ROOMS/FP Staircase 01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/FIRST-PERSON/FP ROOMS/FP Staircase 03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/FIRST-PERSON/FP ROOMS/FP Staircase 05.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/FIRST-PERSON/FP ROOMS/FP Staircase 05.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/FIRST-PERSON/FP ROOMS/FP Staircase 07.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/FIRST-PERSON/FP Railing/Damaged_Railing_08.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/FIRST-PERSON/FP Stairs/Stair_Bottom_Decor_05.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/FIRST-PERSON/FP Stairs/Stair_Bottom_Decor_06.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/FIRST-PERSON/FP Walls/Wall_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/FIRST-PERSON/FP Walls/Wall_Bottom_Decor_04.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/FIRST-PERSON/FP Walls/Wall_Window_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/FIRST-PERSON/FP Walls/Wall_Window_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/FIRST-PERSON/Floor_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/FIRST-PERSON/Floor_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Props/Alchemy.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Props/Alchemy/Flask_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Props/Alchemy/Flask_05.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Props/Alchemy/Potion_Blue_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Props/Alchemy/Sandglass_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Props/Books/Book_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Props/Books/Book_03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Props/Books/Book_05.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Props/Candles_03.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Props/Candlestick_Floor_01 1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Props/Candlestick_Floor_01 1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Props/Furniture/Chair_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Props/Furniture/Ladder_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Props/Furniture/Ladder_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Props/Furniture/Table_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Props/Furniture/Table_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Props/Presets/Table_Preset_03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Props/Presets/Table_Preset_05.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Props/Presets/Table_Preset_07.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Railing/Railing_Pillar_Low_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Railing/Railing_Stair_Big_03.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Stairs/Stair_Big_05_Combined.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/TD TILES/TD Connectors/Railing_Blocker_03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/TD TILES/TD Tile 02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/TD TILES/TD Tile 02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/TD TILES/TD Tile 12.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/TD TILES/TD Tile 22.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/TD TILES/TD Tile 29 Rotatable.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/TD TILES/TD Tile 30 Rotatable.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/TD TILES/TD Tile 30 Rotatable.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/VFX/Fog_Big_FX_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/VFX/Fog_Exit_FX_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/VFX/Fog_Exit_FX_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/VFX/Lamp_Fire_FX_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Walls/Old/Wall_Corner_Preset_04.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Walls/Parts/Stair_Bottom_Decor_03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Walls/Parts/Wall_Arch_01_Decorated.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Walls/Parts/Wall_Arch_Corner_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Walls/Parts/Wall_Bottom_Decor_Rounded_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Walls/Parts/Wall_Corner_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Walls/Parts/Wall_Upper_Decor_Ending_Broken_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Walls/Wall_01_Decorated.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Walls/Wall_Arch_Corner_Preset_03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Walls/Wall_Corner_Preset_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Walls/Wall_Corner_Preset_05.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Walls/Wall_Corner_Preset_05.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Prefabs/Walls/Wall_Preset_03_Damaged.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Scenes/Presets Old.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Scenes/SRC First-Person Rooms 01.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Scenes/SRC First-Person Rooms 01Settings.lighting" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Scenes/SRC First-Person Rooms 01Settings.lighting.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Scenes/SRC Top-Down Tiles 01.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Textures/Atlas_Props_01_Specular.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Textures/Atlas_Props_02.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Textures/Atlas_Props_02_Normal.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Textures/Atlas_Props_02_Specular.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Textures/Materials/New Physic Material.physicMaterial" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Multistory Dungeons/Textures/Obsolete/Ceiling_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/TargetHealthDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/TargetHealthDisplay.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/PlayfabPlayerDataController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/PlayfabPlayerDataController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stats/BaseStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Stats/BaseStats.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout/NavMesh.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout/NavMesh.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout/NavMesh.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hideout/NavMesh.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hideout/NavMesh.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/AreaLevelDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/AreaLevelDisplay.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/Impingement.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Assembly-CSharp.dll" afterDir="false" />
@@ -691,6 +440,7 @@
       <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Themes/MultiStory_SideDeco.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/UnityCrashHandler64.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Build/UnityCrashHandler64.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/UnityPlayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/UnityPlayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -877,7 +627,7 @@
       <workItem from="1647239195160" duration="7389000" />
       <workItem from="1647417089060" duration="11385000" />
       <workItem from="1647505153698" duration="1623000" />
-      <workItem from="1647581620026" duration="6954000" />
+      <workItem from="1647581620026" duration="7590000" />
     </task>
     <servers />
   </component>

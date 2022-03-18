@@ -9,6 +9,7 @@ namespace Impingement.UI
     {
         [SerializeField] private TMP_Text _tmpText;
         [SerializeField] private GameObject _textParent;
+        [SerializeField] private GameObject _minimap;
         private DungeonProgressionManager _dungeonProgressionManager;
 
         private void Awake()
@@ -21,12 +22,14 @@ namespace Impingement.UI
             if (SceneManager.GetActiveScene().name == "Dungeon")
             {
                 _textParent.SetActive(true);
+                _minimap.SetActive(true);
 
                 _tmpText.text = _dungeonProgressionManager.AreaLevel.ToString();
             }
             else
             {
                 _textParent.SetActive(false);
+                _minimap.SetActive(false);
             }
         }
     }
