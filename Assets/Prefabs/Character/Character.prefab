@@ -112,6 +112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3abd92ed8e5643c98591ea73c6ced921, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CharacterName: Default enemy
   _takeDamageClips: []
   _onDie:
     m_PersistentCalls:
@@ -158,6 +159,7 @@ MonoBehaviour:
         m_CallState: 2
   _showDamageText: 1
   _isDead: 0
+  _isInvulnerable: 0
 --- !u!136 &-5269223953129559562
 CapsuleCollider:
   m_ObjectHideFlags: 0

@@ -18,7 +18,6 @@ namespace Impingement.Combat
         [SerializeField] private Transform _rightHandTransform = null;
         [SerializeField] private Transform _leftHandTransform = null;
         [SerializeField] private WeaponConfig defaultWeaponConfig = null;
-        [SerializeField] private bool _isPlayer;
         private PhotonView _photonView;
         private MovementController _movementController;
         private HealthController _healthController;
@@ -48,7 +47,6 @@ namespace Impingement.Combat
         private void Start()
         {
             _currentWeapon.ForceInit();
-            _isPlayer = TryGetComponent<PlayerController>(out var component);
         }
         
         private void Update()
@@ -63,7 +61,7 @@ namespace Impingement.Combat
                 return;
             }
 
-            if (!_isPlayer)
+            if (!_healthController.IsPlayer)
             {
                 if (!IsInRange(_target.transform))
                 {

@@ -23,9 +23,7 @@ namespace Impingement.Combat
             else
             {
                 _imageParent.SetActive(true);
-                _healthValueText.text = target.gameObject.name;
-                //_healthValueText.text = target.GetHealthPoints().ToString();
-                //_healthValueText.text += "/" + target.GetMaxHealthPoints();
+                _healthValueText.text = target.CharacterName;
                 _healthImage.fillAmount = target.GetMaxHealthPoints() / target.GetHealthPoints();
             }
         }

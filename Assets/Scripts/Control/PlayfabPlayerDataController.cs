@@ -26,7 +26,7 @@ namespace Impingement.Control
         {
             _playfabManager.LoadData(OnDataReceivedPlayerData);
         }
-        
+
         public void SavePlayerData()
         {
             _playfabManager.UploadData(new Dictionary<string, string>()
@@ -34,6 +34,15 @@ namespace Impingement.Control
                 {"Experience", GetComponent<ExperienceController>().GetExperiencePoints().ToString()},
                 {"Weapon", GetComponent<CombatController>().GetCurrentWeapon().name},
 
+            });
+        }
+
+        public void ResetPlayerData()
+        {
+            _playfabManager.UploadData(new Dictionary<string, string>()
+            {
+                {"Experience", "0"},
+                {"Weapon", "Unarmed"},
             });
         }
 

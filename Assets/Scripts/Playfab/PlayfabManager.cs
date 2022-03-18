@@ -34,9 +34,13 @@ namespace Impingement.Playfab
 
         private void OnApplicationQuit()
         {
-            FindObjectOfType<PlayfabPlayerDataController>().SavePlayerData();
+            if (SceneManager.GetActiveScene().name == "Hideout" || SceneManager.GetActiveScene().name == "Dungeon")
+            {
+                FindObjectOfType<PlayfabPlayerDataController>().SavePlayerData();
+            }
+            
+            if (SceneManager.GetActiveScene().name != "Dungeon") { return; }
 
-            if(SceneManager.GetActiveScene().name != "Dungeon") { return; }
             UploadData(new Dictionary<string, string>
             {
                 {"ForceQuit", "true"}

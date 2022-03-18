@@ -776,6 +776,7 @@
             <e p="IAction.cs" t="Include" />
             <e p="PersistentObjectSpawner.cs" t="Include" />
             <e p="PlayerCameraController.cs" t="Include" />
+            <e p="RespawnController.cs" t="Include" />
             <e p="StartSceneManager.cs" t="Include" />
           </e>
           <e p="Dungeon" t="Include">
@@ -898,6 +899,7 @@
               <e p="DamageText.cs" t="Include" />
               <e p="DamageTextSpawner.cs" t="Include" />
             </e>
+            <e p="MenuPanel.cs" t="Include" />
             <e p="MinimapController.cs" t="Include" />
           </e>
         </e>

@@ -80,6 +80,11 @@ namespace Impingement.Stats
         {
             return _progression.GetStat(stat, _characterClass, GetLevel());
         }
+        
+        public float GetBaseStat(enumStats stat, int level)
+        {
+            return _progression.GetStat(stat, _characterClass, level);
+        }
 
         public int GetLevel()
         {

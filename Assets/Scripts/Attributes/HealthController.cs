@@ -1,5 +1,6 @@
 ﻿using System;
 using GameDevTV.Utils;
+using Impingement.Control;
 using Impingement.Core;
 using Impingement.enums;
 using Impingement.Stats;
@@ -12,13 +13,19 @@ namespace Impingement.Attributes
 {
     public class HealthController : MonoBehaviour, IPunObservable
     {
+        public string CharacterName;
+
+        public bool IsPlayer;
         [Serializable] public class TakeDamageEvent : UnityEvent<float> { }
         [SerializeField] private AudioSource[] _takeDamageClips;
         [SerializeField] private UnityEvent _onDie;
         [SerializeField] private BaseStats _baseStats = null;
         [SerializeField] private TakeDamageEvent _takeDamage;
+        [SerializeField] private PlayfabPlayerDataController _playfabPlayerDataController;
         [SerializeField] private bool _showDamageText;
         [SerializeField] private bool _isDead;
+        [SerializeField] private bool _isInvulnerable;
+        [SerializeField] private GameObject _deathPanel;
         private LazyValue<float> _healthPoints;
         private PhotonView _photonView;
 
@@ -52,13 +59,26 @@ namespace Impingement.Attributes
 
         public void TakeDamage(GameObject instigator, float damage)
         {
-            _healthPoints.value = Mathf.Max(_healthPoints.value - damage, 0);
+            if (!_isInvulnerable)
+            {
+                _healthPoints.value = Mathf.Max(_healthPoints.value - damage, 0);
+            }
+
             if(_showDamageText)
             {
                 _takeDamage.Invoke(damage);
             }
             if (_healthPoints.value == 0)
             {
+                if (IsPlayer)
+                {
+                    _deathPanel.SetActive(true);
+                    _playfabPlayerDataController.ResetPlayerData();
+                }
+                else
+                {
+                    GetComponent<Collider>().enabled = false;
+                }
                 _onDie.Invoke();
                 _photonView.RPC(nameof(DieRPC), RpcTarget.AllBufferedViaServer);
                 AwardExperience(instigator);
@@ -105,7 +125,7 @@ namespace Impingement.Attributes
                 experienceController.GainExperience((int) GetComponent<BaseStats>().GetStat(enumStats.ExperienceReward));
             }
         }
-
+   
         [PunRPC]
         private void SyncHealthState(bool value)
         {
