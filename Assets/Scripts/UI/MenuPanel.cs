@@ -6,15 +6,15 @@ namespace Impingement.UI
     {
         [SerializeField] private GameObject _menuPanel;
         [SerializeField] private GameObject _settingsPanel;
-        private bool _isOpened;
+        public bool IsOpened;
 
         private void Update()
         {
             if (Input.GetKeyDown(KeyCode.Escape))
             {
-                if (!_isOpened)
+                if (!IsOpened)
                 {
-                    _isOpened = true;
+                    IsOpened = true;
                     _menuPanel.SetActive(true);
                 }
                 else
@@ -26,7 +26,7 @@ namespace Impingement.UI
 
         public void Resume()
         {
-            _isOpened = false;
+            IsOpened = false;
             _menuPanel.SetActive(false);
         }
 

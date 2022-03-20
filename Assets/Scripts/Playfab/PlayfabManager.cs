@@ -85,8 +85,34 @@ namespace Impingement.Playfab
         {
             PlayFabClientAPI.GetUserData(new GetUserDataRequest(), OnDataReceived, null);
         }
-        
-        
+
+        public void SendReport(string bugTheme, string bugMessage)
+        {
+            Debug.Log("Sending report");
+            var request = new ExecuteCloudScriptRequest()
+            {
+                FunctionName = "sendReport",
+                FunctionParameter = new
+                {
+                    theme = bugTheme,
+                    message = bugMessage
+                }
+            };
+            
+            PlayFabClientAPI.ExecuteCloudScript(request, OnReportSuccess, OnReportFailure);
+        }
+
+        private void OnReportFailure(PlayFabError error)
+        {            
+            Debug.LogError("Report error: " + error.GenerateErrorReport());
+
+        }
+
+        private void OnReportSuccess(ExecuteCloudScriptResult obj)
+        {
+            Debug.Log("Report Success");
+        }
+
         private void OnLoginSuccess(LoginResult result)
         {
             Debug.Log("Login Success");

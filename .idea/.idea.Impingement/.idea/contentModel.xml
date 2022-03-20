@@ -137,6 +137,15 @@
               </e>
             </e>
           </e>
+          <e p="Multistory Dungeons" t="Include">
+            <e p="Scenes" t="Include">
+              <e p="ReadMe (1-st person demo).txt" t="Include" />
+              <e p="ReadMe 2 (Presets Ols).txt" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="FPScounter.cs" t="Include" />
+            </e>
+          </e>
           <e p="NavMeshComponents" t="Include">
             <e p="Editor" t="Include">
               <e p="NavMeshAssetManager.cs" t="Include" />
@@ -760,15 +769,6 @@
             </e>
           </e>
         </e>
-        <e p="Multistory Dungeons" t="Include">
-          <e p="Scenes" t="Include">
-            <e p="ReadMe (1-st person demo).txt" t="Include" />
-            <e p="ReadMe 2 (Presets Ols).txt" t="Include" />
-          </e>
-          <e p="Scripts" t="Include">
-            <e p="FPScounter.cs" t="Include" />
-          </e>
-        </e>
         <e p="Scripts" t="Include">
           <e p="Attributes" t="Include">
             <e p="Healthbar.cs" t="Include" />
@@ -918,12 +918,14 @@
           </e>
           <e p="UI" t="Include">
             <e p="AreaLevelDisplay.cs" t="Include" />
+            <e p="BugPanelController.cs" t="Include" />
             <e p="DamageText" t="Include">
               <e p="DamageText.cs" t="Include" />
               <e p="DamageTextSpawner.cs" t="Include" />
             </e>
             <e p="MenuPanel.cs" t="Include" />
             <e p="MinimapController.cs" t="Include" />
+            <e p="thanksPanelController.cs" t="Include" />
           </e>
         </e>
       </e>
