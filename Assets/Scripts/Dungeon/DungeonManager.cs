@@ -34,11 +34,11 @@ namespace Impingement.Dungeon
             _dungeonProgressionManager = FindObjectOfType<DungeonProgressionManager>();
         }
 
-        public void Manage(bool isForceQuit)
+        public void Manage(bool dungeonIsSaved)
         {
             _navigationBaker.Bake();
 
-            if (isForceQuit)
+            if (dungeonIsSaved)
             {
                 SetAreaLevel();
                 SetRoomModifiers();

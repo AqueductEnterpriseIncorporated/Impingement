@@ -20,12 +20,7 @@ public class LobbyManager : MonoBehaviourPunCallbacks
     private readonly float _lobbyListUpdateCooldown = 1.5f;
     private float _nextUpdateTime;
     private bool _isMultiplayer;
-
-    private void Start()
-    {
-        //PlayerPrefs.SetInt("forceQuit", 0);
-    }
-
+    
     public void StartSoloGame()
     {
         _startGamePanel.SetActive(false);

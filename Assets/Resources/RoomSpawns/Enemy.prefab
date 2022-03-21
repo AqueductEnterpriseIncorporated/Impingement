@@ -44,12 +44,32 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3596693672443645890}
     - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: _onDie.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
       propertyPath: _takeDamage.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: _onDie.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: _onDie.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: -2829501607284361151}
+    - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: _onDie.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
       propertyPath: _takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: _onDie.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DropCurrency
       objectReference: {fileID: 0}
     - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
       propertyPath: _takeDamage.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -72,12 +92,20 @@ PrefabInstance:
       value: Aggrevate
       objectReference: {fileID: 0}
     - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: _onDie.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Impingement.Control.AIController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
       propertyPath: _takeDamage.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: Impingement.Control.AIController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
       propertyPath: _takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
       value: Impingement.Control.AIController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: _onDie.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: -7522279031675299040, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
       propertyPath: _takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -354,6 +382,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _patrolSpeedFraction: 0.576
+  _chanceToDropCurrency: 50
+  _currencyPrefab: {fileID: 6140082468830211834, guid: 1ec9ba4cc831eae4881ba38de926e551, type: 3}
   _chaseDistance: 5
   _suspicionTime: 15
   _aggroCooldownTime: 5

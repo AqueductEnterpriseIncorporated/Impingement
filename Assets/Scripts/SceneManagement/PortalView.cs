@@ -24,12 +24,13 @@ namespace Impingement.SceneManagement
                 if (_completeLevelOnEnter)
                 {
                     FindObjectOfType<DungeonProgressionManager>().CompleteLevel();
+                    _playfabManager.DungeonIsSaved = false;
                 }
 
                 if (_saveDungeonData)
                 {
                     FindObjectOfType<DungeonManager>().GenerateJson();
-                    _playfabManager.IsForceQuit = true;
+                    _playfabManager.DungeonIsSaved = true;
                 }
 
                 ManageSceneChanging();

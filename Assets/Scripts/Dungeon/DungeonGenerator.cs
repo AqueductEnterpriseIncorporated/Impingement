@@ -53,9 +53,9 @@ namespace Impingement.Dungeon
 
         private void Start()
         {
-            var isForceQuit = FindObjectOfType<PlayfabManager>().IsForceQuit;
+            var dungeonIsSaved = FindObjectOfType<PlayfabManager>().DungeonIsSaved;
             
-            if (isForceQuit)
+            if (dungeonIsSaved)
             {
                 FindObjectOfType<PlayfabManager>().LoadJson(OnDataReceived);
             }

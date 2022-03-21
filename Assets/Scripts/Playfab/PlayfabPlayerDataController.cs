@@ -1,18 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using Impingement.Combat;
-using Impingement.Playfab;
+using Impingement.Currency;
 using Impingement.Stats;
 using PlayFab.ClientModels;
 using UnityEngine;
 
-namespace Impingement.Control
+namespace Impingement.Playfab
 {
     public class PlayfabPlayerDataController : MonoBehaviour
     {
         [SerializeField] private List<WeaponConfig> _availableWeapon;
         private PlayfabManager _playfabManager;
         private ExperienceController _experienceController;
+        private PlayerCurrencyController _playerCurrencyController;
         private CombatController _combatController;
 
         private void Awake()
@@ -20,6 +21,7 @@ namespace Impingement.Control
             _combatController = GetComponent<CombatController>();
             _playfabManager = FindObjectOfType<PlayfabManager>();
             _experienceController = GetComponent<ExperienceController>();
+            _playerCurrencyController = GetComponent<PlayerCurrencyController>();
         }
 
         private void Start()
@@ -31,9 +33,9 @@ namespace Impingement.Control
         {
             _playfabManager.UploadData(new Dictionary<string, string>()
             {
-                {"Experience", GetComponent<ExperienceController>().GetExperiencePoints().ToString()},
-                {"Weapon", GetComponent<CombatController>().GetCurrentWeapon().name},
-
+                {"Experience", _experienceController.GetExperiencePoints().ToString()},
+                {"Weapon", _combatController.GetCurrentWeapon().name},
+                {"Currency", _playerCurrencyController.MyCurrency.ToString()},
             });
         }
 
@@ -53,6 +55,10 @@ namespace Impingement.Control
             if (getUserDataResult.Data.ContainsKey("Experience"))
             {
                 _experienceController.GainExperience(Convert.ToInt32(getUserDataResult.Data["Experience"].Value));
+            }
+            if (getUserDataResult.Data.ContainsKey("Currency"))
+            {
+                _playerCurrencyController.MyCurrency = Convert.ToInt32(getUserDataResult.Data["Currency"].Value);
             }
             if (getUserDataResult.Data.ContainsKey("Weapon"))
             {

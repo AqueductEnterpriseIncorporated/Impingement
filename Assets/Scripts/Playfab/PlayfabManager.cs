@@ -13,24 +13,24 @@ namespace Impingement.Playfab
     {
         public event Action<bool> ValueSyncedAndConnected = delegate(bool b) {  };
 
-        public bool IsForceQuit
+        public bool DungeonIsSaved
         {
-            get => _isForceQuit;
+            get => _dungeonIsSaved;
             set
             {
-                if (value != _isForceQuit)
+                if (value != _dungeonIsSaved)
                 {
                     UploadData(new Dictionary<string, string>
                     {
-                        {"ForceQuit", value.ToString()}
+                        {"DungeonIsSaved", value.ToString()}
                     });
                 }
 
-                _isForceQuit = value;
+                _dungeonIsSaved = value;
             }
         }
         
-        private bool _isForceQuit;
+        private bool _dungeonIsSaved;
 
         private void OnApplicationQuit()
         {
@@ -43,7 +43,7 @@ namespace Impingement.Playfab
 
             UploadData(new Dictionary<string, string>
             {
-                {"ForceQuit", "true"}
+                {"DungeonIsSaved", "true"}
             });
             FindObjectOfType<DungeonManager>().GenerateJson();
         }
@@ -116,7 +116,7 @@ namespace Impingement.Playfab
         private void OnLoginSuccess(LoginResult result)
         {
             Debug.Log("Login Success");
-            LoadData(OnDataReceivedIsForceQuit);
+            LoadData(OnDataReceivedDungeonIsSaved);
         }
 
         private void OnLoginFailure(PlayFabError error)
@@ -124,13 +124,13 @@ namespace Impingement.Playfab
             Debug.LogError(error.GenerateErrorReport());
         }
         
-        private void OnDataReceivedIsForceQuit(GetUserDataResult result)
+        private void OnDataReceivedDungeonIsSaved(GetUserDataResult result)
         {
-            if (result.Data != null && result.Data.ContainsKey("ForceQuit"))
+            if (result.Data != null && result.Data.ContainsKey("DungeonIsSaved"))
             {
-                IsForceQuit = Convert.ToBoolean(result.Data["ForceQuit"].Value);
+                DungeonIsSaved = Convert.ToBoolean(result.Data["DungeonIsSaved"].Value);
             }
-            ValueSyncedAndConnected?.Invoke(IsForceQuit);
+            ValueSyncedAndConnected?.Invoke(DungeonIsSaved);
         }
     }
 }

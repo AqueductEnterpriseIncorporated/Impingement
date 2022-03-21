@@ -6,6 +6,22 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Asset Packs" t="Include">
+          <e p="ARPG Effects" t="Include">
+            <e p="Demo" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="ARPGFXCycler.cs" t="Include" />
+                <e p="ARPGFXLoopScript.cs" t="Include" />
+                <e p="ARPGSceneSelect.cs" t="Include" />
+              </e>
+            </e>
+            <e p="readme.txt" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="ARPGFXLightFade.cs" t="Include" />
+              <e p="ARPGFXLightFlicker.cs" t="Include" />
+              <e p="ARPGFXPortalScript.cs" t="Include" />
+              <e p="ARPGFXRotation.cs" t="Include" />
+            </e>
+          </e>
           <e p="Eye" t="Include">
             <e p="Directories Description.txt" t="Include" />
             <e p="Editor" t="Include">
@@ -789,7 +805,6 @@
             <e p="IRaycastable.cs" t="Include" />
             <e p="PatrolPath.cs" t="Include" />
             <e p="PlayerController.cs" t="Include" />
-            <e p="PlayfabPlayerDataController.cs" t="Include" />
           </e>
           <e p="Core" t="Include">
             <e p="ActionScheduleController.cs" t="Include" />
@@ -801,6 +816,10 @@
             <e p="PlayerCameraController.cs" t="Include" />
             <e p="RespawnController.cs" t="Include" />
             <e p="StartSceneManager.cs" t="Include" />
+          </e>
+          <e p="Currency" t="Include">
+            <e p="CurrencyPickupView.cs" t="Include" />
+            <e p="PlayerCurrencyController.cs" t="Include" />
           </e>
           <e p="Dungeon" t="Include">
             <e p="DungeonGenerator.cs" t="Include" />
@@ -833,6 +852,7 @@
           </e>
           <e p="Playfab" t="Include">
             <e p="PlayfabManager.cs" t="Include" />
+            <e p="PlayfabPlayerDataController.cs" t="Include" />
           </e>
           <e p="RoomItemView.cs" t="Include" />
           <e p="SceneManagement" t="Include">
@@ -925,6 +945,7 @@
             </e>
             <e p="MenuPanel.cs" t="Include" />
             <e p="MinimapController.cs" t="Include" />
+            <e p="PlayerCurrencyDisplay.cs" t="Include" />
             <e p="thanksPanelController.cs" t="Include" />
           </e>
         </e>

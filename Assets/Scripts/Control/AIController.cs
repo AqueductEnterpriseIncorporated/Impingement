@@ -7,14 +7,19 @@ using Impingement.Attributes;
 using Impingement.Stats;
 using Photon.Pun;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace Impingement.Control
 {
     public class AIController: MonoBehaviourPun
     {
         #region fields
+
         [Range(0,1)]
         [SerializeField] private float _patrolSpeedFraction = 0.2f;
+        [Range(0,100)]
+        [SerializeField] private int _chanceToDropCurrency;
+        [SerializeField] private GameObject _currencyPrefab;
         [SerializeField] private float _chaseDistance = 5f;
         [SerializeField] private float _suspicionTime =  5f;
         [SerializeField] private float _aggroCooldownTime =  5f;
@@ -36,16 +41,8 @@ namespace Impingement.Control
         private float _timeSinceArrivedAtWaypoint = Mathf.Infinity;
         private int _currentWaypointIndex;
         private bool _isPatrolPathNotNull;
+
         #endregion
-        
-        private void Awake()
-        {
-            _combatController = GetComponent<CombatController>();
-            _healthController = GetComponent<HealthController>();
-            _movementController = GetComponent<MovementController>();
-            _photonView = GetComponent<PhotonView>();
-            _guardPosition = new LazyValue<Vector3>(GetGuardPosition);
-        }
 
         private Vector3 GetGuardPosition()
         {
@@ -56,12 +53,30 @@ namespace Impingement.Control
         {
             return _baseStats;
         }
+        
+        private void Awake()
+        {
+            _combatController = GetComponent<CombatController>();
+            _healthController = GetComponent<HealthController>();
+            _movementController = GetComponent<MovementController>();
+            _photonView = GetComponent<PhotonView>();
+            _guardPosition = new LazyValue<Vector3>(GetGuardPosition);
+        }
 
         private void Start()
         {
             _players = FindObjectsOfType<PlayerController>();
             _isPatrolPathNotNull = _patrolPath != null;
             _guardPosition.ForceInit();
+        }
+
+        public void DropCurrency()
+        {
+            var randomNumber = Random.Range(0, 100);
+            if (randomNumber <= _chanceToDropCurrency)
+            {
+                PhotonNetwork.Instantiate("RoomSpawns/" + _currencyPrefab.name, transform.position, transform.rotation);
+            }
         }
 
         private void Update()

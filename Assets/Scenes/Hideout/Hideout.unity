@@ -6756,6 +6756,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 178379908}
     - target: {fileID: 324273752703571762, guid: da35cbc10e5e92f43bf8f2e5312fa48c, type: 3}
+      propertyPath: _portalPrefab
+      value: 
+      objectReference: {fileID: 3554111045271690121, guid: abb5c543b3c33164aba94f763fc3733e, type: 3}
+    - target: {fileID: 324273752703571762, guid: da35cbc10e5e92f43bf8f2e5312fa48c, type: 3}
       propertyPath: _startGamePanel
       value: 
       objectReference: {fileID: 178379904}
@@ -10264,6 +10268,10 @@ PrefabInstance:
     - target: {fileID: 4971833319748789495, guid: 21da2be8cb2597d41a8f325367eb4194, type: 3}
       propertyPath: m_LocalPosition.z
       value: -10.000008
+      objectReference: {fileID: 0}
+    - target: {fileID: 5959007351963461023, guid: 21da2be8cb2597d41a8f325367eb4194, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6275095060393117446, guid: 21da2be8cb2597d41a8f325367eb4194, type: 3}
       propertyPath: m_RootOrder

@@ -1,4 +1,5 @@
-﻿using Impingement.Playfab;
+﻿using Impingement.Dungeon;
+using Impingement.Playfab;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -13,7 +14,8 @@ namespace Impingement.Core
         {
             Instantiate(_loadPanel);
             _parent.SetActive(false);
-            FindObjectOfType<PlayfabManager>().IsForceQuit = false;
+            FindObjectOfType<PlayfabManager>().DungeonIsSaved = false;
+            FindObjectOfType<DungeonProgressionManager>().Reset();
             SceneManager.LoadScene("Hideout");
         }
     }

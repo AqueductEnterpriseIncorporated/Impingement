@@ -13,6 +13,12 @@ namespace Impingement.Dungeon
         {
             return _dungeonSize;
         }
+
+        public void Reset()
+        {
+            _dungeonSize = new Vector2Int(2, 3);
+            AreaLevel = 1;
+        }
         
         public void CompleteLevel()
         {
