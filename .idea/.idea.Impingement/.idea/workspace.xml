@@ -5,20 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e797b75-f4f0-4ea9-b141-84d8d653dbe9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/BugPanelController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/BugPanelController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/ThanksPanelController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/thanksPanelController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bug.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Build.rar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/HideoutPortalVariant.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/HideoutPortalVariant.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Generator.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Generator.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Portal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Portal.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Rooms/RoomVariant4x4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/RoomVariant4x4.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dungeon/Dungeon.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dungeon/Dungeon.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/MenuPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/MenuPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManagement/PortalView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManagement/PortalView.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/Impingement.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Cinemachine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Cinemachine.dll" afterDir="false" />
@@ -288,16 +286,12 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/ActionScheduleController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/StartSceneManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonGenerator.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomModifierScriptableObject.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomBehaviour.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Stats/LevelDisplay.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Stats/ExperienceDisplay.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/AreaLevelDisaply.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/MinimapController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthDisplay.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagement/PortalView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonProgressionManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/TargetHealthDisplay.cs" />
@@ -312,8 +306,12 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/thanksPanelController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/MenuPanel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/ThanksPanelController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/BugPanelController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomBehaviour.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagement/PortalView.cs" />
     </changedPaths>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -423,6 +421,7 @@
       <workItem from="1647505153698" duration="1623000" />
       <workItem from="1647581620026" duration="8183000" />
       <workItem from="1647770929815" duration="8848000" />
+      <workItem from="1647850972680" duration="2343000" />
     </task>
     <servers />
   </component>

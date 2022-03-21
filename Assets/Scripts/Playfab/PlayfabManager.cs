@@ -29,7 +29,7 @@ namespace Impingement.Playfab
                 _isForceQuit = value;
             }
         }
-
+        
         private bool _isForceQuit;
 
         private void OnApplicationQuit()

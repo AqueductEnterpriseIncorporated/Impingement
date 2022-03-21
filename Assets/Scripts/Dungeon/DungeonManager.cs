@@ -22,6 +22,8 @@ namespace Impingement.Dungeon
         public SerializableDungeonData LoadedDungeonData = new SerializableDungeonData();
         [SerializeField] private NavigationBaker _navigationBaker;
         [SerializeField] private GameObject _bossPrefab;
+        [SerializeField] private GameObject _portalPrefab;
+        [SerializeField] private GameObject _hideoutPortalPrefab;
         [SerializeField] private GameObject _spawnPoint;
         private DungeonProgressionManager _dungeonProgressionManager;
         private NetworkManager _networkManager;
@@ -46,7 +48,8 @@ namespace Impingement.Dungeon
                 AddRoomModifiers();
             }
             SetEnemyLevel();
-            SpawnBoss();
+            //SpawnBoss();
+            SpawnPortals();
             SetSpawnPoint();
             _networkManager.Spawn();
             CleanUp();
@@ -95,6 +98,13 @@ namespace Impingement.Dungeon
         private void SpawnBoss()
         {
             PhotonNetwork.Instantiate(_bossPrefab.name, Rooms[Rooms.Count - 1].transform.position, Quaternion.identity);
+        }
+        
+        private void SpawnPortals()
+        {
+            var room = Rooms[Rooms.Count - 1];
+            PhotonNetwork.Instantiate(_portalPrefab.name, room.PortalSpawnPoint.position, room.PortalSpawnPoint.rotation);
+            PhotonNetwork.Instantiate(_hideoutPortalPrefab.name, room.HideoutPortalSpawnPoint.position, room.HideoutPortalSpawnPoint.rotation);
         }
         
         private void SetModifier()

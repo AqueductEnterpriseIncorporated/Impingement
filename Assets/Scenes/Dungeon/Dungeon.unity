@@ -20,13 +20,13 @@ RenderSettings:
   m_FogDensity: 0.02
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 1, g: 0.010215605, b: 0, a: 1}
+  m_AmbientSkyColor: {r: 1, g: 0.59607846, b: 0.5882353, a: 1}
   m_AmbientEquatorColor: {r: 0, g: 0, b: 0, a: 1}
   m_AmbientGroundColor: {r: 0.2735849, g: 0.01979253, b: 0.014195444, a: 1}
   m_AmbientIntensity: 0
   m_AmbientMode: 1
   m_SubtractiveShadowColor: {r: 1, g: 1, b: 1, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 6155953e209ba5e4c804b30e471d27d6, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 1598ff147655ecb4893e78f88baa9475, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.5458814, g: 0.5016979, b: 0.5016979, a: 1}
+  m_IndirectSpecularColor: {r: 0.010016033, g: 0.026454177, b: 0.008638822, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
