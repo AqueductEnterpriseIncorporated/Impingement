@@ -38,4 +38,16 @@ namespace Impingement.Serialization.SerializationClasses
         public string AreaLevel { get; set; }
         public List<DungeonGenerator.Cell> Board { get; set; }
     }
+    
+    public class UpgradeItems
+    {
+        public string Name { get; set; }
+        public bool Unlocked { get; set; }
+        public bool Equipped { get; set; }
+    }
+    
+    public class SerializableHideoutData
+    {
+        public List<UpgradeItems> UpgradeItems { get; set; }
+    }
 }

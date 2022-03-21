@@ -254,7 +254,7 @@ namespace Impingement.Dungeon
             }
             
             var data = StringSerializationAPI.Serialize(typeof(SerializableDungeonData),  dungeonData);
-            FindObjectOfType<PlayfabManager>().UploadJson(data);
+            FindObjectOfType<PlayfabManager>().UploadJson("DungeonData", data);
         }
 
         public SerializableDungeonData GetData(string data)

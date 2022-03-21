@@ -812,6 +812,7 @@
             <e p="CameraFacing.cs" t="Include" />
             <e p="DestroyAfterEffect.cs" t="Include" />
             <e p="IAction.cs" t="Include" />
+            <e p="LobbyManager.cs" t="Include" />
             <e p="PersistentObjectSpawner.cs" t="Include" />
             <e p="PlayerCameraController.cs" t="Include" />
             <e p="RespawnController.cs" t="Include" />
@@ -836,7 +837,6 @@
             <e p="enumStats.cs" t="Include" />
           </e>
           <e p="LeaveRoomView.cs" t="Include" />
-          <e p="LobbyManager.cs" t="Include" />
           <e p="Movement" t="Include">
             <e p="MovementController.cs" t="Include" />
           </e>
@@ -851,10 +851,10 @@
             <e p="NetworkManager.cs" t="Include" />
           </e>
           <e p="Playfab" t="Include">
+            <e p="PlayfabHideoutDatacONTROLLER.cs" t="Include" />
             <e p="PlayfabManager.cs" t="Include" />
             <e p="PlayfabPlayerDataController.cs" t="Include" />
           </e>
-          <e p="RoomItemView.cs" t="Include" />
           <e p="SceneManagement" t="Include">
             <e p="PortalView.cs" t="Include" />
           </e>
@@ -943,10 +943,13 @@
               <e p="DamageText.cs" t="Include" />
               <e p="DamageTextSpawner.cs" t="Include" />
             </e>
+            <e p="HideoutUpgradeItemView.cs" t="Include" />
             <e p="MenuPanel.cs" t="Include" />
             <e p="MinimapController.cs" t="Include" />
             <e p="PlayerCurrencyDisplay.cs" t="Include" />
+            <e p="RoomItemView.cs" t="Include" />
             <e p="thanksPanelController.cs" t="Include" />
+            <e p="UpgradePanelController.cs" t="Include" />
           </e>
         </e>
       </e>

@@ -68,14 +68,14 @@ namespace Impingement.Playfab
             PlayFabClientAPI.GetUserData(new GetUserDataRequest(), OnDataReceived, null);
         }
         
-        public void UploadJson(string json)
+        public void UploadJson(string name, string json)
         {
 
             var request = new UpdateUserDataRequest
             {
                 Data = new Dictionary<string, string>
                 {
-                    {"DungeonData", json}
+                    {name, json}
                 }
             };
             PlayFabClientAPI.UpdateUserData(request, null, null);
