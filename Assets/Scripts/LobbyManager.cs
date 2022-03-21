@@ -29,6 +29,11 @@ public class LobbyManager : MonoBehaviourPunCallbacks
     public void StartSoloGame()
     {
         _startGamePanel.SetActive(false);
+        if (PhotonNetwork.IsConnected)
+        {
+            PhotonNetwork.Instantiate(_portalPrefab.name, _portalSpawnTransform.position, Quaternion.identity);
+            return;
+        }
         PhotonNetwork.ConnectUsingSettings();
     }
     

@@ -1,17 +1,14 @@
-﻿using System.Collections.Generic;
-using Impingement.Combat;
-using Impingement.Control;
+﻿using Impingement.Control;
 using Impingement.Dungeon;
 using Impingement.Playfab;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace SceneManagement
+namespace Impingement.SceneManagement
 {
     public class PortalView : MonoBehaviour
     {
         [SerializeField] private bool _saveDungeonData;
-        [SerializeField] private bool _savePlayerData;
         [SerializeField] private bool _completeLevelOnEnter;
         [SerializeField] private string _sceneToLoad = "";
         [SerializeField] private GameObject _loadPanel;
@@ -28,14 +25,15 @@ namespace SceneManagement
                 {
                     FindObjectOfType<DungeonProgressionManager>().CompleteLevel();
                 }
-                
-                _playfabManager.IsForceQuit = _saveDungeonData;
+
+                if (_saveDungeonData)
+                {
+                    FindObjectOfType<DungeonManager>().GenerateJson();
+                    _playfabManager.IsForceQuit = true;
+                }
 
                 ManageSceneChanging();
-                if (_savePlayerData)
-                {
-                    other.GetComponent<PlayfabPlayerDataController>().SavePlayerData();
-                }
+                other.GetComponent<PlayfabPlayerDataController>().SavePlayerData();
             }
         }
 

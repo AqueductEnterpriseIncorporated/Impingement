@@ -19,7 +19,12 @@ namespace Impingement.Dungeon
             AreaLevel++;
             if (_dungeonSize != _maximumDungeonSize)
             {
-                //_dungeonSize += new Vector2Int(Random.Range(0, 2), Random.Range(0, 2));
+                var randomX = Random.Range(0, 2);
+                var randomY = Random.Range(0, 2);
+                var randomX2 = Random.Range(0, 2);
+                var randomY2 = Random.Range(0, 2);
+                var newSize = new Vector2Int(Mathf.Min(randomX, randomX2), Mathf.Min(randomY, randomY2));
+                _dungeonSize += newSize;
             }
         }
     }
