@@ -8,6 +8,7 @@ namespace Impingement.UI.DamageText
         
         public void Spawn(float damage)
         {
+            if(PlayerPrefs.GetInt("ShowDamageText") == 0) { return; }
             var damageTextPrefab = Instantiate(_damageTextPrefab, transform.position, Quaternion.identity);
             damageTextPrefab.SetText(damage.ToString());
         }

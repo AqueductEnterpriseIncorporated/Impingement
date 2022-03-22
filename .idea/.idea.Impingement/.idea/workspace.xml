@@ -5,33 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e797b75-f4f0-4ea9-b141-84d8d653dbe9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponColliderView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponColliderView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/CooldownDisplay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/CooldownDisplay.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/InGameSettingsManager.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/InGameSettingsManager.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/AntiAliasingDropdownView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/AntiAliasingDropdownView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/FullscreenToggleView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/FullscreenToggleView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/InGameSettingsManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/InGameSettingsManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/QualityPresetDropdownView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/QualityPresetDropdownView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/ShowDamageView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/ShowDamageView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/ShowLifeView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/ShowLifeView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/TextureQualityDropdownView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/TextureQualityDropdownView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/VolumeSliderView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/VolumeSliderView.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Core/Progression.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/Progression.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MusicAndSfx/Master.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MusicAndSfx/Master.mixer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Core/PersistentObjects.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/PersistentObjects.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Bow.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Bow.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Unarmed.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Unarmed.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Sword/EquippedSword.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Sword/EquippedSword.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Unarmed/EquippedUnarmed.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Unarmed/EquippedUnarmed.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/EnemyArcher.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/EnemyArcher.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Weapons/ArrowProjectileRed.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Weapons/ArrowProjectileRed.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dungeon/Dungeon.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dungeon/Dungeon.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/Projectile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/Weapon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StartGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StartGame.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bug.png" beforeDir="false" afterPath="$PROJECT_DIR$/Bug.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthDisplay.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/DamageText/DamageTextSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/DamageText/DamageTextSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/MenuPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/MenuPanel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/Impingement.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Cinemachine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Cinemachine.dll" afterDir="false" />
@@ -248,7 +249,7 @@
       <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Themes/MultiStory_SideDeco.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/UnityCrashHandler64.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Build/UnityCrashHandler64.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/UnityPlayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/UnityPlayer.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,23 +277,8 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/Core/ConnectToPlayfab.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/VideoPlayerScirpt.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomModifierScriptableObject.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Stats/LevelDisplay.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Stats/ExperienceDisplay.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/UI/AreaLevelDisaply.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/UI/MinimapController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthDisplay.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/TargetHealthDisplay.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Stats/BaseStats.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Stats/ExperienceController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Control/PlayfabPlayerDataController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/UI/AreaLevelDisplay.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/UI/BugReportView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/tyPanelView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/thanksPanelController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/UI/MenuPanel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/ThanksPanelController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/BugPanelController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomBehaviour.cs" />
@@ -327,6 +313,21 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponColliderView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/Weapon.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/MenuPanel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/DamageText/DamageTextSpawner.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/Settings/ShowLifeView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/Settings/ShowDamageView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthDisplay.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/Settings/GlobalVolumeSliderМшуц.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/Settings/GlobalVolumeSliderView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/Settings/SFXVolumeSliderView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/Settings/MusicVolumeSliderView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/Settings/VolumeSliderView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/Settings/InGameSettingsManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/Settings/FullscreenToggleView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/Settings/QualityPresetDropdownView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/Settings/AntiAliasingDropdownView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/Settings/TextureQualityDropdownView.cs" />
     </changedPaths>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -437,7 +438,7 @@
       <workItem from="1647581620026" duration="8183000" />
       <workItem from="1647770929815" duration="8848000" />
       <workItem from="1647850972680" duration="20188000" />
-      <workItem from="1647933358626" duration="13401000" />
+      <workItem from="1647933358626" duration="22349000" />
     </task>
     <servers />
   </component>

@@ -950,6 +950,16 @@
             <e p="MinimapController.cs" t="Include" />
             <e p="PlayerCurrencyDisplay.cs" t="Include" />
             <e p="RoomItemView.cs" t="Include" />
+            <e p="Settings" t="Include">
+              <e p="AntiAliasingDropdownView.cs" t="Include" />
+              <e p="FullscreenToggleView.cs" t="Include" />
+              <e p="InGameSettingsManager.cs" t="Include" />
+              <e p="QualityPresetDropdownView.cs" t="Include" />
+              <e p="ShowDamageView.cs" t="Include" />
+              <e p="ShowLifeView.cs" t="Include" />
+              <e p="TextureQualityDropdownView.cs" t="Include" />
+              <e p="VolumeSliderView.cs" t="Include" />
+            </e>
             <e p="thanksPanelController.cs" t="Include" />
             <e p="UpgradePanelController.cs" t="Include" />
           </e>

@@ -5,7 +5,7 @@ namespace Impingement.UI
     public class MenuPanel : MonoBehaviour
     {
         [SerializeField] private GameObject _menuPanel;
-        [SerializeField] private GameObject _settingsPanel;
+        [SerializeField] private GameObject[] _objectsToClose;
         public bool IsOpened;
 
         private void Update()
@@ -14,25 +14,34 @@ namespace Impingement.UI
             {
                 if (!IsOpened)
                 {
-                    IsOpened = true;
-                    _menuPanel.SetActive(true);
+                    Open();
                 }
                 else
                 {
-                    Resume();
+                    CloseAll();
                 }
             }
         }
 
-        public void Resume()
+        public void Open()
         {
-            IsOpened = false;
+            _menuPanel.SetActive(true);
+            IsOpened = true;
+        }
+
+        public void Close()
+        {
+            //IsOpened = false;
             _menuPanel.SetActive(false);
         }
 
-        public void Settings()
+        private void CloseAll()
         {
-            
+            foreach (var uiObject in _objectsToClose)
+            {
+                uiObject.SetActive(false);
+            }
+            IsOpened = false;
         }
         
         public void Exit()
