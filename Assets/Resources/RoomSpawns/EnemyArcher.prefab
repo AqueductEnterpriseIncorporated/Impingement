@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -2829501607284361151, guid: 029cab191bfff714ea4413dc4b927194, type: 3}
       propertyPath: _chaseDistance
-      value: 20
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 264170874032684253, guid: 029cab191bfff714ea4413dc4b927194, type: 3}
       propertyPath: m_SynchronizeParameters.Array.data[2].SynchronizeType
@@ -23,6 +23,10 @@ PrefabInstance:
       propertyPath: _timeBetweenAttacks
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 483585389993161155, guid: 029cab191bfff714ea4413dc4b927194, type: 3}
+      propertyPath: defaultWeaponConfig
+      value: 
+      objectReference: {fileID: 11400000, guid: 88eb9e68a21dc2a4ab66961b6c81e600, type: 2}
     - target: {fileID: 671315223919402057, guid: 029cab191bfff714ea4413dc4b927194, type: 3}
       propertyPath: m_Name
       value: EnemyArcher

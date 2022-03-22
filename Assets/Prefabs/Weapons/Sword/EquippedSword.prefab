@@ -45,6 +45,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 794e80eb977e4ac8824bd33edbe5ebef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  WeaponCollider: {fileID: 4572642493678977425}
+  ColliderTimer: 0.1
   _onHit:
     m_PersistentCalls:
       m_Calls:
@@ -60,6 +62,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  _combatController: {fileID: 0}
 --- !u!1 &3163866807395974538
 GameObject:
   m_ObjectHideFlags: 0
@@ -275,8 +278,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13af847dfa6dbe844ba4b7c902f98f67, type: 3}
+--- !u!1 &7726500087863705522 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 181534, guid: 13af847dfa6dbe844ba4b7c902f98f67, type: 3}
+  m_PrefabInstance: {fileID: 7726500087863524012}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7726500087863853218 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 489998, guid: 13af847dfa6dbe844ba4b7c902f98f67, type: 3}
   m_PrefabInstance: {fileID: 7726500087863524012}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &4572642493678977425
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7726500087863705522}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.37036622, y: 0.9973613, z: 0.19740582}
+  m_Center: {x: -0.0000040426285, y: 0.75777614, z: -0.0000005217922}
+--- !u!114 &6852384586561936250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7726500087863705522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3721173c2da74341a0ba422ff030fa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _weapon: {fileID: -8589819224476698669}

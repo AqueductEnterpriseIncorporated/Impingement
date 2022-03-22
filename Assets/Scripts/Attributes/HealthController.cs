@@ -1,5 +1,6 @@
 ﻿using System;
 using GameDevTV.Utils;
+using Impingement.Combat;
 using Impingement.Core;
 using Impingement.enums;
 using Impingement.Playfab;
@@ -22,6 +23,7 @@ namespace Impingement.Attributes
         [SerializeField] private BaseStats _baseStats = null;
         [SerializeField] private TakeDamageEvent _takeDamage;
         [SerializeField] private PlayfabPlayerDataController _playfabPlayerDataController;
+        [SerializeField] private CombatTarget _combatTarget;
         [SerializeField] private bool _showDamageText;
         [SerializeField] private bool _isDead;
         [SerializeField] private bool _isInvulnerable;
@@ -56,6 +58,10 @@ namespace Impingement.Attributes
             return _isDead;
         }
 
+        public CombatTarget GetCombatTarget()
+        {
+            return _combatTarget;
+        }
 
         public void TakeDamage(GameObject instigator, float damage)
         {

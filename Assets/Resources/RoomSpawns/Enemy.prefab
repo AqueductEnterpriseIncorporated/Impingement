@@ -462,6 +462,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _healthController: {fileID: 1809331405415222814}
+  _aimPoint: {fileID: 0}
 --- !u!114 &7729677233108363671
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using GameDevTV.Utils;
 using Impingement.Attributes;
 using Impingement.Control;
@@ -13,7 +14,8 @@ namespace Impingement.Combat
 {
     public class CombatController : MonoBehaviour, IAction, IModifierProvider
     {
-        [SerializeField] private float _timeBetweenAttacks = 1f;
+        public float TimeSinceLastAttack = Mathf.Infinity;
+        [SerializeField] public float TimeBetweenAttacks = 1f;
         [SerializeField] private float _rotateSpeed = 5f;
         [SerializeField] private Transform _rightHandTransform = null;
         [SerializeField] private Transform _leftHandTransform = null;
@@ -26,7 +28,7 @@ namespace Impingement.Combat
         private WeaponConfig _currentWeaponConfig;
         private LazyValue<Weapon> _currentWeapon;
         private ActionScheduleController _actionScheduleController;
-        private float _timeSinceLastAttack = Mathf.Infinity;
+        private Vector3 _direction;
 
         private void Awake()
         {
@@ -52,7 +54,7 @@ namespace Impingement.Combat
         private void Update()
         {
             if(_healthController.IsDead()) { return; }
-            _timeSinceLastAttack += Time.deltaTime;
+            TimeSinceLastAttack += Time.deltaTime;
             if(_target is null) { return; }
 
             if (_target.IsDead())
@@ -76,8 +78,8 @@ namespace Impingement.Combat
             }
             else
             {
-                LookAtTarget();
-                AttackBehavior();
+                //LookAtTarget();
+                //AttackBehavior();
             }
         }
 
@@ -95,7 +97,9 @@ namespace Impingement.Combat
         private Weapon AttachWeapon(WeaponConfig weaponConfig)
         {
             Animator animator = GetComponent<Animator>();
-            return weaponConfig.Spawn(_rightHandTransform, _leftHandTransform, animator);
+            var weapon = weaponConfig.Spawn(_rightHandTransform, _leftHandTransform, animator);
+            weapon.SetCombatController(this);
+            return weapon;
         }
 
         private void LookAtTarget()
@@ -117,15 +121,15 @@ namespace Impingement.Combat
             return !combatTarget.IsDead();
         }
 
-        private void AttackBehavior()
+        public void AttackBehavior()
         {
-            if (_timeSinceLastAttack > _timeBetweenAttacks)
+            if (TimeSinceLastAttack > TimeBetweenAttacks)
             {
                 _animationController.ResetTriggerAnimation("cancelAttack");
                 _animationController.PlayTriggerAnimation("attack");
                 //_photonView.RPC(nameof(_animationController.ResetTriggerAnimation), RpcTarget.All, "cancelAttack");
                 //_photonView.RPC(nameof(_animationController.PlayTriggerAnimation), RpcTarget.All, "attack");
-                _timeSinceLastAttack = 0;
+                TimeSinceLastAttack = 0;
             }
         }
         
@@ -134,20 +138,46 @@ namespace Impingement.Combat
         /// </summary>
         private void Hit()
         {
-            DealDamage();
+            StartCoroutine(EnableWeaponCollider());
+            //DealDamage();
         }
-        
+
         /// <summary>
         /// Animation event
         /// </summary>
         private void Shoot()
         {
-            Hit();
+            if (_healthController.IsPlayer)
+            {
+                if (_currentWeaponConfig.HasProjectile())
+                {
+                    var damage = GetComponent<BaseStats>().GetStat(enumStats.Damage);
+                    _currentWeaponConfig.LaunchProjectile(_leftHandTransform, _rightHandTransform, null, gameObject,
+                        damage, _direction);
+                }
+            }
+            else
+            {
+                DealDamageAI(_target);
+            }
         }
 
-        private void DealDamage()
+        public void SetDirection(Vector3 direction)
         {
-            if (_target == null) { return; }
+            _direction = direction;
+        }
+
+        private IEnumerator EnableWeaponCollider()
+        {
+            _currentWeapon.value.WeaponCollider.enabled = true;
+            yield return new WaitForSeconds(_currentWeapon.value.ColliderTimer);
+            _currentWeapon.value.WeaponCollider.enabled = false;
+            _currentWeapon.value.IsHitted = false;
+        }
+
+        public void DealDamageAI(HealthController target)
+        {
+            if (target == null) { return; }
 
             var damage = GetComponent<BaseStats>().GetStat(enumStats.Damage);
 
@@ -163,7 +193,7 @@ namespace Impingement.Combat
             }
             else
             {
-                _target.TakeDamage(gameObject, damage);
+                target.TakeDamage(gameObject, damage);
             }
         }
 

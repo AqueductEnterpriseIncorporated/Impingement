@@ -11,7 +11,7 @@ using Random = UnityEngine.Random;
 
 namespace Impingement.Control
 {
-    public class PlayerController : MonoBehaviour
+    public class PlayerController : MonoBehaviour, IAction
     {
         [SerializeField] private float _raycastRadius = 1f;
         [SerializeField] private float _rotationSpeed;
@@ -19,7 +19,9 @@ namespace Impingement.Control
         [SerializeField] private Camera _camera;
         [SerializeField] private CursorMapping[] _cursorMappings;
         [SerializeField] private CombatController _combatController;
+        [SerializeField] private ActionScheduleController _actionScheduleController;
         [SerializeField] CharacterController _characterController;
+        private readonly int _cameraYRotation = 45;
         private PhotonView _photonView;
         private PlayerCameraController _playerCameraController;
         private HealthController _healthController;
@@ -58,7 +60,6 @@ namespace Impingement.Control
             if (InteractWithUI())
             {
                 _characterController.SimpleMove(Vector3.zero);
-
                 return;
             }
 
@@ -68,36 +69,38 @@ namespace Impingement.Control
                 return;
             }
 
-            //if (InteractWithComponent()) { return; }
-            InteractWithComponent();
-
-            if (InteractWithMovement()) { return; }    
-
-
-            // if (Input.GetMouseButtonDown(0))
+            ProcessPlayerInput();
+            
+            // if (InteractWithComponent())
             // {
-            //     // var aimDistance = 10.0;
-            //     // RaycastHit rch;
-            //     // Ray ray = Camera.main.ScreenPointToRay( Input.mousePosition );
-            //     //
-            //     // if ( Physics.Raycast( ray, rch, aimDistance ) ) {
-            //     //     aimpoint = rch.point;
-            //     // } else {
-            //     //     aimpoint = ray.origin + ray.direction * aimDistance;
-            //     // }
-            //     // RaycastHit hit;
-            //     // if (Physics.Raycast(_camera.ScreenPointToRay(Input.mousePosition), out hit, 100))
-            //     // {
-            //     //     // When click on the terreno, record the position.
-            //     //     destination = hit.point;
-            //     // }
-            //     Vector3 worldPosition = _camera.ScreenToWorldPoint(Input.mousePosition);
-            //     destination = worldPosition;
+            //     _characterController.SimpleMove(Vector3.zero);
+            //     return;
             // }
 
-            //if (InteractWithMovement()) { return; }    
+            if (InteractWithMovement())
+            {
+                return;
+            }
+        }
 
-            //SetCursor(enumCursorType.None);
+        private void ProcessPlayerInput()
+        {
+            if (Input.GetKey(KeyCode.Q) || Input.GetKeyDown(KeyCode.Q))
+            {
+                InteractWithCombat();
+            }
+        }
+
+        private void InteractWithCombat()
+        {
+            if (_combatController.TimeSinceLastAttack > _combatController.TimeBetweenAttacks)
+            {
+                var direction = GetDirection();
+                _characterController.SimpleMove(Vector3.zero);
+                transform.eulerAngles = SetRotation(direction);
+                _combatController.SetDirection(direction);
+                _combatController.AttackBehavior();
+            }
         }
 
 
@@ -120,7 +123,7 @@ namespace Impingement.Control
 
         private RaycastHit[] RaycastAllSorted()
         {
-            var hits = Physics.SphereCastAll(GetMouseRay(), _raycastRadius);
+            var hits = Physics.RaycastAll(GetMouseRay());
             float[] distances = new float[hits.Length];
             for (int i = 0; i < hits.Length; i++)
             {
@@ -137,43 +140,12 @@ namespace Impingement.Control
                 //SetCursor(enumCursorType.UI);
                 return true;
             }
-
             return false;
         }
 
-
-        // private void Move()
-
-        // {
-
-        //     var moveVector = _playerModel.Transform.right * _horizontal + _playerModel.Transform.forward * _vertical;
-
-        //     moveVector = Vector3.ClampMagnitude(moveVector, MAX_VECTOR_LENGTH);
-
-        //     var speed = _playerModel.IsCrouching ? _crouchSpeed : _moveSpeed;
-
-        //
-
-        //     _characterController.Move(moveVector * (speed * _deltaTime));
-
-        // }
-
-
         private bool InteractWithMovement()
         {
-            var playerScreenPosition = _camera.WorldToScreenPoint(_characterController.transform.position);
-            var cursorPosition = Input.mousePosition;
-
-            var direction = cursorPosition - playerScreenPosition;
-            (direction.z, direction.y) = (direction.y, direction.z);
-            direction.Normalize();
-            direction = Quaternion.Euler(0, 45, 0) * direction;
-
-            // if (_characterController.velocity.magnitude > 0)
-            // {
-            //     var rotation = Quaternion.LookRotation(direction + transform.position);
-            //     transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * _rotationSpeed);
-            // }
+            var direction = GetDirection();
 
             if (Input.GetMouseButton(0))
             {
@@ -183,11 +155,10 @@ namespace Impingement.Control
                 if (!Physics.Raycast(ray, out rayHit) ||
                     !rayHit.transform.TryGetComponent<PlayerController>(out var playerController))
                 {
+                    _actionScheduleController.StartAction(this);
                     _characterController.Move(direction * (Time.deltaTime * _speed));
-                    var targetRotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(direction), _rotationSpeed * Time.deltaTime);
-                    transform.rotation = targetRotation;
-                    transform.eulerAngles = new Vector3(0, transform.eulerAngles.y, 0);
-                    
+                    transform.eulerAngles = SetRotation(direction);
+
                     return true;
                 }
                 
@@ -204,61 +175,27 @@ namespace Impingement.Control
             }
 
             return false;
+        }
 
+        private Vector3 SetRotation(Vector3 direction)
+        {
+            var targetRotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(direction),
+                _rotationSpeed * Time.deltaTime);
+            transform.rotation = targetRotation;
+            return new Vector3(0, transform.eulerAngles.y, 0);
+        }
 
-            // bool hasHit = RaycastNavMesh(out var target);
-            // Physics.Raycast(GetMouseRay(), out var hit, Mathf.Infinity, _layerMask);
-            // if (!_movementController.CanMoveTo(target)) { return false; }
-            //
-            // if (hasHit)
-            // {
-            //     if (Input.GetMouseButton(0))
-            //     { 
-            //         _movementController.StartMoving(hit.point, 1);
-            //     }
-            //     SetCursor(enumCursorType.Movement);
-            //     return true;
-            // }
-            // return false;
+        private Vector3 GetDirection()
+        {
+            var playerScreenPosition = _camera.WorldToScreenPoint(_characterController.transform.position);
+            var cursorPosition = Input.mousePosition;
+            var direction = cursorPosition - playerScreenPosition;
+            (direction.z, direction.y) = (direction.y, direction.z);
+            direction.Normalize();
+            direction = Quaternion.Euler(0, _cameraYRotation, 0) * direction;
+            return direction;
         }
         
-        // private Vector3 ToEuler(Quaternion quaternion) {
-        //     Vector4 q = new Vector4(quaternion.x, quaternion.y, quaternion.z);
-        //     double3 res;
-        //
-        //     double sinr_cosp = +2.0 * (q.w * q.x + q.y * q.z);
-        //     double cosr_cosp = +1.0 - 2.0 * (q.x * q.x + q.y * q.y);
-        //     res.x = math.atan2(sinr_cosp, cosr_cosp);
-        //
-        //     double sinp = +2.0 * (q.w * q.y - q.z * q.x);
-        //     if (math.abs(sinp) >= 1) {
-        //         res.y = math.PI / 2 * math.sign(sinp);
-        //     } else {
-        //         res.y = math.asin(sinp);
-        //     }
-        //
-        //     double siny_cosp = +2.0 * (q.w * q.z + q.x * q.y);
-        //     double cosy_cosp = +1.0 - 2.0 * (q.y * q.y + q.z * q.z);
-        //     res.z = math.atan2(siny_cosp, cosy_cosp);
-        //
-        //     return (float3) res;
-        // }
-
-        private bool RaycastNavMesh(out Vector3 target)
-        {
-            target = new Vector3();
-            bool hasHit = Physics.Raycast(GetMouseRay(), out var hit);
-            if (!hasHit) { return false; }
-
-            var hasCastToNavMesh = UnityEngine.AI.NavMesh.SamplePosition(hit.point, out var navMeshHit,
-                Mathf.Infinity,
-                UnityEngine.AI.NavMesh.AllAreas);
-            if (!hasCastToNavMesh) { return false;}
-            target = navMeshHit.position;
-            
-            return true;
-        }
-
         private void SetCursor(enumCursorType cursorType)
         {
             CursorMapping cursorMapping = GetCursorMapping(cursorType);
@@ -282,6 +219,11 @@ namespace Impingement.Control
         {
             return _playerCameraController.
                 GetPlayerCamera().ScreenPointToRay(Input.mousePosition);
+        }
+
+        public void Cancel()
+        {
+            _characterController.SimpleMove(Vector3.zero);
         }
     }
 }

@@ -66,13 +66,32 @@ namespace Impingement.Combat
             return _projectile != null;
         }
 
-        public void LaunchProjectile(Transform rightHand, Transform leftHand, HealthController target, GameObject instigator, float calculatedDamage)
+        public void LaunchProjectile(Transform rightHand, Transform leftHand, HealthController target,
+            GameObject instigator, float calculatedDamage, Vector3 direction = default)
         {
-            Projectile projectileInstance = PhotonNetwork.Instantiate("Weapons/" + _projectile.name, GetTransform(rightHand, leftHand).position,
-                Quaternion.identity).GetComponent<Projectile>();
-            projectileInstance.SetTarget(target, instigator, calculatedDamage);
+            Projectile projectileInstance = null;
+            if (PhotonNetwork.InRoom)
+            {
+                projectileInstance = PhotonNetwork.Instantiate("Weapons/" + _projectile.name,
+                    GetTransform(rightHand, leftHand).position,
+                    Quaternion.identity).GetComponent<Projectile>();
+            }
+            else
+            {
+                projectileInstance = Instantiate(_projectile,
+                    GetTransform(rightHand, leftHand).position,
+                    Quaternion.identity).GetComponent<Projectile>();
+            }
+
+            if (target != null)
+            {
+                projectileInstance.SetTarget(target, instigator, calculatedDamage);
+                return;
+            }
+
+            projectileInstance.SetDirection(direction, instigator, calculatedDamage);
         }
-        
+
         public float GetDamage()
         {
             return _weaponDamage;

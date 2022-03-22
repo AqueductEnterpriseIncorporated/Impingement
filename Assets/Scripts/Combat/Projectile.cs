@@ -18,18 +18,29 @@ namespace Impingement.Combat
         [SerializeField] private PhotonView _photonView;
         private GameObject _instigator = null;
         private HealthController _target = null;
+        private Vector3 _direction;
         private float _lifeTimeTimer = Mathf.Infinity;
         private float _damage = 0f;
 
         private void Start()
         {
-            if(_target == null) { return; }
-            transform.LookAt(GetAimLocation());
+            //if(_target == null || _direction == default) { return; }
+            if (_target == null)
+            {
+                var targetRotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(_direction),
+                    100f * Time.deltaTime);
+                transform.rotation = targetRotation;
+                transform.eulerAngles = new Vector3(0, transform.eulerAngles.y, 0);
+            }
+            else
+            {
+                transform.LookAt(GetAimLocation());
+            }
         }
 
         private void Update()
         {
-            if(_target == null) { return; }
+            //if(_target == null || _direction == default) { return; }
 
             if (_isHoming && !_target.IsDead())
             {
@@ -38,31 +49,57 @@ namespace Impingement.Combat
             transform.Translate(Vector3.forward * _speed * Time.deltaTime);
         }
 
-        public void SetTarget(HealthController target,GameObject instigator, float damage)
+        public void SetDirection(Vector3 direction, GameObject instigator, float damage)
+        {
+            _direction = direction;
+            _instigator = instigator;
+            _damage = damage;
+            
+            SelfDestroy();
+        }
+
+        public void SetTarget(HealthController target, GameObject instigator, float damage)
         {
             _target = target;
             _instigator = instigator;
             _damage = damage;
 
-            _photonView.RPC(nameof(DestroyGameObjectRPC), RpcTarget.AllViaServer, _maxLifeTime);
+            SelfDestroy();
+        }
+
+        private void SelfDestroy()
+        {
+            if (PhotonNetwork.InRoom)
+            {
+                _photonView.RPC(nameof(DestroyGameObjectRPC), RpcTarget.AllViaServer, _maxLifeTime);
+            }
+            else
+            {
+                DestroyGameObjectRPC(_maxLifeTime);
+            }
         }
 
         private Vector3 GetAimLocation()
         {
-            CapsuleCollider targetCapsuleCollider = _target.GetComponent<CapsuleCollider>();
-            if (targetCapsuleCollider == null)
+            if (_target == null)
             {
-                return _target.transform.position;
+                return _direction;
             }
-            return _target.transform.position + Vector3.up * targetCapsuleCollider.height / 2;
+
+            return _target.GetCombatTarget().GetAimPoint().position;
         }
 
         private void OnTriggerEnter(Collider other)
         {
             if (other.TryGetComponent<HealthController>(out var healthController))
             {
-                if (healthController != _target) { return; }
-                if(_target.IsDead()) { return; }
+                if(_instigator == healthController.gameObject) { return; }
+
+                if (_target != null && _target.IsPlayer)
+                {
+                    if (healthController != _target) { return; }
+                }
+                //if(_target.IsDead()) { return; }
                 
                 _speed = 0;
                 
@@ -70,14 +107,27 @@ namespace Impingement.Combat
                 
                 if (_hitEffect != null)
                 {
-                    PhotonNetwork.Instantiate("VFX/" + _hitEffect.name, GetAimLocation(), transform.rotation);
+                    if (PhotonNetwork.InRoom)
+                    {
+                        PhotonNetwork.Instantiate("VFX/" + _hitEffect.name, GetAimLocation(), transform.rotation);
+                    }
+                    else
+                    {
+                        Instantiate(_hitEffect, GetAimLocation(), transform.rotation);
+                    }
                 }
 
-                _photonView.RPC(nameof(DestroyGameObjectsRPC), RpcTarget.AllViaServer);
+                if (PhotonNetwork.InRoom)
+                {
+                    _photonView.RPC(nameof(DestroyGameObjectsRPC), RpcTarget.AllViaServer);
+                    _photonView.RPC(nameof(DestroyGameObjectRPC), RpcTarget.AllViaServer, _lifeAfterImpact);
+                }
+                else
+                {
+                    DestroyGameObjectsRPC();
+                    DestroyGameObjectRPC(_lifeAfterImpact);
+                }
 
-                
-                _photonView.RPC(nameof(DestroyGameObjectRPC), RpcTarget.AllViaServer, _lifeAfterImpact);
-                
                 healthController.TakeDamage(_instigator, _damage);
             }
         }

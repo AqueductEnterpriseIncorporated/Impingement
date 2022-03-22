@@ -8,7 +8,6 @@ public class StartGame : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            _UI.SetActive(true);
             _startGamePanel.SetActive(true);
         }
     }
@@ -17,7 +16,6 @@ public class StartGame : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            _UI.SetActive(false);
             _startGamePanel.SetActive(false);
         }
     }

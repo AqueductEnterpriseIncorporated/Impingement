@@ -797,6 +797,7 @@
             <e p="Projectile.cs" t="Include" />
             <e p="TargetHealthDisplay.cs" t="Include" />
             <e p="Weapon.cs" t="Include" />
+            <e p="WeaponColliderView.cs" t="Include" />
             <e p="WeaponConfig.cs" t="Include" />
             <e p="WeaponPickup.cs" t="Include" />
           </e>
@@ -939,6 +940,7 @@
           <e p="UI" t="Include">
             <e p="AreaLevelDisplay.cs" t="Include" />
             <e p="BugPanelController.cs" t="Include" />
+            <e p="CooldownDisplay.cs" t="Include" />
             <e p="DamageText" t="Include">
               <e p="DamageText.cs" t="Include" />
               <e p="DamageTextSpawner.cs" t="Include" />

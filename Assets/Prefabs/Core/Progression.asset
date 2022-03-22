@@ -46,7 +46,7 @@ MonoBehaviour:
       Levels:
       - 15
       - 20
-      - 25
+      - 2525
       - 30
       - 35
       - 40
@@ -70,4 +70,29 @@ MonoBehaviour:
   - CharacterClass: 2
     Stats: []
   - CharacterClass: 3
-    Stats: []
+    Stats:
+    - stat: 0
+      Levels:
+      - 15
+      - 20
+      - 2525
+      - 30
+      - 35
+      - 40
+      - 45
+    - stat: 3
+      Levels:
+      - 5
+      - 15
+      - 20
+      - 25
+      - 30
+      - 35
+    - stat: 1
+      Levels:
+      - 5
+      - 15
+      - 20
+      - 25
+      - 30
+      - 35

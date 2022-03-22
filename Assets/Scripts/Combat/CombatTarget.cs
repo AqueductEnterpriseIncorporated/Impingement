@@ -9,6 +9,7 @@ namespace Impingement.Combat
     public class CombatTarget : MonoBehaviour, IRaycastable
     {
         [SerializeField] private HealthController _healthController;
+        [SerializeField] private Transform _aimPoint;
         public bool HandleRaycast(PlayerController callingController)
         {
             //if (!callingController.GetCombatController().CanAttack(_healthController))
@@ -27,6 +28,11 @@ namespace Impingement.Combat
         public enumCursorType GetCursorType()
         {
             return enumCursorType.Combat;
+        }
+
+        public Transform GetAimPoint()
+        {
+            return _aimPoint;
         }
     }
 }
