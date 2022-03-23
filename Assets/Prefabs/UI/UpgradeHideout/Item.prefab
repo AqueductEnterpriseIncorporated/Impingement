@@ -98,7 +98,6 @@ MonoBehaviour:
   _descriptionText: {fileID: 7450988349152776049}
   _priceText: {fileID: 3541914523179854013}
   _buttonText: {fileID: 783890091971721533}
-  _button: {fileID: 2395016008020965339}
   _image: {fileID: 2566806222764302648}
   _notEnoughColor: {r: 0.41509432, g: 0.009789959, b: 0.009789959, a: 1}
   _enoughColor: {r: 1, g: 0.8915094, b: 0.8915094, a: 1}
@@ -108,6 +107,10 @@ MonoBehaviour:
   _description: 
   _price: 0
   _imageToSet: {fileID: 0}
+  _item: {fileID: 0}
+  _itemSpawnPoint: {fileID: 0}
+  LocalPrefab: {fileID: 0}
+  IsSpawned: 0
 --- !u!1 &4162332769643882949
 GameObject:
   m_ObjectHideFlags: 0
@@ -646,7 +649,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u043F\u0435\u0440\u0435\u0441\u0442\u0430\u0442\u044C \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C"
+  m_text: "\u0443\u0431\u0440\u0430\u0442\u044C"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f4ed37ffabc5f464a8c0f7c0dee82bd5, type: 2}
   m_sharedMaterial: {fileID: 1352317914274170842, guid: f4ed37ffabc5f464a8c0f7c0dee82bd5, type: 2}
@@ -673,7 +676,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10.85
+  m_fontSize: 13.55
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1

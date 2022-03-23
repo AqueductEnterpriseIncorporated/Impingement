@@ -19,3 +19,4 @@ MonoBehaviour:
   _weaponPercentageBonus: 0
   _isRightHand: 0
   _projectile: {fileID: 5505147364833348344, guid: 71448b6a42b0a864eb36cf8a81d00435, type: 3}
+  TESTPREFAB: {fileID: 1597860116895244649, guid: 00adc99acd6d8354c8adad801cbf812c, type: 3}

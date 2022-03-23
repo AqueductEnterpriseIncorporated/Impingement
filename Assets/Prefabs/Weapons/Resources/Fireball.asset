@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Fireball
   m_EditorClassIdentifier: 
   _animatorOverride: {fileID: 22100000, guid: 21c639557022f4247a44bc1d63a3c072, type: 2}
-  _equippedPrefab: {fileID: 0}
+  _equippedPrefab: {fileID: 3707744840177280596, guid: 5209c3f96f8dfa542bc05a3fa7f50679, type: 3}
   _weaponRange: 20
   _weaponDamage: 5
+  _weaponPercentageBonus: 0
   _isRightHand: 0
   _projectile: {fileID: 7632254306252121831, guid: 3bbd967d7f9c4cb4590969e76b4a3cf7, type: 3}

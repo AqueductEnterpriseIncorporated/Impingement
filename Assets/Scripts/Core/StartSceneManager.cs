@@ -103,5 +103,10 @@ namespace Impingement.Core
         {
             SceneManager.LoadSceneAsync("Hideout");
         }
+
+        public void Exit()
+        {
+            Application.Quit();
+        }
     }
 }

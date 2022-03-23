@@ -5,50 +5,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e797b75-f4f0-4ea9-b141-84d8d653dbe9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/InGameSettingsManager.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/InGameSettingsManager.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/AntiAliasingDropdownView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/AntiAliasingDropdownView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/FullscreenToggleView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/FullscreenToggleView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/InGameSettingsManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/InGameSettingsManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/QualityPresetDropdownView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/QualityPresetDropdownView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/ShowDamageView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/ShowDamageView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/ShowLifeView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/ShowLifeView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/TextureQualityDropdownView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/TextureQualityDropdownView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/VolumeSliderView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/VolumeSliderView.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/ARPG Effects/Animation/Equipped.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/ARPG Effects/Animation/Equipped.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Magic/Fireball/EquippedFireball.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Magic/Fireball/EquippedFireball.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Weapons/ArrowProjectile.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Weapons/ArrowProjectile.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Weapons/Cube (1).prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Weapons/Cube (1).prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/icon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build.rar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/Sword/RPG-Character@Sword-Attack-R6.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/Sword/RPG-Character@Sword-Attack-R6.FBX.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MusicAndSfx/Master.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MusicAndSfx/Master.mixer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Core/PersistentObjects.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/PersistentObjects.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Prefabs/Arches/Damaged_Arch_Alley_02.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Prefabs/Arches/Damaged_Arch_Alley_02.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Prefabs/Arches/Damaged_Arch_Alley_Corner_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Prefabs/Arches/Damaged_Arch_Alley_Corner_01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Prefabs/Arches/Damaged_Arch_Alley_Corner_02.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Prefabs/Arches/Damaged_Arch_Alley_Corner_02.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Prefabs/Arches/Damaged_Arch_Alley_Corner_03.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Prefabs/Arches/Damaged_Arch_Alley_Corner_03.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Prefabs/Columns/Damaged_Column_03.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Prefabs/Columns/Damaged_Column_03.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Prefabs/Columns/Damaged_Column_05.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Prefabs/Columns/Damaged_Column_05.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Prefabs/VFX/Fog_FX_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Prefabs/VFX/Fog_FX_01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Prefabs/Walls/Wall_Corner_Preset_02.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Prefabs/Walls/Wall_Corner_Preset_02.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Prefabs/Walls/Wall_Corner_Preset_10.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Prefabs/Walls/Wall_Corner_Preset_10.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Prefabs/Walls/Wall_Right_01_Damaged_Decorated.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Prefabs/Walls/Wall_Right_01_Damaged_Decorated.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Textures/Materials/Atlas_Base_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Textures/Materials/Atlas_Base_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Modifiers/EnemyModifier.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Modifiers/EnemyModifier.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Pillar.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Pillar.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Wall.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Wall.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthDisplay.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/DamageText/DamageTextSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/DamageText/DamageTextSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/MenuPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/MenuPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/UpgradeHideout/Item.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/UpgradeHideout/Item.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Bow/BowRedProjectile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Bow/BowRedProjectile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Fireball.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Fireball.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Portal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Portal.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PortalToDungeon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/PortalToDungeon.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/FireballPickup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/FireballPickup.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Weapons/ArrowProjectileRed.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Weapons/ArrowProjectileRed.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout/NavMesh.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout/NavMesh.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/Projectile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponColliderView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponColliderView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/StartSceneManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/StartSceneManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/Impingement.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Cinemachine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Cinemachine.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/NavMeshComponents.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/NavMeshComponents.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/PhotonChat.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/PhotonChat.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/PhotonRealtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/PhotonRealtime.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/PhotonUnityNetworking.Demos.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/PhotonUnityNetworking.Demos.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/PhotonUnityNetworking.Utilities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/PhotonUnityNetworking.Utilities.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/PhotonUnityNetworking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/PhotonUnityNetworking.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Unity.InputSystem.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Unity.InputSystem.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Unity.Multiplayer.MetricTypes.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Unity.Multiplayer.MetricTypes.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Unity.Multiplayer.NetStats.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Unity.Multiplayer.NetStats.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Unity.Multiplayer.NetStatsReporting.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Unity.Multiplayer.NetStatsReporting.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Unity.Multiplayer.NetworkProfiler.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Unity.Multiplayer.NetworkProfiler.Runtime.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Unity.Multiplayer.NetworkSolutionInterface.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Unity.Multiplayer.NetworkSolutionInterface.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Unity.ProGrids.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Unity.ProGrids.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Unity.Profiling.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Unity.Profiling.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Unity.TextMeshPro.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Unity.Timeline.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Unity.Timeline.dll" afterDir="false" />
@@ -249,7 +260,8 @@
       <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Themes/MultiStory_SideDeco.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/UnityCrashHandler64.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Build/UnityCrashHandler64.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/UnityPlayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/UnityPlayer.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,7 +280,10 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D3B66F0A-D4E3-4A55-B6EF-91AB84878193/7f/9ce0490a/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E99EE6D5-C968-4510-A35B-84C7173649F9/6e/e3db93bd/RaycastHit.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D3B66F0A-D4E3-4A55-B6EF-91AB84878193/7d/67b7e8d9/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D3B66F0A-D4E3-4A55-B6EF-91AB84878193/ab/9a4f6406/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/StartSceneManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/InputModules/BaseInputModule.cs" root0="SKIP_HIGHLIGHTING" />
@@ -297,20 +312,14 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabHideoutDatacONTROLLER.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Serialization/SerializationClasses/SerializationRootClass.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/UpgradePanelController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabHideoutDataController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/HideoutUpgradeItemView.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Core/StartSceneManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/StartGame.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/ActionScheduleController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/CooldownDisplay.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponConfig.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/Projectile.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponColliderView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/Weapon.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/MenuPanel.cs" />
@@ -328,6 +337,12 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/Settings/QualityPresetDropdownView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/Settings/AntiAliasingDropdownView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/Settings/TextureQualityDropdownView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/StartSceneManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponColliderView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/Projectile.cs" />
     </changedPaths>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -384,10 +399,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="25396">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="25396" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -438,7 +453,9 @@
       <workItem from="1647581620026" duration="8183000" />
       <workItem from="1647770929815" duration="8848000" />
       <workItem from="1647850972680" duration="20188000" />
-      <workItem from="1647933358626" duration="22349000" />
+      <workItem from="1647933358626" duration="22944000" />
+      <workItem from="1648027096341" duration="45000" />
+      <workItem from="1648030121732" duration="33246000" />
     </task>
     <servers />
   </component>

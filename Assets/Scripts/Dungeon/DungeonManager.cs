@@ -53,6 +53,7 @@ namespace Impingement.Dungeon
             SetSpawnPoint();
             _networkManager.Spawn();
             CleanUp();
+            //todo: fix
             Destroy(GameObject.Find("LoadPanel"));
         }
 
@@ -146,7 +147,7 @@ namespace Impingement.Dungeon
                 if (spawnChanceValue <= roomVariant.ChanceToSpawn)
                 {
                     var roomVariantsWithSameChanceToSpawn =
-                        sortedRoomVariants.FindAll(element => element.ChanceToSpawn == roomVariant.ChanceToSpawn);
+                        sortedRoomVariants.FindAll(element => Mathf.Approximately(element.ChanceToSpawn,roomVariant.ChanceToSpawn));
                     var pickedRoomVariant =
                         roomVariantsWithSameChanceToSpawn[Random.Range(0, roomVariantsWithSameChanceToSpawn.Count)];
                     

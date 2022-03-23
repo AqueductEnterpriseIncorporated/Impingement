@@ -11,11 +11,18 @@ namespace Impingement.Combat
         [SerializeField] private UnityEvent _onHit;
         [SerializeField] private float _speed = 1f;
         [SerializeField] private bool _isHoming = false;
+        [SerializeField] private bool _isExplosive = false;
         [SerializeField] private float  _maxLifeTime = 10f;
         [SerializeField] private float _lifeAfterImpact = 2f;
+        [SerializeField] private float _boundsForce = 50f;
         [SerializeField] private GameObject[] _destroyOnHit = null;
         [SerializeField] private GameObject _hitEffect = null;
         [SerializeField] private PhotonView _photonView;
+        [SerializeField] private Rigidbody _rigidbody;
+        [SerializeField] private Collider _collider;
+        [SerializeField] private Collider _currentCollider;
+
+        private bool _processTranslate = true;
         private GameObject _instigator = null;
         private HealthController _target = null;
         private Vector3 _direction;
@@ -41,20 +48,21 @@ namespace Impingement.Combat
         private void Update()
         {
             //if(_target == null || _direction == default) { return; }
-
+            if(!_processTranslate) { return; }
             if (_isHoming && !_target.IsDead())
             {
                 transform.LookAt(GetAimLocation());
             }
+            
             transform.Translate(Vector3.forward * _speed * Time.deltaTime);
         }
 
         public void SetDirection(Vector3 direction, GameObject instigator, float damage)
         {
             _direction = direction;
+            _direction.y = 0;
             _instigator = instigator;
             _damage = damage;
-            
             SelfDestroy();
         }
 
@@ -91,6 +99,8 @@ namespace Impingement.Combat
 
         private void OnTriggerEnter(Collider other)
         {
+            if(other == _collider || other == _currentCollider) { return; }
+            
             if (other.TryGetComponent<HealthController>(out var healthController))
             {
                 if(_instigator == healthController.gameObject) { return; }
@@ -101,34 +111,64 @@ namespace Impingement.Combat
                 }
                 //if(_target.IsDead()) { return; }
                 
+                _rigidbody.constraints = RigidbodyConstraints.FreezePosition;
                 _speed = 0;
                 
                 _onHit.Invoke();
                 
-                if (_hitEffect != null)
+                SpawnVFX();
+
+                DestroyObjects();
+
+                healthController.TakeDamage(_instigator, _damage);
+            }
+            else if(other.gameObject != _instigator)
+            {
+                if (_isExplosive)
                 {
-                    if (PhotonNetwork.InRoom)
-                    {
-                        PhotonNetwork.Instantiate("VFX/" + _hitEffect.name, GetAimLocation(), transform.rotation);
-                    }
-                    else
-                    {
-                        Instantiate(_hitEffect, GetAimLocation(), transform.rotation);
-                    }
+                    SpawnVFX();
+                    DestroyObjects();
+                    return;
                 }
 
+                _rigidbody.isKinematic = false;
+                
+                _rigidbody.freezeRotation = false;
+                _currentCollider.enabled = false;
+                _collider.enabled = true;
+                _processTranslate = false;
+                _rigidbody.useGravity = true;
+                _rigidbody.AddForce(Vector3.forward * _boundsForce);
+            }
+        }
+
+        private void SpawnVFX()
+        {
+            if (_hitEffect != null)
+            {
                 if (PhotonNetwork.InRoom)
                 {
-                    _photonView.RPC(nameof(DestroyGameObjectsRPC), RpcTarget.AllViaServer);
-                    _photonView.RPC(nameof(DestroyGameObjectRPC), RpcTarget.AllViaServer, _lifeAfterImpact);
+                    PhotonNetwork.Instantiate("VFX/" + _hitEffect.name, GetAimLocation(), transform.rotation);
                 }
                 else
                 {
-                    DestroyGameObjectsRPC();
-                    DestroyGameObjectRPC(_lifeAfterImpact);
+                    Instantiate(_hitEffect, GetAimLocation(), transform.rotation);
                 }
+            }
+        }
 
-                healthController.TakeDamage(_instigator, _damage);
+        private void DestroyObjects()
+        {
+            if (PhotonNetwork.InRoom)
+            {
+                _photonView.RPC(nameof(DestroyGameObjectsRPC), RpcTarget.AllViaServer);
+                _photonView.RPC(nameof(DestroyGameObjectRPC), RpcTarget.AllViaServer, _lifeAfterImpact);
+            }
+            else
+            {
+                _processTranslate = false;
+                DestroyGameObjectsRPC();
+                DestroyGameObjectRPC(_lifeAfterImpact);
             }
         }
 
