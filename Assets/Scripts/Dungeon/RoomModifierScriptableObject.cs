@@ -61,15 +61,18 @@ namespace Impingement.Dungeon
                 var randomPrefabNumber = Random.Range(0, _spawnPrefabs.Length);
                 var randomPrefab = _spawnPrefabs[randomPrefabNumber].name;
                 _room.RandomlyGeneratedObjectPrefabNamesList.Add(randomPrefab);
-                var localPrefab = PhotonNetwork.Instantiate("RoomSpawns/" + randomPrefab,
-                    GetRandomPosition(), Quaternion.identity);
+                
 
                 if (_isEnemy)
                 {
+                    var localPrefab = PhotonNetwork.Instantiate("RoomSpawns/" + randomPrefab,
+                        GetRandomPosition(), Quaternion.identity);
                     _dungeonManager.Enemies.Add(localPrefab);
                 }
                 if (_isPickup)
                 {
+                    var localPrefab = PhotonNetwork.Instantiate("RoomSpawns/" + randomPrefab,
+                        _room.ItemSpawnPoint.position, Quaternion.identity);
                     _dungeonManager.Pikcups.Add(localPrefab);
                 }
 
@@ -84,15 +87,17 @@ namespace Impingement.Dungeon
             while (currentObjectCount < _room.RandomlyGeneratedObjectSpawnsAmount)
             {
                 var randomPrefab = _room.RandomlyGeneratedObjectPrefabNamesList[currentObjectCount];
-                var localPrefab = PhotonNetwork.Instantiate("RoomSpawns/" + randomPrefab,
-                    GetRandomPosition(), Quaternion.identity);
 
                 if (_isEnemy)
                 {
+                    var localPrefab = PhotonNetwork.Instantiate("RoomSpawns/" + randomPrefab,
+                        GetRandomPosition(), Quaternion.identity);
                     _dungeonManager.Enemies.Add(localPrefab);
                 }
                 if (_isPickup)
                 {
+                    var localPrefab = PhotonNetwork.Instantiate("RoomSpawns/" + randomPrefab,
+                        _room.ItemSpawnPoint.position, Quaternion.identity);
                     _dungeonManager.Pikcups.Add(localPrefab);
                 }
 
