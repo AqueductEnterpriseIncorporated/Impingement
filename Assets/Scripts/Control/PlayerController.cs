@@ -25,6 +25,7 @@ namespace Impingement.Control
         [SerializeField] private TargetHealthDisplay _targetHealthDisplay;
         [SerializeField] private PhotonView _photonView;
         [SerializeField] private PlayerCameraController _playerCameraController;
+        [SerializeField] private StaminaController _staminaController;
         private readonly int _cameraYRotation = 45;
 
         public CombatController GetCombatController()
@@ -92,14 +93,32 @@ namespace Impingement.Control
 
         private void InteractWithCombat()
         {
+            var currentWeapon = _combatController.GetCurrentWeapon();
+
             if (_combatController.TimeSinceLastAttack > _combatController.TimeBetweenAttacks)
             {
-                var direction = GetDirection();
-                _characterController.SimpleMove(Vector3.zero);
-                transform.eulerAngles = SetRotation(direction);
-                _combatController.SetDirection(direction);
-                _combatController.AttackBehavior();
+                if (currentWeapon.GetUseStamina())
+                {
+                    if (_staminaController.GetCurrentStaminaPoints() >= currentWeapon.GetStaminaPointsToSpend())
+                    {
+                        _staminaController.SpendStamina(currentWeapon.GetStaminaPointsToSpend());
+                        ProcessCombat();
+                    }
+                }
+                else
+                {
+                    ProcessCombat();
+                }
             }
+        }
+
+        private void ProcessCombat()
+        {
+            var direction = GetDirection();
+            _characterController.SimpleMove(Vector3.zero);
+            transform.eulerAngles = SetRotation(direction);
+            _combatController.SetDirection(direction);
+            _combatController.AttackBehavior();
         }
 
 

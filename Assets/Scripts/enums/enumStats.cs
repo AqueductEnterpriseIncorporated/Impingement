@@ -5,6 +5,7 @@
         Health,
         ExperienceReward,
         ExperienceToLevelUp,
-        Damage
+        Damage,
+        Stamina
     }
 }

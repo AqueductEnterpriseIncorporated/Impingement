@@ -12,11 +12,23 @@ namespace Impingement.Combat
         [SerializeField] private float _weaponRange = 2f;
         [SerializeField] private float _weaponDamage = 5f;
         [SerializeField] private float _weaponPercentageBonus = 0f;
+        [SerializeField] private float _staminaAmountToSpend;
+        [SerializeField] private bool _useStamina;
         [SerializeField] private bool _isRightHand = true;
         [SerializeField] private Projectile _projectile = null;
 
         private const string WeaponName = "Weapon";
 
+        public bool GetUseStamina()
+        {
+            return _useStamina;
+        }
+        
+        public float GetStaminaPointsToSpend()
+        {
+            return _staminaAmountToSpend;
+        }
+        
         public Weapon Spawn(Transform rightHandTransform, Transform leftHandTransform, Animator animator)
         {
             DestroyOldWeapon(rightHandTransform, leftHandTransform);

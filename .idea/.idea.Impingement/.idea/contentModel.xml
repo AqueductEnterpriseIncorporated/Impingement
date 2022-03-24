@@ -801,6 +801,8 @@
             <e p="Healthbar.cs" t="Include" />
             <e p="HealthController.cs" t="Include" />
             <e p="HealthDisplay.cs" t="Include" />
+            <e p="StaminaController.cs" t="Include" />
+            <e p="StaminaDisplay.cs" t="Include" />
           </e>
           <e p="Combat" t="Include">
             <e p="AimHelpCollider.cs" t="Include" />

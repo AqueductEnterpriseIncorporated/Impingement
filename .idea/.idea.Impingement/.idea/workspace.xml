@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e797b75-f4f0-4ea9-b141-84d8d653dbe9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/StaminaController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/StaminaController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/StaminaDisplay.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/StaminaDisplay.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomModifierScriptableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomModifierScriptableObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/enums/enumStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/enums/enumStats.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/Impingement.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Cinemachine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Cinemachine.dll" afterDir="false" />
@@ -247,9 +255,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/Currency/CurrencyPickupView.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/UI/PlayerCurrencyDisplay.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagement/PortalView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonGenerator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LobbyManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonProgressionManager.cs" />
@@ -278,12 +283,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/Settings/QualityPresetDropdownView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/Settings/AntiAliasingDropdownView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/Settings/TextureQualityDropdownView.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponConfig.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Control/IRaycastable.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/HightlightTarget.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/TargetHealthDisplay.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/HighlightTarget.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabPlayerDataController.cs" />
@@ -298,6 +301,11 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/HideoutUpgradeItemView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomBehaviour.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomModifierScriptableObject.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/enums/enumStats.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Attributes/StaminaDisplay.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Attributes/StaminaController.cs" />
     </changedPaths>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -411,7 +419,7 @@
       <workItem from="1647933358626" duration="22944000" />
       <workItem from="1648027096341" duration="45000" />
       <workItem from="1648030121732" duration="33246000" />
-      <workItem from="1648106877542" duration="8505000" />
+      <workItem from="1648106877542" duration="10664000" />
     </task>
     <servers />
   </component>
