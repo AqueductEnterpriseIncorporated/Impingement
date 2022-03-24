@@ -785,6 +785,7 @@
             </e>
           </e>
         </e>
+        <e p="ClassDiagram1.cd" t="Include" />
         <e p="QuickOutline" t="Include">
           <e p="Resources" t="Include">
             <e p="Shaders" t="Include">
@@ -798,7 +799,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Attributes" t="Include">
-            <e p="Healthbar.cs" t="Include" />
+            <e p="HealthBar.cs" t="Include" />
             <e p="HealthController.cs" t="Include" />
             <e p="HealthDisplay.cs" t="Include" />
             <e p="StaminaController.cs" t="Include" />
@@ -867,7 +868,7 @@
             <e p="NetworkManager.cs" t="Include" />
           </e>
           <e p="Playfab" t="Include">
-            <e p="PlayfabHideoutDatacONTROLLER.cs" t="Include" />
+            <e p="PlayfabHideoutDataController.cs" t="Include" />
             <e p="PlayfabManager.cs" t="Include" />
             <e p="PlayfabPlayerDataController.cs" t="Include" />
           </e>
@@ -975,7 +976,7 @@
               <e p="TextureQualityDropdownView.cs" t="Include" />
               <e p="VolumeSliderView.cs" t="Include" />
             </e>
-            <e p="thanksPanelController.cs" t="Include" />
+            <e p="ThanksPanelController.cs" t="Include" />
             <e p="UpgradePanelController.cs" t="Include" />
           </e>
         </e>

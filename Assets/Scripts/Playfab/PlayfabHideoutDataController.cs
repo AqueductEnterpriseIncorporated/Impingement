@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Impingement.Serialization.SerializationClasses;
 using Impingement.SerializationAPI;
 using Impingement.UI;
@@ -20,9 +21,10 @@ namespace Impingement.Playfab
         
         private void OnDataReceived(GetUserDataResult result)
         {
-            if (result != null && result.Data.ContainsKey("HideoutData"))
+            if (result != null && result.Data.ContainsKey("HideoutData") && result.Data["HideoutData"].Value != null)
             {            
                 var json = result.Data["HideoutData"].Value;
+                if(json.Length <= 1) {return;}
                 var hideoutData = (SerializableHideoutData) StringSerializationAPI.Deserialize(typeof(SerializableHideoutData), json);
                 
                 for (int i = 0; i < hideoutData.UpgradeItems.Count; i++)

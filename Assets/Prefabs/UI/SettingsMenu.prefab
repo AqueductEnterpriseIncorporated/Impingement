@@ -53,7 +53,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5335973016433354599, guid: 689a8f3726bcddb4ba50701a7560c880, type: 3}
       propertyPath: m_Name
-      value: Settings
+      value: SettingsMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049521002909850609, guid: 689a8f3726bcddb4ba50701a7560c880, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 689a8f3726bcddb4ba50701a7560c880, type: 3}

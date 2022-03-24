@@ -1,0 +1,923 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="StartGame" Collapsed="true">
+    <Position X="60.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABIAAQAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\StartGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LobbyManager" Collapsed="true">
+    <Position X="56.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAAgAAAAABCAQCAAAEABCggAAAAAoAEAEAAAAgAAUBI=</HashCode>
+      <FileName>Assets\Scripts\Core\LobbyManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RoomItemView" Collapsed="true">
+    <Position X="63.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAgAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\RoomItemView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LeaveRoomView" Collapsed="true">
+    <Position X="72.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAFAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\LeaveRoomView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Attributes.HealthBar" Collapsed="true">
+    <Position X="62" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAIAACAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Assets\Scripts\Attributes\HealthBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Attributes.HealthController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="63.75" Y="4.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="Impingement.Attributes.HealthController.TakeDamageEvent" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Attributes\HealthController.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAABAAgBACEEAAiAAIAIUgQASAAAEgQATIAggAgAAEA=</HashCode>
+      <FileName>Assets\Scripts\Attributes\HealthController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Impingement.Attributes.HealthDisplay" Collapsed="true">
+    <Position X="65.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAQAAAAAAAAAgAAAAAIAAAA=</HashCode>
+      <FileName>Assets\Scripts\Attributes\HealthDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Attributes.StaminaController" Collapsed="true">
+    <Position X="56.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABABAEgQACAhAAAQABAAAAAAAAAABAAAAAAEAgAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Attributes\StaminaController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Attributes.StaminaDisplay" Collapsed="true">
+    <Position X="58.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Attributes\StaminaDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Combat.AimHelpCollider" Collapsed="true">
+    <Position X="58.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Combat\AimHelpCollider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Combat.CombatController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="72.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAQABAAAQGAgRAQAIAMABAAAQhVgAAAARFCIAwYAAEo=</HashCode>
+      <FileName>Assets\Scripts\Combat\CombatController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Impingement.Combat.CombatTarget" Collapsed="true">
+    <Position X="55" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAIAAAA=</HashCode>
+      <FileName>Assets\Scripts\Combat\CombatTarget.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Combat.Projectile" Collapsed="true">
+    <Position X="56.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAURAABAQCAAAAAYCYBAsAAAQABAAAgBRAKIACAAAAY=</HashCode>
+      <FileName>Assets\Scripts\Combat\Projectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Combat.TargetHealthDisplay" Collapsed="true">
+    <Position X="65.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAACAAAAAAAAAAAAQAAAAEAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Combat\TargetHealthDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Combat.Weapon" Collapsed="true">
+    <Position X="58.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAJAAAAAgAAAAAAAAYBCAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Combat\Weapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Combat.WeaponColliderView" Collapsed="true">
+    <Position X="60.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAQQAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Combat\WeaponColliderView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Combat.WeaponConfig" Collapsed="true">
+    <Position X="62" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYCAAQAAAJgQAgAAAAFAAABAAAAAQwARAQgAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Combat\WeaponConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Combat.WeaponPickup" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="63.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEACAQAAAAAAAAQAAwAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Combat\WeaponPickup.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Impingement.Control.AIController" Collapsed="true">
+    <Position X="56.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARQMAgkAHIAABIAAAACAETAALBBAQhkBmBAEA4YAEI=</HashCode>
+      <FileName>Assets\Scripts\Control\AIController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Control.PatrolPath" Collapsed="true">
+    <Position X="55" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACEAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Control\PatrolPath.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Control.PlayerController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="62" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQgAAAAQCAIAAAAEAIEDQQAAgAgAQlEBMGABCIAAQA=</HashCode>
+      <FileName>Assets\Scripts\Control\PlayerController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Impingement.Core.ActionScheduleController" Collapsed="true">
+    <Position X="55" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAgAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\ActionScheduleController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Core.AnimationController" Collapsed="true">
+    <Position X="60.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAAAACAAAAAAAAAACIAAAAAAAACAJAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\AnimationController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Core.CameraFacing" Collapsed="true">
+    <Position X="70.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\CameraFacing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Core.DestroyAfterEffect" Collapsed="true">
+    <Position X="63.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAgAAAAAAAAAAAQAAAEAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\DestroyAfterEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Core.HighlightTarget" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="69" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAABECAAAEAAAAAAAAIAQAAIAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\HighlightTarget.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Impingement.Core.PersistentObjectSpawner" Collapsed="true">
+    <Position X="56.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Core\PersistentObjectSpawner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Core.PlayerCameraController" Collapsed="true">
+    <Position X="60.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAgAAECAAAAAAAAAAAAgAAAAAAAAABAACACAAgEA=</HashCode>
+      <FileName>Assets\Scripts\Core\PlayerCameraController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Core.RespawnController" Collapsed="true">
+    <Position X="60.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAQBAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\RespawnController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Core.StartSceneManager" Collapsed="true">
+    <Position X="62" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAAIACDgAAAAKAAQIAFgAAAABCAQIAAAgCAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\StartSceneManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Currency.CurrencyPickupView" Collapsed="true">
+    <Position X="58.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAgAAAAAAEAAAAAAAIAAAQAAAAAAAAII=</HashCode>
+      <FileName>Assets\Scripts\Currency\CurrencyPickupView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Currency.PlayerCurrencyController" Collapsed="true">
+    <Position X="63.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Currency\PlayerCurrencyController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Dungeon.DungeonGenerator" Collapsed="true">
+    <Position X="65.5" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="Impingement.Dungeon.DungeonGenerator.Cell" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Dungeon\DungeonGenerator.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Impingement.Dungeon.DungeonGenerator.Rule" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Dungeon\DungeonGenerator.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AACAAACAACAAAAAAAIIAAAAAAAAABBEAQAAAACAQAAY=</HashCode>
+      <FileName>Assets\Scripts\Dungeon\DungeonGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Dungeon.DungeonManager" Collapsed="true">
+    <Position X="67.25" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="Impingement.Dungeon.DungeonManager.DungeonData" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Dungeon\DungeonManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQgIAAAEANABAEDAAAAEACCAEGAAABAAAABAEAAQFA=</HashCode>
+      <FileName>Assets\Scripts\Dungeon\DungeonManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Dungeon.DungeonProgressionManager" Collapsed="true">
+    <Position X="69" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAEAgABgAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Dungeon\DungeonProgressionManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Dungeon.RoomBehaviour" Collapsed="true">
+    <Position X="62" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAABAiAGAAoAAAAACCAAAEABIAAAEAQgAA=</HashCode>
+      <FileName>Assets\Scripts\Dungeon\RoomBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Dungeon.RoomModifierScriptableObject" Collapsed="true">
+    <Position X="67.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAYgAAAgAAABEAAAAEAAAAAAAAEAgBAAIAAAgAQABE=</HashCode>
+      <FileName>Assets\Scripts\Dungeon\RoomModifierScriptableObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Dungeon.WallCollision" Collapsed="true">
+    <Position X="56.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Dungeon\WallCollision.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Movement.MovementController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="62" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAxKAAAAEAQACAAAAAAAAAAAAAIECAAAIAAEA=</HashCode>
+      <FileName>Assets\Scripts\Movement\MovementController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Impingement.NavMesh.NavigationBaker" Collapsed="true">
+    <Position X="63.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAA=</HashCode>
+      <FileName>Assets\Scripts\NavMesh\NavigationBaker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.NavMesh.NavMeshLink" Collapsed="true">
+    <Position X="65.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAgCAABgABAAABAQEEkQAEJAAAgAGGYAAgAAEAASAE=</HashCode>
+      <FileName>Assets\Scripts\NavMesh\NavMeshLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.NavMesh.NavMeshModifier" Collapsed="true">
+    <Position X="67.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAQAAAAAAAAAAAAQAAAAAABAAAgIAAgQAAAACCM=</HashCode>
+      <FileName>Assets\Scripts\NavMesh\NavMeshModifier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.NavMesh.NavMeshModifierVolume" Collapsed="true">
+    <Position X="69" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAgAAAQAAAAAAAAEAIAQAAAAAAAAAAAIAAgAAAIACAM=</HashCode>
+      <FileName>Assets\Scripts\NavMesh\NavMeshModifierVolume.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.NavMesh.NavMeshSurface" Collapsed="true">
+    <Position X="70.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ikgQBAgAhYEgAAIEgKFRQAAoIIABICC8AAgUglIAWgA=</HashCode>
+      <FileName>Assets\Scripts\NavMesh\NavMeshSurface.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.PhotonScripts.NetworkManager" Collapsed="true">
+    <Position X="72.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAEAAQAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PhotonScripts\NetworkManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Playfab.PlayfabHideoutDataController" Collapsed="true">
+    <Position X="67.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAASAAAAAAAAAAAAAQAAIAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Playfab\PlayfabHideoutDataController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Playfab.PlayfabManager" Collapsed="true">
+    <Position X="69" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABYAAAAQAAAAEAAAAQAAAAIoIAAEAAEQAAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\Playfab\PlayfabManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Playfab.PlayfabPlayerDataController" Collapsed="true">
+    <Position X="70.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAMACAAAAAAAAAAAIAAAACAAQAAEAAAAQAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Playfab\PlayfabPlayerDataController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.SceneManagement.PortalView" Collapsed="true">
+    <Position X="72.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAIAAAAAAQBAAAAAAAAAAAAAAAAQAAAAAgBAAA=</HashCode>
+      <FileName>Assets\Scripts\SceneManagement\PortalView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FullSerializer.Internal.fsCyclicReferenceManager" Collapsed="true">
+    <Position X="63.75" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="FullSerializer.Internal.fsCyclicReferenceManager.ObjectReferenceEqualityComparator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Serialization\Internal\fsCyclicReferenceManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAEABCACAIAEACBAIAgAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\Internal\fsCyclicReferenceManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FullSerializer.Internal.fsOption" Collapsed="true">
+    <Position X="65.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\Internal\fsOption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FullSerializer.Internal.fsPortableReflection" Collapsed="true">
+    <Position X="67.25" Y="3.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="FullSerializer.Internal.fsPortableReflection.AttributeQuery" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Serialization\Internal\fsPortableReflection.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Class Name="FullSerializer.Internal.fsPortableReflection.AttributeQueryComparator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Serialization\Internal\fsPortableReflection.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QEAIAAAKAACgABAAAAQQAAAAAEAAAgMAAAgICABIACA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\Internal\fsPortableReflection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FullSerializer.Internal.fsVersionManager" Collapsed="true">
+    <Position X="58.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAIQAIAAAAAAABAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\Internal\fsVersionManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FullSerializer.Internal.fsMetaProperty" Collapsed="true">
+    <Position X="58.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAQEAAAAAAgICAAAAAACAQAAAMYAAA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\Reflection\fsMetaProperty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FullSerializer.Internal.fsReflectionUtility" Collapsed="true">
+    <Position X="70.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\Reflection\fsReflectionUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FullSerializer.Internal.fsTypeCache" Collapsed="true">
+    <Position X="55" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAABAAAAAAAAAgAAAAEAAEBAAAAAAAoAAA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\Reflection\fsTypeCache.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FullSerializer.fsForwardAttribute" Collapsed="true">
+    <Position X="69" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\Converters\fsForwardConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FullSerializer.fsConverterRegistrar" Collapsed="true">
+    <Position X="62" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AADAAAAAAAAACIAAAKIAAAgAAAACAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\Converters\Unity\AnimationCurve_DirectConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FullSerializer.fsAotCompilationManager" Collapsed="true">
+    <Position X="56.75" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="FullSerializer.fsAotCompilationManager.AotCompilation" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Serialization\fsAotCompilationManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ACAAEAAAAAAEAAQAAAAAAAIEAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\fsAotCompilationManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FullSerializer.fsGlobalConfig" Collapsed="true">
+    <Position X="70.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\fsConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FullSerializer.fsConfig" Collapsed="true">
+    <Position X="58.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAEAAAAAEAAAAABAQAAAIgAAAAAABAAAAAAAEAgA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\fsConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FullSerializer.fsContext" Collapsed="true">
+    <Position X="60.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACBABAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\fsContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FullSerializer.fsData" Collapsed="true">
+    <Position X="65.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAEAAAACABAgNgQAAAACgIAQEAIAJAQoAAAAAKjg=</HashCode>
+      <FileName>Assets\Scripts\Serialization\fsData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FullSerializer.fsMissingVersionConstructorException" Collapsed="true">
+    <Position X="62" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\fsExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FullSerializer.fsDuplicateVersionNameException" Collapsed="true">
+    <Position X="67.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\fsExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FullSerializer.fsIgnoreAttribute" Collapsed="true">
+    <Position X="72.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\fsIgnoreAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FullSerializer.fsJsonParser" Collapsed="true">
+    <Position X="55" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiCQABAAIIgABgBAAIAEAABEAAAAAAAAACIAQQKEA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\fsJsonParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FullSerializer.fsJsonPrinter" Collapsed="true">
+    <Position X="56.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAQAAACAAAAAAAAAAAAAAAAACQQAAAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\Serialization\fsJsonPrinter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FullSerializer.fsObjectAttribute" Collapsed="true">
+    <Position X="63.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAQCAAAAAAAAAAAAAAAAAAAAAAQAAAAAAEAAA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\fsObjectAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FullSerializer.fsPropertyAttribute" Collapsed="true">
+    <Position X="69" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\fsPropertyAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FullSerializer.fsSerializer" Collapsed="true">
+    <Position X="72.5" Y="3.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="FullSerializer.fsSerializer.fsLazyCycleDefinitionWriter" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Serialization\fsSerializer.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CgQBgogDIgABAAIhEUAERBQQACQgAACAAsCEAAELSUA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\fsSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FullSerializer.fsTypeExtensions" Collapsed="true">
+    <Position X="56.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Serialization\Internal\fsTypeExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FullSerializer.fsMetaType" Collapsed="true">
+    <Position X="60.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAJAAAAQAAAgJAAAAAAAAAAAiAAAAAIABECAACAAg=</HashCode>
+      <FileName>Assets\Scripts\Serialization\Reflection\fsMetaType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Serialization.SerializationClasses.Enemies" Collapsed="true">
+    <Position X="70.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\SerializationClasses\SerializationRootClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Serialization.SerializationClasses.Pickups" Collapsed="true">
+    <Position X="58.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\SerializationClasses\SerializationRootClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Serialization.SerializationClasses.RoomModifier" Collapsed="true">
+    <Position X="65.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAACAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\SerializationClasses\SerializationRootClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Serialization.SerializationClasses.Board" Collapsed="true">
+    <Position X="67.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\SerializationClasses\SerializationRootClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Serialization.SerializationClasses.SerializableDungeonData" Collapsed="true">
+    <Position X="69" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAIAAAAAIAAAEAAEAAAAAAACAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\SerializationClasses\SerializationRootClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Serialization.SerializationClasses.UpgradeItems" Collapsed="true">
+    <Position X="70.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAQQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\SerializationClasses\SerializationRootClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Serialization.SerializationClasses.SerializableHideoutData" Collapsed="true">
+    <Position X="70.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\SerializationClasses\SerializationRootClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.SerializationAPI.StringSerializationAPI" Collapsed="true">
+    <Position X="63.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACBACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\StringSerialization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Stats.BaseStats" Collapsed="true">
+    <Position X="65.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAEAGAAAAAAIAAQQAAJAAAAAABIAQCAAA4gCEA=</HashCode>
+      <FileName>Assets\Scripts\Stats\BaseStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Stats.ExperienceController" Collapsed="true">
+    <Position X="72.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAABAAAAAAAAAAAAAAAAAAAEAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Stats\ExperienceController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Stats.ExperienceDisplay" Collapsed="true">
+    <Position X="55" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAgEAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Assets\Scripts\Stats\ExperienceDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Stats.LevelDisplay" Collapsed="true">
+    <Position X="55" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Assets\Scripts\Stats\LevelDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.Stats.Progression" Collapsed="true">
+    <Position X="55" Y="7.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="Impingement.Stats.Progression.ProgressionCharacterClass" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Stats\Progression.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Impingement.Stats.Progression.ProgressionStat" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Stats\Progression.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AACAAAgAAAAAAAABAAAAAAABAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Stats\Progression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.UI.AreaLevelDisplay" Collapsed="true">
+    <Position X="63.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAACABAAAAAAAAAAEABAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\UI\AreaLevelDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.UI.BugPanelController" Collapsed="true">
+    <Position X="69" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAACEgAEAAAAAAAAAAAAAIBACAAEAAAAQAACAA=</HashCode>
+      <FileName>Assets\Scripts\UI\BugPanelController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.UI.CooldownDisplay" Collapsed="true">
+    <Position X="56.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAQQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\CooldownDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.UI.HideoutUpgradeItemView" Collapsed="true">
+    <Position X="67.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgcEAIEQAQAAAAQEAQAAAAAAIBABQBQgAgIAQUAACAQ=</HashCode>
+      <FileName>Assets\Scripts\UI\HideoutUpgradeItemView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.UI.MenuPanel" Collapsed="true">
+    <Position X="58.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAEAAAAAIAABAAAAAAAAAAAAEAAAIAAAAACAAAI=</HashCode>
+      <FileName>Assets\Scripts\UI\MenuPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.UI.MinimapController" Collapsed="true">
+    <Position X="60.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\MinimapController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.UI.PlayerCurrencyDisplay" Collapsed="true">
+    <Position X="65.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\PlayerCurrencyDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.UI.ThanksPanelController" Collapsed="true">
+    <Position X="69" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIBAAAAAAAQAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\ThanksPanelController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.UI.UpgradePanelController" Collapsed="true">
+    <Position X="72.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAQBAAEAAEAQAIAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\UpgradePanelController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.UI.DamageText.DamageText" Collapsed="true">
+    <Position X="60.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAIAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\DamageText\DamageText.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.UI.DamageText.DamageTextSpawner" Collapsed="true">
+    <Position X="62" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\DamageText\DamageTextSpawner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.UI.Settings.AntiAliasingDropdownView" Collapsed="true">
+    <Position X="62" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAIAAAAAAAAAAAAAAAAAAABQAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Settings\AntiAliasingDropdownView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.UI.Settings.FullscreenToggleView" Collapsed="true">
+    <Position X="60.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACQAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Settings\FullscreenToggleView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.UI.Settings.InGameSettingsManager" Collapsed="true">
+    <Position X="70.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAABCAEAIAAAAAAIAAQAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Settings\InGameSettingsManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.UI.Settings.QualityPresetDropdownView" Collapsed="true">
+    <Position X="58.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAACAAAAAIAEAAAAAAAAAIAAAAAAABAAQAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Settings\QualityPresetDropdownView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.UI.Settings.ShowDamageView" Collapsed="true">
+    <Position X="72.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACQAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Settings\ShowDamageView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.UI.Settings.ShowLifeView" Collapsed="true">
+    <Position X="55" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACQAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Settings\ShowLifeView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.UI.Settings.TextureQualityDropdownView" Collapsed="true">
+    <Position X="67.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAQCAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Settings\TextureQualityDropdownView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impingement.UI.Settings.VolumeSliderView" Collapsed="true">
+    <Position X="55" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAACgAAAAAAAAAIAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Settings\VolumeSliderView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="FullSerializer.Internal.fsOption&lt;T&gt;" Collapsed="true">
+    <Position X="56.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABBAAAAAAAAAAAAAAAIAAAAABAAAAAAAAAAgAAAIAAA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\Internal\fsOption.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="FullSerializer.Internal.fsVersionedType" Collapsed="true">
+    <Position X="60.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAEgAAAAAEAAAAAAIAAQAAAAAEAAiA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\Internal\fsVersionedType.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="FullSerializer.fsResult" Collapsed="true">
+    <Position X="58.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEAAAAAAAAAAAAEQAAIAAgAIgAEIQEAEFEAAIAAAIA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\fsResult.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Impingement.structs.CursorMapping" Collapsed="true">
+    <Position X="55" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAARAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\structs\CursorMapping.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Impingement.Control.IRaycastable" Collapsed="true">
+    <Position X="60.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Control\IRaycastable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Impingement.Core.IAction" Collapsed="true">
+    <Position X="56.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\IAction.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FullSerializer.fsISerializationCallbacks" Collapsed="true">
+    <Position X="55" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAEAAAAAAAAAAgAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\fsISerializationCallbacks.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Impingement.Stats.IModifierProvider" Collapsed="true">
+    <Position X="58.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Assets\Scripts\Stats\IModifierProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Impingement.enums.enumCharacterClass" Collapsed="true">
+    <Position X="56.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAQIAAAA=</HashCode>
+      <FileName>Assets\Scripts\enums\enumCharacterClass.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Impingement.enums.enumCursorType" Collapsed="true">
+    <Position X="58.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAABAAAACAAAAAAAAAAAAAAAAEAEAA=</HashCode>
+      <FileName>Assets\Scripts\enums\enumCursorType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Impingement.enums.enumRoomTypes" Collapsed="true">
+    <Position X="60.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAUEAQA=</HashCode>
+      <FileName>Assets\Scripts\enums\enumRoomTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Impingement.enums.enumStats" Collapsed="true">
+    <Position X="62" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACACAAAEAAAQAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\enums\enumStats.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Impingement.NavMesh.CollectObjects" Collapsed="true">
+    <Position X="55" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAIIAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\NavMesh\NavMeshSurface.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FullSerializer.fsDataType" Collapsed="true">
+    <Position X="63.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAACAAgQAAAAAAAIAACAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\fsData.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FullSerializer.fsMemberSerialization" Collapsed="true">
+    <Position X="65.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAIAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Serialization\fsMemberSerialization.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

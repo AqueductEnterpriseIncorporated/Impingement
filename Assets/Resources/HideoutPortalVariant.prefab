@@ -65,7 +65,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3018107945326170716, guid: 153c9cf21e089da42a0f0f93259a099b, type: 3}
       propertyPath: _saveDungeonData
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3018107945326170716, guid: 153c9cf21e089da42a0f0f93259a099b, type: 3}
       propertyPath: _completeLevelOnEnter

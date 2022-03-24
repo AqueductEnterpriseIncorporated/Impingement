@@ -605,7 +605,7 @@ MonoBehaviour:
   _targetHealthDisplay: {fileID: 1224042761414869521}
   _photonView: {fileID: 7340406914756252015}
   _playerCameraController: {fileID: 2626118094375857953}
-  _staminaController: {fileID: 0}
+  _staminaController: {fileID: 3526650737367140922}
 --- !u!114 &4144291504183224197
 MonoBehaviour:
   m_ObjectHideFlags: 0
