@@ -16,6 +16,7 @@ namespace Impingement.UI
         [SerializeField] private RawImage _image;
         [SerializeField] private Color _notEnoughColor;
         [SerializeField] private Color _enoughColor;
+        [SerializeField] private Color _unlockedColor;
         [Header("Data")]
         public string ItemName;
         public bool IsUnlocked;
@@ -50,12 +51,12 @@ namespace Impingement.UI
             }
             else
             {
-                _priceText.text = "";
+                _priceText.color = _unlockedColor;
             }
 
             if (IsEquipped)
             {
-                _buttonText.text = "Перестать использовать";
+                _buttonText.text = "Убрать";
                 return;
             }
             _buttonText.text = IsUnlocked ? "Использовать" : "Купить";

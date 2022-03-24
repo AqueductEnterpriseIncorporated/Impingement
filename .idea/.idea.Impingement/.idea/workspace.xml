@@ -5,14 +5,159 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e797b75-f4f0-4ea9-b141-84d8d653dbe9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Settings.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Settings.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/SettingsMenu.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/SettingsMenu.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/CurrencyIcon.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/CurrencyIcon.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/1.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/1/RPG_GUI_Border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/1/RPG_GUI_Border.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/1/RPG_GUI_Border2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/1/RPG_GUI_Border2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/1/RPG_GUI_v1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/1/RPG_GUI_v1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/1/RPG_GUI_v1_source.xcf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/1/RPG_GUI_v1_source.xcf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/1/gradients.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/1/gradients.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/1/paper background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/1/paper background.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/1/wood background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/1/wood background.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/2.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/2/52x52 SpellSlotBorder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/2/52x52 SpellSlotBorder.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/2/DarkOrbBorder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/2/DarkOrbBorder.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/2/HealthManaPanels.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/2/HealthManaPanels.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/2/HealthPanel 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/2/HealthPanel 1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/2/HealthPanel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/2/HealthPanel.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/2/ManaPanel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/2/ManaPanel.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/2/SpellsPanel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/2/SpellsPanel.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/Fonts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/Fonts/Assets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/Fonts/Assets/Hermann-Gotisch NormalC SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/Fonts/Assets/Hermann-Gotisch NormalC SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/Fonts/Assets/INSULA__ SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/Fonts/Assets/INSULA__ SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/Fonts/Assets/Lombardina One SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/Fonts/Assets/Lombardina One SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/Fonts/Assets/Moyenage SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/Fonts/Assets/Moyenage SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/Fonts/Assets/RU.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/Fonts/Assets/RU/Hermann-Gotisch NormalC SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/Fonts/Assets/RU/Hermann-Gotisch NormalC SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/Fonts/Assets/RU/INSULA__ SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/Fonts/Assets/RU/INSULA__ SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/Fonts/Assets/RU/Lombardina One SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/Fonts/Assets/RU/Lombardina One SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/Fonts/Assets/RU/Moyenage SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/Fonts/Assets/RU/Moyenage SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/Fonts/Assets/partybusiness SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/Fonts/Assets/partybusiness SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/Fonts/Hermann-Gotisch NormalC.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/Fonts/Hermann-Gotisch NormalC.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/Fonts/INSULA__.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/Fonts/INSULA__.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/Fonts/Lombardina One.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/Fonts/Lombardina One.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/Fonts/Moyenage.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/Fonts/Moyenage.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/Fonts/partybusiness.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/Fonts/partybusiness.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/currency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/currency.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/icon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/poe 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/poe 1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/raise-skeleton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/raise-skeleton.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/skeleton-human-sitting-human-body-anatomy-LKRVsCtr_t.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/skeleton-human-sitting-human-body-anatomy-LKRVsCtr_t.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIAndIcons/unknown.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/StartSceneManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/StartSceneManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/UpgradeHideout/Item.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/UpgradeHideout/Item.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/UpgradeHideout/UpgradePanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/UpgradeHideout/UpgradePanel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/HideoutUpgradeItemView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/HideoutUpgradeItemView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/1/RPG_GUI_Border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/1/RPG_GUI_Border.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/1/RPG_GUI_Border2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/1/RPG_GUI_Border2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/1/RPG_GUI_v1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/1/RPG_GUI_v1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/1/RPG_GUI_v1_source.xcf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/1/RPG_GUI_v1_source.xcf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/1/gradients.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/1/gradients.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/1/paper background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/1/paper background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/1/wood background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/1/wood background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/2/52x52 SpellSlotBorder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/2/52x52 SpellSlotBorder.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/2/DarkOrbBorder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/2/DarkOrbBorder.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/2/HealthManaPanels.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/2/HealthManaPanels.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/2/HealthPanel 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/2/HealthPanel 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/2/HealthPanel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/2/HealthPanel.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/2/ManaPanel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/2/ManaPanel.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/2/SpellsPanel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/2/SpellsPanel.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/Hermann-Gotisch NormalC SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/Hermann-Gotisch NormalC SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/INSULA__ SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/INSULA__ SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/Lombardina One SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/Lombardina One SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/Moyenage SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/Moyenage SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/RU.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/RU/Hermann-Gotisch NormalC SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/RU/Hermann-Gotisch NormalC SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/RU/INSULA__ SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/RU/INSULA__ SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/RU/Lombardina One SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/RU/Lombardina One SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/RU/Moyenage SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/RU/Moyenage SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/partybusiness SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Assets/partybusiness SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Hermann-Gotisch NormalC.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Hermann-Gotisch NormalC.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/INSULA__.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/INSULA__.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Lombardina One.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Lombardina One.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Moyenage.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Moyenage.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/partybusiness.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/partybusiness.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/poe 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/poe 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/skeleton-human-sitting-human-body-anatomy-LKRVsCtr_t.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/skeleton-human-sitting-human-body-anatomy-LKRVsCtr_t.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/unknown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/unknown.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/Impingement.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Cinemachine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Cinemachine.dll" afterDir="false" />
@@ -265,7 +410,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/UpgradePanelController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabHideoutDataController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/UI/HideoutUpgradeItemView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/StartGame.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/ActionScheduleController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/CooldownDisplay.cs" />
@@ -303,6 +447,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/Projectile.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/StartSceneManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/HideoutUpgradeItemView.cs" />
     </changedPaths>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -416,7 +561,7 @@
       <workItem from="1647933358626" duration="22944000" />
       <workItem from="1648027096341" duration="45000" />
       <workItem from="1648030121732" duration="33246000" />
-      <workItem from="1648106877542" duration="6901000" />
+      <workItem from="1648106877542" duration="8156000" />
     </task>
     <servers />
   </component>
