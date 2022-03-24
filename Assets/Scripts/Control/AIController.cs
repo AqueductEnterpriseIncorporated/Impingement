@@ -30,6 +30,7 @@ namespace Impingement.Control
         [SerializeField] PlayerController _playerTarget;
         [SerializeField] private ActionScheduleController _actionScheduleController;
         [SerializeField] private BaseStats _baseStats;
+        [SerializeField] private bool _canAgro = true;
         private PlayerController[] _players;
         private PhotonView _photonView;
         private CombatController _combatController;
@@ -96,13 +97,19 @@ namespace Impingement.Control
         private void ProcessAIControllerRPC()
         {
             //if(!PhotonNetwork.IsMasterClient) { return; }
-            
-            if (_healthController.IsDead()) { return; }
+
+            if (_healthController.IsDead())
+            {
+                return;
+            }
 
             UpdateTimers();
 
-            if (_players.Length == 0) { return; }
-            
+            if (_players.Length == 0)
+            {
+                return;
+            }
+
             foreach (var player in _players)
             {
                 if (player.GetHealthController().IsDead())
@@ -111,18 +118,27 @@ namespace Impingement.Control
                     {
                         _playerTarget = null;
                     }
+
                     continue;
                 }
-                
+
+                if (!_canAgro)
+                {
+                    return;
+                }
+
                 if (IsAggrevated(player.gameObject) || _combatController.CanAttack(player.GetHealthController()))
                 {
+
                     _playerTarget = player;
+
                 }
                 else
                 {
                     _playerTarget = null;
                 }
-                
+
+
                 if (_playerTarget != null)
                 {
                     AttackBehaviour(_playerTarget);
@@ -146,7 +162,10 @@ namespace Impingement.Control
 
         public void Aggrevate()
         {
-            _timeSinceAggrevated = 0;
+            if (_canAgro)
+            {
+                _timeSinceAggrevated = 0;
+            }
         }
 
         private void PatrolBehaviour()

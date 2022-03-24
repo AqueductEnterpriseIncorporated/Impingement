@@ -803,6 +803,7 @@
             <e p="HealthDisplay.cs" t="Include" />
           </e>
           <e p="Combat" t="Include">
+            <e p="AimHelpCollider.cs" t="Include" />
             <e p="CombatController.cs" t="Include" />
             <e p="CombatTarget.cs" t="Include" />
             <e p="Projectile.cs" t="Include" />

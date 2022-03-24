@@ -7,9 +7,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -2829501607284361151, guid: 029cab191bfff714ea4413dc4b927194, type: 3}
+      propertyPath: _canAgro
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 671315223919402057, guid: 029cab191bfff714ea4413dc4b927194, type: 3}
       propertyPath: m_Name
-      value: Enemy
+      value: EnemyDummy
       objectReference: {fileID: 0}
     - target: {fileID: 8468443467580918897, guid: 029cab191bfff714ea4413dc4b927194, type: 3}
       propertyPath: m_RootOrder

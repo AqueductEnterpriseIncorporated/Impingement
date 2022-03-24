@@ -5,43 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e797b75-f4f0-4ea9-b141-84d8d653dbe9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/HighlightTarget.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/HighlightTarget.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/AimHelpCollider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/AimHelpCollider.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/Characters_POLYGON_Knights.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/Characters_POLYGON_Knights.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_Fence_02.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_Fence_02.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_House_Base_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_House_Base_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_House_Door_02.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_House_Door_02.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_House_Roof_Wood_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_House_Roof_Wood_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_Hut_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_Hut_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_Village_02.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_Village_02.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Bush_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Bush_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_FloorTile_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_FloorTile_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_FloorTile_05.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_FloorTile_05.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Flower_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Flower_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Grass_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Grass_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Grass_Large_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Grass_Large_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_GroundMound_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_GroundMound_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_GroundMounds_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_GroundMounds_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Hill_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Hill_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Rock_015.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Rock_015.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Tile_Grass_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Tile_Grass_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_TreeLog_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_TreeLog_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Tree_010.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Tree_010.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Tree_03.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Tree_03.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Prop_Crate_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Prop_Crate_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Prop_Pumpkin_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Prop_Pumpkin_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Wep_Rapier_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Wep_Rapier_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Wep_Sword_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Wep_Sword_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Character/Character.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Character/Character.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/Enemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/TargetHealthDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/TargetHealthDisplay.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomModifierScriptableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomModifierScriptableObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/EnemyDummy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/EnemyDummy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Weapons/ArrowProjectile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Weapons/ArrowProjectile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Weapons/RootArrowProjectile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Weapons/RootArrowProjectile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/Projectile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/Weapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponColliderView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponColliderView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/DestroyAfterEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DestroyAfterEffect.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/Impingement.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Cinemachine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Cinemachine.dll" afterDir="false" />
@@ -281,12 +260,9 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/UI/ResetButtonView.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Core/CurrencyPickupView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Currency/PlayerCurrencyController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Currency/CurrencyPickupView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/PlayerCurrencyDisplay.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagement/PortalView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonGenerator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LobbyManager.cs" />
@@ -302,8 +278,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/ActionScheduleController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/CooldownDisplay.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/Weapon.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/MenuPanel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/DamageText/DamageTextSpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/Settings/ShowLifeView.cs" />
@@ -320,10 +294,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/Settings/AntiAliasingDropdownView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/Settings/TextureQualityDropdownView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/StartSceneManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponColliderView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponConfig.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/Projectile.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomModifierScriptableObject.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Control/IRaycastable.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/HightlightTarget.cs" />
@@ -332,6 +304,13 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/HighlightTarget.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabPlayerDataController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponColliderView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/Weapon.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/DestroyAfterEffect.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/AimHelpCollider.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/Projectile.cs" />
     </changedPaths>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -445,7 +424,7 @@
       <workItem from="1647933358626" duration="22944000" />
       <workItem from="1648027096341" duration="45000" />
       <workItem from="1648030121732" duration="33246000" />
-      <workItem from="1648106877542" duration="3445000" />
+      <workItem from="1648106877542" duration="6284000" />
     </task>
     <servers />
   </component>

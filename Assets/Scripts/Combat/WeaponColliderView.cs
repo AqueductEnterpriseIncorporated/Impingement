@@ -9,14 +9,9 @@ namespace Impingement.Combat
 
         private void OnTriggerEnter(Collider other)
         {
-            print(other.name);
             if (_weapon != null)
             {
                 _weapon.DetectCollider(other);
-            }
-            else
-            {
-                //_projectile.DetectCollider(other);
             }
         }
     }

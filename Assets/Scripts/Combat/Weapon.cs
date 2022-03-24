@@ -27,6 +27,11 @@ namespace Impingement.Combat
         {
             if (other.TryGetComponent<HealthController>(out var target))
             {
+                if (!target.IsPlayer && !_combatController.GetHealthController().IsPlayer)
+                {
+                    return;
+                }
+
                 if (IsSplash)
                 {
                     IsHitted = false;

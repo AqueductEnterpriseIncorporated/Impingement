@@ -41,6 +41,10 @@ namespace Impingement.Combat
             _currentWeapon = new LazyValue<Weapon>(SetupDefaultWeapon);
         }
 
+        public HealthController GetHealthController()
+        {
+            return _healthController;
+        }
         private Weapon SetupDefaultWeapon()
         {
             return AttachWeapon(defaultWeaponConfig);

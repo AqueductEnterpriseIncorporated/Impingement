@@ -97,6 +97,13 @@ namespace Impingement.Combat
             return _target.GetCombatTarget().GetAimPoint().position;
         }
 
+        public void Aim(HealthController target)
+        {
+            if(target.gameObject == _instigator) { return; }
+            _isHoming = true;
+            _target = target;
+        }
+
         private void OnTriggerEnter(Collider other)
         {
             if(other == _collider || other == _currentCollider) { return; }
@@ -110,7 +117,7 @@ namespace Impingement.Combat
                     if (healthController != _target) { return; }
                 }
                 //if(_target.IsDead()) { return; }
-                
+                _target = healthController;
                 _rigidbody.constraints = RigidbodyConstraints.FreezePosition;
                 _speed = 0;
                 

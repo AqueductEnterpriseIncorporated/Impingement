@@ -11,14 +11,22 @@ namespace Impingement.Core
         {
             if(!GetComponent<ParticleSystem>().IsAlive())
             {
-                if (_targetToDestroy != null)
+                if (PhotonNetwork.InRoom)
                 {
-                    _photonView.RPC(nameof(DestroyTargetRPC), RpcTarget.AllViaServer);
+                    if (_targetToDestroy != null)
+                    {
+                        _photonView.RPC(nameof(DestroyTargetRPC), RpcTarget.AllViaServer);
 
+                    }
+                    else
+                    {
+                        _photonView.RPC(nameof(DestroyRPC), RpcTarget.AllViaServer);
+                    }
                 }
                 else
                 {
-                    _photonView.RPC(nameof(DestroyRPC), RpcTarget.AllViaServer);
+                    DestroyRPC();
+                    DestroyTargetRPC();
                 }
             }
         }
