@@ -20,27 +20,26 @@ namespace Impingement.Control
         [SerializeField] private CursorMapping[] _cursorMappings;
         [SerializeField] private CombatController _combatController;
         [SerializeField] private ActionScheduleController _actionScheduleController;
-        [SerializeField] CharacterController _characterController;
+        [SerializeField] private CharacterController _characterController;
+        [SerializeField] private HealthController _healthController;
+        [SerializeField] private TargetHealthDisplay _targetHealthDisplay;
+        [SerializeField] private PhotonView _photonView;
+        [SerializeField] private PlayerCameraController _playerCameraController;
         private readonly int _cameraYRotation = 45;
-        private PhotonView _photonView;
-        private PlayerCameraController _playerCameraController;
-        private HealthController _healthController;
-        
+
         public CombatController GetCombatController()
         {
             return _combatController;
         }
         
+        public TargetHealthDisplay GetTargetHealthDisplay()
+        {
+            return _targetHealthDisplay;
+        }
+        
         public HealthController GetHealthController()
         {
             return _healthController;
-        }
-
-        private void Awake()
-        {
-            _playerCameraController = GetComponent<PlayerCameraController>();
-            _healthController = GetComponent<HealthController>();
-            _photonView = GetComponent<PhotonView>();
         }
 
         private void Start()
@@ -71,11 +70,11 @@ namespace Impingement.Control
 
             ProcessPlayerInput();
             
-            // if (InteractWithComponent())
-            // {
-            //     _characterController.SimpleMove(Vector3.zero);
-            //     return;
-            // }
+            if (InteractWithComponent())
+            {
+                // _characterController.SimpleMove(Vector3.zero);
+                // return;
+            }
 
             if (InteractWithMovement())
             {
@@ -114,7 +113,7 @@ namespace Impingement.Control
                     if (raycastable.HandleRaycast(this))
                     {
                         //SetCursor(raycastable.GetCursorType());
-                        return true;
+                        //return true;
                     }
                 }
             }

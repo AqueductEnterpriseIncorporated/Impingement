@@ -12,11 +12,9 @@ namespace Impingement.Combat
         [SerializeField] private Image _healthImage;
         [SerializeField] private GameObject _imageParent;
 
-        private void Update()
+        public void Show(HealthController target, bool value)
         {
-            HealthController target = null;
-            target = _combatController.GetTarget();
-            if (target == null)
+            if (!value)
             {
                 _imageParent.SetActive(false);
             }

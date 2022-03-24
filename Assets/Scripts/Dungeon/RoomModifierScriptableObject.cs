@@ -1,4 +1,5 @@
-﻿using Photon.Pun;
+﻿using Impingement.Combat;
+using Photon.Pun;
 using UnityEngine;
 
 namespace Impingement.Dungeon

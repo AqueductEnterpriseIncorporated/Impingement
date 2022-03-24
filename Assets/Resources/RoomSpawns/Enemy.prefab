@@ -179,6 +179,22 @@ PrefabInstance:
       propertyPath: GlobalObjectIdHash
       value: 951099334
       objectReference: {fileID: 0}
+    - target: {fileID: 6413163366795094536, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6413163366795094536, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: outlineColor.b
+      value: 0.24056602
+      objectReference: {fileID: 0}
+    - target: {fileID: 6413163366795094536, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: outlineColor.g
+      value: 0.24056602
+      objectReference: {fileID: 0}
+    - target: {fileID: 6413163366795094536, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: outlineColor.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6596275900361211804, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
       propertyPath: ObservedComponents.Array.size
       value: 4
@@ -199,6 +215,10 @@ PrefabInstance:
       propertyPath: ObservedComponents.Array.data[3]
       value: 
       objectReference: {fileID: 7729677233108363671}
+    - target: {fileID: 8304397613246531188, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
+      propertyPath: _healthController
+      value: 
+      objectReference: {fileID: 1809331405415222814}
     - target: {fileID: 8618811461483421523, guid: bd625a1864589dc4a962ab5f2596328d, type: 3}
       propertyPath: m_RootOrder
       value: 4

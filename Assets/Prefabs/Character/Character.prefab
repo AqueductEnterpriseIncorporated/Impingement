@@ -17,6 +17,8 @@ GameObject:
   - component: {fileID: -5269223953129559562}
   - component: {fileID: 6596275900361211804}
   - component: {fileID: 9025814175190224979}
+  - component: {fileID: 8304397613246531188}
+  - component: {fileID: 6413163366795094536}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -82,7 +84,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e17a8b4cf15493d8ba8e41cc6309160, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _timeBetweenAttacks: 1
+  TimeSinceLastAttack: Infinity
+  TimeBetweenAttacks: 1
   _rotateSpeed: 5
   _rightHandTransform: {fileID: 0}
   _leftHandTransform: {fileID: 0}
@@ -159,6 +162,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   _playfabPlayerDataController: {fileID: 0}
+  _combatTarget: {fileID: 0}
   _showDamageText: 1
   _isDead: 0
   _isInvulnerable: 0
@@ -218,6 +222,37 @@ MonoBehaviour:
   _experienceController: {fileID: 0}
   _levelUpEffect: {fileID: 0}
   _shouldUseModifiers: 1
+--- !u!114 &8304397613246531188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565074086760499575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8131cf57a52742f7b1dbeea2f9168401, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _outline: {fileID: 6413163366795094536}
+--- !u!114 &6413163366795094536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565074086760499575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &7570943741940958903
 GameObject:
   m_ObjectHideFlags: 0
