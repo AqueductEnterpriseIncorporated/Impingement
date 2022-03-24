@@ -74,7 +74,7 @@ namespace Impingement.Core
         
         public void LoadHideout()
         {
-            if (_inputField.text == null) { return; }
+            if (_inputField.text.Length <= 1) { return; }
             StartCoroutine(IncreaseIntencity());
         }
 
