@@ -20,6 +20,7 @@ namespace Impingement.Combat
         [SerializeField] private Transform _rightHandTransform = null;
         [SerializeField] private Transform _leftHandTransform = null;
         [SerializeField] private WeaponConfig defaultWeaponConfig = null;
+        [SerializeField] private Animator _animator;
         private PhotonView _photonView;
         private MovementController _movementController;
         private HealthController _healthController;
@@ -100,8 +101,7 @@ namespace Impingement.Combat
 
         private Weapon AttachWeapon(WeaponConfig weaponConfig)
         {
-            Animator animator = GetComponent<Animator>();
-            var weapon = weaponConfig.Spawn(_rightHandTransform, _leftHandTransform, animator);
+            var weapon = weaponConfig.Spawn(_rightHandTransform, _leftHandTransform, _animator);
             weapon.SetCombatController(this);
             return weapon;
         }

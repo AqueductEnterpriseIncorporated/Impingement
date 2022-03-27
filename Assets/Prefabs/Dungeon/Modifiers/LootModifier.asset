@@ -15,7 +15,6 @@ MonoBehaviour:
   MaximumModifierSpawns: 1
   _spawnPrefabs:
   - {fileID: 6970973863804812274, guid: 28cdd2ca15a865140bd23687a0c6f8a6, type: 3}
-  - {fileID: 2088381108260428179, guid: d48e5e9ad8de59947a056f0f9079b243, type: 3}
   - {fileID: 3108868447340156948, guid: 0b52a8166598d3c4dba52f34bb87fba5, type: 3}
   _minimumObjectSpawns: 1
   _maximumObjectSpawns: 1

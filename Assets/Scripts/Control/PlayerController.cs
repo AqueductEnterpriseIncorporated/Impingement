@@ -81,6 +81,10 @@ namespace Impingement.Control
             {
                 return;
             }
+            else
+            {
+                _characterController.SimpleMove(Vector3.zero);
+            }
         }
 
         private void ProcessPlayerInput()

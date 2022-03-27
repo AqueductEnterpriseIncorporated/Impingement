@@ -5,225 +5,78 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e797b75-f4f0-4ea9-b141-84d8d653dbe9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/ClassDiagram1.cd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/QuickOutline.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/QuickOutline/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/QuickOutline/Resources/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/QuickOutline/Resources/Materials/OutlineFill.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/QuickOutline/Resources/Materials/OutlineFill.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/QuickOutline/Resources/Materials/OutlineMask.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/QuickOutline/Resources/Materials/OutlineMask.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/QuickOutline/Resources/Shaders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/QuickOutline/Resources/Shaders/OutlineFill.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/QuickOutline/Resources/Shaders/OutlineFill.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/QuickOutline/Resources/Shaders/OutlineMask.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/QuickOutline/Resources/Shaders/OutlineMask.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/QuickOutline/Samples.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/QuickOutline/Samples/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/QuickOutline/Samples/Materials/Plane.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/QuickOutline/Samples/Materials/Plane.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/QuickOutline/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/QuickOutline/Scripts/Outline.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/QuickOutline/Scripts/Outline.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/VFX/CurrencyPickup.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/VFX/CurrencyPickup.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/VFX/PurpleOrbConsume Variant.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/VFX/PurpleOrbConsume Variant.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/VFX/TeleportFinish.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/VFX/TeleportFinish.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Core/Progression.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/Progression.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/SettingsMenu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/SettingsMenu.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/HideoutPortalVariant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/HideoutPortalVariant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Modifiers/LootModifier.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Modifiers/LootModifier.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Bow.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Bow.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Sword.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Sword.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Unarmed.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Unarmed.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/QuickOutline.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/QuickOutline/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/QuickOutline/Resources/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/QuickOutline/Resources/Materials/OutlineFill.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/QuickOutline/Resources/Materials/OutlineFill.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/QuickOutline/Resources/Materials/OutlineMask.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/QuickOutline/Resources/Materials/OutlineMask.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/QuickOutline/Resources/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/QuickOutline/Resources/Shaders/OutlineFill.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/QuickOutline/Resources/Shaders/OutlineFill.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/QuickOutline/Resources/Shaders/OutlineMask.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/QuickOutline/Resources/Shaders/OutlineMask.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/QuickOutline/Samples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/QuickOutline/Samples/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/QuickOutline/Samples/Materials/Plane.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/QuickOutline/Samples/Materials/Plane.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/QuickOutline/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/QuickOutline/Scripts/Outline.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/QuickOutline/Scripts/Outline.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Rooms/RoomVariant4x4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/RoomVariant4x4.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabHideoutDataController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabHideoutDataController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Cinemachine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Cinemachine.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/PhotonChat.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/PhotonChat.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/PhotonRealtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/PhotonRealtime.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/PhotonUnityNetworking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/PhotonUnityNetworking.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Unity.InputSystem.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Unity.InputSystem.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Unity.Multiplayer.NetworkProfiler.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Unity.Multiplayer.NetworkProfiler.Runtime.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Unity.Profiling.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Unity.Profiling.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Unity.TextMeshPro.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Unity.Timeline.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/Unity.Timeline.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.AIModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.AIModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.ARModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.ARModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.AccessibilityModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.AccessibilityModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.AndroidJNIModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.AndroidJNIModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.AnimationModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.AnimationModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.AssetBundleModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.AssetBundleModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.AudioModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.AudioModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.ClothModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.ClothModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.ClusterInputModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.ClusterInputModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.ClusterRendererModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.ClusterRendererModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.CoreModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.CoreModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.CrashReportingModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.CrashReportingModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.DSPGraphModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.DSPGraphModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.DirectorModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.DirectorModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.GIModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.GIModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.GameCenterModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.GameCenterModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.GridModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.GridModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.HotReloadModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.HotReloadModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.IMGUIModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.IMGUIModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.ImageConversionModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.ImageConversionModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.InputLegacyModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.InputLegacyModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.InputModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.InputModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.JSONSerializeModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.JSONSerializeModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.LocalizationModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.LocalizationModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.ParticleSystemModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.ParticleSystemModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.PerformanceReportingModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.PerformanceReportingModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.Physics2DModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.Physics2DModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.PhysicsModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.PhysicsModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.ProfilerModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.ProfilerModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.ScreenCaptureModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.ScreenCaptureModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.SharedInternalsModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.SharedInternalsModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.SpriteMaskModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.SpriteMaskModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.SpriteShapeModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.SpriteShapeModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.StreamingModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.StreamingModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.SubstanceModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.SubstanceModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.SubsystemsModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.SubsystemsModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.TLSModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.TLSModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.TerrainModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.TerrainModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.TextCoreModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.TextCoreModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.TextRenderingModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.TextRenderingModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.TilemapModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.TilemapModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.UI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.UIElementsModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.UIElementsModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.UIElementsNativeModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.UIElementsNativeModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.UIModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.UIModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.UNETModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.UNETModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.UmbraModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.UmbraModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.UnityConnectModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.UnityConnectModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.UnityCurlModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.UnityCurlModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.UnityWebRequestModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.UnityWebRequestModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.VFXModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.VFXModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.VRModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.VRModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.VehiclesModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.VehiclesModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.VideoModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.VideoModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.VirtualTexturingModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.VirtualTexturingModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.WindModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.WindModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.XRModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.XRModule.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Managed/UnityEngine.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/Resources/unity_builtin_extra" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/Resources/unity_builtin_extra" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/RuntimeInitializeOnLoads.json" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/RuntimeInitializeOnLoads.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/ScriptingAssemblies.json" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/ScriptingAssemblies.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/boot.config" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/boot.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/globalgamemanagers" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/globalgamemanagers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/globalgamemanagers.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/globalgamemanagers.assets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/level0" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/level0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/level0.resS" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/level0.resS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/level1" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/level1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/level1.resS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/level2" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/level2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/level2.resS" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/level2.resS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/resources.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/resources.assets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/resources.assets.resS" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/resources.assets.resS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/sharedassets0.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/sharedassets0.assets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/sharedassets0.assets.resS" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/sharedassets0.assets.resS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/sharedassets1.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/sharedassets1.assets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/sharedassets2.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/sharedassets2.assets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Impingement_Data/sharedassets2.assets.resS" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Impingement_Data/sharedassets2.assets.resS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Multistory Dungeons v1.4.unitypackage" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_3DF_TaDSewer/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_3DF_TaDSewer/Scenes/SewerScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_3DF_TaDSewer/Scenes/SewerScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_3DF_TaDSewer/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_3DF_TaDSewer/Textures/BrickRound0096_1_S.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_3DF_TaDSewer/Textures/BrickRound0096_1_S.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_3DF_TaDSewer/Textures/BrickRound0096_1_S_N.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_3DF_TaDSewer/Textures/BrickRound0096_1_S_N.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_3DF_TaDSewer/Textures/BrickRound0103_1_S.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_3DF_TaDSewer/Textures/BrickRound0103_1_S.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_3DF_TaDSewer/Textures/BrickRound0103_1_S_N.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_3DF_TaDSewer/Textures/BrickRound0103_1_S_N.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_3DF_TaDSewer/Themes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_3DF_TaDSewer/Themes/SewerTheme.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_3DF_TaDSewer/Themes/SewerTheme.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_3DF_TaDSewer/Themes/SewerTheme_StoneRail.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_3DF_TaDSewer/Themes/SewerTheme_StoneRail.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_3DF_TaDSewer/Themes/SewerTheme_Wood.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_3DF_TaDSewer/Themes/SewerTheme_Wood.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Dungeon_PinkLight.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Dungeon_PinkLight.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_03.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_03.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_04.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_04.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_05.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_05.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_06.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_06.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_07.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_07.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_08.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_08.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_09.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_09.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_10.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_10.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_11.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_11.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_12.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_12.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_13.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_13.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_14.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_14.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_15.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_15.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_16.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_16.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_17.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_17.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_18.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_18.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_19.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_19.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_20.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_20.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_21.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_21.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_22.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_22.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_23.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_23.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_24.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_24.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_25.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_25.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_26.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_26.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_27.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_27.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_28.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_28.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_29.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_29.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_30.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_30.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_31.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_31.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_32.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_32.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_Entrance_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_Entrance_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_Entrance_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_Entrance_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_Exit_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_Exit_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_Exit_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Modules/Module_Exit_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Point light 1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Point light 1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Point light 2.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Point light 2.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Point light.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Prefabs/Point light.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Scenes/Demo_DungeonArch.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Scenes/Demo_DungeonArch.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Themes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Themes/MultiStory_Base.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Themes/MultiStory_Base.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Themes/MultiStory_SideDeco.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Theme_MS_MultistoryDungeon/Themes/MultiStory_SideDeco.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/UnityCrashHandler64.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Build/UnityCrashHandler64.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/UnityPlayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Build/UnityPlayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/CurrencyPickup.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/CurrencyPickup.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/PurpleOrbConsume Variant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/PurpleOrbConsume Variant.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/VFX/LevelUpEffect.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/VFX/LevelUpEffect.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Currency/CurrencyPickupView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Currency/CurrencyPickupView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stats/BaseStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Stats/BaseStats.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stats/ExperienceDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Stats/ExperienceDisplay.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stats/Progression.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Stats/Progression.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bug.png" beforeDir="false" afterPath="$PROJECT_DIR$/Bug.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,31 +95,27 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Attributes/StaminaDisplay.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D3B66F0A-D4E3-4A55-B6EF-91AB84878193/7f/9ce0490a/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Combat/WeaponConfig.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Settings/InGameSettingsManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Attributes/HealthController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/StartSceneManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/enums/enumStats.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E99EE6D5-C968-4510-A35B-84C7173649F9/6e/e3db93bd/RaycastHit.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D3B66F0A-D4E3-4A55-B6EF-91AB84878193/7d/67b7e8d9/Transform.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.11/Runtime/Helpers/CinemachineInputProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Attributes/StaminaController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D3B66F0A-D4E3-4A55-B6EF-91AB84878193/ab/9a4f6406/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/InputModules/BaseInputModule.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Attributes/StaminaDisplay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D3B66F0A-D4E3-4A55-B6EF-91AB84878193/7f/9ce0490a/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E99EE6D5-C968-4510-A35B-84C7173649F9/6e/e3db93bd/RaycastHit.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Settings/InGameSettingsManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.11/Runtime/Helpers/CinemachineInputProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D3B66F0A-D4E3-4A55-B6EF-91AB84878193/ab/9a4f6406/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Asset Packs/NavMeshComponents/Scripts/NavMeshBaker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/InputModules/BaseInputModule.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Attributes/HealthController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Combat/WeaponConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/StartSceneManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D3B66F0A-D4E3-4A55-B6EF-91AB84878193/7d/67b7e8d9/Transform.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonGenerator.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/LobbyManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonProgressionManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Core/RespawnController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabHideoutDatacONTROLLER.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Serialization/SerializationClasses/SerializationRootClass.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabManager.cs" />
@@ -298,11 +147,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/HighlightTarget.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabPlayerDataController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponColliderView.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/Weapon.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/DestroyAfterEffect.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/AimHelpCollider.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/Projectile.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/StartSceneManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/HideoutUpgradeItemView.cs" />
@@ -310,10 +157,16 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomModifierScriptableObject.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/enums/enumStats.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Attributes/StaminaDisplay.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponConfig.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Attributes/StaminaController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabHideoutDataController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Currency/CurrencyPickupView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Stats/BaseStats.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Stats/Progression.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Stats/ExperienceDisplay.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" />
     </changedPaths>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -370,10 +223,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="40160">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="25152">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="40160" />
+      <option name="pid" value="25152" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -429,6 +282,7 @@
       <workItem from="1648030121732" duration="33246000" />
       <workItem from="1648106877542" duration="13559000" />
       <workItem from="1648136291906" duration="4730000" />
+      <workItem from="1648368309996" duration="4529000" />
     </task>
     <servers />
   </component>

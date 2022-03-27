@@ -22,7 +22,7 @@ namespace Impingement.Currency
         private void ManageConsume(PlayerCurrencyController currencyController)
         {
             currencyController.MyCurrency += Random.Range(_minAmountOfCurrency, _maxAmountOfCurrency);
-            PhotonNetwork.Instantiate("RoomSpawns/" + _spawnVFX.name, transform.position, transform.rotation);
+            PhotonNetwork.Instantiate("VFX/" + _spawnVFX.name, transform.position, transform.rotation);
             //_audioSource.Play();
             PhotonNetwork.Destroy(_objectToDestroy);
         }

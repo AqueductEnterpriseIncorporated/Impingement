@@ -14,8 +14,22 @@ namespace Impingement.Stats
 
         private void Update()
         {
-            _expValueText.text = _experienceController.GetExperiencePoints().ToString() + "/"  +  _baseStats.GetStat(enumStats.ExperienceToLevelUp);
-            _experienceImage.fillAmount = _experienceController.GetExperiencePoints() / _baseStats.GetStat(enumStats.ExperienceToLevelUp);
+            var fromValue = _baseStats.GetBaseStat(enumStats.ExperienceToLevelUp, _baseStats.GetLevel() - 1);
+            var toValue = _baseStats.GetStat(enumStats.ExperienceToLevelUp);
+            if (Mathf.Approximately(fromValue, toValue))
+            {
+                fromValue = 0;
+            }
+            var remappedValue = Remap(_experienceController.GetExperiencePoints(),
+                fromValue,
+                toValue, 0, 1);
+            _expValueText.text = _experienceController.GetExperiencePoints() + "/" +
+                                 _baseStats.GetStat(enumStats.ExperienceToLevelUp);
+            _experienceImage.fillAmount = remappedValue;
+        }
+
+        public float Remap (float value, float from1, float to1, float from2, float to2) {
+            return (value - from1) / (to1 - from1) * (to2 - from2) + from2;
         }
     }
 }

@@ -17,5 +17,7 @@ MonoBehaviour:
   _weaponRange: 2
   _weaponDamage: 25
   _weaponPercentageBonus: 0
+  _staminaAmountToSpend: 3
+  _useStamina: 1
   _isRightHand: 1
   _projectile: {fileID: 0}

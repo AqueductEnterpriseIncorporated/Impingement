@@ -16122,6 +16122,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyDummy
       objectReference: {fileID: 0}
+    - target: {fileID: 856934532723764111, guid: 8540005e83407d849a5ea27f41f1da0e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1992989734946699736, guid: 8540005e83407d849a5ea27f41f1da0e, type: 3}
       propertyPath: CharacterName
       value: Dummy

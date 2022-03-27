@@ -16,7 +16,7 @@ namespace Impingement.Stats
             BuildLookup();
             float[] levels = _lookupTable[characterClass][stat];
             if (levels.Length < level) { return 0; }
-            return levels[level - 1];
+            return levels[Mathf.Max(0, level - 1)];
         }
 
         public int GetLevels(enumStats stat, enumCharacterClass characterClass)

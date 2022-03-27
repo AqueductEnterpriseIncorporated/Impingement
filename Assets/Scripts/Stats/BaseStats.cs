@@ -3,6 +3,7 @@ using GameDevTV.Utils;
 using Impingement.enums;
 using Photon.Pun;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Impingement.Stats
 {
@@ -15,6 +16,7 @@ namespace Impingement.Stats
         [SerializeField] private Progression _progression = null;
         [SerializeField] private ExperienceController _experienceController = null;
         [SerializeField] private GameObject _levelUpEffect = null;
+        [SerializeField] private Transform _spawnPosition = null;
         [SerializeField] private bool _shouldUseModifiers = true;
         private LazyValue<int> _currentLevel;
 
@@ -62,9 +64,9 @@ namespace Impingement.Stats
 
         private void LevelUp()
         {
-            if (_levelUpEffect != null)
+            if (_levelUpEffect != null && SceneManager.GetActiveScene().name != "Hideout")
             {
-                var localPrefab = PhotonNetwork.Instantiate(_levelUpEffect.name, transform.parent.transform.position,
+                var localPrefab = PhotonNetwork.Instantiate("VFX/" + _levelUpEffect.name, _spawnPosition.position,
                     Quaternion.identity);
                 //localPrefab.transform.SetParent(); = transform.parent.transform;
             }
@@ -80,7 +82,7 @@ namespace Impingement.Stats
         {
             return _progression.GetStat(stat, _characterClass, GetLevel());
         }
-        
+
         public float GetBaseStat(enumStats stat, int level)
         {
             return _progression.GetStat(stat, _characterClass, level);

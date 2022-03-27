@@ -57,6 +57,7 @@ namespace Impingement.Combat
 
         private void DestroyOldWeapon(Transform rightHandTransform, Transform leftHandTransform)
         {
+            if(rightHandTransform is null) { return; }
             Transform oldWeapon = rightHandTransform.Find(WeaponName);
             if (oldWeapon == null)
             {

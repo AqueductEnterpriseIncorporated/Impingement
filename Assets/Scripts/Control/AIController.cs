@@ -76,7 +76,7 @@ namespace Impingement.Control
             var randomNumber = Random.Range(0, 100);
             if (randomNumber <= _chanceToDropCurrency)
             {
-                PhotonNetwork.Instantiate("RoomSpawns/" + _currencyPrefab.name, transform.position, transform.rotation);
+                PhotonNetwork.Instantiate("VFX/" +  _currencyPrefab.name, transform.position, transform.rotation);
             }
         }
 

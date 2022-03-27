@@ -745,6 +745,17 @@
               <e p="PortalSky.shader" t="Include" />
             </e>
           </e>
+          <e p="QuickOutline" t="Include">
+            <e p="Resources" t="Include">
+              <e p="Shaders" t="Include">
+                <e p="OutlineFill.shader" t="Include" />
+                <e p="OutlineMask.shader" t="Include" />
+              </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="Outline.cs" t="Include" />
+            </e>
+          </e>
           <e p="SimpleFX" t="Include">
             <e p="Materials" t="Include">
               <e p="UnlitVertexColour_Alpha.shader" t="Include" />
@@ -786,17 +797,6 @@
           </e>
         </e>
         <e p="ClassDiagram1.cd" t="Include" />
-        <e p="QuickOutline" t="Include">
-          <e p="Resources" t="Include">
-            <e p="Shaders" t="Include">
-              <e p="OutlineFill.shader" t="Include" />
-              <e p="OutlineMask.shader" t="Include" />
-            </e>
-          </e>
-          <e p="Scripts" t="Include">
-            <e p="Outline.cs" t="Include" />
-          </e>
-        </e>
         <e p="Scripts" t="Include">
           <e p="Attributes" t="Include">
             <e p="HealthBar.cs" t="Include" />

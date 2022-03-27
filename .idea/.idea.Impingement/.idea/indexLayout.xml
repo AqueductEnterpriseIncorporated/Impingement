@@ -27,6 +27,7 @@
       <Path>.idea</Path>
       <Path>.vs</Path>
       <Path>Build</Path>
+      <Path>ImpingementBuild</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
       <Path>Temp</Path>
