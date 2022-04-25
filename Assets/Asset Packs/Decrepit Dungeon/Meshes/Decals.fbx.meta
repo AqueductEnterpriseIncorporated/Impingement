@@ -1,0 +1,747 @@
+fileFormatVersion: 2
+guid: 31e01063660b8bb42bc039ae91e2e6d4
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Grunge_A
+    100004: Grunge_B
+    100006: Grunge_C
+    100008: Grunge_D
+    100010: Grunge_E
+    100012: Grunge_F
+    100014: Hay_A
+    100016: Hay_B
+    100018: Hay_C
+    100020: Hay_D
+    100022: Wax
+    100024: Decals
+    100026: Grunge_G
+    100028: Grunge_H
+    100030: Grunge_I
+    100032: Grunge_J
+    100034: Grunge_K
+    100036: Blood_A
+    100038: Blood_B
+    100040: Blood_C
+    100042: Blood_D
+    100044: Blood_E
+    100046: Blood_F
+    100048: Blood_G
+    100050: Blood_H
+    100052: Blood_I
+    100054: Blood_J
+    100056: Blood_K
+    100058: Dirt_Mound_A
+    100060: Dirt_Mound_B
+    100062: Dirt_Mound_C
+    100064: Dirt_Mound_D
+    100066: Dirt_Mound_E
+    100068: Blood_L
+    100070: Balconies
+    100072: Balcony
+    100074: Balcony 1
+    100076: Balcony_A
+    100078: Balcony_A_Broken
+    100080: Balcony_A_Broken 1
+    100082: Balcony_B
+    100084: Balcony_B_Broken
+    100086: Balcony_B_Broken 1
+    100088: Balcony_C
+    100090: Balcony_C_Broken
+    100092: Balcony_C_Broken 1
+    100094: Balcony_D
+    100096: Balcony_D1
+    100098: Balcony_D2
+    100100: Balcony_D_Broken
+    100102: Balcony_D_Broken 1
+    100104: Balcony_E_Left
+    100106: Balcony_E_Left 1
+    100108: Balcony_E_Left_Broken
+    100110: Balcony_E_Left_Broken 1
+    100112: Balcony_E_Right
+    100114: Balcony_E_Right 1
+    100116: Balcony_E_Right_Broken
+    100118: Balcony_E_Right_Broken 1
+    100120: Debris_1
+    100122: Debris_1 1
+    100124: Debris_1 2
+    100126: Debris_1 3
+    100128: Debris_1 4
+    100130: Debris_1 5
+    100132: Debris_2
+    100134: Debris_2 1
+    100136: Debris_2 2
+    100138: Debris_2 3
+    100140: Debris_2 4
+    100142: Debris_2 5
+    100144: Debris_3
+    100146: Debris_3 1
+    100148: Debris_3 2
+    100150: Pillar_1
+    100152: Pillar_1 1
+    100154: Pillar_1 10
+    100156: Pillar_1 11
+    100158: Pillar_1 12
+    100160: Pillar_1 13
+    100162: Pillar_1 14
+    100164: Pillar_1 2
+    100166: Pillar_1 3
+    100168: Pillar_1 4
+    100170: Pillar_1 5
+    100172: Pillar_1 6
+    100174: Pillar_1 7
+    100176: Pillar_1 8
+    100178: Pillar_1 9
+    100180: Pillar_2
+    100182: Pillar_2 1
+    100184: Pillar_2 10
+    100186: Pillar_2 11
+    100188: Pillar_2 12
+    100190: Pillar_2 13
+    100192: Pillar_2 14
+    100194: Pillar_2 2
+    100196: Pillar_2 3
+    100198: Pillar_2 4
+    100200: Pillar_2 5
+    100202: Pillar_2 6
+    100204: Pillar_2 7
+    100206: Pillar_2 8
+    100208: Pillar_2 9
+    100210: Pillar_3
+    100212: Pillar_3 1
+    100214: Pillar_3 10
+    100216: Pillar_3 11
+    100218: Pillar_3 12
+    100220: Pillar_3 13
+    100222: Pillar_3 14
+    100224: Pillar_3 2
+    100226: Pillar_3 3
+    100228: Pillar_3 4
+    100230: Pillar_3 5
+    100232: Pillar_3 6
+    100234: Pillar_3 7
+    100236: Pillar_3 8
+    100238: Pillar_3 9
+    100240: Pillar_4
+    100242: Pillar_4 1
+    100244: Pillar_4 10
+    100246: Pillar_4 11
+    100248: Pillar_4 12
+    100250: Pillar_4 13
+    100252: Pillar_4 2
+    100254: Pillar_4 3
+    100256: Pillar_4 4
+    100258: Pillar_4 5
+    100260: Pillar_4 6
+    100262: Pillar_4 7
+    100264: Pillar_4 8
+    100266: Pillar_4 9
+    100268: Railing
+    100270: Railing 1
+    100272: Railing 10
+    100274: Railing 11
+    100276: Railing 12
+    100278: Railing 13
+    100280: Railing 14
+    100282: Railing 15
+    100284: Railing 2
+    100286: Railing 3
+    100288: Railing 4
+    100290: Railing 5
+    100292: Railing 6
+    100294: Railing 7
+    100296: Railing 8
+    100298: Railing 9
+    100300: Stairs_A
+    400000: //RootNode
+    400002: Grunge_A
+    400004: Grunge_B
+    400006: Grunge_C
+    400008: Grunge_D
+    400010: Grunge_E
+    400012: Grunge_F
+    400014: Hay_A
+    400016: Hay_B
+    400018: Hay_C
+    400020: Hay_D
+    400022: Wax
+    400024: Decals
+    400026: Grunge_G
+    400028: Grunge_H
+    400030: Grunge_I
+    400032: Grunge_J
+    400034: Grunge_K
+    400036: Blood_A
+    400038: Blood_B
+    400040: Blood_C
+    400042: Blood_D
+    400044: Blood_E
+    400046: Blood_F
+    400048: Blood_G
+    400050: Blood_H
+    400052: Blood_I
+    400054: Blood_J
+    400056: Blood_K
+    400058: Dirt_Mound_A
+    400060: Dirt_Mound_B
+    400062: Dirt_Mound_C
+    400064: Dirt_Mound_D
+    400066: Dirt_Mound_E
+    400068: Blood_L
+    400070: Balconies
+    400072: Balcony
+    400074: Balcony 1
+    400076: Balcony_A
+    400078: Balcony_A_Broken
+    400080: Balcony_A_Broken 1
+    400082: Balcony_B
+    400084: Balcony_B_Broken
+    400086: Balcony_B_Broken 1
+    400088: Balcony_C
+    400090: Balcony_C_Broken
+    400092: Balcony_C_Broken 1
+    400094: Balcony_D
+    400096: Balcony_D1
+    400098: Balcony_D2
+    400100: Balcony_D_Broken
+    400102: Balcony_D_Broken 1
+    400104: Balcony_E_Left
+    400106: Balcony_E_Left 1
+    400108: Balcony_E_Left_Broken
+    400110: Balcony_E_Left_Broken 1
+    400112: Balcony_E_Right
+    400114: Balcony_E_Right 1
+    400116: Balcony_E_Right_Broken
+    400118: Balcony_E_Right_Broken 1
+    400120: Debris_1
+    400122: Debris_1 1
+    400124: Debris_1 2
+    400126: Debris_1 3
+    400128: Debris_1 4
+    400130: Debris_1 5
+    400132: Debris_2
+    400134: Debris_2 1
+    400136: Debris_2 2
+    400138: Debris_2 3
+    400140: Debris_2 4
+    400142: Debris_2 5
+    400144: Debris_3
+    400146: Debris_3 1
+    400148: Debris_3 2
+    400150: Pillar_1
+    400152: Pillar_1 1
+    400154: Pillar_1 10
+    400156: Pillar_1 11
+    400158: Pillar_1 12
+    400160: Pillar_1 13
+    400162: Pillar_1 14
+    400164: Pillar_1 2
+    400166: Pillar_1 3
+    400168: Pillar_1 4
+    400170: Pillar_1 5
+    400172: Pillar_1 6
+    400174: Pillar_1 7
+    400176: Pillar_1 8
+    400178: Pillar_1 9
+    400180: Pillar_2
+    400182: Pillar_2 1
+    400184: Pillar_2 10
+    400186: Pillar_2 11
+    400188: Pillar_2 12
+    400190: Pillar_2 13
+    400192: Pillar_2 14
+    400194: Pillar_2 2
+    400196: Pillar_2 3
+    400198: Pillar_2 4
+    400200: Pillar_2 5
+    400202: Pillar_2 6
+    400204: Pillar_2 7
+    400206: Pillar_2 8
+    400208: Pillar_2 9
+    400210: Pillar_3
+    400212: Pillar_3 1
+    400214: Pillar_3 10
+    400216: Pillar_3 11
+    400218: Pillar_3 12
+    400220: Pillar_3 13
+    400222: Pillar_3 14
+    400224: Pillar_3 2
+    400226: Pillar_3 3
+    400228: Pillar_3 4
+    400230: Pillar_3 5
+    400232: Pillar_3 6
+    400234: Pillar_3 7
+    400236: Pillar_3 8
+    400238: Pillar_3 9
+    400240: Pillar_4
+    400242: Pillar_4 1
+    400244: Pillar_4 10
+    400246: Pillar_4 11
+    400248: Pillar_4 12
+    400250: Pillar_4 13
+    400252: Pillar_4 2
+    400254: Pillar_4 3
+    400256: Pillar_4 4
+    400258: Pillar_4 5
+    400260: Pillar_4 6
+    400262: Pillar_4 7
+    400264: Pillar_4 8
+    400266: Pillar_4 9
+    400268: Railing
+    400270: Railing 1
+    400272: Railing 10
+    400274: Railing 11
+    400276: Railing 12
+    400278: Railing 13
+    400280: Railing 14
+    400282: Railing 15
+    400284: Railing 2
+    400286: Railing 3
+    400288: Railing 4
+    400290: Railing 5
+    400292: Railing 6
+    400294: Railing 7
+    400296: Railing 8
+    400298: Railing 9
+    400300: Stairs_A
+    2300000: Grunge_A
+    2300002: Grunge_B
+    2300004: Grunge_C
+    2300006: Grunge_D
+    2300008: Grunge_E
+    2300010: Grunge_F
+    2300012: Hay_A
+    2300014: Hay_B
+    2300016: Hay_C
+    2300018: Hay_D
+    2300020: Wax
+    2300022: Grunge_G
+    2300024: Grunge_H
+    2300026: Grunge_I
+    2300028: Grunge_J
+    2300030: Grunge_K
+    2300032: Blood_A
+    2300034: Blood_B
+    2300036: Blood_C
+    2300038: Blood_D
+    2300040: Blood_E
+    2300042: Blood_F
+    2300044: Blood_G
+    2300046: Blood_H
+    2300048: Blood_I
+    2300050: Blood_J
+    2300052: Blood_K
+    2300054: Dirt_Mound_A
+    2300056: Dirt_Mound_B
+    2300058: Dirt_Mound_C
+    2300060: Dirt_Mound_D
+    2300062: Dirt_Mound_E
+    2300064: Blood_L
+    2300066: Balcony 1
+    2300068: Debris_1
+    2300070: Debris_1 1
+    2300072: Debris_1 2
+    2300074: Debris_1 3
+    2300076: Debris_1 4
+    2300078: Debris_1 5
+    2300080: Debris_2
+    2300082: Debris_2 1
+    2300084: Debris_2 2
+    2300086: Debris_2 3
+    2300088: Debris_2 4
+    2300090: Debris_2 5
+    2300092: Debris_3
+    2300094: Debris_3 1
+    2300096: Debris_3 2
+    2300098: Pillar_1
+    2300100: Pillar_1 1
+    2300102: Pillar_1 10
+    2300104: Pillar_1 11
+    2300106: Pillar_1 12
+    2300108: Pillar_1 13
+    2300110: Pillar_1 14
+    2300112: Pillar_1 2
+    2300114: Pillar_1 3
+    2300116: Pillar_1 4
+    2300118: Pillar_1 5
+    2300120: Pillar_1 6
+    2300122: Pillar_1 7
+    2300124: Pillar_1 8
+    2300126: Pillar_1 9
+    2300128: Pillar_2
+    2300130: Pillar_2 1
+    2300132: Pillar_2 10
+    2300134: Pillar_2 11
+    2300136: Pillar_2 12
+    2300138: Pillar_2 13
+    2300140: Pillar_2 14
+    2300142: Pillar_2 2
+    2300144: Pillar_2 3
+    2300146: Pillar_2 4
+    2300148: Pillar_2 5
+    2300150: Pillar_2 6
+    2300152: Pillar_2 7
+    2300154: Pillar_2 8
+    2300156: Pillar_2 9
+    2300158: Pillar_3
+    2300160: Pillar_3 1
+    2300162: Pillar_3 10
+    2300164: Pillar_3 11
+    2300166: Pillar_3 12
+    2300168: Pillar_3 13
+    2300170: Pillar_3 14
+    2300172: Pillar_3 2
+    2300174: Pillar_3 3
+    2300176: Pillar_3 4
+    2300178: Pillar_3 5
+    2300180: Pillar_3 6
+    2300182: Pillar_3 7
+    2300184: Pillar_3 8
+    2300186: Pillar_3 9
+    2300188: Pillar_4
+    2300190: Pillar_4 1
+    2300192: Pillar_4 10
+    2300194: Pillar_4 11
+    2300196: Pillar_4 12
+    2300198: Pillar_4 13
+    2300200: Pillar_4 2
+    2300202: Pillar_4 3
+    2300204: Pillar_4 4
+    2300206: Pillar_4 5
+    2300208: Pillar_4 6
+    2300210: Pillar_4 7
+    2300212: Pillar_4 8
+    2300214: Pillar_4 9
+    2300216: Railing
+    2300218: Railing 1
+    2300220: Railing 10
+    2300222: Railing 11
+    2300224: Railing 12
+    2300226: Railing 13
+    2300228: Railing 14
+    2300230: Railing 15
+    2300232: Railing 2
+    2300234: Railing 3
+    2300236: Railing 4
+    2300238: Railing 5
+    2300240: Railing 6
+    2300242: Railing 7
+    2300244: Railing 8
+    2300246: Railing 9
+    2300248: Stairs_A
+    3300000: Grunge_A
+    3300002: Grunge_B
+    3300004: Grunge_C
+    3300006: Grunge_D
+    3300008: Grunge_E
+    3300010: Grunge_F
+    3300012: Hay_A
+    3300014: Hay_B
+    3300016: Hay_C
+    3300018: Hay_D
+    3300020: Wax
+    3300022: Grunge_G
+    3300024: Grunge_H
+    3300026: Grunge_I
+    3300028: Grunge_J
+    3300030: Grunge_K
+    3300032: Blood_A
+    3300034: Blood_B
+    3300036: Blood_C
+    3300038: Blood_D
+    3300040: Blood_E
+    3300042: Blood_F
+    3300044: Blood_G
+    3300046: Blood_H
+    3300048: Blood_I
+    3300050: Blood_J
+    3300052: Blood_K
+    3300054: Dirt_Mound_A
+    3300056: Dirt_Mound_B
+    3300058: Dirt_Mound_C
+    3300060: Dirt_Mound_D
+    3300062: Dirt_Mound_E
+    3300064: Blood_L
+    3300066: Balcony 1
+    3300068: Debris_1
+    3300070: Debris_1 1
+    3300072: Debris_1 2
+    3300074: Debris_1 3
+    3300076: Debris_1 4
+    3300078: Debris_1 5
+    3300080: Debris_2
+    3300082: Debris_2 1
+    3300084: Debris_2 2
+    3300086: Debris_2 3
+    3300088: Debris_2 4
+    3300090: Debris_2 5
+    3300092: Debris_3
+    3300094: Debris_3 1
+    3300096: Debris_3 2
+    3300098: Pillar_1
+    3300100: Pillar_1 1
+    3300102: Pillar_1 10
+    3300104: Pillar_1 11
+    3300106: Pillar_1 12
+    3300108: Pillar_1 13
+    3300110: Pillar_1 14
+    3300112: Pillar_1 2
+    3300114: Pillar_1 3
+    3300116: Pillar_1 4
+    3300118: Pillar_1 5
+    3300120: Pillar_1 6
+    3300122: Pillar_1 7
+    3300124: Pillar_1 8
+    3300126: Pillar_1 9
+    3300128: Pillar_2
+    3300130: Pillar_2 1
+    3300132: Pillar_2 10
+    3300134: Pillar_2 11
+    3300136: Pillar_2 12
+    3300138: Pillar_2 13
+    3300140: Pillar_2 14
+    3300142: Pillar_2 2
+    3300144: Pillar_2 3
+    3300146: Pillar_2 4
+    3300148: Pillar_2 5
+    3300150: Pillar_2 6
+    3300152: Pillar_2 7
+    3300154: Pillar_2 8
+    3300156: Pillar_2 9
+    3300158: Pillar_3
+    3300160: Pillar_3 1
+    3300162: Pillar_3 10
+    3300164: Pillar_3 11
+    3300166: Pillar_3 12
+    3300168: Pillar_3 13
+    3300170: Pillar_3 14
+    3300172: Pillar_3 2
+    3300174: Pillar_3 3
+    3300176: Pillar_3 4
+    3300178: Pillar_3 5
+    3300180: Pillar_3 6
+    3300182: Pillar_3 7
+    3300184: Pillar_3 8
+    3300186: Pillar_3 9
+    3300188: Pillar_4
+    3300190: Pillar_4 1
+    3300192: Pillar_4 10
+    3300194: Pillar_4 11
+    3300196: Pillar_4 12
+    3300198: Pillar_4 13
+    3300200: Pillar_4 2
+    3300202: Pillar_4 3
+    3300204: Pillar_4 4
+    3300206: Pillar_4 5
+    3300208: Pillar_4 6
+    3300210: Pillar_4 7
+    3300212: Pillar_4 8
+    3300214: Pillar_4 9
+    3300216: Railing
+    3300218: Railing 1
+    3300220: Railing 10
+    3300222: Railing 11
+    3300224: Railing 12
+    3300226: Railing 13
+    3300228: Railing 14
+    3300230: Railing 15
+    3300232: Railing 2
+    3300234: Railing 3
+    3300236: Railing 4
+    3300238: Railing 5
+    3300240: Railing 6
+    3300242: Railing 7
+    3300244: Railing 8
+    3300246: Railing 9
+    3300248: Stairs_A
+    4300000: Hay_A
+    4300002: Hay_B
+    4300004: Hay_C
+    4300006: Hay_D
+    4300008: Grunge_A
+    4300010: Grunge_B
+    4300012: Grunge_C
+    4300014: Grunge_D
+    4300016: Grunge_E
+    4300018: Grunge_F
+    4300020: Wax
+    4300022: Grunge_K
+    4300024: Grunge_J
+    4300026: Grunge_I
+    4300028: Grunge_H
+    4300030: Grunge_G
+    4300032: Blood_A
+    4300034: Blood_B
+    4300036: Blood_C
+    4300038: Blood_D
+    4300040: Blood_E
+    4300042: Blood_F
+    4300044: Blood_G
+    4300046: Blood_H
+    4300048: Blood_I
+    4300050: Blood_J
+    4300052: Blood_K
+    4300054: Dirt_Mound_A
+    4300056: Dirt_Mound_B
+    4300058: Dirt_Mound_C
+    4300060: Dirt_Mound_D
+    4300062: Dirt_Mound_E
+    4300064: Blood_L
+    4300066: Balcony
+    4300068: Stairs_A
+    4300070: Railing
+    4300072: Pillar_1
+    4300074: Pillar_2
+    4300076: Pillar_3
+    4300078: Pillar_4
+    4300080: Railing
+    4300082: Pillar_1
+    4300084: Pillar_2
+    4300086: Pillar_3
+    4300088: Pillar_4
+    4300090: Railing
+    4300092: Pillar_1
+    4300094: Pillar_2
+    4300096: Pillar_3
+    4300098: Pillar_4
+    4300100: Railing
+    4300102: Pillar_1
+    4300104: Pillar_2
+    4300106: Pillar_3
+    4300108: Pillar_4
+    4300110: Railing
+    4300112: Pillar_1
+    4300114: Pillar_2
+    4300116: Pillar_3
+    4300118: Pillar_4
+    4300120: Railing
+    4300122: Pillar_1
+    4300124: Pillar_2
+    4300126: Pillar_3
+    4300128: Pillar_4
+    4300130: Debris_1
+    4300132: Debris_2
+    4300134: Debris_3
+    4300136: Railing
+    4300138: Pillar_1
+    4300140: Pillar_2
+    4300142: Pillar_3
+    4300144: Railing
+    4300146: Pillar_2
+    4300148: Pillar_3
+    4300150: Debris_1
+    4300152: Debris_2
+    4300154: Debris_3
+    4300156: Railing
+    4300158: Pillar_1
+    4300160: Pillar_2
+    4300162: Pillar_3
+    4300164: Pillar_4
+    4300166: Railing
+    4300168: Pillar_1
+    4300170: Pillar_2
+    4300172: Pillar_3
+    4300174: Pillar_4
+    4300176: Debris_1
+    4300178: Debris_2
+    4300180: Railing
+    4300182: Pillar_1
+    4300184: Pillar_2
+    4300186: Pillar_3
+    4300188: Pillar_4
+    4300190: Railing
+    4300192: Pillar_1
+    4300194: Pillar_2
+    4300196: Pillar_3
+    4300198: Pillar_4
+    4300200: Debris_1
+    4300202: Debris_2
+    4300204: Railing
+    4300206: Pillar_1
+    4300208: Pillar_2
+    4300210: Pillar_3
+    4300212: Pillar_4
+    4300214: Railing
+    4300216: Pillar_1
+    4300218: Pillar_2
+    4300220: Pillar_4
+    4300222: Debris_1
+    4300224: Debris_2
+    4300226: Debris_3
+    4300228: Railing
+    4300230: Pillar_1
+    4300232: Pillar_2
+    4300234: Pillar_3
+    4300236: Pillar_4
+    4300238: Railing
+    4300240: Pillar_1
+    4300242: Pillar_3
+    4300244: Pillar_4
+    4300246: Debris_1
+    4300248: Debris_2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -8,7 +8,7 @@ namespace Impingement.Dungeon
     public class RoomModifierScriptableObject : ScriptableObject
     {
         public float ChanceToSpawn => _chanceToSpawn;
-        [Header("Spawn objects")]
+        [Header("SpawnPlayer objects")]
         [Tooltip("-1 as no limit")]
         public float MaximumModifierSpawns = -1;
 

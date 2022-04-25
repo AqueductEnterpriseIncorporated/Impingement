@@ -1,0 +1,674 @@
+fileFormatVersion: 2
+guid: d1ef70fe53918c44a92f515c8769c249
+timeCreated: 1443324837
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Balconies
+    100004: Balcony_A
+    100006: Balcony_A_Broken
+    100008: Balcony_A_Broken 1
+    100010: Balcony_B
+    100012: Balcony_B_Broken
+    100014: Balcony_B_Broken 1
+    100016: Balcony_C
+    100018: Balcony_C_Broken
+    100020: Balcony_C_Broken 1
+    100022: Debris_1
+    100024: Debris_1 1
+    100026: Debris_1 2
+    100028: Debris_2
+    100030: Debris_2 1
+    100032: Debris_2 2
+    100034: Debris_3
+    100036: Debris_3 1
+    100038: Balcony_D
+    100040: Balcony_D_Broken
+    100042: Balcony_D_Broken 1
+    100044: Debris_1 3
+    100046: Debris_2 3
+    100048: Balcony
+    100050: Balcony 1
+    100052: Balcony_C1
+    100054: Balcony_C2
+    100056: Balcony_D_Left
+    100058: Balcony_D_Left 1
+    100060: Balcony_D_Right
+    100062: Balcony_D_Right 1
+    100064: Stairs_A
+    100066: Balcony_D_Left_Broken
+    100068: Balcony_D_Left_Broken 1
+    100070: Balcony_D_Right_Broken
+    100072: Balcony_D_Right_Broken 1
+    100074: Debris_1 4
+    100076: Debris_1 5
+    100078: Debris_2 4
+    100080: Debris_2 5
+    100082: Debris_3 2
+    100084: Balcony_D1
+    100086: Balcony_D2
+    100088: Balcony_E_Left
+    100090: Balcony_E_Left 1
+    100092: Balcony_E_Left_Broken
+    100094: Balcony_E_Left_Broken 1
+    100096: Balcony_E_Right
+    100098: Balcony_E_Right 1
+    100100: Balcony_E_Right_Broken
+    100102: Balcony_E_Right_Broken 1
+    100104: Pillar_1
+    100106: Pillar_1 1
+    100108: Pillar_1 10
+    100110: Pillar_1 11
+    100112: Pillar_1 12
+    100114: Pillar_1 13
+    100116: Pillar_1 14
+    100118: Pillar_1 2
+    100120: Pillar_1 3
+    100122: Pillar_1 4
+    100124: Pillar_1 5
+    100126: Pillar_1 6
+    100128: Pillar_1 7
+    100130: Pillar_1 8
+    100132: Pillar_1 9
+    100134: Pillar_2
+    100136: Pillar_2 1
+    100138: Pillar_2 10
+    100140: Pillar_2 11
+    100142: Pillar_2 12
+    100144: Pillar_2 13
+    100146: Pillar_2 14
+    100148: Pillar_2 2
+    100150: Pillar_2 3
+    100152: Pillar_2 4
+    100154: Pillar_2 5
+    100156: Pillar_2 6
+    100158: Pillar_2 7
+    100160: Pillar_2 8
+    100162: Pillar_2 9
+    100164: Pillar_3
+    100166: Pillar_3 1
+    100168: Pillar_3 10
+    100170: Pillar_3 11
+    100172: Pillar_3 12
+    100174: Pillar_3 13
+    100176: Pillar_3 14
+    100178: Pillar_3 2
+    100180: Pillar_3 3
+    100182: Pillar_3 4
+    100184: Pillar_3 5
+    100186: Pillar_3 6
+    100188: Pillar_3 7
+    100190: Pillar_3 8
+    100192: Pillar_3 9
+    100194: Pillar_4
+    100196: Pillar_4 1
+    100198: Pillar_4 10
+    100200: Pillar_4 11
+    100202: Pillar_4 12
+    100204: Pillar_4 13
+    100206: Pillar_4 2
+    100208: Pillar_4 3
+    100210: Pillar_4 4
+    100212: Pillar_4 5
+    100214: Pillar_4 6
+    100216: Pillar_4 7
+    100218: Pillar_4 8
+    100220: Pillar_4 9
+    100222: Railing
+    100224: Railing 1
+    100226: Railing 10
+    100228: Railing 11
+    100230: Railing 12
+    100232: Railing 13
+    100234: Railing 14
+    100236: Railing 15
+    100238: Railing 2
+    100240: Railing 3
+    100242: Railing 4
+    100244: Railing 5
+    100246: Railing 6
+    100248: Railing 7
+    100250: Railing 8
+    100252: Railing 9
+    400000: //RootNode
+    400002: Balconies
+    400004: Balcony_A
+    400006: Balcony_A_Broken
+    400008: Balcony_A_Broken 1
+    400010: Balcony_B
+    400012: Balcony_B_Broken
+    400014: Balcony_B_Broken 1
+    400016: Balcony_C
+    400018: Balcony_C_Broken
+    400020: Balcony_C_Broken 1
+    400022: Debris_1
+    400024: Debris_1 1
+    400026: Debris_1 2
+    400028: Debris_2
+    400030: Debris_2 1
+    400032: Debris_2 2
+    400034: Debris_3
+    400036: Debris_3 1
+    400038: Balcony_D
+    400040: Balcony_D_Broken
+    400042: Balcony_D_Broken 1
+    400044: Debris_1 3
+    400046: Debris_2 3
+    400048: Balcony
+    400050: Balcony 1
+    400052: Balcony_C1
+    400054: Balcony_C2
+    400056: Balcony_D_Left
+    400058: Balcony_D_Left 1
+    400060: Balcony_D_Right
+    400062: Balcony_D_Right 1
+    400064: Stairs_A
+    400066: Balcony_D_Left_Broken
+    400068: Balcony_D_Left_Broken 1
+    400070: Balcony_D_Right_Broken
+    400072: Balcony_D_Right_Broken 1
+    400074: Debris_1 4
+    400076: Debris_1 5
+    400078: Debris_2 4
+    400080: Debris_2 5
+    400082: Debris_3 2
+    400084: Balcony_D1
+    400086: Balcony_D2
+    400088: Balcony_E_Left
+    400090: Balcony_E_Left 1
+    400092: Balcony_E_Left_Broken
+    400094: Balcony_E_Left_Broken 1
+    400096: Balcony_E_Right
+    400098: Balcony_E_Right 1
+    400100: Balcony_E_Right_Broken
+    400102: Balcony_E_Right_Broken 1
+    400104: Pillar_1
+    400106: Pillar_1 1
+    400108: Pillar_1 10
+    400110: Pillar_1 11
+    400112: Pillar_1 12
+    400114: Pillar_1 13
+    400116: Pillar_1 14
+    400118: Pillar_1 2
+    400120: Pillar_1 3
+    400122: Pillar_1 4
+    400124: Pillar_1 5
+    400126: Pillar_1 6
+    400128: Pillar_1 7
+    400130: Pillar_1 8
+    400132: Pillar_1 9
+    400134: Pillar_2
+    400136: Pillar_2 1
+    400138: Pillar_2 10
+    400140: Pillar_2 11
+    400142: Pillar_2 12
+    400144: Pillar_2 13
+    400146: Pillar_2 14
+    400148: Pillar_2 2
+    400150: Pillar_2 3
+    400152: Pillar_2 4
+    400154: Pillar_2 5
+    400156: Pillar_2 6
+    400158: Pillar_2 7
+    400160: Pillar_2 8
+    400162: Pillar_2 9
+    400164: Pillar_3
+    400166: Pillar_3 1
+    400168: Pillar_3 10
+    400170: Pillar_3 11
+    400172: Pillar_3 12
+    400174: Pillar_3 13
+    400176: Pillar_3 14
+    400178: Pillar_3 2
+    400180: Pillar_3 3
+    400182: Pillar_3 4
+    400184: Pillar_3 5
+    400186: Pillar_3 6
+    400188: Pillar_3 7
+    400190: Pillar_3 8
+    400192: Pillar_3 9
+    400194: Pillar_4
+    400196: Pillar_4 1
+    400198: Pillar_4 10
+    400200: Pillar_4 11
+    400202: Pillar_4 12
+    400204: Pillar_4 13
+    400206: Pillar_4 2
+    400208: Pillar_4 3
+    400210: Pillar_4 4
+    400212: Pillar_4 5
+    400214: Pillar_4 6
+    400216: Pillar_4 7
+    400218: Pillar_4 8
+    400220: Pillar_4 9
+    400222: Railing
+    400224: Railing 1
+    400226: Railing 10
+    400228: Railing 11
+    400230: Railing 12
+    400232: Railing 13
+    400234: Railing 14
+    400236: Railing 15
+    400238: Railing 2
+    400240: Railing 3
+    400242: Railing 4
+    400244: Railing 5
+    400246: Railing 6
+    400248: Railing 7
+    400250: Railing 8
+    400252: Railing 9
+    2300000: Balcony_A
+    2300002: Balcony_A_Broken 1
+    2300004: Balcony_B
+    2300006: Balcony_B_Broken 1
+    2300008: Balcony_C
+    2300010: Balcony_C_Broken 1
+    2300012: Debris_1
+    2300014: Debris_1 1
+    2300016: Debris_1 2
+    2300018: Debris_2
+    2300020: Debris_2 1
+    2300022: Debris_2 2
+    2300024: Debris_3
+    2300026: Debris_3 1
+    2300028: Balcony_D
+    2300030: Balcony_D_Broken 1
+    2300032: Debris_1 3
+    2300034: Debris_2 3
+    2300036: Balcony 1
+    2300038: Balcony_C1
+    2300040: Balcony_C2
+    2300042: Balcony_D_Left
+    2300044: Balcony_D_Left 1
+    2300046: Balcony_D_Right
+    2300048: Balcony_D_Right 1
+    2300050: Stairs_A
+    2300052: Balcony_D_Left_Broken 1
+    2300054: Balcony_D_Right_Broken 1
+    2300056: Debris_1 4
+    2300058: Debris_1 5
+    2300060: Debris_2 4
+    2300062: Debris_2 5
+    2300064: Debris_3 2
+    2300066: Balcony_D1
+    2300068: Balcony_D2
+    2300070: Balcony_E_Left
+    2300072: Balcony_E_Left 1
+    2300074: Balcony_E_Left_Broken 1
+    2300076: Balcony_E_Right
+    2300078: Balcony_E_Right 1
+    2300080: Balcony_E_Right_Broken 1
+    2300082: Pillar_1
+    2300084: Pillar_1 1
+    2300086: Pillar_1 10
+    2300088: Pillar_1 11
+    2300090: Pillar_1 12
+    2300092: Pillar_1 13
+    2300094: Pillar_1 14
+    2300096: Pillar_1 2
+    2300098: Pillar_1 3
+    2300100: Pillar_1 4
+    2300102: Pillar_1 5
+    2300104: Pillar_1 6
+    2300106: Pillar_1 7
+    2300108: Pillar_1 8
+    2300110: Pillar_1 9
+    2300112: Pillar_2
+    2300114: Pillar_2 1
+    2300116: Pillar_2 10
+    2300118: Pillar_2 11
+    2300120: Pillar_2 12
+    2300122: Pillar_2 13
+    2300124: Pillar_2 14
+    2300126: Pillar_2 2
+    2300128: Pillar_2 3
+    2300130: Pillar_2 4
+    2300132: Pillar_2 5
+    2300134: Pillar_2 6
+    2300136: Pillar_2 7
+    2300138: Pillar_2 8
+    2300140: Pillar_2 9
+    2300142: Pillar_3
+    2300144: Pillar_3 1
+    2300146: Pillar_3 10
+    2300148: Pillar_3 11
+    2300150: Pillar_3 12
+    2300152: Pillar_3 13
+    2300154: Pillar_3 14
+    2300156: Pillar_3 2
+    2300158: Pillar_3 3
+    2300160: Pillar_3 4
+    2300162: Pillar_3 5
+    2300164: Pillar_3 6
+    2300166: Pillar_3 7
+    2300168: Pillar_3 8
+    2300170: Pillar_3 9
+    2300172: Pillar_4
+    2300174: Pillar_4 1
+    2300176: Pillar_4 10
+    2300178: Pillar_4 11
+    2300180: Pillar_4 12
+    2300182: Pillar_4 13
+    2300184: Pillar_4 2
+    2300186: Pillar_4 3
+    2300188: Pillar_4 4
+    2300190: Pillar_4 5
+    2300192: Pillar_4 6
+    2300194: Pillar_4 7
+    2300196: Pillar_4 8
+    2300198: Pillar_4 9
+    2300200: Railing
+    2300202: Railing 1
+    2300204: Railing 10
+    2300206: Railing 11
+    2300208: Railing 12
+    2300210: Railing 13
+    2300212: Railing 14
+    2300214: Railing 15
+    2300216: Railing 2
+    2300218: Railing 3
+    2300220: Railing 4
+    2300222: Railing 5
+    2300224: Railing 6
+    2300226: Railing 7
+    2300228: Railing 8
+    2300230: Railing 9
+    3300000: Balcony_A
+    3300002: Balcony_A_Broken 1
+    3300004: Balcony_B
+    3300006: Balcony_B_Broken 1
+    3300008: Balcony_C
+    3300010: Balcony_C_Broken 1
+    3300012: Debris_1
+    3300014: Debris_1 1
+    3300016: Debris_1 2
+    3300018: Debris_2
+    3300020: Debris_2 1
+    3300022: Debris_2 2
+    3300024: Debris_3
+    3300026: Debris_3 1
+    3300028: Balcony_D
+    3300030: Balcony_D_Broken 1
+    3300032: Debris_1 3
+    3300034: Debris_2 3
+    3300036: Balcony 1
+    3300038: Balcony_C1
+    3300040: Balcony_C2
+    3300042: Balcony_D_Left
+    3300044: Balcony_D_Left 1
+    3300046: Balcony_D_Right
+    3300048: Balcony_D_Right 1
+    3300050: Stairs_A
+    3300052: Balcony_D_Left_Broken 1
+    3300054: Balcony_D_Right_Broken 1
+    3300056: Debris_1 4
+    3300058: Debris_1 5
+    3300060: Debris_2 4
+    3300062: Debris_2 5
+    3300064: Debris_3 2
+    3300066: Balcony_D1
+    3300068: Balcony_D2
+    3300070: Balcony_E_Left
+    3300072: Balcony_E_Left 1
+    3300074: Balcony_E_Left_Broken 1
+    3300076: Balcony_E_Right
+    3300078: Balcony_E_Right 1
+    3300080: Balcony_E_Right_Broken 1
+    3300082: Pillar_1
+    3300084: Pillar_1 1
+    3300086: Pillar_1 10
+    3300088: Pillar_1 11
+    3300090: Pillar_1 12
+    3300092: Pillar_1 13
+    3300094: Pillar_1 14
+    3300096: Pillar_1 2
+    3300098: Pillar_1 3
+    3300100: Pillar_1 4
+    3300102: Pillar_1 5
+    3300104: Pillar_1 6
+    3300106: Pillar_1 7
+    3300108: Pillar_1 8
+    3300110: Pillar_1 9
+    3300112: Pillar_2
+    3300114: Pillar_2 1
+    3300116: Pillar_2 10
+    3300118: Pillar_2 11
+    3300120: Pillar_2 12
+    3300122: Pillar_2 13
+    3300124: Pillar_2 14
+    3300126: Pillar_2 2
+    3300128: Pillar_2 3
+    3300130: Pillar_2 4
+    3300132: Pillar_2 5
+    3300134: Pillar_2 6
+    3300136: Pillar_2 7
+    3300138: Pillar_2 8
+    3300140: Pillar_2 9
+    3300142: Pillar_3
+    3300144: Pillar_3 1
+    3300146: Pillar_3 10
+    3300148: Pillar_3 11
+    3300150: Pillar_3 12
+    3300152: Pillar_3 13
+    3300154: Pillar_3 14
+    3300156: Pillar_3 2
+    3300158: Pillar_3 3
+    3300160: Pillar_3 4
+    3300162: Pillar_3 5
+    3300164: Pillar_3 6
+    3300166: Pillar_3 7
+    3300168: Pillar_3 8
+    3300170: Pillar_3 9
+    3300172: Pillar_4
+    3300174: Pillar_4 1
+    3300176: Pillar_4 10
+    3300178: Pillar_4 11
+    3300180: Pillar_4 12
+    3300182: Pillar_4 13
+    3300184: Pillar_4 2
+    3300186: Pillar_4 3
+    3300188: Pillar_4 4
+    3300190: Pillar_4 5
+    3300192: Pillar_4 6
+    3300194: Pillar_4 7
+    3300196: Pillar_4 8
+    3300198: Pillar_4 9
+    3300200: Railing
+    3300202: Railing 1
+    3300204: Railing 10
+    3300206: Railing 11
+    3300208: Railing 12
+    3300210: Railing 13
+    3300212: Railing 14
+    3300214: Railing 15
+    3300216: Railing 2
+    3300218: Railing 3
+    3300220: Railing 4
+    3300222: Railing 5
+    3300224: Railing 6
+    3300226: Railing 7
+    3300228: Railing 8
+    3300230: Railing 9
+    4300000: Balcony_A
+    4300002: Balcony_B
+    4300004: Balcony_C
+    4300006: Balcony_A_Broken
+    4300008: Debris_1
+    4300010: Debris_2
+    4300012: Debris_3
+    4300014: Balcony_B_Broken
+    4300016: Debris_1
+    4300018: Debris_2
+    4300020: Debris_3
+    4300022: Balcony_C_Broken
+    4300024: Debris_1
+    4300026: Debris_2
+    4300028: Balcony_D
+    4300030: Balcony_D_Broken
+    4300032: Debris_1
+    4300034: Debris_2
+    4300036: Balcony
+    4300038: Stairs_A
+    4300040: Balcony_C1
+    4300042: Balcony_C2
+    4300044: Balcony_D_Left
+    4300046: Balcony_D_Right
+    4300048: Balcony_D_Left
+    4300050: Balcony_D_Right
+    4300052: Balcony_D_Left_Broken
+    4300054: Debris_1
+    4300056: Debris_2
+    4300058: Debris_3
+    4300060: Balcony_D_Right_Broken
+    4300062: Debris_1
+    4300064: Debris_2
+    4300066: Balcony_D1
+    4300068: Balcony_D2
+    4300070: Balcony_E_Left
+    4300072: Balcony_E_Right
+    4300074: Balcony_E_Left
+    4300076: Balcony_E_Left_Broken
+    4300078: Balcony_E_Right
+    4300080: Balcony_E_Right_Broken
+    4300082: Railing
+    4300084: Pillar_1
+    4300086: Pillar_2
+    4300088: Pillar_3
+    4300090: Pillar_4
+    4300092: Railing
+    4300094: Pillar_1
+    4300096: Pillar_2
+    4300098: Pillar_3
+    4300100: Pillar_4
+    4300102: Railing
+    4300104: Pillar_1
+    4300106: Pillar_2
+    4300108: Pillar_3
+    4300110: Pillar_4
+    4300112: Railing
+    4300114: Pillar_1
+    4300116: Pillar_2
+    4300118: Pillar_3
+    4300120: Pillar_4
+    4300122: Railing
+    4300124: Pillar_1
+    4300126: Pillar_2
+    4300128: Pillar_3
+    4300130: Pillar_4
+    4300132: Railing
+    4300134: Pillar_1
+    4300136: Pillar_2
+    4300138: Pillar_3
+    4300140: Pillar_4
+    4300142: Railing
+    4300144: Pillar_1
+    4300146: Pillar_2
+    4300148: Pillar_3
+    4300150: Railing
+    4300152: Pillar_2
+    4300154: Pillar_3
+    4300156: Railing
+    4300158: Pillar_1
+    4300160: Pillar_2
+    4300162: Pillar_3
+    4300164: Pillar_4
+    4300166: Railing
+    4300168: Pillar_1
+    4300170: Pillar_2
+    4300172: Pillar_3
+    4300174: Pillar_4
+    4300176: Railing
+    4300178: Pillar_1
+    4300180: Pillar_2
+    4300182: Pillar_3
+    4300184: Pillar_4
+    4300186: Railing
+    4300188: Pillar_1
+    4300190: Pillar_2
+    4300192: Pillar_3
+    4300194: Pillar_4
+    4300196: Railing
+    4300198: Pillar_1
+    4300200: Pillar_2
+    4300202: Pillar_3
+    4300204: Pillar_4
+    4300206: Railing
+    4300208: Pillar_1
+    4300210: Pillar_2
+    4300212: Pillar_4
+    4300214: Railing
+    4300216: Pillar_1
+    4300218: Pillar_2
+    4300220: Pillar_3
+    4300222: Pillar_4
+    4300224: Railing
+    4300226: Pillar_1
+    4300228: Pillar_3
+    4300230: Pillar_4
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

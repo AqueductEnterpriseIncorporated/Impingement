@@ -7,7 +7,7 @@ namespace Impingement.Dungeon
     {
         public int AreaLevel = 1;
         [SerializeField] private Vector2Int _maximumDungeonSize = new Vector2Int(6, 6);
-        private Vector2Int _dungeonSize = new Vector2Int(2, 3);
+        private Vector2Int _dungeonSize = new Vector2Int(5, 5);
         
         public Vector2Int GetDungeonSize()
         {

@@ -51,7 +51,7 @@ namespace Impingement.Dungeon
             //SpawnBoss();
             SpawnPortals();
             SetSpawnPoint();
-            _networkManager.Spawn();
+            _networkManager.SpawnPlayer();
             CleanUp();
             //todo: fix
             Destroy(GameObject.Find("LoadPanel"));

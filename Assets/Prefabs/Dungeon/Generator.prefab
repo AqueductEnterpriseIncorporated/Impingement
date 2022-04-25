@@ -49,9 +49,13 @@ MonoBehaviour:
   size: {x: 5, y: 5}
   startPos: 0
   rooms:
-  - room: {fileID: 3449465320135233070, guid: 66f69d45fae702c4eb55da878d4ad61d, type: 3}
+  - room: {fileID: 3677668947403407567, guid: 71ef4737e95a709468df120b2469754c, type: 3}
     minPosition: {x: 0, y: 0}
-    maxPosition: {x: 0, y: 0}
+    maxPosition: {x: 5, y: 5}
+    obligatory: 0
+  - room: {fileID: 4395492654755016863, guid: 71bd39a50d961544198f68a97fec65a9, type: 3}
+    minPosition: {x: 0, y: 0}
+    maxPosition: {x: 5, y: 5}
     obligatory: 0
   offset: {x: 12, y: 12}
 --- !u!114 &1260892826528953085
@@ -67,7 +71,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RoomVariants:
-  - {fileID: 11400000, guid: 0a9f670071d36da459d041c848b86005, type: 2}
   - {fileID: 11400000, guid: 136ff9eddbec4304ba6accc928b00e76, type: 2}
   Rooms: []
   Enemies: []

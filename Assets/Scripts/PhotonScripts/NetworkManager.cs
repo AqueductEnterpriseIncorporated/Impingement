@@ -10,10 +10,10 @@ namespace Impingement.PhotonScripts
     
         private void Start()
         {
-            //Spawn();
+            //SpawnPlayer();
         }
 
-        public void Spawn()
+        public void SpawnPlayer()
         {
             if (_spawnTransform == null)
             {
