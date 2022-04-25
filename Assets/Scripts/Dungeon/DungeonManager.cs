@@ -51,9 +51,8 @@ namespace Impingement.Dungeon
             //SpawnBoss();
             SpawnPortals();
             SetSpawnPoint();
-            _networkManager.SpawnPlayer();
             CleanUp();
-            //todo: fix
+            _networkManager.SpawnPlayer();
             Destroy(GameObject.Find("LoadPanel"));
         }
 
@@ -80,10 +79,13 @@ namespace Impingement.Dungeon
 
         private void AddRoomModifiers()
         {
+            Rooms[0].ManageEnemyAmount(true);
             for (int i = 2; i < Rooms.Count - 1; i++)
             {
                 AddModifier(Rooms[i]);
+                //Rooms[i].ManageEnemyAmount(false);
             }
+            Rooms[Rooms.Count - 1].ManageEnemyAmount(true);
         }
         
         private void SetRoomModifiers()

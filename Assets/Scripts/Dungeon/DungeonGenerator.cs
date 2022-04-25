@@ -5,6 +5,7 @@ using Impingement.Serialization.SerializationClasses;
 using Photon.Pun;
 using PlayFab.ClientModels;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
 
 namespace Impingement.Dungeon
@@ -61,12 +62,29 @@ namespace Impingement.Dungeon
             }
             else
             {
-                var dungeonSize = FindObjectOfType<DungeonProgressionManager>().GetDungeonSize();
-                size = dungeonSize;
-                MazeGenerator();
-                GenerateDungeon();
-                _dungeonManager.Manage(false);
+                //while (true)
+                {
+                    try
+                    {
+                        Generate();
+                        //break;
+                    }
+                    catch (Exception e)
+                    {
+                        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                        print(e.Message);
+                    }
+                }
             }
+        }
+
+        private void Generate()
+        {
+            var dungeonSize = FindObjectOfType<DungeonProgressionManager>().GetDungeonSize();
+            size = dungeonSize;
+            MazeGenerator();
+            GenerateDungeon();
+            _dungeonManager.Manage(false);
         }
 
         private void OnDataReceived(GetUserDataResult result)
@@ -86,6 +104,11 @@ namespace Impingement.Dungeon
 
         private void GenerateDungeon()
         {
+            foreach (var room in rooms)
+            {
+                room.maxPosition = size;
+            }
+            
             for (int i = 0; i < size.x; i++)
             {
                 for (int j = 0; j < size.y; j++)
@@ -130,6 +153,7 @@ namespace Impingement.Dungeon
                             .GetComponent<RoomBehaviour>();
                         newRoom.UpdateRoom(currentCell.status);
                         newRoom.name += " " + i + "-" + j;
+                        newRoom.ManageEnemyAmount(false);
                         if (_dungeonData != null)
                         {
                             if (_dungeonData

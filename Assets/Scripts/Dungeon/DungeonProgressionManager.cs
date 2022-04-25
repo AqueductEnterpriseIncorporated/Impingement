@@ -6,7 +6,7 @@ namespace Impingement.Dungeon
     public class DungeonProgressionManager : MonoBehaviour
     {
         public int AreaLevel = 1;
-        [SerializeField] private Vector2Int _maximumDungeonSize = new Vector2Int(6, 6);
+        [SerializeField] private Vector2Int _maximumDungeonSize = new Vector2Int(5, 5);
         private Vector2Int _dungeonSize = new Vector2Int(5, 5);
         
         public Vector2Int GetDungeonSize()

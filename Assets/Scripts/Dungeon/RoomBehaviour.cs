@@ -17,6 +17,9 @@ namespace Impingement.Dungeon
         public RoomModifierScriptableObject roomModifierVariant;
         [SerializeField] private Collider _collider;
         [SerializeField] private PhotonView _photonView;
+        [SerializeField] private List<GameObject> _enemies;
+        [SerializeField] private int _enemiesMininmum;
+        [SerializeField] private int _enemiesMaximum;
         private DungeonManager _dungeonManager;
 
         public void UpdateRoom(bool[] status)
@@ -38,7 +41,30 @@ namespace Impingement.Dungeon
         {
             roomModifierVariant.RoomAction();
         }
-        
+
+        public void ManageEnemyAmount(bool noEnemyRoom)
+        {
+            if (noEnemyRoom)
+            {
+                foreach (var enemy in _enemies)
+                {
+                    Destroy(enemy);
+                }
+                return;
+            }
+            
+            if(_enemies.Count == 0 ) { return; }
+            
+            int amount = Random.Range(_enemiesMininmum, _enemiesMaximum);
+            var arrayCount = _enemies.Count;
+            for (int i = 0; i < arrayCount - amount; i++)
+            {
+                int randomIndex = Random.Range(0, _enemies.Count-1);
+                Destroy(_enemies[randomIndex]);
+                _enemies.RemoveAt(randomIndex);
+            }
+        }
+
         public void SetRoomAction()
         {
             roomModifierVariant.SetRoomAction();
