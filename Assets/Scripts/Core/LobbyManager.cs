@@ -1,16 +1,20 @@
 using System.Collections.Generic;
+using System.Linq;
+using Impingement.Control;
+using Impingement.PhotonScripts;
 using Photon.Pun;
 using Photon.Realtime;
 using TMPro;
 using UnityEngine;
 
-public class LobbyManager : MonoBehaviourPunCallbacks
+public class LobbyManager : MonoBehaviourPunCallbacks, IConnectionCallbacks
 {
     [SerializeField] private GameObject _startGamePanel;
     [SerializeField] private GameObject _connectingPanel;
     [SerializeField] private GameObject _portalPrefab;
     [SerializeField] private GameObject _lobbyPanel;
     [SerializeField] private GameObject _roomPanel;
+    [SerializeField] private GameObject _connectingText;
     [SerializeField] private TMP_Text _roomName;
     [SerializeField] private RoomItemView _roomItemPrefab;
     [SerializeField] private Transform _contentTransform;
@@ -23,37 +27,51 @@ public class LobbyManager : MonoBehaviourPunCallbacks
     
     public void StartSoloGame()
     {
-        _startGamePanel.SetActive(false);
         if (PhotonNetwork.IsConnected)
         {
             PhotonNetwork.Instantiate(_portalPrefab.name, _portalSpawnTransform.position, Quaternion.identity);
             return;
         }
-        PhotonNetwork.ConnectUsingSettings();
+        ConnectAndJoinLobby();
+        _connectingText.SetActive(true);
     }
     
     public void StartMultiplayerGame()
     {
-        // _isMultiplayer = true;
-        // _connectingPanel.SetActive(true);
-        // PhotonNetwork.ConnectUsingSettings(); 
+        _isMultiplayer = true;
+        //_connectingPanel.SetActive(true);
+        _connectingText.SetActive(true);
+        ConnectAndJoinLobby();
+    }
+
+    private static void ConnectAndJoinLobby()
+    {
+        if (!PhotonNetwork.IsConnected)
+        {
+            PhotonNetwork.ConnectUsingSettings();
+        }
+        else
+        {
+            PhotonNetwork.JoinLobby();
+        }
     }
 
     public override void OnConnectedToMaster()
     {
-
-        if (_isMultiplayer)
-        {
-            _connectingPanel.SetActive(false);
-        }
         PhotonNetwork.JoinLobby();
     }
 
     public override void OnJoinedLobby()
     {
+        _connectingText.SetActive(false);
+
         if (!_isMultiplayer)
         {
             CreateRoom();
+        }
+        else
+        {
+            _lobbyPanel.SetActive(true);
         }
     }
 
@@ -64,17 +82,39 @@ public class LobbyManager : MonoBehaviourPunCallbacks
 
     public override void OnJoinedRoom()
     {
+        _startGamePanel.SetActive(false);
+        _lobbyPanel.SetActive(false);
+
         if (_isMultiplayer)
         {
-            _lobbyPanel.SetActive(false);
-            _roomPanel.SetActive(true);
+            //_roomPanel.SetActive(true);
             _roomName.text = PhotonNetwork.CurrentRoom.Name;
+            if (!PhotonNetwork.IsMasterClient)
+            {
+                FindObjectOfType<NetworkManager>().SpawnPlayer();
+            }
+            
+            var players = FindObjectsOfType<PlayerController>();
+
+            foreach (var playerController in players)
+            {
+                if (playerController.GetPhotonView().IsMine)
+                {
+                    playerController.GetPlayersPanel().PanelParent.SetActive(true);
+                }
+                
+                foreach (var otherPlayer in players)
+                {
+                    if (!otherPlayer.GetPhotonView().IsMine)
+                    {
+                        playerController.GetPlayersPanel().AddPlayer(otherPlayer);
+                    }
+                }
+            }
         }
         else
         {
-            //_savingWrapper.LoadLastScene();
             PhotonNetwork.Instantiate(_portalPrefab.name, _portalSpawnTransform.position, Quaternion.identity);
-            //PhotonNetwork.LoadLevel("Dungeon2");
         }
     }
 
@@ -105,5 +145,11 @@ public class LobbyManager : MonoBehaviourPunCallbacks
             newRoom.SetRoomName(room.Name);
             _roomListViews.Add(newRoom);
         }
+    }
+
+    public void CloseLobbyPanel()
+    {
+        _lobbyPanel.SetActive(false);
+        
     }
 }

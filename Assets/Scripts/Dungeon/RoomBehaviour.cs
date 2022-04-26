@@ -14,6 +14,7 @@ namespace Impingement.Dungeon
         public GameObject[] doors;
         public int RandomlyGeneratedObjectSpawnsAmount;
         public List<string> RandomlyGeneratedObjectPrefabNamesList = new List<string>();
+        public List<int> EnemiesToRemove = new List<int>();
         public RoomModifierScriptableObject roomModifierVariant;
         [SerializeField] private Collider _collider;
         [SerializeField] private PhotonView _photonView;
@@ -42,7 +43,7 @@ namespace Impingement.Dungeon
             roomModifierVariant.RoomAction();
         }
 
-        public void ManageEnemyAmount(bool noEnemyRoom)
+        public void ManageEnemyAmount(bool noEnemyRoom, bool isLoaded)
         {
             if (noEnemyRoom)
             {
@@ -54,14 +55,26 @@ namespace Impingement.Dungeon
             }
             
             if(_enemies.Count == 0 ) { return; }
-            
-            int amount = Random.Range(_enemiesMininmum, _enemiesMaximum);
-            var arrayCount = _enemies.Count;
-            for (int i = 0; i < arrayCount - amount; i++)
+
+            if (!isLoaded)
             {
-                int randomIndex = Random.Range(0, _enemies.Count-1);
-                Destroy(_enemies[randomIndex]);
-                _enemies.RemoveAt(randomIndex);
+                int amount = Random.Range(_enemiesMininmum, _enemiesMaximum);
+                var arrayCount = _enemies.Count;
+                for (int i = 0; i < arrayCount - amount; i++)
+                {
+                    int randomIndex = Random.Range(0, _enemies.Count - 1);
+                    Destroy(_enemies[randomIndex]);
+                    _enemies.RemoveAt(randomIndex);
+                    EnemiesToRemove.Add(randomIndex);
+                }
+            }
+            else
+            {
+                // for (int i = 0; i < _enemies.Count; i++)
+                // {
+                //     Destroy(_enemies[EnemiesToRemove[0]]);
+                //     _enemies.RemoveAt(EnemiesToRemove[0]);
+                // }
             }
         }
 

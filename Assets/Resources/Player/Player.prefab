@@ -638,6 +638,8 @@ MonoBehaviour:
   _photonView: {fileID: 7340406914756252015}
   _playerCameraController: {fileID: 2626118094375857953}
   _staminaController: {fileID: 3526650737367140922}
+  _playerCurrencyController: {fileID: 5387498473535023350}
+  _playersPanel: {fileID: 9000701032826192061}
 --- !u!114 &4144291504183224197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3399,6 +3401,10 @@ PrefabInstance:
       propertyPath: _playerCurrencyController
       value: 
       objectReference: {fileID: 5387498473535023350}
+    - target: {fileID: 2012860463060678146, guid: dcc27e9202243784e916439493af3a8a, type: 3}
+      propertyPath: _panelItem
+      value: 
+      objectReference: {fileID: 8161226768982884345, guid: 26a0a3e58c110394c85c613c2dc7654f, type: 3}
     - target: {fileID: 3463947328614461881, guid: dcc27e9202243784e916439493af3a8a, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -3531,6 +3537,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 80ee9fd9303c4dccbbcd18b395399c38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &9000701032826192061 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2012860463060678146, guid: dcc27e9202243784e916439493af3a8a, type: 3}
+  m_PrefabInstance: {fileID: 7424170843056387775}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ae19abb3bc4ca186741fd064e7bfee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &6246577897428030497 stripped

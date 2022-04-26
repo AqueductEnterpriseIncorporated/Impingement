@@ -3,7 +3,9 @@ using Impingement.Core;
 using Impingement.enums;
 using Impingement.Attributes;
 using Impingement.Combat;
+using Impingement.Currency;
 using Impingement.structs;
+using Impingement.UI;
 using Photon.Pun;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -26,6 +28,8 @@ namespace Impingement.Control
         [SerializeField] private PhotonView _photonView;
         [SerializeField] private PlayerCameraController _playerCameraController;
         [SerializeField] private StaminaController _staminaController;
+        [SerializeField] private PlayerCurrencyController _playerCurrencyController;
+        [SerializeField] private PlayersPanel _playersPanel;
         private readonly int _cameraYRotation = 45;
 
         public CombatController GetCombatController()
@@ -42,6 +46,26 @@ namespace Impingement.Control
         {
             return _healthController;
         }
+        
+        public StaminaController GetStaminaController()
+        {
+            return _staminaController;
+        }
+
+        public PlayerCurrencyController GetPlayerCurrencyController()
+        {
+            return _playerCurrencyController;
+        }
+
+        public PhotonView GetPhotonView()
+        {
+            return _photonView;
+        }
+
+        public PlayersPanel GetPlayersPanel()
+        {
+            return _playersPanel;
+        }
 
         private void Start()
         {
@@ -49,7 +73,6 @@ namespace Impingement.Control
             {
                 _camera.gameObject.SetActive(false);
             }
-            PhotonNetwork.NickName = "player" + Random.Range(0,10);
             SetCursor(enumCursorType.Movement);
         }
 

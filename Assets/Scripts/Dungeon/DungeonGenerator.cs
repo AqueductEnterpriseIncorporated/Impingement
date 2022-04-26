@@ -153,7 +153,6 @@ namespace Impingement.Dungeon
                             .GetComponent<RoomBehaviour>();
                         newRoom.UpdateRoom(currentCell.status);
                         newRoom.name += " " + i + "-" + j;
-                        newRoom.ManageEnemyAmount(false);
                         if (_dungeonData != null)
                         {
                             if (_dungeonData
@@ -165,6 +164,7 @@ namespace Impingement.Dungeon
                                     .RoomModifiers[_dungeonManager.Rooms.Count].RandomlyGeneratedObjectPrefabNamesList;
                             }
                         }
+                        newRoom.ManageEnemyAmount(false, _dungeonData != null);
 
                         _dungeonManager.Rooms.Add(newRoom);
                     }

@@ -27,11 +27,11 @@ namespace Impingement.SceneManagement
                     _playfabManager.DungeonIsSaved = false;
                 }
 
-                if (_saveDungeonData)
-                {
-                    FindObjectOfType<DungeonManager>().GenerateJson();
-                    _playfabManager.DungeonIsSaved = true;
-                }
+                // if (_saveDungeonData)
+                // {
+                //     FindObjectOfType<DungeonManager>().GenerateJson();
+                //     _playfabManager.DungeonIsSaved = true;
+                // }
 
                 ManageSceneChanging();
                 other.GetComponent<PlayfabPlayerDataController>().SavePlayerData();

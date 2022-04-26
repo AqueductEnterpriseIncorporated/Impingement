@@ -1,4 +1,5 @@
-﻿using Impingement.Currency;
+﻿using Impingement.Control;
+using Impingement.Currency;
 using Impingement.Playfab;
 using UnityEngine;
 
@@ -11,6 +12,7 @@ namespace Impingement.UI
         [SerializeField] private PlayfabHideoutDataController _playfabHideoutDataController;
         [SerializeField] private GameObject _panel;
         [SerializeField] private Transform _content;
+        private PlayerController _playerController;
 
         public PlayfabHideoutDataController GetController()
         {
@@ -30,15 +32,19 @@ namespace Impingement.UI
         
         private void OnTriggerEnter(Collider other)
         {
-            if (other.TryGetComponent<PlayerCurrencyController>(out var player))
+            if (other.TryGetComponent<PlayerController>(out var player))
             {
-                InteractingPlayer = player;
+                _playerController = player;
+                if(!player.GetPhotonView().IsMine){return;}
+                InteractingPlayer = player.GetPlayerCurrencyController();
                 _panel.SetActive(true);
             }
         }
 
         private void OnTriggerExit(Collider other)
         {
+            if(!_playerController.GetPhotonView().IsMine){return;}
+
             _panel.SetActive(false);
         }
     }

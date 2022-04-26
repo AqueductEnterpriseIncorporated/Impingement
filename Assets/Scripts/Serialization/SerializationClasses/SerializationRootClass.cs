@@ -6,8 +6,13 @@ namespace Impingement.Serialization.SerializationClasses
     // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse);
     public class Enemies
     {
-        public string EnemyName { get; set; }
-        public string EnemyPosition { get; set; }
+        public List<RoomEnemy> RoomEnemies { get; set; }
+    }
+
+    public class RoomEnemy
+    {
+        public string RoomName { get; set; }
+        public List<int> RemovedEnemies { get; set; }
     }
 
     public class Pickups

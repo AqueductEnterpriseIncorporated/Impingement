@@ -79,13 +79,13 @@ namespace Impingement.Dungeon
 
         private void AddRoomModifiers()
         {
-            Rooms[0].ManageEnemyAmount(true);
+            Rooms[0].ManageEnemyAmount(true, false);
             for (int i = 2; i < Rooms.Count - 1; i++)
             {
                 AddModifier(Rooms[i]);
                 //Rooms[i].ManageEnemyAmount(false);
             }
-            Rooms[Rooms.Count - 1].ManageEnemyAmount(true);
+            Rooms[Rooms.Count - 1].ManageEnemyAmount(true, false);
         }
         
         private void SetRoomModifiers()
@@ -210,12 +210,18 @@ namespace Impingement.Dungeon
             
             dungeonData.Board = FindObjectOfType<DungeonGenerator>().Board;
 
-            foreach (var enemy in Enemies)
+            foreach (var room in Rooms)
             {
-                dungeonData.Enemies.Add(new Enemies
+                dungeonData.Enemies.Add(new Enemies()
                 {
-                    EnemyName = enemy.gameObject.name.Replace("(Clone)", ""),
-                    EnemyPosition = enemy.transform.position.ToString()
+                    RoomEnemies = new List<RoomEnemy>()
+                    {
+                        new RoomEnemy()
+                        {
+                            RoomName = room.name,
+                            RemovedEnemies = room.EnemiesToRemove
+                        }
+                    }
                 });
             }
             

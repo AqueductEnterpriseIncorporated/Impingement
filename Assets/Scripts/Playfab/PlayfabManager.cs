@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using Impingement.Control;
-using Impingement.Dungeon;
+using Photon.Pun;
 using PlayFab;
 using UnityEngine;
 using PlayFab.ClientModels;
@@ -31,14 +30,15 @@ namespace Impingement.Playfab
         }
         
         private bool _dungeonIsSaved;
+        private string _nickName;
 
         private void OnApplicationQuit()
         {
-            // if (SceneManager.GetActiveScene().name == "Hideout" || SceneManager.GetActiveScene().name == "Dungeon")
-            // {
-            //     FindObjectOfType<PlayfabPlayerDataController>().SavePlayerData();
-            // }
-            //
+            if (SceneManager.GetActiveScene().name == "Hideout" || SceneManager.GetActiveScene().name == "Dungeon")
+            {
+                FindObjectOfType<PlayfabPlayerDataController>().SavePlayerData();
+            }
+            
             // if (SceneManager.GetActiveScene().name != "Dungeon") { return; }
             //
             // UploadData(new Dictionary<string, string>
@@ -51,6 +51,7 @@ namespace Impingement.Playfab
         public void Login(string login)
         {
             var request = new LoginWithCustomIDRequest {CustomId = login, CreateAccount = true};
+            _nickName = login;
             PlayFabClientAPI.LoginWithCustomID(request, OnLoginSuccess, OnLoginFailure);
         }
         
@@ -116,6 +117,7 @@ namespace Impingement.Playfab
         private void OnLoginSuccess(LoginResult result)
         {
             Debug.Log("Login Success");
+            PhotonNetwork.NickName = _nickName;
             LoadData(OnDataReceivedDungeonIsSaved);
         }
 

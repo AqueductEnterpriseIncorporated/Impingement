@@ -5,154 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e797b75-f4f0-4ea9-b141-84d8d653dbe9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/RoomBasePlayerSpawn.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/RoomBasePlayerSpawn.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Player.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Player.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/PlayersPanel.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/PlayersPanel.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/PlayersPanelItem.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/PlayersPanelItem.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PlayersPanel.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PlayersPanel/PlayerPanelItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PlayersPanel/PlayerPanelItem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PlayersPanel/PlayersPanel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PlayersPanel/PlayersPanel.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Barrel_02.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Barrel_02.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Barrels_Preset_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Barrels_Preset_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Barrels_Preset_02.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Barrels_Preset_02.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Barrels_Preset_03.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Barrels_Preset_03.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Barrels_Preset_04.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Barrels_Preset_04.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Bench_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Bench_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Book_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Book_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Book_02.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Book_02.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Book_03.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Book_03.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Book_04.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Book_04.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Book_05.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Book_05.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Book_06.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Book_06.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Books_Preset_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Books_Preset_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Books_Preset_02.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Books_Preset_02.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Books_Preset_03.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Books_Preset_03.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Books_Preset_04.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Books_Preset_04.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Books_Preset_05.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Books_Preset_05.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Books_Preset_06.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Books_Preset_06.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Bottle_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Bottle_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Bottle_02.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Bottle_02.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Bottle_03.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Bottle_03.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Bricks_01.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Bricks_01.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Bricks_02.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Bricks_02.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Bricks_03.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Bricks_03.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Bricks_04.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Bricks_04.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Bucket_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Bucket_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Candles_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Candles_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Candles_02.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Candles_02.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Candles_03.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Candles_03.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Candles_04.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Candles_04.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Candles_05.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Candles_05.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Candlestick_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Candlestick_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Chair_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Chair_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_02.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_02.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_03.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_03.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_04.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_04.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_05.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_05.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_Big_Preset_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_Big_Preset_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_Big_Preset_02.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_Big_Preset_02.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_Big_Preset_03.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_Big_Preset_03.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_Preset_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_Preset_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_Preset_02.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_Preset_02.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_Preset_03.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_Preset_03.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_Preset_04.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_Preset_04.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_Preset_05.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_Preset_05.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_Preset_06.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_Preset_06.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_Preset_07.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_Preset_07.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_Preset_08.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_Preset_08.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_Preset_09.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_Preset_09.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_Preset_10.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Cupboard_Preset_10.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Damaged_Column_04.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Damaged_Column_04.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Damaged_Column_05.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Damaged_Column_05.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Damaged_Wall_Left_02.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Damaged_Wall_Left_02.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Damaged_Wall_Preset_01.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Damaged_Wall_Preset_01.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Damaged_Wall_Preset_02.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Damaged_Wall_Preset_02.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Damaged_Wall_Preset_03.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Damaged_Wall_Preset_03.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Damaged_Wall_Preset_04.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Damaged_Wall_Preset_04.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Damaged_Wall_Right_02.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Damaged_Wall_Right_02.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Drawer_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Drawer_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Drawer_Preset_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Drawer_Preset_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Drawer_Preset_02.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Drawer_Preset_02.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Flask_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Flask_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Flask_02.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Flask_02.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Flask_03.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Flask_03.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Flask_04.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Flask_04.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Flask_05.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Flask_05.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Gas_Burner_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Gas_Burner_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Glass_Jar_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Glass_Jar_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Glass_Jar_02.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Glass_Jar_02.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Inkpot_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Inkpot_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Jugs_Preset_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Jugs_Preset_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Jugs_Preset_02.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Jugs_Preset_02.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Jugs_Preset_03.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Jugs_Preset_03.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Lamp_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Lamp_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Lantern_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Lantern_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Mortar_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Mortar_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Paper_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Paper_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Paper_02.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Paper_02.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Paper_03.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Paper_03.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Paper_04.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Paper_04.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Paper_05.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Paper_05.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Paper_Preset_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Paper_Preset_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Potion_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Potion_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Potion_02.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Potion_02.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Potion_03.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Potion_03.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Potion_04.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Potion_04.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Retort_Preset_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Retort_Preset_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Rostrum_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Rostrum_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Rostrum_Preset_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Rostrum_Preset_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Sandglass_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Sandglass_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Scale_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Scale_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Shelf_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Shelf_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Shelf_Preset_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Shelf_Preset_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Shelf_Preset_02.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Shelf_Preset_02.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Shelf_Preset_03.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Shelf_Preset_03.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Shelf_Preset_04.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Shelf_Preset_04.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Stand_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Stand_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Stand_02.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Stand_02.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Table_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Table_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Table_Preset_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Table_Preset_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Table_Preset_02.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Table_Preset_02.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Table_Preset_03.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Table_Preset_03.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Table_Preset_04.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Table_Preset_04.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Table_Preset_05.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Table_Preset_05.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Table_Preset_06.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Table_Preset_06.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Table_Preset_07.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Table_Preset_07.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Arch_Corner_Preset_01.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Arch_Corner_Preset_01.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Arch_Corner_Preset_02.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Arch_Corner_Preset_02.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Arch_Corner_Preset_03.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Arch_Corner_Preset_03.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Arch_Corner_Preset_04.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Arch_Corner_Preset_04.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Arch_Corner_Preset_05.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Arch_Corner_Preset_05.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Arch_Corner_Preset_06.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Arch_Corner_Preset_06.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Arch_Preset_01.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Arch_Preset_01.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Arch_Preset_02.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Arch_Preset_02.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Arch_Preset_03.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Arch_Preset_03.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Arch_Preset_04.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Arch_Preset_04.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Arch_Preset_05.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Arch_Preset_05.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Arch_Preset_06.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Arch_Preset_06.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Bottom_Decor_Corner_05.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Bottom_Decor_Corner_05.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Corner_Preset_01.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Corner_Preset_01.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Corner_Preset_02.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Corner_Preset_02.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Corner_Preset_03.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Corner_Preset_03.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Corner_Preset_04.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Corner_Preset_04.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Corner_Preset_05.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Corner_Preset_05.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Corner_Preset_06.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Corner_Preset_06.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Corner_Preset_07.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Corner_Preset_07.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Corner_Preset_08.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Corner_Preset_08.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Corner_Preset_09.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Corner_Preset_09.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Corner_Preset_10.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Corner_Preset_10.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Preset_01.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Preset_01.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Preset_02.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Preset_02.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Preset_03.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/1.2/Wall_Preset_03.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/Base_Thin_01.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/Base_Thin_01.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/Props/Barrel_01.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Meshes/Props/Barrel_01.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/BowPickup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/BowPickup.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/SwordPickup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/SwordPickup.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Rooms/RoomBase Variant1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/RoomBase Variant1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Rooms/RoomBase Variant2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/RoomBase Variant2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/VFX/ArrowImpactEffect.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/VFX/ArrowImpactEffect.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Weapons/ArrowProjectile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Weapons/ArrowProjectile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Core/PersistentObjects.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/PersistentObjects.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Core/UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/UI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/RoomButton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/RoomButton.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dungeon/Dungeon.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dungeon/Dungeon.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/LobbyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/LobbyManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonGenerator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonProgressionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonProgressionManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManagement/PortalView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManagement/PortalView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Serialization/SerializationClasses/SerializationRootClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Serialization/SerializationClasses/SerializationRootClass.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StartGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StartGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UpgradePanelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UpgradePanelController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,10 +180,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="25240">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="28008">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="25240" />
+      <option name="pid" value="28008" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -355,7 +241,8 @@
       <workItem from="1648106877542" duration="13559000" />
       <workItem from="1648136291906" duration="4730000" />
       <workItem from="1648368309996" duration="4529000" />
-      <workItem from="1650877183558" duration="11708000" />
+      <workItem from="1650877183558" duration="13965000" />
+      <workItem from="1650962929709" duration="11843000" />
     </task>
     <servers />
   </component>
@@ -379,6 +266,25 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Core/LobbyManager.cs</url>
+          <line>107</line>
+          <properties documentPath="E:\UnityProjects\Impingement\Assets\Scripts\Core\LobbyManager.cs" initialLine="107" containingFunctionPresentation="method 'OnJoinedRoom'">
+            <startOffsets>
+              <option value="3165" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3205" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
