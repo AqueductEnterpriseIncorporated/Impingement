@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Impingement.Combat;
+using Impingement.Control;
 using Impingement.Currency;
 using Impingement.Stats;
 using PlayFab.ClientModels;
@@ -11,6 +12,7 @@ namespace Impingement.Playfab
     public class PlayfabPlayerDataController : MonoBehaviour
     {
         [SerializeField] private List<WeaponConfig> _availableWeapon;
+        private PlayerController _playerController;
         private PlayfabManager _playfabManager;
         private ExperienceController _experienceController;
         private PlayerCurrencyController _playerCurrencyController;
@@ -22,6 +24,7 @@ namespace Impingement.Playfab
             _playfabManager = FindObjectOfType<PlayfabManager>();
             _experienceController = GetComponent<ExperienceController>();
             _playerCurrencyController = GetComponent<PlayerCurrencyController>();
+            _playerController = GetComponent<PlayerController>();
         }
 
         private void Start()

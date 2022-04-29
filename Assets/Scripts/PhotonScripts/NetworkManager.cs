@@ -1,4 +1,5 @@
-﻿using Photon.Pun;
+﻿using Impingement.Control;
+using Photon.Pun;
 using UnityEngine;
 
 namespace Impingement.PhotonScripts
@@ -7,7 +8,7 @@ namespace Impingement.PhotonScripts
     {
         [SerializeField] private GameObject _playerPrfab;
         [SerializeField] private Transform _spawnTransform;
-    
+
         private void Start()
         {
             //SpawnPlayer();
@@ -21,7 +22,8 @@ namespace Impingement.PhotonScripts
             }
 
             PhotonNetwork.AutomaticallySyncScene = true;
-            PhotonNetwork.Instantiate("player/" + _playerPrfab.name, _spawnTransform.position, Quaternion.identity);
+            PhotonNetwork
+                .Instantiate("player/" + _playerPrfab.name, _spawnTransform.position, Quaternion.identity);
         }
     }
 }

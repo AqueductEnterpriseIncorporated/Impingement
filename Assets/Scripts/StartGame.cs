@@ -1,4 +1,5 @@
 using Impingement.Control;
+using Photon.Pun;
 using UnityEngine;
 
 public class StartGame : MonoBehaviour
@@ -12,7 +13,10 @@ public class StartGame : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             _playerController = other.GetComponent<PlayerController>();
-            if(!_playerController.GetPhotonView().IsMine){return;}
+            if (PhotonNetwork.InRoom)
+            {
+                if(!PhotonNetwork.IsMasterClient){return;}
+            }
             _startGamePanel.SetActive(true);
         }
     }
@@ -21,8 +25,10 @@ public class StartGame : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            if(!_playerController.GetPhotonView().IsMine){return;}
-
+            if (PhotonNetwork.InRoom)
+            {
+                if(!PhotonNetwork.IsMasterClient){return;}
+            }
             _startGamePanel.SetActive(false);
         }
     }

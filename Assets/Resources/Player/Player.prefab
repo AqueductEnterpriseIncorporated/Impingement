@@ -610,6 +610,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b86dd347fc84ed7af8759b18ea9d324, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HudParent: {fileID: 0}
   _raycastRadius: 1
   _rotationSpeed: 1000
   _speed: 4
@@ -640,6 +641,14 @@ MonoBehaviour:
   _staminaController: {fileID: 3526650737367140922}
   _playerCurrencyController: {fileID: 5387498473535023350}
   _playersPanel: {fileID: 9000701032826192061}
+  _playfabPlayerDataController: {fileID: 4532929116257341691}
+  _playfabManager: {fileID: 0}
+  _experienceController: {fileID: 8950967779405781275}
+  _availableWeapon:
+  - {fileID: 11400000, guid: 88eb9e68a21dc2a4ab66961b6c81e600, type: 2}
+  - {fileID: 11400000, guid: 12e009f30c923294da26c582d0d3b149, type: 2}
+  - {fileID: 11400000, guid: 6d1e8034ea1c9214faff9750d43f6b36, type: 2}
+  - {fileID: 11400000, guid: 6f78eb2955acb174f85f8e2c831052df, type: 2}
 --- !u!114 &4144291504183224197
 MonoBehaviour:
   m_ObjectHideFlags: 0

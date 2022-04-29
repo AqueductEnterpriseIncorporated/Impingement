@@ -1,20 +1,25 @@
 ﻿using System;
+using System.Collections.Generic;
 using Impingement.Core;
 using Impingement.enums;
 using Impingement.Attributes;
 using Impingement.Combat;
 using Impingement.Currency;
+using Impingement.Playfab;
+using Impingement.Stats;
 using Impingement.structs;
 using Impingement.UI;
 using Photon.Pun;
+using PlayFab.ClientModels;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using Random = UnityEngine.Random;
 
 namespace Impingement.Control
 {
-    public class PlayerController : MonoBehaviour, IAction
+    public class PlayerController : MonoBehaviourPunCallbacks, IAction
     {
+        public GameObject HudParent;
         [SerializeField] private float _raycastRadius = 1f;
         [SerializeField] private float _rotationSpeed;
         [SerializeField] private float _speed = 3;
@@ -30,23 +35,27 @@ namespace Impingement.Control
         [SerializeField] private StaminaController _staminaController;
         [SerializeField] private PlayerCurrencyController _playerCurrencyController;
         [SerializeField] private PlayersPanel _playersPanel;
+        [SerializeField] private PlayfabPlayerDataController _playfabPlayerDataController;
+        [SerializeField] private PlayfabManager _playfabManager;
+        [SerializeField] private ExperienceController _experienceController;
+        [SerializeField] private List<WeaponConfig> _availableWeapon;
         private readonly int _cameraYRotation = 45;
 
         public CombatController GetCombatController()
         {
             return _combatController;
         }
-        
+
         public TargetHealthDisplay GetTargetHealthDisplay()
         {
             return _targetHealthDisplay;
         }
-        
+
         public HealthController GetHealthController()
         {
             return _healthController;
         }
-        
+
         public StaminaController GetStaminaController()
         {
             return _staminaController;
@@ -67,18 +76,27 @@ namespace Impingement.Control
             return _playersPanel;
         }
 
+        private void Awake()
+        {
+            _playfabManager = FindObjectOfType<PlayfabManager>();
+        }
+
         private void Start()
         {
             if (!_photonView.IsMine)
             {
                 _camera.gameObject.SetActive(false);
             }
+
             SetCursor(enumCursorType.Movement);
         }
 
         private void Update()
         {
-            if (!_photonView.IsMine) { return; }
+            if (!_photonView.IsMine)
+            {
+                return;
+            }
 
             if (InteractWithUI())
             {
@@ -93,7 +111,7 @@ namespace Impingement.Control
             }
 
             ProcessPlayerInput();
-            
+
             if (InteractWithComponent())
             {
                 // _characterController.SimpleMove(Vector3.zero);
@@ -114,11 +132,19 @@ namespace Impingement.Control
         {
             if (Input.GetKey(KeyCode.Q) || Input.GetKeyDown(KeyCode.Q))
             {
-                InteractWithCombat();
+                if (PhotonNetwork.IsConnected)
+                {
+                    _photonView.RPC(nameof(RPCInteractWithCombat), RpcTarget.All);
+                }
+                else
+                {
+                    RPCInteractWithCombat();
+                }
             }
         }
 
-        private void InteractWithCombat()
+        [PunRPC]
+        private void RPCInteractWithCombat()
         {
             var currentWeapon = _combatController.GetCurrentWeapon();
 
@@ -163,6 +189,7 @@ namespace Impingement.Control
                     }
                 }
             }
+
             return false;
         }
 
@@ -174,6 +201,7 @@ namespace Impingement.Control
             {
                 distances[i] = hits[i].distance;
             }
+
             Array.Sort(distances, hits);
             return hits;
         }
@@ -185,6 +213,7 @@ namespace Impingement.Control
                 //SetCursor(enumCursorType.UI);
                 return true;
             }
+
             return false;
         }
 
@@ -196,7 +225,7 @@ namespace Impingement.Control
             {
                 Ray ray = _camera.ScreenPointToRay(Input.mousePosition);
                 RaycastHit rayHit;
-                
+
                 if (!Physics.Raycast(ray, out rayHit) ||
                     !rayHit.transform.TryGetComponent<PlayerController>(out var playerController))
                 {
@@ -206,16 +235,16 @@ namespace Impingement.Control
 
                     return true;
                 }
-                
+
                 _characterController.SimpleMove(Vector3.zero);
-                
+
                 return false;
             }
 
             if (Input.GetMouseButtonUp(0))
             {
                 _characterController.SimpleMove(Vector3.zero);
-                
+
                 return false;
             }
 
@@ -240,7 +269,7 @@ namespace Impingement.Control
             direction = Quaternion.Euler(0, _cameraYRotation, 0) * direction;
             return direction;
         }
-        
+
         private void SetCursor(enumCursorType cursorType)
         {
             CursorMapping cursorMapping = GetCursorMapping(cursorType);
@@ -262,13 +291,65 @@ namespace Impingement.Control
 
         private Ray GetMouseRay()
         {
-            return _playerCameraController.
-                GetPlayerCamera().ScreenPointToRay(Input.mousePosition);
+            return _playerCameraController.GetPlayerCamera().ScreenPointToRay(Input.mousePosition);
         }
 
         public void Cancel()
         {
             _characterController.SimpleMove(Vector3.zero);
+        }
+
+        public override void OnJoinedRoom()
+        {
+            // if (PhotonNetwork.IsMasterClient)
+            // {
+            //     return;
+            // }
+            GetPlayersPanel().PanelParent.SetActive(true);
+
+            photonView.RPC(nameof(RPCSyncPlayers), RpcTarget.All);
+        }
+
+        [PunRPC]
+        private void RPCSyncPlayers()
+        {
+            var players = FindObjectsOfType<PlayerController>();
+
+            foreach (var playerController in players)
+            {
+                if (!playerController.GetPhotonView().IsMine)
+                {
+                    Destroy(playerController.HudParent);
+                    // var id = playerController.GetPhotonView().Controller.NickName;
+                    // playerController._playfabManager.LoadData(id, OnDataReceived);
+                    _playersPanel.AddPlayer(playerController);
+                }
+            }
+        }
+
+        private void OnDataReceived(GetUserDataResult getUserDataResult)
+        {
+            if (getUserDataResult == null) { return; }
+
+            if (getUserDataResult.Data.ContainsKey("Experience"))
+            {
+                _experienceController.GainExperience(Convert.ToInt32(getUserDataResult.Data["Experience"].Value));
+            }
+            if (getUserDataResult.Data.ContainsKey("Currency"))
+            {
+                _playerCurrencyController.MyCurrency = Convert.ToInt32(getUserDataResult.Data["Currency"].Value);
+            }
+            if (getUserDataResult.Data.ContainsKey("Weapon"))
+            {
+                foreach (var weaponConfig in _availableWeapon)
+                {
+                    if (weaponConfig.name == getUserDataResult.Data["Weapon"].Value)
+                    {
+                        _combatController.EquipWeapon(weaponConfig);
+                        break;
+                    }
+                }
+            }
         }
     }
 }

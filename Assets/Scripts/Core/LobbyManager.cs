@@ -94,23 +94,6 @@ public class LobbyManager : MonoBehaviourPunCallbacks, IConnectionCallbacks
                 FindObjectOfType<NetworkManager>().SpawnPlayer();
             }
             
-            var players = FindObjectsOfType<PlayerController>();
-
-            foreach (var playerController in players)
-            {
-                if (playerController.GetPhotonView().IsMine)
-                {
-                    playerController.GetPlayersPanel().PanelParent.SetActive(true);
-                }
-                
-                foreach (var otherPlayer in players)
-                {
-                    if (!otherPlayer.GetPhotonView().IsMine)
-                    {
-                        playerController.GetPlayersPanel().AddPlayer(otherPlayer);
-                    }
-                }
-            }
         }
         else
         {
@@ -150,6 +133,5 @@ public class LobbyManager : MonoBehaviourPunCallbacks, IConnectionCallbacks
     public void CloseLobbyPanel()
     {
         _lobbyPanel.SetActive(false);
-        
     }
 }

@@ -69,9 +69,13 @@ namespace Impingement.Playfab
             PlayFabClientAPI.GetUserData(new GetUserDataRequest(), OnDataReceived, null);
         }
         
+        public void LoadData(string playFabId, Action<GetUserDataResult> OnDataReceived)
+        {
+            PlayFabClientAPI.GetUserData(new GetUserDataRequest(){PlayFabId = playFabId}, OnDataReceived, null);
+        }
+        
         public void UploadJson(string name, string json)
         {
-
             var request = new UpdateUserDataRequest
             {
                 Data = new Dictionary<string, string>

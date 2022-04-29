@@ -1,6 +1,7 @@
 ﻿using Impingement.Control;
 using Impingement.Currency;
 using Impingement.Playfab;
+using Photon.Pun;
 using UnityEngine;
 
 namespace Impingement.UI
@@ -35,16 +36,20 @@ namespace Impingement.UI
             if (other.TryGetComponent<PlayerController>(out var player))
             {
                 _playerController = player;
-                if(!player.GetPhotonView().IsMine){return;}
-                InteractingPlayer = player.GetPlayerCurrencyController();
+                if (PhotonNetwork.InRoom)
+                {
+                    if(!PhotonNetwork.IsMasterClient){return;}
+                }                InteractingPlayer = player.GetPlayerCurrencyController();
                 _panel.SetActive(true);
             }
         }
 
         private void OnTriggerExit(Collider other)
         {
-            if(!_playerController.GetPhotonView().IsMine){return;}
-
+            if (PhotonNetwork.InRoom)
+            {
+                if(!PhotonNetwork.IsMasterClient){return;}
+            }
             _panel.SetActive(false);
         }
     }
