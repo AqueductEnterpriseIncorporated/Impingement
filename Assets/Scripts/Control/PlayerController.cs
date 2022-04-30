@@ -10,6 +10,7 @@ using Impingement.Stats;
 using Impingement.structs;
 using Impingement.UI;
 using Photon.Pun;
+using Photon.Realtime;
 using PlayFab.ClientModels;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -19,7 +20,7 @@ namespace Impingement.Control
 {
     public class PlayerController : MonoBehaviourPunCallbacks, IAction
     {
-        public GameObject HudParent;
+        [SerializeField] private GameObject _hud;
         [SerializeField] private float _raycastRadius = 1f;
         [SerializeField] private float _rotationSpeed;
         [SerializeField] private float _speed = 3;
@@ -40,6 +41,11 @@ namespace Impingement.Control
         [SerializeField] private ExperienceController _experienceController;
         [SerializeField] private List<WeaponConfig> _availableWeapon;
         private readonly int _cameraYRotation = 45;
+
+        public PlayfabPlayerDataController GetPlayfabPlayerDataController()
+        {
+            return _playfabPlayerDataController;
+        }
 
         public CombatController GetCombatController()
         {
@@ -74,6 +80,11 @@ namespace Impingement.Control
         public PlayersPanel GetPlayersPanel()
         {
             return _playersPanel;
+        }
+
+        private GameObject GetHUD()
+        {
+            return _hud;
         }
 
         private void Awake()
@@ -305,24 +316,48 @@ namespace Impingement.Control
             // {
             //     return;
             // }
-            GetPlayersPanel().PanelParent.SetActive(true);
 
-            photonView.RPC(nameof(RPCSyncPlayers), RpcTarget.All);
+            photonView.RPC(nameof(RPCSyncPlayers), RpcTarget.Others);
+
+            UpdatePlayersPanel();
+        }
+
+        private void UpdatePlayersPanel()
+        {
+            foreach (var playerController in FindObjectsOfType<PlayerController>())
+            {
+                if (!playerController.GetPhotonView().IsMine)
+                {
+                    playerController.GetHUD().SetActive(false);
+                    _playersPanel.AddPlayer(playerController);
+                }
+            }
+        }
+
+        public override void OnPlayerEnteredRoom(Player newPlayer)
+        {
+            _playersPanel.PanelParent.SetActive(true);
         }
 
         [PunRPC]
         private void RPCSyncPlayers()
         {
             var players = FindObjectsOfType<PlayerController>();
-
+ 
             foreach (var playerController in players)
             {
                 if (!playerController.GetPhotonView().IsMine)
                 {
-                    Destroy(playerController.HudParent);
+                    playerController.GetHUD().SetActive(false);
+                    _playersPanel.AddPlayer(playerController);
+                    //playerController.GetPlayersPanel().AddPlayer(this);
+                    // _playersPanel.AddPlayer(playerController);
+                    // var id = playerController.GetPhotonView().Controller.NickName;
+                    // playerController.GetPlayfabPlayerDataController().SetupPlayer(id);
+                    
+                    //Destroy(playerController._hud);
                     // var id = playerController.GetPhotonView().Controller.NickName;
                     // playerController._playfabManager.LoadData(id, OnDataReceived);
-                    _playersPanel.AddPlayer(playerController);
                 }
             }
         }

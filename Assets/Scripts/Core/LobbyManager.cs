@@ -93,7 +93,6 @@ public class LobbyManager : MonoBehaviourPunCallbacks, IConnectionCallbacks
             {
                 FindObjectOfType<NetworkManager>().SpawnPlayer();
             }
-            
         }
         else
         {

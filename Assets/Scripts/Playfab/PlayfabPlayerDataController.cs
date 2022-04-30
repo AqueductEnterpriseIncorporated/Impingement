@@ -32,6 +32,11 @@ namespace Impingement.Playfab
             _playfabManager.LoadData(OnDataReceivedPlayerData);
         }
 
+        public void SetupPlayer(string id)
+        {
+            _playfabManager.LoadData(OnDataReceivedPlayerData, id);
+        }
+
         public void SavePlayerData()
         {
             _playfabManager.UploadData(new Dictionary<string, string>()

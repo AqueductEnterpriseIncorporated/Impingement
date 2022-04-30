@@ -12,6 +12,7 @@ namespace Impingement.UI
         {
             var localPrefab = Instantiate(_panelItem, PanelParent.transform, true);
             localPrefab.SetupPlayer(playerController);
+            print($"player added: {playerController.GetPhotonView().Controller.NickName}");
         }
     }
 }

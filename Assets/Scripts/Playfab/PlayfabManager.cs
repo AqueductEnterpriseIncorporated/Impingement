@@ -69,6 +69,14 @@ namespace Impingement.Playfab
             PlayFabClientAPI.GetUserData(new GetUserDataRequest(), OnDataReceived, null);
         }
         
+        public void LoadData(Action<GetUserDataResult> OnDataReceived, string id)
+        {
+            PlayFabClientAPI.GetUserData(new GetUserDataRequest()
+            {
+                PlayFabId = id
+            }, OnDataReceived, null);
+        }
+        
         public void LoadData(string playFabId, Action<GetUserDataResult> OnDataReceived)
         {
             PlayFabClientAPI.GetUserData(new GetUserDataRequest(){PlayFabId = playFabId}, OnDataReceived, null);
