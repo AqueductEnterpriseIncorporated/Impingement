@@ -3394,10 +3394,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1587803557045461184}
     m_Modifications:
-    - target: {fileID: 1052774550342685645, guid: dcc27e9202243784e916439493af3a8a, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1327899720997963218, guid: dcc27e9202243784e916439493af3a8a, type: 3}
       propertyPath: _healthController
       value: 
@@ -3410,10 +3406,6 @@ PrefabInstance:
       propertyPath: _playerCurrencyController
       value: 
       objectReference: {fileID: 5387498473535023350}
-    - target: {fileID: 2012860463060678146, guid: dcc27e9202243784e916439493af3a8a, type: 3}
-      propertyPath: _panelItem
-      value: 
-      objectReference: {fileID: 8161226768982884345, guid: 26a0a3e58c110394c85c613c2dc7654f, type: 3}
     - target: {fileID: 3463947328614461881, guid: dcc27e9202243784e916439493af3a8a, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -3500,10 +3492,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3725148303956399289, guid: dcc27e9202243784e916439493af3a8a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3870089162560967456, guid: dcc27e9202243784e916439493af3a8a, type: 3}
-      propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5295604863931317161, guid: dcc27e9202243784e916439493af3a8a, type: 3}
