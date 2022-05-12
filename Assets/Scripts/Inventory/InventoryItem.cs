@@ -21,6 +21,8 @@ namespace Impingement.Inventory
         [SerializeField][TextArea] private string _description = null;
         [Tooltip("The UI _icon to represent this item in the playerInventory.")]
         [SerializeField] private Sprite _icon = null;
+        [Tooltip("The prefab that should be spawned when this item is dropped.")]
+        [SerializeField] private Pickup _pickup = null;
         [Tooltip("If true, multiple items of this type can be stacked in the same playerInventory slot.")]
         [SerializeField] private bool _stackable = false;
 
@@ -55,6 +57,19 @@ namespace Impingement.Inventory
 
             if (itemID == null || !ItemLookupCache.ContainsKey(itemID)) return null;
             return ItemLookupCache[itemID];
+        }
+
+        /// <summary>
+        /// Spawn the pickup gameobject into the world.
+        /// </summary>
+        /// <param name="position">Where to spawn the pickup.</param>
+        /// <returns>Reference to the pickup object spawned.</returns>
+        public Pickup SpawnPickup(Vector3 position)
+        {
+            var pickup = Instantiate(_pickup);
+            pickup.transform.position = position;
+            pickup.Setup(this);
+            return pickup;
         }
         
         public Sprite GetIcon()

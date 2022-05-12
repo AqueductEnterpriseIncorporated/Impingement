@@ -15,5 +15,6 @@ MonoBehaviour:
   _itemID: cf3570fd-3587-4040-9cf2-4182a612b9be
   _displayName: Test
   _description: qwreeafr
-  _icon: {fileID: 21300000, guid: 65d466afcff75fa428a0b237f81846d6, type: 3}
+  _icon: {fileID: 21300000, guid: f00feafcf0675cd47a48f83ae42b06d4, type: 3}
+  _pickup: {fileID: 3267216418970544426, guid: e93ff8aae9b75354a9f4e1965948e8dc, type: 3}
   _stackable: 0

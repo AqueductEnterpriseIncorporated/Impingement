@@ -6,6 +6,6 @@ namespace Impingement.Control
     {
         bool HandleRaycast(PlayerController callingController);
 
-        enumCursorType GetCursorType();
+        //enumCursorType GetCursorType();
     }
 }

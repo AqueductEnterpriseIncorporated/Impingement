@@ -5,6 +5,7 @@ using Impingement.enums;
 using Impingement.Attributes;
 using Impingement.Combat;
 using Impingement.Currency;
+using Impingement.Inventory;
 using Impingement.Playfab;
 using Impingement.Stats;
 using Impingement.structs;
@@ -39,6 +40,7 @@ namespace Impingement.Control
         [SerializeField] private PlayfabPlayerDataController _playfabPlayerDataController;
         [SerializeField] private PlayfabManager _playfabManager;
         [SerializeField] private ExperienceController _experienceController;
+        [SerializeField] private InventoryController _inventoryController;
         [SerializeField] private List<WeaponConfig> _availableWeapon;
         private readonly int _cameraYRotation = 45;
 
@@ -85,6 +87,11 @@ namespace Impingement.Control
         private GameObject GetHUD()
         {
             return _hud;
+        }
+
+        public InventoryController GetInventoryController()
+        {
+            return _inventoryController;
         }
 
         private void Awake()
