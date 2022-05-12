@@ -5,13 +5,13 @@ namespace Impingement.Inventory
 {
     /// <summary>
     /// A ScriptableObject that represents any item that can be put in an
-    /// inventory.
+    /// playerInventory.
     /// </summary>
     /// <remarks>
     /// In practice, you are likely to use a subclass such as `ActionItem` or
     /// `EquipableItem`.
     /// </remarks>
-    [CreateAssetMenu(menuName = ("Inventory/Item"))]
+    [CreateAssetMenu(menuName = ("PlayerInventory/Item"))]
     public class InventoryItem : ScriptableObject, ISerializationCallbackReceiver    {
         [Tooltip("Auto-generated UUID for saving/loading. Clear this field if you want to generate a new one.")]
         [SerializeField] private string _itemID = null;
@@ -19,15 +19,15 @@ namespace Impingement.Inventory
         [SerializeField] private string _displayName = null;
         [Tooltip("Item _description to be displayed in UI.")]
         [SerializeField][TextArea] private string _description = null;
-        [Tooltip("The UI _icon to represent this item in the inventory.")]
+        [Tooltip("The UI _icon to represent this item in the playerInventory.")]
         [SerializeField] private Sprite _icon = null;
-        [Tooltip("If true, multiple items of this type can be stacked in the same inventory slot.")]
+        [Tooltip("If true, multiple items of this type can be stacked in the same playerInventory slot.")]
         [SerializeField] private bool _stackable = false;
 
         public static Dictionary<string, InventoryItem> ItemLookupCache;
         
         /// <summary>
-        /// Get the inventory item instance from its UUID.
+        /// Get the playerInventory item instance from its UUID.
         /// </summary>
         /// <param name="itemID">
         /// String UUID that persists between game instances.

@@ -1,9 +1,14 @@
 ﻿using System.Collections.Generic;
+using Impingement.Combat;
 using Impingement.Dungeon;
+using Impingement.Inventory;
+using Impingement.Stats;
 
 namespace Impingement.Serialization.SerializationClasses
 {
     // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse);
+
+    #region Dungeon
     public class Enemies
     {
         public List<RoomEnemy> RoomEnemies { get; set; }
@@ -50,9 +55,34 @@ namespace Impingement.Serialization.SerializationClasses
         public bool Unlocked { get; set; }
         public bool Equipped { get; set; }
     }
-    
+    #endregion
+
+    #region Hideout
     public class SerializableHideoutData
     {
         public List<UpgradeItems> UpgradeItems { get; set; }
     }
+    #endregion
+
+    #region Player
+    public class Item
+    {
+        public string ItemId { get; set; }
+        public int ItemIndex{ get; set; }
+    }
+    
+    public class PlayerInventory
+    {
+        public int InventorySize { get; set; }
+        public List<Item> InventoryItems { get; set; }
+    }
+
+    public class SerializablePlayerData
+    {
+        public PlayerInventory Inventory { get; set; }
+        public int Experience { get; set; }
+        public string Weapon { get; set; }
+        public int Currency { get; set; }
+    }
+    #endregion
 }

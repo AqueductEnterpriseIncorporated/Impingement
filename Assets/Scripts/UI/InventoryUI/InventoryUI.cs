@@ -4,8 +4,8 @@ using UnityEngine;
 namespace Impingement.UI.InventoryUI
 {
     /// <summary>
-    /// To be placed on the root of the inventory UI. Handles spawning all the
-    /// inventory slot prefabs.
+    /// To be placed on the root of the playerInventory UI. Handles spawning all the
+    /// playerInventory slot prefabs.
     /// </summary>
     public class InventoryUI : MonoBehaviour
     {

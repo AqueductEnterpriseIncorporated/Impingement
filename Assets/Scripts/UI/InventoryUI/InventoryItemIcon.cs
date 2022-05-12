@@ -5,7 +5,7 @@ using UnityEngine.UI;
 namespace Impingement.UI.InventoryUI
 {
     /// <summary>
-    /// To be put on the icon representing an inventory item. Allows the slot to
+    /// To be put on the icon representing an playerInventory item. Allows the slot to
     /// update the icon and number.
     /// </summary>
     [RequireComponent(typeof(Image))]
