@@ -24,15 +24,23 @@ namespace Impingement.Inventory
             return _item;
         }
 
-        public void PickupItem(InventoryController inventoryController)
+        public void PickupItem(InventoryController inventoryController, ItemDropper itemDropper)
         {
             bool foundSlot = inventoryController.AddToFirstEmptySlot(_item);
             if (foundSlot)
             {
+                for (int i = 0; i < itemDropper.DroppedItems.Count; i++)
+                {
+                    if (itemDropper.DroppedItems[i]._item.GetItemID() == _item.GetItemID())
+                    {
+                        itemDropper.DroppedItems.RemoveAt(i);
+                    }
+                }
                 Destroy(gameObject);
             }
         }
 
+        //todo: use
         public bool CanBePickedUp(InventoryController inventoryController)
         {
             return inventoryController.HasSpaceFor(_item);

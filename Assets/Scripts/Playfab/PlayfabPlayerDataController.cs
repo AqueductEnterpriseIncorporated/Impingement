@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using Impingement.Combat;
 using Impingement.Control;
 using Impingement.Currency;
@@ -21,6 +22,7 @@ namespace Impingement.Playfab
         private PlayerCurrencyController _playerCurrencyController;
         private CombatController _combatController;
         private InventoryController _inventoryController;
+        private ItemDropper _itemDropper;
 
         private void Awake()
         {
@@ -30,6 +32,7 @@ namespace Impingement.Playfab
             _playerCurrencyController = GetComponent<PlayerCurrencyController>();
             _playerController = GetComponent<PlayerController>();
             _inventoryController = GetComponent<InventoryController>();
+            _itemDropper = GetComponent<ItemDropper>();
         }
 
         private void Start()
@@ -69,13 +72,40 @@ namespace Impingement.Playfab
                     ItemIndex = index
                 });
             }
+            
+            var droppedItems = new List<DroppedItem>();
+            if (_itemDropper.DroppedItems.Count > 0)
+            {
+                foreach (var droppedItem in _itemDropper.DroppedItems)
+                {
+                    var itemCoordinates = new ItemCoordinates()
+                    {
+                        PositionX = droppedItem.transform.position.x.ToString(),
+                        PositionY = droppedItem.transform.position.y.ToString(),
+                        PositionZ = droppedItem.transform.position.z.ToString(),
+
+                    };
+                    DroppedItem item = new DroppedItem()
+                    {
+                        Position = itemCoordinates,
+                        ItemId = droppedItem.GetItem().GetItemID()
+                    };
+                    droppedItems.Add(item);
+                }
+            }
+            PlayerDroppedItems playerDroppedItems = new PlayerDroppedItems()
+            {
+                DroppedItems = droppedItems
+            };
+            
 
             SerializablePlayerData playerData = new SerializablePlayerData
             {
                 Currency = _playerCurrencyController.MyCurrency,
                 Experience = _experienceController.GetExperiencePoints(),
                 Weapon = _combatController.GetCurrentWeapon().name,
-                Inventory = inventory
+                Inventory = inventory,
+                SerializableDroppedItems = playerDroppedItems
             };
             return StringSerializationAPI.Serialize(typeof(SerializablePlayerData),  playerData);
         }
@@ -116,6 +146,19 @@ namespace Impingement.Playfab
                 else
                 {
                     _inventoryController.Slots = new InventoryItem[_inventoryController.DefaultSize];
+                }
+
+                var droppedItemsList = playerData.SerializableDroppedItems;
+                
+                if (playerData.SerializableDroppedItems != null && playerData.SerializableDroppedItems.DroppedItems.Count > 0)
+                {
+                    foreach (var item in droppedItemsList.DroppedItems)
+                    {
+                        var pickupItem = InventoryItem.GetFromID(item.ItemId);
+                        Vector3 position = new Vector3(Convert.ToSingle(item.Position.PositionX),
+                            Convert.ToSingle(item.Position.PositionY), Convert.ToSingle(item.Position.PositionZ));
+                        _itemDropper.SpawnPickup(pickupItem, position);
+                    }
                 }
 
                 //todo: refactoring

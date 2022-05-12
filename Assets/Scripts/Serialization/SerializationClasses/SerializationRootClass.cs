@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Numerics;
 using Impingement.Combat;
 using Impingement.Dungeon;
 using Impingement.Inventory;
@@ -70,16 +71,35 @@ namespace Impingement.Serialization.SerializationClasses
         public string ItemId { get; set; }
         public int ItemIndex{ get; set; }
     }
+
+    public class ItemCoordinates
+    {
+        public string PositionX{ get; set; }
+        public string PositionY{ get; set; }
+        public string PositionZ{ get; set; }
+    }
+    public class DroppedItem
+    {
+        public string ItemId { get; set; }
+        public ItemCoordinates Position { get; set; }
+
+    }
     
     public class PlayerInventory
     {
         public int InventorySize { get; set; }
         public List<Item> InventoryItems { get; set; }
     }
+    
+    public class PlayerDroppedItems
+    {
+        public List<DroppedItem> DroppedItems { get; set; }
+    }
 
     public class SerializablePlayerData
     {
         public PlayerInventory Inventory { get; set; }
+        public PlayerDroppedItems SerializableDroppedItems { get; set; }
         public int Experience { get; set; }
         public string Weapon { get; set; }
         public int Currency { get; set; }

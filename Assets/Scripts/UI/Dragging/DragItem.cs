@@ -55,7 +55,7 @@ namespace Impingement.UI.Dragging
             IDragDestination<T> container;
             if (!EventSystem.current.IsPointerOverGameObject())
             {
-                container = _parentCanvas.GetComponent<IDragDestination<T>>();
+                container = _parentCanvas.GetComponentInParent<IDragDestination<T>>();
             }
             else
             {

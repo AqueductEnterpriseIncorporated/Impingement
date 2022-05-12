@@ -41,6 +41,7 @@ namespace Impingement.Control
         [SerializeField] private PlayfabManager _playfabManager;
         [SerializeField] private ExperienceController _experienceController;
         [SerializeField] private InventoryController _inventoryController;
+        [SerializeField] private ItemDropper _itemDropper;
         [SerializeField] private List<WeaponConfig> _availableWeapon;
         private readonly int _cameraYRotation = 45;
 
@@ -92,6 +93,11 @@ namespace Impingement.Control
         public InventoryController GetInventoryController()
         {
             return _inventoryController;
+        }
+        
+        public ItemDropper GetItemDropper()
+        {
+            return _itemDropper;
         }
 
         private void Awake()

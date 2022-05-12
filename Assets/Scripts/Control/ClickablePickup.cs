@@ -20,7 +20,7 @@ namespace Impingement.Control
             {
                 if (_pickupInRange.PlayerInRange)
                 {
-                    _pickup.PickupItem(callingController.GetInventoryController());
+                    _pickup.PickupItem(callingController.GetInventoryController(), callingController.GetItemDropper());
                 }
             }
             return true;
