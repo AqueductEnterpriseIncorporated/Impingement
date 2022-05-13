@@ -1,10 +1,11 @@
 ﻿using Impingement.Inventory;
 using UnityEngine;
 using Impingement.UI.Dragging;
+using Impingement.UI.Tooltip;
 
 namespace Impingement.UI.InventoryUI
 {
-    public class InventorySlotUI : MonoBehaviour, IDragContainer<InventoryItem>
+    public class InventorySlotUI : MonoBehaviour, IDragContainer<InventoryItem>, IItemHolder
     {
         [SerializeField] private InventoryItemIcon _icon = null;
         
