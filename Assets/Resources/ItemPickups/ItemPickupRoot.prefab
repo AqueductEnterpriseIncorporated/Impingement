@@ -46,8 +46,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerInRange: 0
-  _radius: 0.5
-  _collider: {fileID: 1776446861339952792}
 --- !u!135 &1776446861339952792
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -148,4 +146,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03eec878f4d74164d8a9d6ce66901260, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _tooltipPrefab: {fileID: 6796662661069912602, guid: 9ae64e5bbc82aa44fa6f44bf445d382a, type: 3}
   _pickupInRange: {fileID: 7013618208036190015}

@@ -9,14 +9,14 @@ namespace Impingement.UI.Dragging
     /// Create a subclass for the type you want to be draggable. Then place on
     /// the UI element you want to make draggable.
     /// 
-    /// During dragging, the item is reparented to the parent canvas.
+    /// During dragging, the Item is reparented to the parent canvas.
     /// 
-    /// After the item is dropped it will be automatically return to the
+    /// After the Item is dropped it will be automatically return to the
     /// original UI parent. It is the job of components implementing `IDragContainer`,
     /// `IDragDestination and `IDragSource` to update the interface after a drag
     /// has occurred.
     /// </summary>
-    /// <typeparam name="T">The type that represents the item being dragged.</typeparam>
+    /// <typeparam name="T">The type that represents the Item being dragged.</typeparam>
     public class DragItem<T> : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
         where T : class
     { 
@@ -100,7 +100,7 @@ namespace Impingement.UI.Dragging
 
         private void AttemptSwap(IDragContainer<T> destination, IDragContainer<T> source)
         {
-            // Provisionally remove item from both sides. 
+            // Provisionally remove Item from both sides. 
             var removedSourceNumber = source.GetNumber();
             var removedSourceItem = source.GetItem();
             var removedDestinationNumber = destination.GetNumber();

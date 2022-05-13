@@ -20,10 +20,10 @@ namespace Impingement.Inventory
         /// <summary>
         /// Create a pickup at the current position.
         /// </summary>
-        /// <param name="item">The item type for the pickup.</param>
-        public void DropItem(InventoryItem item)
+        /// <param name="item">The Item type for the pickup.</param>
+        public void DropItem(InventoryItem item, int number)
         {
-            SpawnPickup(item, GetDropLocation());
+            SpawnPickup(item, GetDropLocation(), number);
         }
         
         /// <summary>
@@ -35,9 +35,9 @@ namespace Impingement.Inventory
             return transform.position;
         }
         
-        public void SpawnPickup(InventoryItem item, Vector3 spawnLocation)
+        public void SpawnPickup(InventoryItem item, Vector3 spawnLocation, int number)
         {
-            var pickup = item.SpawnPickup(spawnLocation);
+            var pickup = item.SpawnPickup(spawnLocation, number);
             DroppedItems.Add(pickup);
         }
     }

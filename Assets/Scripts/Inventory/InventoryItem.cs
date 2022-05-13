@@ -4,7 +4,7 @@ using UnityEngine;
 namespace Impingement.Inventory
 {
     /// <summary>
-    /// A ScriptableObject that represents any item that can be put in an
+    /// A ScriptableObject that represents any Item that can be put in an
     /// playerInventory.
     /// </summary>
     /// <remarks>
@@ -19,9 +19,9 @@ namespace Impingement.Inventory
         [SerializeField] private string _displayName = null;
         [Tooltip("Item _description to be displayed in UI.")]
         [SerializeField][TextArea] private string _description = null;
-        [Tooltip("The UI _icon to represent this item in the playerInventory.")]
+        [Tooltip("The UI _icon to represent this Item in the playerInventory.")]
         [SerializeField] private Sprite _icon = null;
-        [Tooltip("The prefab that should be spawned when this item is dropped.")]
+        [Tooltip("The prefab that should be spawned when this Item is dropped.")]
         [SerializeField] private Pickup _pickup = null;
         [Tooltip("If true, multiple items of this type can be stacked in the same playerInventory slot.")]
         [SerializeField] private bool _stackable = false;
@@ -29,13 +29,13 @@ namespace Impingement.Inventory
         public static Dictionary<string, InventoryItem> ItemLookupCache;
         
         /// <summary>
-        /// Get the playerInventory item instance from its UUID.
+        /// Get the playerInventory Item instance from its UUID.
         /// </summary>
         /// <param name="itemID">
         /// String UUID that persists between game instances.
         /// </param>
         /// <returns>
-        /// InventoryController item instance corresponding to the ID.
+        /// InventoryController Item instance corresponding to the ID.
         /// </returns>
         public static InventoryItem GetFromID(string itemID)
         {
@@ -64,11 +64,11 @@ namespace Impingement.Inventory
         /// </summary>
         /// <param name="position">Where to spawn the pickup.</param>
         /// <returns>Reference to the pickup object spawned.</returns>
-        public Pickup SpawnPickup(Vector3 position)
+        public Pickup SpawnPickup(Vector3 position, int number)
         {
             var pickup = Instantiate(_pickup);
             pickup.transform.position = position;
-            pickup.Setup(this);
+            pickup.Setup(this, number);
             return pickup;
         }
         

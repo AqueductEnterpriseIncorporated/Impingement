@@ -4,30 +4,30 @@ using UnityEngine.EventSystems;
 namespace Impingement.UI.Tooltip
 {
     /// <summary>
-    /// Abstract base class that handles the spawning of a tooltip prefab at the
+    /// Abstract base class that handles the spawning of a _tooltip prefab at the
     /// correct position on screen relative to a cursor.
     /// 
-    /// Override the abstract functions to create a tooltip spawner for your own
+    /// Override the abstract functions to create a _tooltip spawner for your own
     /// data.
     /// </summary>
     public abstract class TooltipSpawner : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
-        [Tooltip("The prefab of the tooltip to spawn.")]
+        [Tooltip("The prefab of the _tooltip to spawn.")]
         [SerializeField] private GameObject _tooltipPrefab = null;
 
-        private GameObject tooltip = null;
+        private GameObject _tooltip = null;
 
         /// <summary>
-        /// Called when it is time to update the information on the tooltip
+        /// Called when it is time to update the information on the _tooltip
         /// prefab.
         /// </summary>
         /// <param name="tooltip">
-        /// The spawned tooltip prefab for updating.
+        /// The spawned _tooltip prefab for updating.
         /// </param>
         public abstract void UpdateTooltip(GameObject tooltip);
         
         /// <summary>
-        /// Return true when the tooltip spawner should be allowed to create a tooltip.
+        /// Return true when the _tooltip spawner should be allowed to create a _tooltip.
         /// </summary>
         public abstract bool CanCreateTooltip();
         
@@ -45,19 +45,19 @@ namespace Impingement.UI.Tooltip
         {
             var parentCanvas = GetComponentInParent<Canvas>();
 
-            if (tooltip && !CanCreateTooltip())
+            if (_tooltip && !CanCreateTooltip())
             {
                 ClearTooltip();
             }
 
-            if (!tooltip && CanCreateTooltip())
+            if (!_tooltip && CanCreateTooltip())
             {
-                tooltip = Instantiate(_tooltipPrefab, parentCanvas.transform);
+                _tooltip = Instantiate(_tooltipPrefab, parentCanvas.transform);
             }
 
-            if (tooltip)
+            if (_tooltip)
             {
-                UpdateTooltip(tooltip);
+                UpdateTooltip(_tooltip);
                 PositionTooltip();
             }
         }
@@ -68,7 +68,7 @@ namespace Impingement.UI.Tooltip
             Canvas.ForceUpdateCanvases();
 
             var tooltipCorners = new Vector3[4];
-            tooltip.GetComponent<RectTransform>().GetWorldCorners(tooltipCorners);
+            _tooltip.GetComponent<RectTransform>().GetWorldCorners(tooltipCorners);
             var slotCorners = new Vector3[4];
             GetComponent<RectTransform>().GetWorldCorners(slotCorners);
 
@@ -78,7 +78,7 @@ namespace Impingement.UI.Tooltip
             int slotCorner = GetCornerIndex(below, right);
             int tooltipCorner = GetCornerIndex(!below, !right);
 
-            tooltip.transform.position = slotCorners[slotCorner] - tooltipCorners[tooltipCorner] + tooltip.transform.position;
+            _tooltip.transform.position = slotCorners[slotCorner] - tooltipCorners[tooltipCorner] + _tooltip.transform.position;
         }
 
         private int GetCornerIndex(bool below, bool right)
@@ -97,9 +97,9 @@ namespace Impingement.UI.Tooltip
 
         private void ClearTooltip()
         {
-            if (tooltip)
+            if (_tooltip)
             {
-                Destroy(tooltip.gameObject);
+                Destroy(_tooltip.gameObject);
             }
         }
     }

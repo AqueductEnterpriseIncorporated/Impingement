@@ -69,7 +69,8 @@ namespace Impingement.Serialization.SerializationClasses
     public class Item
     {
         public string ItemId { get; set; }
-        public int ItemIndex{ get; set; }
+        public int ItemIndex { get; set; }
+        public int Number { get; set; }
     }
 
     public class ItemCoordinates
@@ -82,7 +83,7 @@ namespace Impingement.Serialization.SerializationClasses
     {
         public string ItemId { get; set; }
         public ItemCoordinates Position { get; set; }
-
+        public int Number { get; set; }
     }
     
     public class PlayerInventory

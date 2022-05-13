@@ -60,16 +60,17 @@ namespace Impingement.Playfab
             inventory.InventoryItems = new List<Item>();
             for (var index = 0; index < items.Length; index++)
             {
-                var item = items[index];
-                if (item is null)
+                var inventorySlot = items[index];
+                if (inventorySlot.Item is null)
                 {
                     continue;
                 }
 
                 inventory.InventoryItems.Add(new Item()
                 {
-                    ItemId = item.GetItemID(),
-                    ItemIndex = index
+                    ItemId = inventorySlot.Item.GetItemID(),
+                    ItemIndex = index,
+                    Number = inventorySlot.Number
                 });
             }
             
@@ -88,7 +89,8 @@ namespace Impingement.Playfab
                     DroppedItem item = new DroppedItem()
                     {
                         Position = itemCoordinates,
-                        ItemId = droppedItem.GetItem().GetItemID()
+                        ItemId = droppedItem.GetItem().GetItemID(),
+                        Number = droppedItem.GetNumber()
                     };
                     droppedItems.Add(item);
                 }
@@ -135,7 +137,7 @@ namespace Impingement.Playfab
                 _playerCurrencyController.MyCurrency = Convert.ToInt32(playerData.Currency);
                 if (playerData.Inventory.InventoryItems.Count > 0)
                 {
-                    _inventoryController.Slots = new InventoryItem[playerData.Inventory.InventorySize];
+                    _inventoryController.Slots = new InventoryController.InventorySlot[playerData.Inventory.InventorySize];
 
                     foreach (var item in playerData.Inventory.InventoryItems)
                     {
@@ -145,7 +147,7 @@ namespace Impingement.Playfab
                 }
                 else
                 {
-                    _inventoryController.Slots = new InventoryItem[_inventoryController.DefaultSize];
+                    _inventoryController.Slots = new InventoryController.InventorySlot[_inventoryController.DefaultSize];
                 }
 
                 var droppedItemsList = playerData.SerializableDroppedItems;
@@ -157,7 +159,7 @@ namespace Impingement.Playfab
                         var pickupItem = InventoryItem.GetFromID(item.ItemId);
                         Vector3 position = new Vector3(Convert.ToSingle(item.Position.PositionX),
                             Convert.ToSingle(item.Position.PositionY), Convert.ToSingle(item.Position.PositionZ));
-                        _itemDropper.SpawnPickup(pickupItem, position);
+                        _itemDropper.SpawnPickup(pickupItem, position, item.Number);
                     }
                 }
 

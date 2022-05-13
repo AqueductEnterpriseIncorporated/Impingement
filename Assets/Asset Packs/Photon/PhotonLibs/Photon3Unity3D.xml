@@ -93,10 +93,10 @@
         </member>
         <member name="M:ExitGames.Client.Photon.ByteArraySlice.Release">
             <summary>
-            If this item was fetched from a ByteArraySlicePool, this will return it.
+            If this Item was fetched from a ByteArraySlicePool, this will return it.
             </summary>
             <returns>
-            True if this was a pooled item and it successfully was returned.
+            True if this was a pooled Item and it successfully was returned.
             If it does not belong to a pool nothing will happen, and false will be returned.
             </returns>
         </member>
@@ -604,14 +604,14 @@
         </member>
         <member name="T:ExitGames.Client.Photon.SimulationItem">
             <summary>
-            A simulation item is an action that can be queued to simulate network lag.
+            A simulation Item is an action that can be queued to simulate network lag.
             </summary>
         </member>
         <member name="F:ExitGames.Client.Photon.SimulationItem.stopw">
             <summary>With this, the actual delay can be measured, compared to the intended lag.</summary>
         </member>
         <member name="F:ExitGames.Client.Photon.SimulationItem.TimeToExecute">
-            <summary>Timestamp after which this item must be executed.</summary>
+            <summary>Timestamp after which this Item must be executed.</summary>
         </member>
         <member name="F:ExitGames.Client.Photon.SimulationItem.DelayedData">
             <summary>Action to execute when the lag-time passed.</summary>

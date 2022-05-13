@@ -16,7 +16,7 @@ namespace Impingement.UI.InventoryUI
         {
             _inventoryController = inventoryController;
             _index = index;
-            _icon.SetItem(_inventoryController.GetItemInSlot(_index));
+            _icon.SetItem(_inventoryController.GetItemInSlot(_index), _inventoryController.GetNumberInSlot(index));
         }
         
         public int MaxAcceptable(InventoryItem item)
@@ -30,7 +30,7 @@ namespace Impingement.UI.InventoryUI
 
         public void AddItems(InventoryItem item, int number)
         {
-            _inventoryController.AddItemToSlot(_index, item);
+            _inventoryController.AddItemToSlot(_index, item, number);
         }
 
         public InventoryItem GetItem()
@@ -40,12 +40,12 @@ namespace Impingement.UI.InventoryUI
 
         public int GetNumber()
         {
-            return 1;
+            return _inventoryController.GetNumberInSlot(_index);
         }
 
         public void RemoveItems(int number)
         {
-            _inventoryController.RemoveFromSlot(_index);
+            _inventoryController.RemoveFromSlot(_index, number);
         }
     }
 }

@@ -15,7 +15,13 @@ namespace Impingement.Inventory
         [SerializeField] private int _inventorySize = 16;
         [SerializeField] private int _defaultSize = 16;
 
-        private InventoryItem[] _slots;
+        private InventorySlot[] _slots;
+
+        public struct InventorySlot
+        {
+            public InventoryItem Item;
+            public int Number;
+        }
 
         /// <summary>
         /// Broadcasts when the items in the _slots are added/removed.
@@ -28,7 +34,7 @@ namespace Impingement.Inventory
             set => _inventorySize = value;
         }
 
-        public InventoryItem[] Slots
+        public InventorySlot[] Slots
         {
             get => _slots;
             set => _slots = value;
@@ -40,13 +46,13 @@ namespace Impingement.Inventory
             set => _defaultSize = value;
         }
 
-        public InventoryItem[] GetItems()
+        public InventorySlot[] GetItems()
         {
             return Slots;
         }
 
         /// <summary>
-        /// Could this item fit anywhere in the playerInventory?
+        /// Could this Item fit anywhere in the playerInventory?
         /// </summary>
         public bool HasSpaceFor(InventoryItem item)
         {
@@ -60,13 +66,18 @@ namespace Impingement.Inventory
         {
             return Slots.Length;
         }
+        
+        public int GetNumberInSlot(int index)
+        {
+            return Slots[index].Number;
+        }
 
         /// <summary>
         /// Attempt to add the items to the first available slot.
         /// </summary>
-        /// <param name="item">The item to add.</param>
-        /// <returns>Whether or not the item could be added.</returns>
-        public bool AddToFirstEmptySlot(InventoryItem item)
+        /// <param name="item">The Item to add.</param>
+        /// <returns>Whether or not the Item could be added.</returns>
+        public bool AddToFirstEmptySlot(InventoryItem item, int number)
         {
             int i = FindSlot(item);
 
@@ -75,7 +86,8 @@ namespace Impingement.Inventory
                 return false;
             }
 
-            Slots[i] = item;
+            Slots[i].Item = item;
+            Slots[i].Number += number;
             if (InventoryUpdated != null)
             {
                 InventoryUpdated();
@@ -84,13 +96,13 @@ namespace Impingement.Inventory
         }
 
         /// <summary>
-        /// Is there an instance of the item in the playerInventory?
+        /// Is there an instance of the Item in the playerInventory?
         /// </summary>
         public bool HasItem(InventoryItem item)
         {
             for (int i = 0; i < Slots.Length; i++)
             {
-                if (object.ReferenceEquals(Slots[i], item))
+                if (object.ReferenceEquals(Slots[i].Item, item))
                 {
                     return true;
                 }
@@ -99,19 +111,24 @@ namespace Impingement.Inventory
         }
 
         /// <summary>
-        /// Return the item type in the given slot.
+        /// Return the Item type in the given slot.
         /// </summary>
         public InventoryItem GetItemInSlot(int slot)
         {
-            return Slots[slot];
+            return Slots[slot].Item;
         }
 
         /// <summary>
-        /// Remove the item from the given slot.
+        /// Remove the Item from the given slot.
         /// </summary>
-        public void RemoveFromSlot(int slot)
+        public void RemoveFromSlot(int slot, int number)
         {
-            Slots[slot] = null;
+            Slots[slot].Number -= number;
+            if (Slots[slot].Number <= 0)
+            {
+                Slots[slot].Number = 0;
+                Slots[slot].Item = null;
+            }
             if (InventoryUpdated != null)
             {
                 InventoryUpdated();
@@ -119,21 +136,28 @@ namespace Impingement.Inventory
         }
 
         /// <summary>
-        /// Will add an item to the given slot if possible. If there is already
+        /// Will add an Item to the given slot if possible. If there is already
         /// a stack of this type, it will add to the existing stack. Otherwise,
         /// it will be added to the first empty slot.
         /// </summary>
         /// <param name="slot">The slot to attempt to add to.</param>
-        /// <param name="item">The item type to add.</param>
-        /// <returns>True if the item was added anywhere in the playerInventory.</returns>
-        public bool AddItemToSlot(int slot, InventoryItem item)
+        /// <param name="item">The Item type to add.</param>
+        /// <returns>True if the Item was added anywhere in the playerInventory.</returns>
+        public bool AddItemToSlot(int slot, InventoryItem item, int number)
         {
-            if (Slots[slot] != null)
+            if (Slots[slot].Item != null)
             {
-                return AddToFirstEmptySlot(item); ;
+                return AddToFirstEmptySlot(item, number); ;
             }
 
-            Slots[slot] = item;
+            var i = FindStack(item);
+            if (i >= 0)
+            {
+                slot = i;
+            }
+
+            Slots[slot].Item = item;
+            Slots[slot].Number += number;
             if (InventoryUpdated != null)
             {
                 InventoryUpdated();
@@ -143,7 +167,7 @@ namespace Impingement.Inventory
 
         public void SetItemToSlot(int slot, InventoryItem item)
         {
-            Slots[slot] = item;
+            Slots[slot].Item = item;
             if (InventoryUpdated != null)
             {
                 InventoryUpdated();
@@ -152,19 +176,25 @@ namespace Impingement.Inventory
         
         private void Awake()
         {
-            Slots = new InventoryItem[InventorySize];
+            Slots = new InventorySlot[InventorySize];
             // _slots[0] = InventoryItem.GetFromID("cf3570fd-3587-4040-9cf2-4182a612b9be");
             // _slots[4] = InventoryItem.GetFromID("f71e50ee-f2f2-4e71-bc4c-41c4c09df600");
             // _slots[15] = InventoryItem.GetFromID("cf3570fd-3587-4040-9cf2-4182a612b9be");
         }
 
         /// <summary>
-        /// Find a slot that can accomodate the given item.
+        /// Find a slot that can accomodate the given Item.
         /// </summary>
         /// <returns>-1 if no slot is found.</returns>
         private int FindSlot(InventoryItem item)
         {
-            return FindEmptySlot();
+            int i = FindStack(item);
+            if (i < 0)
+            {
+                i = FindEmptySlot();
+            }
+
+            return i;
         }
 
         /// <summary>
@@ -175,38 +205,35 @@ namespace Impingement.Inventory
         {
             for (int i = 0; i < Slots.Length; i++)
             {
-                if (Slots[i] == null)
+                if (Slots[i].Item == null)
                 {
                     return i;
                 }
             }
             return -1;
         }
+        
+        /// <summary>
+        /// Find an existing stack of this item type.
+        /// </summary>
+        /// <param name="item"></param>
+        /// <returns>-1 if no stack exists or if the item is not stackable</returns>
+        private int FindStack(InventoryItem item)
+        {
+            if (!item.IsStackable())
+            {
+                return -1;
+            }
 
-        // object ISaveable.CaptureState()
-        // {
-        //     var slotStrings = new string[_inventorySize];
-        //     for (int i = 0; i < _inventorySize; i++)
-        //     {
-        //         if (_slots[i] != null)
-        //         {
-        //             slotStrings[i] = _slots[i].GetItemID();
-        //         }
-        //     }
-        //     return slotStrings;
-        // }
-        //
-        // void ISaveable.RestoreState(object state)
-        // {
-        //     var slotStrings = (string[])state;
-        //     for (int i = 0; i < _inventorySize; i++)
-        //     {
-        //         _slots[i] = InventoryItemId.GetFromID(slotStrings[i]);
-        //     }
-        //     if (InventoryUpdated != null)
-        //     {
-        //         InventoryUpdated();
-        //     }
-        // }
+            for (int i = 0; i < Slots.Length; i++)
+            {
+                if (object.ReferenceEquals(Slots[i].Item, item))
+                {
+                    return i;
+                }
+            }
+
+            return -1;
+        }
     }
 }

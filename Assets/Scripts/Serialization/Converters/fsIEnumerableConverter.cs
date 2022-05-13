@@ -29,7 +29,7 @@ namespace FullSerializer.Internal {
             foreach (object item in instance) {
                 fsData itemData;
 
-                // note: We don't fail the entire deserialization even if the item failed
+                // note: We don't fail the entire deserialization even if the Item failed
                 var itemResult = Serializer.TrySerialize(elementType, item, out itemData);
                 result.AddMessages(itemResult);
                 if (itemResult.Failed) continue;
@@ -74,7 +74,7 @@ namespace FullSerializer.Internal {
                     itemInstance = getMethod.Invoke(instance, new object[] { i });
                 }
 
-                // note: We don't fail the entire deserialization even if the item failed
+                // note: We don't fail the entire deserialization even if the Item failed
                 var itemResult = Serializer.TryDeserialize(itemData, elementStorageType, ref itemInstance);
                 result.AddMessages(itemResult);
                 if (itemResult.Failed) continue;

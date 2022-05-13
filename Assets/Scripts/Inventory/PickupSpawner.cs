@@ -9,6 +9,7 @@ namespace Impingement.Inventory
     public class PickupSpawner : MonoBehaviour
     {
         [SerializeField] InventoryItem _item;
+        [SerializeField] int _number = 1;
 
         private void Awake()
         {
@@ -35,7 +36,7 @@ namespace Impingement.Inventory
 
         private void SpawnPickup()
         {
-            var spawnedPickup = _item.SpawnPickup(transform.position);
+            var spawnedPickup = _item.SpawnPickup(transform.position, _number);
             spawnedPickup.transform.SetParent(transform);
         }
 

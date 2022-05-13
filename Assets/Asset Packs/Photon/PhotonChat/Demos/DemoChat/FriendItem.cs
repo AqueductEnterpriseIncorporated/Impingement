@@ -12,7 +12,7 @@ using UnityEngine.UI;
 namespace Photon.Chat.Demo
 {
     /// <summary>
-    /// Friend UI item used to represent the friend status as well as message. 
+    /// Friend UI Item used to represent the friend status as well as message. 
     /// It aims at showing how to share health for a friend that plays on a different room than you for example.
     /// But of course the message can be anything and a lot more complex.
     /// </summary>

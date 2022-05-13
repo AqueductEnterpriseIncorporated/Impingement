@@ -85,7 +85,7 @@ namespace Impingement.Control
             return _playersPanel;
         }
 
-        private GameObject GetHUD()
+        public GameObject GetHUD()
         {
             return _hud;
         }

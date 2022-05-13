@@ -88,7 +88,7 @@ namespace Impingement.UI
 
         private void DeleteItem(GameObject item)
         {
-            //PhotonNetwork.Destroy(item);
+            //PhotonNetwork.Destroy(Item);
             Destroy(item);
         }
 

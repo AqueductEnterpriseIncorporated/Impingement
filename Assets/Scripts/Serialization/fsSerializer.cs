@@ -249,7 +249,7 @@ namespace FullSerializer {
 
         /// <summary>
         /// Direct converters (optimized _converters). We use these so we don't have to
-        /// perform a scan through every item in _converters and can instead just do an O(1)
+        /// perform a scan through every Item in _converters and can instead just do an O(1)
         /// lookup. This is potentially important to perf when there are a ton of direct
         /// converters.
         /// </summary>

@@ -3,7 +3,7 @@
 namespace Impingement.UI.Tooltip
 {
     /// <summary>
-    /// To be placed on a UI slot to spawn and show the correct item tooltip.
+    /// To be placed on a UI slot to spawn and show the correct Item tooltip.
     /// </summary>
     [RequireComponent(typeof(IItemHolder))]
     public class ItemTooltipSpawner : TooltipSpawner
