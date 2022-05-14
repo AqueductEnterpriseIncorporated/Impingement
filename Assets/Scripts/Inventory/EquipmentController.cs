@@ -11,12 +11,9 @@ namespace Impingement.Inventory
     /// 
     /// This component should be placed on the GameObject tagged "Player".
     /// </summary>
-    public class Equipment : MonoBehaviour
+    public class EquipmentController : MonoBehaviour
     {
-        // STATE
         private Dictionary<enumEquipLocation, EquipableItem> _equippedItems = new Dictionary<enumEquipLocation, EquipableItem>();
-
-        // PUBLIC
 
         /// <summary>
         /// Broadcasts when the items in the slots are added/removed.

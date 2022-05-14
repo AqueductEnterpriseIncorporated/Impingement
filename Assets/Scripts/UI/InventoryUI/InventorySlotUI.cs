@@ -5,7 +5,7 @@ using Impingement.UI.Tooltip;
 
 namespace Impingement.UI.InventoryUI
 {
-    public class InventorySlotUI : MonoBehaviour, IDragContainer<InventoryItem>, IItemHolder
+    public class InventorySlotUI : MonoBehaviour, IItemHolder, IDragContainer<InventoryItem>
     {
         [SerializeField] private InventoryItemIcon _icon = null;
         

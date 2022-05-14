@@ -11,27 +11,20 @@ namespace Impingement.UI.InventoryUI
     /// </summary>
     public class EquipmentSlotUI : MonoBehaviour, IItemHolder, IDragContainer<InventoryItem>
     {
-        // CONFIG DATA
-
         [SerializeField] private InventoryItemIcon _icon = null;
         [SerializeField] private enumEquipLocation _equipLocation = enumEquipLocation.Weapon;
-
-        private Equipment _playerEquipment;
+        [SerializeField] private EquipmentController _playerEquipmentController;
         
-        //todo: fix
         private void Awake() 
         {
-            var player = GameObject.FindGameObjectWithTag("Player");
-            _playerEquipment = player.GetComponent<Equipment>();
-            _playerEquipment.EquipmentUpdated += RedrawUI;
+            _playerEquipmentController.EquipmentUpdated += RedrawUI;
         }
 
         private void Start() 
         {
             RedrawUI();
         }
-
-
+        
         public int MaxAcceptable(InventoryItem item)
         {
             EquipableItem equipableItem = item as EquipableItem;
@@ -44,12 +37,12 @@ namespace Impingement.UI.InventoryUI
 
         public void AddItems(InventoryItem item, int number)
         {
-            _playerEquipment.AddItem(_equipLocation, (EquipableItem) item);
+            _playerEquipmentController.AddItem(_equipLocation, (EquipableItem) item);
         }
 
         public InventoryItem GetItem()
         {
-            return new InventoryItem(); //_playerEquipment.GetItemInSlot(_equipLocation);
+            return _playerEquipmentController.GetItemInSlot(_equipLocation);
         }
 
         public int GetNumber()
@@ -66,12 +59,12 @@ namespace Impingement.UI.InventoryUI
 
         public void RemoveItems(int number)
         {
-            _playerEquipment.RemoveItem(_equipLocation);
+            _playerEquipmentController.RemoveItem(_equipLocation);
         }
         
         void RedrawUI()
         {
-           // _icon.SetItem(_playerEquipment.GetItemInSlot(_equipLocation));
+           _icon.SetItem(_playerEquipmentController.GetItemInSlot(_equipLocation));
         }
     }
 }

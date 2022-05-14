@@ -15,6 +15,11 @@ namespace Impingement.UI.InventoryUI
         [SerializeField] private GameObject _textContainter;
         [SerializeField] private TMP_Text _itemNumber;
         
+        public void SetItem(InventoryItem item)
+        {
+            SetItem(item, 0);
+        }
+        
         public void SetItem(InventoryItem item, int number)
         {
             var iconImage = GetComponent<Image>();

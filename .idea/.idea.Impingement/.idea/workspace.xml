@@ -5,35 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e797b75-f4f0-4ea9-b141-84d8d653dbe9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Inventory/EquipmentSlotUI.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Inventory/EquipmentSlotUI.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Inventory/Inventory Canvas.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Inventory/Inventory Canvas.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/EquipableItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/EquipableItem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/Equipment.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/Equipment.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/InventoryUI/EquipmentSlotUI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/InventoryUI/EquipmentSlotUI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/enums/enumEquipLocation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/enums/enumEquipLocation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Inventory/Dagger.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Inventory/Dagger.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/ItemPickups/DaggerPickup.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/ItemPickups/DaggerPickup.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/ItemPickups/DaggerPickupSpawner.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/ItemPickups/DaggerPickupSpawner.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/big_bar_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/big_bar_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/big_bar_bg.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/big_bar_bg.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/inventory_frame.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/inventory_frame.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/inventory_frame_little_vert.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/inventory_frame_little_vert.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Source_fr_color.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Source_fr_color.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Background_grey.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Background_grey.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Fantasy RPG UI/UI/Parts/Background_02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Fantasy RPG UI/UI/Parts/Background_02.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/skill_bar_background.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/skill_bar_background.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Inventory/Inventory.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Inventory/Inventory.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Inventory/InventorySlot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Inventory/InventorySlot.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Stats Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Stats Canvas.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/StatsCanvasController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/StatsCanvasController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Equipment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/EquipmentController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Equipment.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/EquipmentController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabPlayerDataController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabPlayerDataController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/InventoryUI/EquipmentSlotUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/InventoryUI/EquipmentSlotUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/InventoryUI/InventoryItemIcon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/InventoryUI/InventoryItemIcon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/InventoryUI/InventorySlotUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/InventoryUI/InventorySlotUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Tooltip/TooltipSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Tooltip/TooltipSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/enums/enumEquipLocation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/enums/enumEquipLocation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/frameItem.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/frameItem.psd.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,7 +274,7 @@
       <workItem from="1652250659361" duration="10702000" />
       <workItem from="1652342490425" duration="21588000" />
       <workItem from="1652427999711" duration="11386000" />
-      <workItem from="1652515023666" duration="4496000" />
+      <workItem from="1652515023666" duration="10813000" />
     </task>
     <servers />
   </component>

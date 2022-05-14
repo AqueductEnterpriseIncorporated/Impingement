@@ -6,9 +6,10 @@ namespace Impingement.enums
     public enum enumEquipLocation
     {
         Helmet,
-        Necklace,
+        Amulet,
         Body,
-        Trousers,
+        Ring,
+        Belt,
         Boots,
         Weapon,
         Shield,

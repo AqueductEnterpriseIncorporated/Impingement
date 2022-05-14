@@ -165,9 +165,10 @@ namespace Impingement.Inventory
             return true;
         }
 
-        public void SetItemToSlot(int slot, InventoryItem item)
+        public void SetItemToSlot(int slot, InventoryItem item, int number)
         {
             Slots[slot].Item = item;
+            Slots[slot].Number = number;
             if (InventoryUpdated != null)
             {
                 InventoryUpdated();

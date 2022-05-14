@@ -44,7 +44,6 @@ namespace Impingement.UI.Tooltip
         void IPointerEnterHandler.OnPointerEnter(PointerEventData eventData)
         {
             var parentCanvas = GetComponentInParent<Canvas>();
-
             if (_tooltip && !CanCreateTooltip())
             {
                 ClearTooltip();

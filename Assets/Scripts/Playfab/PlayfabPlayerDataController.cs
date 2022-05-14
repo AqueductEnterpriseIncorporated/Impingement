@@ -135,14 +135,14 @@ namespace Impingement.Playfab
                 var playerData = GetData(json);
                 _experienceController.GainExperience(Convert.ToInt32(playerData.Experience));
                 _playerCurrencyController.MyCurrency = Convert.ToInt32(playerData.Currency);
-                if (playerData.Inventory.InventoryItems.Count > 0)
+                if (playerData.Inventory != null && playerData.Inventory.InventoryItems.Count > 0)
                 {
                     _inventoryController.Slots = new InventoryController.InventorySlot[playerData.Inventory.InventorySize];
 
                     foreach (var item in playerData.Inventory.InventoryItems)
                     {
                         var newItem = InventoryItem.GetFromID(item.ItemId);
-                        _inventoryController.SetItemToSlot(item.ItemIndex, newItem);
+                        _inventoryController.SetItemToSlot(item.ItemIndex, newItem, item.Number);
                     }
                 }
                 else
