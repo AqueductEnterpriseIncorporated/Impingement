@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Impingement.enums;
+using Impingement.Serialization.SerializationClasses;
 using UnityEngine;
 
 namespace Impingement.Inventory
@@ -18,19 +19,21 @@ namespace Impingement.Inventory
         /// <summary>
         /// Broadcasts when the items in the slots are added/removed.
         /// </summary>
-        public event Action EquipmentUpdated;
+        public event Action OnEquipmentUpdated;
+
+        public Dictionary<enumEquipLocation, EquipableItem> EquippedItems => _equippedItems;
 
         /// <summary>
         /// Return the item in the given equip location.
         /// </summary>
         public EquipableItem GetItemInSlot(enumEquipLocation equipLocation)
         {
-            if (!_equippedItems.ContainsKey(equipLocation))
+            if (!EquippedItems.ContainsKey(equipLocation))
             {
                 return null;
             }
 
-            return _equippedItems[equipLocation];
+            return EquippedItems[equipLocation];
         }
 
         /// <summary>
@@ -41,11 +44,11 @@ namespace Impingement.Inventory
         {
             Debug.Assert(item.GetAllowedEquipLocation() == slot);
 
-            _equippedItems[slot] = item;
+            EquippedItems[slot] = item;
 
-            if (EquipmentUpdated != null)
+            if (OnEquipmentUpdated != null)
             {
-                EquipmentUpdated();
+                OnEquipmentUpdated();
             }
         }
 
@@ -54,11 +57,16 @@ namespace Impingement.Inventory
         /// </summary>
         public void RemoveItem(enumEquipLocation slot)
         {
-            _equippedItems.Remove(slot);
-            if (EquipmentUpdated != null)
+            EquippedItems.Remove(slot);
+            if (OnEquipmentUpdated != null)
             {
-                EquipmentUpdated();
+                OnEquipmentUpdated();
             }
+        }
+
+        public void EquipmentUpdated()
+        {
+            OnEquipmentUpdated?.Invoke();
         }
 
         /// <summary>
@@ -66,7 +74,7 @@ namespace Impingement.Inventory
         /// </summary>
         public IEnumerable<enumEquipLocation> GetAllPopulatedSlots()
         {
-            return _equippedItems.Keys;
+            return EquippedItems.Keys;
         }
     }
 }

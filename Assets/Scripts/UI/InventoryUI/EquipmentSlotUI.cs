@@ -17,7 +17,7 @@ namespace Impingement.UI.InventoryUI
         
         private void Awake() 
         {
-            _playerEquipmentController.EquipmentUpdated += RedrawUI;
+            _playerEquipmentController.OnEquipmentUpdated += RedrawUI;
         }
 
         private void Start() 

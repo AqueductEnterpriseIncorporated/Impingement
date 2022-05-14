@@ -22,6 +22,7 @@ namespace Impingement.Playfab
         private PlayerCurrencyController _playerCurrencyController;
         private CombatController _combatController;
         private InventoryController _inventoryController;
+        private EquipmentController _equipmentController;
         private ItemDropper _itemDropper;
 
         private void Awake()
@@ -32,6 +33,7 @@ namespace Impingement.Playfab
             _playerCurrencyController = GetComponent<PlayerCurrencyController>();
             _playerController = GetComponent<PlayerController>();
             _inventoryController = GetComponent<InventoryController>();
+            _equipmentController = GetComponent<EquipmentController>();
             _itemDropper = GetComponent<ItemDropper>();
         }
 
@@ -100,14 +102,32 @@ namespace Impingement.Playfab
                 DroppedItems = droppedItems
             };
             
+            var equippedItems = new List<EquippedItem>();
+            if (_equipmentController.EquippedItems.Count > 0)
+            {
+                foreach (var equippedItem in _equipmentController.EquippedItems)
+                {
+                    EquippedItem item = new EquippedItem()
+                    {
+                        ItemId = equippedItem.Value.GetItemID()
+                    };
+                    equippedItems.Add(item);
+                }
+            }
+            PlayerEquippedItems playerEquippedItems = new PlayerEquippedItems()
+            {
+                EquippedItems = equippedItems
+            };
+            
 
             SerializablePlayerData playerData = new SerializablePlayerData
             {
                 Currency = _playerCurrencyController.MyCurrency,
                 Experience = _experienceController.GetExperiencePoints(),
-                Weapon = _combatController.GetCurrentWeapon().name,
+                //Weapon = _combatController.GetCurrentWeapon().name,
                 Inventory = inventory,
-                SerializableDroppedItems = playerDroppedItems
+                SerializableDroppedItems = playerDroppedItems,
+                SerializablePlayerEquippedItems = playerEquippedItems
             };
             return StringSerializationAPI.Serialize(typeof(SerializablePlayerData),  playerData);
         }
@@ -117,7 +137,7 @@ namespace Impingement.Playfab
             _playfabManager.UploadData(new Dictionary<string, string>()
             {
                 {"Experience", "0"},
-                {"Weapon", "Unarmed"},
+                //{"Weapon", "Unarmed"},
                 {"Inventory", ""},
             });
         }
@@ -162,16 +182,26 @@ namespace Impingement.Playfab
                         _itemDropper.SpawnPickup(pickupItem, position, item.Number);
                     }
                 }
+                
+                if (playerData.SerializablePlayerEquippedItems != null && playerData.SerializablePlayerEquippedItems.EquippedItems.Count > 0)
+                {
+                    foreach (var equippedItem in playerData.SerializablePlayerEquippedItems.EquippedItems)
+                    {
+                        EquipableItem item = (EquipableItem)EquipableItem.GetFromID(equippedItem.ItemId);
+                        _equipmentController.EquippedItems[item.GetAllowedEquipLocation()] = item;
+                    }
+                    _equipmentController.EquipmentUpdated();
+                }
 
                 //todo: refactoring
-                foreach (var weaponConfig in _availableWeapon)
-                {
-                    if (weaponConfig.name == playerData.Weapon)
-                    {
-                        _combatController.EquipWeapon(weaponConfig);
-                        break;
-                    }
-                }
+                // foreach (var weaponConfig in _availableWeapon)
+                // {
+                //     if (weaponConfig.name == playerData.Weapon)
+                //     {
+                //         _combatController.EquipWeapon(weaponConfig);
+                //         break;
+                //     }
+                // }
             }
         }
     }

@@ -2,6 +2,7 @@
 using System.Numerics;
 using Impingement.Combat;
 using Impingement.Dungeon;
+using Impingement.enums;
 using Impingement.Inventory;
 using Impingement.Stats;
 
@@ -85,6 +86,11 @@ namespace Impingement.Serialization.SerializationClasses
         public ItemCoordinates Position { get; set; }
         public int Number { get; set; }
     }
+
+    public class EquippedItem
+    {
+        public string ItemId { get; set; }
+    }
     
     public class PlayerInventory
     {
@@ -96,11 +102,17 @@ namespace Impingement.Serialization.SerializationClasses
     {
         public List<DroppedItem> DroppedItems { get; set; }
     }
+    
+    public class PlayerEquippedItems
+    {
+        public List<EquippedItem> EquippedItems { get; set; }
+    }
 
     public class SerializablePlayerData
     {
         public PlayerInventory Inventory { get; set; }
         public PlayerDroppedItems SerializableDroppedItems { get; set; }
+        public PlayerEquippedItems SerializablePlayerEquippedItems { get; set; }
         public int Experience { get; set; }
         public string Weapon { get; set; }
         public int Currency { get; set; }
