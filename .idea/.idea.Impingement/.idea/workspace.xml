@@ -5,39 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e797b75-f4f0-4ea9-b141-84d8d653dbe9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Inventory/EquipmentSlotUI.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Inventory/EquipmentSlotUI.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Inventory/Inventory Canvas.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Inventory/Inventory Canvas.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/EquipableItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/EquipableItem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/Equipment.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/Equipment.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/InventoryUI/EquipmentSlotUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/InventoryUI/EquipmentSlotUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/enums/enumEquipLocation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/enums/enumEquipLocation.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/big_bar_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/big_bar_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/big_bar_bg.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/big_bar_bg.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/inventory_frame.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/inventory_frame.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/inventory_frame_little_vert.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Parts/inventory_frame_little_vert.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Source_fr_color.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/Photoshop/Source_fr_color.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Background_grey.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Classic_RPG_GUI/update/Background_grey.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Photon/PhotonChat/Demos/DemoChat/FriendItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Photon/PhotonChat/Demos/DemoChat/FriendItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Photon/PhotonLibs/Photon3Unity3D.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Photon/PhotonLibs/Photon3Unity3D.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Inventory/InventoryItem.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Inventory/InventoryItem.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Fantasy RPG UI/UI/Parts/Background_02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Fantasy RPG UI/UI/Parts/Background_02.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Inventory/Inventory.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Inventory/Inventory.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Inventory/InventorySlot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Inventory/InventorySlot.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Inventory/ItemTest.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Inventory/ItemTest.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ItemPickups/ItemPickupRoot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ItemPickups/ItemPickupRoot.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ItemPickups/ItemTestPickup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ItemPickups/ItemTestPickup.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/ClickablePickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/ClickablePickup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemDropper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemDropper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Pickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/Pickup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/PickupSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/PickupSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabPlayerDataController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabPlayerDataController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Serialization/Converters/fsIEnumerableConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Serialization/Converters/fsIEnumerableConverter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Serialization/SerializationClasses/SerializationRootClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Serialization/SerializationClasses/SerializationRootClass.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Serialization/fsSerializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Serialization/fsSerializer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Dragging/DragItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Dragging/DragItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Dragging/IDragContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Dragging/IDragContainer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Dragging/IDragDestination.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Dragging/IDragDestination.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Dragging/IDragSource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Dragging/IDragSource.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/HideoutUpgradeItemView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/HideoutUpgradeItemView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/InventoryUI/InventoryDragItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/InventoryUI/InventoryDragItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/InventoryUI/InventoryDropTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/InventoryUI/InventoryDropTarget.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/InventoryUI/InventoryItemIcon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/InventoryUI/InventoryItemIcon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/InventoryUI/InventorySlotUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/InventoryUI/InventorySlotUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Tooltip/ItemTooltipSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Tooltip/ItemTooltipSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Tooltip/TooltipSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Tooltip/TooltipSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Stats Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Stats Canvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/StatsCanvasController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/StatsCanvasController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +77,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Control/ClickablePickup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/InventoryUI/EquipmentSlotUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/InventoryUI/InventorySlotUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Tooltip/ItemTooltip.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Tooltip/ItemTooltipSpawner.cs" root0="FORCE_HIGHLIGHTING" />
@@ -209,10 +206,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="5564">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="5564" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -283,6 +280,7 @@
       <workItem from="1652250659361" duration="10702000" />
       <workItem from="1652342490425" duration="21588000" />
       <workItem from="1652427999711" duration="11386000" />
+      <workItem from="1652515023666" duration="4496000" />
     </task>
     <servers />
   </component>
