@@ -1,5 +1,4 @@
-﻿using Impingement.Combat;
-using Photon.Pun;
+﻿using Photon.Pun;
 using UnityEngine;
 
 namespace Impingement.Dungeon
@@ -12,7 +11,7 @@ namespace Impingement.Dungeon
         [Tooltip("-1 as no limit")]
         public float MaximumModifierSpawns = -1;
 
-
+        [SerializeField] private string _itemFolder = "Resources/ItemPickups/";
         [SerializeField] private GameObject[] _spawnPrefabs;
         [SerializeField] private int _minimumObjectSpawns;
         [SerializeField] private int _maximumObjectSpawns;
@@ -65,13 +64,13 @@ namespace Impingement.Dungeon
 
                 if (_isEnemy)
                 {
-                    var localPrefab = PhotonNetwork.Instantiate("RoomSpawns/" + randomPrefab,
+                    var localPrefab = PhotonNetwork.Instantiate(_itemFolder + randomPrefab,
                         GetRandomPosition(), Quaternion.identity);
                     _dungeonManager.Enemies.Add(localPrefab);
                 }
                 if (_isPickup)
                 {
-                    var localPrefab = PhotonNetwork.Instantiate("RoomSpawns/" + randomPrefab,
+                    var localPrefab = PhotonNetwork.Instantiate(_itemFolder + randomPrefab,
                         _room.ItemSpawnPoint.position, Quaternion.identity);
                     _dungeonManager.Pikcups.Add(localPrefab);
                 }
@@ -80,7 +79,7 @@ namespace Impingement.Dungeon
                 currentObjectCount++;
             }
         }
-
+        
         public void Load()
         {
             int currentObjectCount = 0;

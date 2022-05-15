@@ -7,7 +7,7 @@ namespace Impingement.UI.InventoryUI
 {
     /// <summary>
     /// To be put on the icon representing an playerInventory Item. Allows the slot to
-    /// update the icon and number.
+    /// update the icon and Number.
     /// </summary>
     [RequireComponent(typeof(Image))]
     public class InventoryItemIcon : MonoBehaviour

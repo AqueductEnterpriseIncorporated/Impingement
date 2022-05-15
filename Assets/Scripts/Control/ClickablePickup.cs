@@ -30,8 +30,8 @@ namespace Impingement.Control
 
         public override bool CanCreateTooltip()
         {
-            // var Item = GetComponent<IItemHolder>().GetItem();
-            // if (!Item) return false;
+            var Item = GetComponent<IItemHolder>().GetItem();
+            if (!Item) return false;
         
             return true;
         }

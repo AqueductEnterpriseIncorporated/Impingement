@@ -5,43 +5,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e797b75-f4f0-4ea9-b141-84d8d653dbe9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Inventory/HealthBody.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Inventory/HealthBody.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/ItemPickups/BodyPickup.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/ItemPickups/BodyPickup.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/ItemPickups/BowPickup.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/ItemPickups/BowPickup.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/ItemPickups/FireballPickup.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/ItemPickups/FireballPickup.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/ItemPickups/ItemRedEssence.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/ItemPickups/ItemRedEssence.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/ItemPickups/PikcupSpawnerRoot.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/ItemPickups/PikcupSpawnerRoot.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/ItemPickups/SwordPickup.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/ItemPickups/SwordPickup.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/StatsEquipableItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/StatsEquipableItem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/StatsEquipment.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/StatsEquipment.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/DefaultEnemyDropLibrary.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/DefaultEnemyDropLibrary.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Enemy.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Enemy/Enemy.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Enemy/Enemy.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Enemy/EnemyArcher.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Enemy/EnemyArcher.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Enemy/EnemyDummy.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Enemy/EnemyDummy.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Inventory/Currency.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Inventory/Currency.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/ItemPickups/CurrencyPickup.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/ItemPickups/CurrencyPickup.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/CurrencyItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/CurrencyItem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/DropLibrary.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/DropLibrary.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/RandomDropper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/RandomDropper.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/ARMY_of__SKELETONS_pack/Materials/Skeleton_archer_armor_color.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/ARMY_of__SKELETONS_pack/Materials/Skeleton_archer_armor_color.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pickups/RootPickup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Pickups/RootPickup.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Bow.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Bow.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Fireball.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Fireball.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Sword.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Sword.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ItemPickups/DaggerPickup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ItemPickups/DaggerPickup.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ItemPickups/PotionPickup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ItemPickups/PotionPickup.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Photon/PhotonChat/Demos/DemoChat/ChatGui.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Photon/PhotonChat/Demos/DemoChat/ChatGui.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Photon/PhotonLibs/Photon3Unity3D.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Photon/PhotonLibs/Photon3Unity3D.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Character/Character.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Character/Character.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Modifiers/LootModifier.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Modifiers/LootModifier.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Settings.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Settings.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ItemPickups/ItemPickupRoot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ItemPickups/ItemPickupRoot.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/BowPickup.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/BowPickup.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/FireballPickup.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/FireballPickup.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/SwordPickup.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/SwordPickup.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/Enemy.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/Enemy.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/EnemyArcher.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/EnemyArcher.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/EnemyDummy.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoomSpawns/EnemyDummy.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/ClickablePickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/ClickablePickup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CameraFacing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CameraFacing.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Currency/CurrencyPickupView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Currency/CurrencyPickupView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Currency/PlayerCurrencyController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Currency/PlayerCurrencyController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomModifierScriptableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomModifierScriptableObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/ActionItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/ActionItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/ActionStore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/ActionStore.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/EquipableItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/EquipableItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/EquipmentController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/EquipmentController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Pickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/Pickup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabPlayerDataController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabPlayerDataController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Serialization/Converters/fsPrimitiveConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Serialization/Converters/fsPrimitiveConverter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Serialization/fsJsonPrinter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Serialization/fsJsonPrinter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Dragging/IDragSource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Dragging/IDragSource.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/HideoutUpgradeItemView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/HideoutUpgradeItemView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/InventoryUI/InventoryItemIcon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/InventoryUI/InventoryItemIcon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/PlayerCurrencyDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PlayerCurrencyDisplay.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/StatsCanvasController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/StatsCanvasController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UpgradePanelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UpgradePanelController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +114,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/enums/enumStats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.11/Editor/PropertyDrawers/OrbitalTransposerHeadingPropertyDrawer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.11/Runtime/Helpers/CinemachineInputProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.3.0/InputSystem/Devices/Gamepad.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.postprocessing@3.2.1/PostProcessing/Shaders/Builtins/MultiScaleVODownsample1.compute" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.postprocessing@3.2.1/PostProcessing/Shaders/Builtins/SubpixelMorphologicalAntialiasing.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Actions/ActionManager.cs" root0="SKIP_HIGHLIGHTING" />
@@ -289,7 +312,7 @@
       <workItem from="1652342490425" duration="21588000" />
       <workItem from="1652427999711" duration="11386000" />
       <workItem from="1652515023666" duration="12953000" />
-      <workItem from="1652601962093" duration="5759000" />
+      <workItem from="1652601962093" duration="16097000" />
     </task>
     <servers />
   </component>

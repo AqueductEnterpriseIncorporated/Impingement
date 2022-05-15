@@ -4,7 +4,7 @@ using UnityEngine;
 namespace Impingement.Inventory
 {
     /// <summary>
-    /// Provides storage for the player playerInventory. A configurable number of
+    /// Provides storage for the player playerInventory. A configurable Number of
     /// _slots are available.
     ///
     /// This component should be placed on the GameObject tagged "Player".
@@ -215,10 +215,10 @@ namespace Impingement.Inventory
         }
         
         /// <summary>
-        /// Find an existing stack of this item type.
+        /// Find an existing stack of this Item type.
         /// </summary>
         /// <param name="item"></param>
-        /// <returns>-1 if no stack exists or if the item is not stackable</returns>
+        /// <returns>-1 if no stack exists or if the Item is not stackable</returns>
         private int FindStack(InventoryItem item)
         {
             if (!item.IsStackable())

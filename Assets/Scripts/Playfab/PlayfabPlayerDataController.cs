@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using Impingement.Combat;
 using Impingement.Control;
-using Impingement.Currency;
 using Impingement.Inventory;
 using Impingement.Serialization.SerializationClasses;
 using Impingement.SerializationAPI;
@@ -19,7 +17,6 @@ namespace Impingement.Playfab
         private PlayerController _playerController;
         private PlayfabManager _playfabManager;
         private ExperienceController _experienceController;
-        private PlayerCurrencyController _playerCurrencyController;
         private CombatController _combatController;
         private InventoryController _inventoryController;
         private EquipmentController _equipmentController;
@@ -31,7 +28,6 @@ namespace Impingement.Playfab
             _combatController = GetComponent<CombatController>();
             _playfabManager = FindObjectOfType<PlayfabManager>();
             _experienceController = GetComponent<ExperienceController>();
-            _playerCurrencyController = GetComponent<PlayerCurrencyController>();
             _playerController = GetComponent<PlayerController>();
             _inventoryController = GetComponent<InventoryController>();
             _equipmentController = GetComponent<EquipmentController>();
@@ -143,7 +139,6 @@ namespace Impingement.Playfab
 
             SerializablePlayerData playerData = new SerializablePlayerData
             {
-                Currency = _playerCurrencyController.MyCurrency,
                 Experience = _experienceController.GetExperiencePoints(),
                 //Weapon = _combatController.GetCurrentWeapon().name,
                 Inventory = inventory,
@@ -176,7 +171,6 @@ namespace Impingement.Playfab
                 var json = getUserDataResult.Data["PlayerData"].Value;
                 var playerData = GetData(json);
                 _experienceController.GainExperience(Convert.ToInt32(playerData.Experience));
-                _playerCurrencyController.MyCurrency = Convert.ToInt32(playerData.Currency);
                 if (playerData.Inventory != null && playerData.Inventory.InventoryItems.Count > 0)
                 {
                     _inventoryController.Slots = new InventoryController.InventorySlot[playerData.Inventory.InventorySize];

@@ -106,7 +106,7 @@ namespace FullSerializer.Internal {
                     instance = Convert.ChangeType(storage.AsString, storageType);
                 }
                 else {
-                    return fsResult.Fail(GetType().Name + " expected number but got " + storage.Type + " in " + storage);
+                    return fsResult.Fail(GetType().Name + " expected Number but got " + storage.Type + " in " + storage);
                 }
                 return fsResult.Success;
             }
@@ -118,7 +118,7 @@ namespace FullSerializer.Internal {
                 return result;
             }
 
-            return fsResult.Fail(GetType().Name + ": Bad data; expected bool, number, string, but got " + storage);
+            return fsResult.Fail(GetType().Name + ": Bad data; expected bool, Number, string, but got " + storage);
         }
     }
 }

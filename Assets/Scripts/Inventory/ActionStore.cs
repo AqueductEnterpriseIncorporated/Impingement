@@ -125,7 +125,6 @@ namespace Impingement.Inventory
                     OnStoreUpdated();
                 }
             }
-            
         }
 
         /// <summary>

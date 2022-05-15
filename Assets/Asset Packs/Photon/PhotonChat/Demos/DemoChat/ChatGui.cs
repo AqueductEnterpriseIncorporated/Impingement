@@ -24,7 +24,7 @@ namespace Photon.Chat.Demo
     /// This simple Chat UI demonstrate basics usages of the Chat Api
     /// </summary>
     /// <remarks>
-    /// The ChatClient basically lets you create any number of channels.
+    /// The ChatClient basically lets you create any Number of channels.
     ///
     /// some friends are already set in the Chat demo "DemoChat-Scene", 'Joe', 'Jane' and 'Bob', simply log with them so that you can see the status changes in the Interface
     ///

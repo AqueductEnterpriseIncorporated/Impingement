@@ -3,7 +3,7 @@ using UnityEngine;
 namespace Impingement.Inventory
 {
     /// <summary>
-    /// An inventory item that can be placed in the action bar and "Used".
+    /// An inventory Item that can be placed in the action bar and "Used".
     /// </summary>
     /// <remarks>
     /// This class should be used as a base. Subclasses must implement the `Use`
@@ -12,11 +12,11 @@ namespace Impingement.Inventory
     [CreateAssetMenu(menuName = ("Inventory/Action Item"))]
     public class ActionItem : InventoryItem
     {
-        [Tooltip("Does an instance of this item get consumed every time it's used.")]
+        [Tooltip("Does an instance of this Item get consumed every time it's used.")]
         [SerializeField] private bool _consumable = false;
         
         /// <summary>
-        /// Trigger the use of this item. Override to provide functionality.
+        /// Trigger the use of this Item. Override to provide functionality.
         /// </summary>
         /// <param name="user">The character that is using this action.</param>
         public virtual void Use(GameObject user)

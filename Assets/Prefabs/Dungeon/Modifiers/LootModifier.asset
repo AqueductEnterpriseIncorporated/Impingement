@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b863516c0bce4e5ea8ca57cc6b4a97cc, type: 3}
   m_Name: LootModifier
   m_EditorClassIdentifier: 
-  MaximumModifierSpawns: 1
+  MaximumModifierSpawns: -1
+  _itemFolder: ItemPickups/
   _spawnPrefabs:
-  - {fileID: 6970973863804812274, guid: 28cdd2ca15a865140bd23687a0c6f8a6, type: 3}
-  - {fileID: 3108868447340156948, guid: 0b52a8166598d3c4dba52f34bb87fba5, type: 3}
+  - {fileID: 7136260294593607439, guid: e5118516ee99d5b42ba39a638795257c, type: 3}
+  - {fileID: 6183197734510989057, guid: 9e869311ad40e52459f737e106e758b0, type: 3}
   _minimumObjectSpawns: 1
-  _maximumObjectSpawns: 1
+  _maximumObjectSpawns: 3
   _isEnemy: 0
   _isPickup: 1
   _chanceToSpawn: 0.3

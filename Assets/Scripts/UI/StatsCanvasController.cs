@@ -21,7 +21,7 @@ namespace Impingement.UI
 
         private void Update()
         {
-            if (Input.GetKeyDown(_toggleKey) || Input.GetKeyDown(KeyCode.Escape))
+            if (Input.GetKeyDown(_toggleKey))
             {
                 foreach (var objectToHide in _objectsToHide)
                 {
@@ -29,7 +29,7 @@ namespace Impingement.UI
                 }
             }
 
-            MoveMinimap(_canvasParent.activeSelf);
+            MoveMinimap(_objectsToHide[0].activeSelf);
         }
 
         private void MoveMinimap(bool canvasParentActiveSelf)
@@ -42,7 +42,6 @@ namespace Impingement.UI
             else
             {
                 _minimapRect.anchoredPosition = _defaultMinimapPosition;
-
             }
         }
     }

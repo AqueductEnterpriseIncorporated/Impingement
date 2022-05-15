@@ -395,9 +395,9 @@ GameObject:
   - component: {fileID: 7366971163744276164}
   - component: {fileID: 3526650737367140922}
   - component: {fileID: 1882334903506746407}
-  - component: {fileID: 1038014981218937243}
   - component: {fileID: 3184421436431741097}
   - component: {fileID: 1668398734543516614}
+  - component: {fileID: 979365344247340010}
   m_Layer: 6
   m_Name: PlayerObject
   m_TagString: Player
@@ -650,7 +650,7 @@ MonoBehaviour:
   _playfabManager: {fileID: 0}
   _experienceController: {fileID: 8950967779405781275}
   _inventoryController: {fileID: 1882334903506746407}
-  _itemDropper: {fileID: 1038014981218937243}
+  _itemDropper: {fileID: 979365344247340010}
   _availableWeapon:
   - {fileID: 11400000, guid: 88eb9e68a21dc2a4ab66961b6c81e600, type: 2}
   - {fileID: 11400000, guid: 12e009f30c923294da26c582d0d3b149, type: 2}
@@ -797,7 +797,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7953788bee7484ab627bd98156e77f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <MyCurrency>k__BackingField: 0
+  _myCurrency: 0
+  _inventoryController: {fileID: 1882334903506746407}
 --- !u!143 &3844301170801799079
 CharacterController:
   m_ObjectHideFlags: 0
@@ -904,18 +905,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _inventorySize: 60
   _defaultSize: 60
---- !u!114 &1038014981218937243
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4144291504183224196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8c756a4f32f0d945bb0d60bb0f29ef8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &3184421436431741097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -940,6 +929,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f2a1940ff534e0f873179aa978057be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &979365344247340010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4144291504183224196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d06cd2b703b4a5a9efae1f0398ff4c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _distance: 1
+  _dropLibrary: {fileID: 0}
+  _baseStats: {fileID: 0}
 --- !u!1 &5237999532088969013
 GameObject:
   m_ObjectHideFlags: 0
@@ -3553,6 +3557,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1855391445298343303, guid: dcc27e9202243784e916439493af3a8a, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1855391445298343303, guid: dcc27e9202243784e916439493af3a8a, type: 3}
       propertyPath: _playerCurrencyController
       value: 
       objectReference: {fileID: 5387498473535023350}
@@ -3840,6 +3848,10 @@ PrefabInstance:
       propertyPath: _baseStats
       value: 
       objectReference: {fileID: 1704641359224381857}
+    - target: {fileID: 5467195186757048221, guid: dcc27e9202243784e916439493af3a8a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5531197645168961128, guid: dcc27e9202243784e916439493af3a8a, type: 3}
       propertyPath: _equipLocation
       value: 7

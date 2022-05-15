@@ -18,10 +18,10 @@
         int GetNumber();
 
         /// <summary>
-        /// Remove a given number of items from the source.
+        /// Remove a given Number of items from the source.
         /// </summary>
         /// <param name="number">
-        /// This should never exceed the number returned by `GetNumber`.
+        /// This should never exceed the Number returned by `GetNumber`.
         /// </param>
         void RemoveItems(int number);
     }

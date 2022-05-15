@@ -6,7 +6,7 @@ using System.Text;
 namespace FullSerializer {
     public static class fsJsonPrinter {
         /// <summary>
-        /// Inserts the given number of indents into the builder.
+        /// Inserts the given Number of indents into the builder.
         /// </summary>
         private static void InsertSpacing(TextWriter stream, int count) {
             for (int i = 0; i < count; ++i) {
@@ -273,7 +273,7 @@ namespace FullSerializer {
             string doubledString = d.ToString(CultureInfo.InvariantCulture);
 
             // NOTE/HACK: If we don't serialize with a period or an exponent,
-            // then the number will be deserialized as an Int64, not a double.
+            // then the Number will be deserialized as an Int64, not a double.
             if (doubledString.Contains(".") == false &&
                 doubledString.Contains("e") == false &&
                 doubledString.Contains("E") == false) {

@@ -4,7 +4,6 @@ using Impingement.Core;
 using Impingement.enums;
 using Impingement.Attributes;
 using Impingement.Combat;
-using Impingement.Currency;
 using Impingement.Inventory;
 using Impingement.Playfab;
 using Impingement.Stats;
@@ -35,7 +34,6 @@ namespace Impingement.Control
         [SerializeField] private PhotonView _photonView;
         [SerializeField] private PlayerCameraController _playerCameraController;
         [SerializeField] private StaminaController _staminaController;
-        [SerializeField] private PlayerCurrencyController _playerCurrencyController;
         [SerializeField] private PlayersPanel _playersPanel;
         [SerializeField] private PlayfabPlayerDataController _playfabPlayerDataController;
         [SerializeField] private PlayfabManager _playfabManager;
@@ -70,12 +68,7 @@ namespace Impingement.Control
         {
             return _staminaController;
         }
-
-        public PlayerCurrencyController GetPlayerCurrencyController()
-        {
-            return _playerCurrencyController;
-        }
-
+        
         public PhotonView GetPhotonView()
         {
             return _photonView;
@@ -413,31 +406,6 @@ namespace Impingement.Control
                     //Destroy(playerController._hud);
                     // var id = playerController.GetPhotonView().Controller.NickName;
                     // playerController._playfabManager.LoadData(id, OnDataReceived);
-                }
-            }
-        }
-
-        private void OnDataReceived(GetUserDataResult getUserDataResult)
-        {
-            if (getUserDataResult == null) { return; }
-
-            if (getUserDataResult.Data.ContainsKey("Experience"))
-            {
-                _experienceController.GainExperience(Convert.ToInt32(getUserDataResult.Data["Experience"].Value));
-            }
-            if (getUserDataResult.Data.ContainsKey("Currency"))
-            {
-                _playerCurrencyController.MyCurrency = Convert.ToInt32(getUserDataResult.Data["Currency"].Value);
-            }
-            if (getUserDataResult.Data.ContainsKey("Weapon"))
-            {
-                foreach (var weaponConfig in _availableWeapon)
-                {
-                    if (weaponConfig.name == getUserDataResult.Data["Weapon"].Value)
-                    {
-                        _combatController.EquipWeapon(weaponConfig);
-                        break;
-                    }
                 }
             }
         }

@@ -232,13 +232,13 @@
             <summary>Number for reliable unsequenced commands (separate from "standard" reliable sequenced). Used to avoid duplicates.</summary>
         </member>
         <member name="F:ExitGames.Client.Photon.EnetChannel.reliableUnsequencedNumbersCompletelyReceived">
-            <summary>The highest number of reliable unsequenced commands that arrived (and all commands before).</summary>
+            <summary>The highest Number of reliable unsequenced commands that arrived (and all commands before).</summary>
         </member>
         <member name="F:ExitGames.Client.Photon.EnetChannel.reliableUnsequencedNumbersReceived">
-            <summary>Any reliable unsequenced number that's been received, which is higher than the current highest in complete sequence (reliableUnsequencedNumbersCompletelyReceived).</summary>
+            <summary>Any reliable unsequenced Number that's been received, which is higher than the current highest in complete sequence (reliableUnsequencedNumbersCompletelyReceived).</summary>
         </member>
         <member name="F:ExitGames.Client.Photon.EnetChannel.highestReceivedAck">
-            <summary>To store the highest acknowledged sequence number (and get some impression what the server already received and stored).</summary>
+            <summary>To store the highest acknowledged sequence Number (and get some impression what the server already received and stored).</summary>
         </member>
         <member name="M:ExitGames.Client.Photon.EnetChannel.QueueIncomingReliableUnsequenced(ExitGames.Client.Photon.NCommand)">
             <summary>Checks and queues incoming reliable unsequenced commands ("send" or "fragment"), if they haven't been received yet.</summary>
@@ -337,7 +337,7 @@
             <summary>Used on platforms that throw a security exception on connect. Unity3d does this, e.g., if a webplayer build could not fetch a policy-file from a remote server.</summary>
         </member>
         <member name="F:ExitGames.Client.Photon.StatusCode.SendError">
-            <summary>Sending command failed. Either not connected, or the requested channel is bigger than the number of initialized channels.</summary>
+            <summary>Sending command failed. Either not connected, or the requested channel is bigger than the Number of initialized channels.</summary>
         </member>
         <member name="F:ExitGames.Client.Photon.StatusCode.ExceptionOnReceive">
             <summary>Exception, if a server cannot be connected. Followed by Disconnect.</summary>
@@ -404,8 +404,8 @@
              <para></para>
              </remarks>
              <example>
-             When you join a room, the server will assign a consecutive number to each client: the
-             &quot;actorNr&quot; or &quot;player number&quot;. This is sent back in the operation result.<para></para>
+             When you join a room, the server will assign a consecutive Number to each client: the
+             &quot;actorNr&quot; or &quot;player Number&quot;. This is sent back in the operation result.<para></para>
             
              Fetch your actorNr of a Join response like this:<para></para>
              <c>int actorNr = (int)operationResponse[(byte)OperationCode.ActorNr];</c>
@@ -946,11 +946,11 @@
             <summary>Called when the server's Init Response arrived.</summary>
         </member>
         <member name="M:ExitGames.Client.Photon.PeerBase.SerializeOperationToMessage(System.Byte,System.Collections.Generic.Dictionary{System.Byte,System.Object},ExitGames.Client.Photon.EgMessageType,System.Boolean)">
-            <summary>Serializes an operation into our binary messages (magic number, msg-type byte and message). Optionally encrypts.</summary>
+            <summary>Serializes an operation into our binary messages (magic Number, msg-type byte and message). Optionally encrypts.</summary>
             <remarks>This method is mostly the same in EnetPeer, TPeer and HttpPeerBase. Also, for raw messages, we have another variant.</remarks>
         </member>
         <member name="M:ExitGames.Client.Photon.PeerBase.SerializeOperationToMessage(System.Byte,ExitGames.Client.Photon.ParameterDictionary,ExitGames.Client.Photon.EgMessageType,System.Boolean)">
-            <summary>Serializes an operation into our binary messages (magic number, msg-type byte and message). Optionally encrypts.</summary>
+            <summary>Serializes an operation into our binary messages (magic Number, msg-type byte and message). Optionally encrypts.</summary>
             <remarks>This method is mostly the same in EnetPeer, TPeer and HttpPeerBase. Also, for raw messages, we have another variant.</remarks>
         </member>
         <member name="M:ExitGames.Client.Photon.PeerBase.SerializeMessageToMessage(System.Object,System.Boolean)">
@@ -1257,7 +1257,7 @@
             </summary>
         </member>
         <member name="F:ExitGames.Client.Photon.PhotonPeer.SequenceDeltaLimitResends">
-            <summary>Skips resending (individual) commands if their reliable sequence number is this amount larger than the highest acknowledged sequence number.</summary>
+            <summary>Skips resending (individual) commands if their reliable sequence Number is this amount larger than the highest acknowledged sequence Number.</summary>
             <remarks>
             This puts focus on resending commands that are older and are needed on the receiver side to dispatch commands.
             It queues more on the client side than on the server.
@@ -1265,7 +1265,7 @@
             </remarks>
         </member>
         <member name="F:ExitGames.Client.Photon.PhotonPeer.SequenceDeltaLimitSends">
-            <summary>Skips sending reliable and unreliable commands if their reliable sequence number is this amount larger than the highest acknowledged sequence number.</summary>
+            <summary>Skips sending reliable and unreliable commands if their reliable sequence Number is this amount larger than the highest acknowledged sequence Number.</summary>
             <remarks>
             This puts focus on resending commands that are older and are needed on the receiver side to dispatch commands.
             It queues more on the client side than on the server.
@@ -1379,7 +1379,7 @@
         </member>
         <member name="F:ExitGames.Client.Photon.PhotonPeer.ChannelCount">
             <summary>
-            Gets / sets the number of channels available in UDP connections with Photon.
+            Gets / sets the Number of channels available in UDP connections with Photon.
             Photon Channels are only supported for UDP.
             The default ChannelCount is 2. Channel IDs start with 0 and 255 is a internal channel.
             </summary>
@@ -1510,7 +1510,7 @@
              <remarks>
              Returns the integer part of a Stopwatch ElapsedMilliseconds value.
              If the PhotonPeer runs continuously the ClientTime will increment from zero to Int32..::.MaxValue
-             for approximately 24.9 days, then jump to Int32..::.MinValue (a negative number), then increment
+             for approximately 24.9 days, then jump to Int32..::.MinValue (a negative Number), then increment
              back to zero during the next 24.9 days.
             
              It is recommended to use this int only for delta times, to avoid handling the overflow.
@@ -1712,7 +1712,7 @@
             <summary>The datagram encryptor used for the current connection. Applied internally in InitDatagramEncryption.</summary>
         </member>
         <member name="P:ExitGames.Client.Photon.PhotonPeer.CountDiscarded">
-            <summary>Count of unreliable commands being discarded in case this client already dispatched a command that was newer (higher sequence number).</summary>
+            <summary>Count of unreliable commands being discarded in case this client already dispatched a command that was newer (higher sequence Number).</summary>
         </member>
         <member name="P:ExitGames.Client.Photon.PhotonPeer.DeltaUnreliableNumber">
             <summary>Set per dispatch in DispatchIncomingCommands to: commandUnreliableSequenceNumber - channel.incomingUnreliableSequenceNumber. Indicates how big the (sequence)gap is, compared to the last dispatched unreliable command.</summary>
@@ -2705,17 +2705,17 @@
         </member>
         <member name="P:ExitGames.Client.Photon.TrafficStatsGameLevel.DispatchCalls">
             <summary>
-            Gets number of calls of DispatchIncomingCommands.
+            Gets Number of calls of DispatchIncomingCommands.
             </summary>
         </member>
         <member name="P:ExitGames.Client.Photon.TrafficStatsGameLevel.DispatchIncomingCommandsCalls">
             <summary>
-            Gets number of calls of DispatchIncomingCommands.
+            Gets Number of calls of DispatchIncomingCommands.
             </summary>
         </member>
         <member name="P:ExitGames.Client.Photon.TrafficStatsGameLevel.SendOutgoingCommandsCalls">
             <summary>
-            Gets number of calls of SendOutgoingCommands.
+            Gets Number of calls of SendOutgoingCommands.
             </summary>
         </member>
         <member name="P:ExitGames.Client.Photon.TrafficStatsGameLevel.TotalByteCount">

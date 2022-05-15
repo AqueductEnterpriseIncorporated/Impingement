@@ -87,6 +87,7 @@ GameObject:
   - component: {fileID: 4090869070529967595}
   - component: {fileID: 3288220022881304185}
   - component: {fileID: 8744384007234316168}
+  - component: {fileID: -4960907650201072850}
   m_Layer: 0
   m_Name: ItemPickupRoot
   m_TagString: Untagged
@@ -148,3 +149,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _tooltipPrefab: {fileID: 6796662661069912602, guid: 9ae64e5bbc82aa44fa6f44bf445d382a, type: 3}
   _pickupInRange: {fileID: 7013618208036190015}
+--- !u!114 &-4960907650201072850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7805240829270738194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0

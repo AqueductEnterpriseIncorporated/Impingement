@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44252f5d56124c8f9fdbb48ee6e614fe, type: 3}
+  m_Name: Currency
+  m_EditorClassIdentifier: 
+  _itemID: 224a1352-3b69-4b7a-8206-87d77a3cdbc7
+  _displayName: "\u0412\u0430\u043B\u044E\u0442\u0430"
+  _description: 
+  _icon: {fileID: 21300000, guid: 48137c6ed6889a34a954978157eda3d8, type: 3}
+  _pickup: {fileID: 7300728048785907036, guid: d2ba5eb37eea7694e8d558c09fa1c91d, type: 3}
+  _stackable: 1
+  CurrencySlot: {fileID: 0}

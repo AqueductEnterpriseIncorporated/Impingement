@@ -45,7 +45,7 @@ namespace Impingement.UI
         {
             if (!IsUnlocked)
             {
-                _priceText.color = _upgradePanelController.InteractingPlayer.MyCurrency >= _price
+                _priceText.color = _upgradePanelController.PlayerInventoryController.GetNumberInSlot(_upgradePanelController.CurrencyItemIndex) >= _price
                     ? _enoughColor
                     : _notEnoughColor;
             }
@@ -70,9 +70,9 @@ namespace Impingement.UI
                 return;
             }
             
-            if (_upgradePanelController.InteractingPlayer.MyCurrency >= _price)
+            if (_upgradePanelController.PlayerInventoryController.GetNumberInSlot(_upgradePanelController.CurrencyItemIndex)  >= _price)
             {
-                _upgradePanelController.InteractingPlayer.MyCurrency -= _price;
+                _upgradePanelController.PlayerInventoryController.RemoveFromSlot(_upgradePanelController.CurrencyItemIndex, _price);
                 IsUnlocked = true;
                 Save(); 
             }

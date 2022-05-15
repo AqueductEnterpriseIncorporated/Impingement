@@ -1,5 +1,4 @@
-﻿using Impingement.Control;
-using Impingement.Currency;
+﻿using Impingement.Inventory;
 using Impingement.Playfab;
 using Photon.Pun;
 using UnityEngine;
@@ -8,12 +7,13 @@ namespace Impingement.UI
 {
     public class UpgradePanelController : MonoBehaviour
     {
-        public PlayerCurrencyController InteractingPlayer;
+        //public PlayerCurrencyController InteractingPlayer;
 
         [SerializeField] private PlayfabHideoutDataController _playfabHideoutDataController;
         [SerializeField] private GameObject _panel;
         [SerializeField] private Transform _content;
-        private PlayerController _playerController;
+        public int CurrencyItemIndex { get; set; }
+        public InventoryController PlayerInventoryController { get; set; }
 
         public PlayfabHideoutDataController GetController()
         {
@@ -33,13 +33,24 @@ namespace Impingement.UI
         
         private void OnTriggerEnter(Collider other)
         {
-            if (other.TryGetComponent<PlayerController>(out var player))
+            if (other.TryGetComponent<InventoryController>(out var player))
             {
-                _playerController = player;
                 if (PhotonNetwork.InRoom)
                 {
-                    if(!PhotonNetwork.IsMasterClient){return;}
-                }                InteractingPlayer = player.GetPlayerCurrencyController();
+                    if(!PhotonNetwork.IsMasterClient) { return; }
+                }
+
+                for (var i = 0; i < player.Slots.Length; i++)
+                {
+                    var slot = player.Slots[i];
+                    if (slot.Item is CurrencyItem)
+                    {
+                        PlayerInventoryController = player;
+                        CurrencyItemIndex = i;
+                        break;
+                    }
+                }
+
                 _panel.SetActive(true);
             }
         }
@@ -51,6 +62,7 @@ namespace Impingement.UI
                 if(!PhotonNetwork.IsMasterClient){return;}
             }
             _panel.SetActive(false);
+            PlayerInventoryController = null;
         }
     }
 }

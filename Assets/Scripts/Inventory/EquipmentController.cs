@@ -24,7 +24,7 @@ namespace Impingement.Inventory
         public Dictionary<enumEquipLocation, EquipableItem> EquippedItems => _equippedItems;
 
         /// <summary>
-        /// Return the item in the given equip location.
+        /// Return the Item in the given equip location.
         /// </summary>
         public EquipableItem GetItemInSlot(enumEquipLocation equipLocation)
         {
@@ -37,7 +37,7 @@ namespace Impingement.Inventory
         }
 
         /// <summary>
-        /// Add an item to the given equip location. Do not attempt to equip to
+        /// Add an Item to the given equip location. Do not attempt to equip to
         /// an incompatible slot.
         /// </summary>
         public void AddItem(enumEquipLocation slot, EquipableItem item)
@@ -53,7 +53,7 @@ namespace Impingement.Inventory
         }
 
         /// <summary>
-        /// Remove the item for the given slot.
+        /// Remove the Item for the given slot.
         /// </summary>
         public void RemoveItem(enumEquipLocation slot)
         {

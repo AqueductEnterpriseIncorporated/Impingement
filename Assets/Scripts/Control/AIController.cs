@@ -7,7 +7,6 @@ using Impingement.Attributes;
 using Impingement.Stats;
 using Photon.Pun;
 using UnityEngine;
-using Random = UnityEngine.Random;
 
 namespace Impingement.Control
 {
@@ -17,9 +16,6 @@ namespace Impingement.Control
 
         [Range(0,1)]
         [SerializeField] private float _patrolSpeedFraction = 0.2f;
-        [Range(0,100)]
-        [SerializeField] private int _chanceToDropCurrency;
-        [SerializeField] private GameObject _currencyPrefab;
         [SerializeField] private float _chaseDistance = 5f;
         [SerializeField] private float _suspicionTime =  5f;
         [SerializeField] private float _aggroCooldownTime =  5f;
@@ -69,15 +65,6 @@ namespace Impingement.Control
             _players = FindObjectsOfType<PlayerController>();
             _isPatrolPathNotNull = _patrolPath != null;
             _guardPosition.ForceInit();
-        }
-
-        public void DropCurrency()
-        {
-            var randomNumber = Random.Range(0, 100);
-            if (randomNumber <= _chanceToDropCurrency)
-            {
-                PhotonNetwork.Instantiate("VFX/" +  _currencyPrefab.name, transform.position, transform.rotation);
-            }
         }
 
         private void Update()
