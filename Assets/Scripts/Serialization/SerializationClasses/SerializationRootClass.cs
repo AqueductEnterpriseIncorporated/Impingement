@@ -102,6 +102,10 @@ namespace Impingement.Serialization.SerializationClasses
     {
         public List<DroppedItem> DroppedItems { get; set; }
     }
+    public class PlayerActionItems
+    {
+        public List<Item> ActionItems { get; set; }
+    }
     
     public class PlayerEquippedItems
     {
@@ -113,6 +117,7 @@ namespace Impingement.Serialization.SerializationClasses
         public PlayerInventory Inventory { get; set; }
         public PlayerDroppedItems SerializableDroppedItems { get; set; }
         public PlayerEquippedItems SerializablePlayerEquippedItems { get; set; }
+        public PlayerActionItems SerializablePlayerActionItems { get; set; }
         public int Experience { get; set; }
         public string Weapon { get; set; }
         public int Currency { get; set; }

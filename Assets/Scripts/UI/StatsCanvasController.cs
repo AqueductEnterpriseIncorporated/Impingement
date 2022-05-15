@@ -6,7 +6,7 @@ namespace Impingement.UI
     public class StatsCanvasController : MonoBehaviour
     {
         [SerializeField] private GameObject _canvasParent;
-        [SerializeField] private GameObject _bottomBackground;
+        [SerializeField] private GameObject[] _objectsToHide;
         [SerializeField] private RectTransform _minimapRect;
         [SerializeField] private KeyCode _toggleKey = KeyCode.I;
         private float _minimapXOffset;
@@ -23,8 +23,10 @@ namespace Impingement.UI
         {
             if (Input.GetKeyDown(_toggleKey) || Input.GetKeyDown(KeyCode.Escape))
             {
-                _canvasParent.SetActive(!_canvasParent.activeSelf);
-                _bottomBackground.SetActive(_canvasParent.activeSelf);
+                foreach (var objectToHide in _objectsToHide)
+                {
+                    objectToHide.SetActive(!objectToHide.activeSelf);
+                }
             }
 
             MoveMinimap(_canvasParent.activeSelf);

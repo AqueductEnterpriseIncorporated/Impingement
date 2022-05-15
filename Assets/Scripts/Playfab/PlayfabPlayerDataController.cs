@@ -24,6 +24,7 @@ namespace Impingement.Playfab
         private InventoryController _inventoryController;
         private EquipmentController _equipmentController;
         private ItemDropper _itemDropper;
+        private ActionStore _actionStore;
 
         private void Awake()
         {
@@ -35,6 +36,7 @@ namespace Impingement.Playfab
             _inventoryController = GetComponent<InventoryController>();
             _equipmentController = GetComponent<EquipmentController>();
             _itemDropper = GetComponent<ItemDropper>();
+            _actionStore = GetComponent<ActionStore>();
         }
 
         private void Start()
@@ -119,6 +121,25 @@ namespace Impingement.Playfab
                 EquippedItems = equippedItems
             };
             
+            var actionItems = new List<Item>();
+            if (_actionStore.DockedItems.Count > 0)
+            {
+                foreach (var actionItem in _actionStore.DockedItems)
+                {
+                    Item item = new Item()
+                    {
+                        ItemId = actionItem.Value.Item.GetItemID(),
+                        Number = actionItem.Value.Number,
+                        ItemIndex = actionItem.Key
+                    };
+                    actionItems.Add(item);
+                }
+            }
+            PlayerActionItems playerActionItems = new PlayerActionItems()
+            {
+                ActionItems = actionItems
+            };
+            
 
             SerializablePlayerData playerData = new SerializablePlayerData
             {
@@ -127,7 +148,8 @@ namespace Impingement.Playfab
                 //Weapon = _combatController.GetCurrentWeapon().name,
                 Inventory = inventory,
                 SerializableDroppedItems = playerDroppedItems,
-                SerializablePlayerEquippedItems = playerEquippedItems
+                SerializablePlayerEquippedItems = playerEquippedItems,
+                SerializablePlayerActionItems = playerActionItems
             };
             return StringSerializationAPI.Serialize(typeof(SerializablePlayerData),  playerData);
         }
@@ -191,6 +213,16 @@ namespace Impingement.Playfab
                         _equipmentController.EquippedItems[item.GetAllowedEquipLocation()] = item;
                     }
                     _equipmentController.EquipmentUpdated();
+                }
+                
+                if (playerData.SerializablePlayerActionItems != null && playerData.SerializablePlayerActionItems.ActionItems.Count > 0)
+                {
+                    foreach (var actionItem in playerData.SerializablePlayerActionItems.ActionItems)
+                    {
+                        var item = ActionItem.GetFromID(actionItem.ItemId);
+                        _actionStore.AddAction(item, actionItem.ItemIndex, actionItem.Number);
+                    }
+                    _actionStore.StoreUpdated();
                 }
 
                 //todo: refactoring

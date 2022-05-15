@@ -43,6 +43,7 @@ namespace Impingement.Control
         [SerializeField] private InventoryController _inventoryController;
         [SerializeField] private ItemDropper _itemDropper;
         [SerializeField] private List<WeaponConfig> _availableWeapon;
+        [SerializeField] private ActionStore _actionStore;
         private readonly int _cameraYRotation = 45;
 
         public PlayfabPlayerDataController GetPlayfabPlayerDataController()
@@ -122,6 +123,7 @@ namespace Impingement.Control
                 return;
             }
 
+            CheckSpecialAbilityKeys();
             if (InteractWithUI())
             {
                 _characterController.SimpleMove(Vector3.zero);
@@ -149,6 +151,46 @@ namespace Impingement.Control
             else
             {
                 _characterController.SimpleMove(Vector3.zero);
+            }
+        }
+
+        private void CheckSpecialAbilityKeys()
+        {
+            if (Input.GetKeyDown(KeyCode.Alpha1))
+            {
+                _actionStore.Use(0, gameObject);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha2))
+            {
+                _actionStore.Use(1, gameObject);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha3))
+            {
+                _actionStore.Use(2, gameObject);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha4))
+            {
+                _actionStore.Use(3, gameObject);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha5))
+            {
+                _actionStore.Use(4, gameObject);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha6))
+            {
+                _actionStore.Use(5, gameObject);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha7))
+            {
+                _actionStore.Use(6, gameObject);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha8))
+            {
+                _actionStore.Use(7, gameObject);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha9))
+            {
+                _actionStore.Use(8, gameObject);
             }
         }
 
