@@ -12,7 +12,7 @@ namespace Impingement.UI.InventoryUI
     [RequireComponent(typeof(Image))]
     public class InventoryItemIcon : MonoBehaviour
     {
-        [SerializeField] private GameObject _textContainter;
+        [SerializeField] private GameObject _textContainer;
         [SerializeField] private TMP_Text _itemNumber;
         
         public void SetItem(InventoryItem item)
@@ -35,14 +35,14 @@ namespace Impingement.UI.InventoryUI
 
             if (_itemNumber)
             {
-                if (number > 0)
+                if (number <= 1)
                 {
-                    _textContainter.SetActive(true);
-                    _itemNumber.text = number.ToString();
+                    _textContainer.SetActive(false);
                 }
                 else
                 {
-                    _textContainter.SetActive(false);
+                    _textContainer.SetActive(true);
+                    _itemNumber.text = number.ToString();
                 }
             }
         }

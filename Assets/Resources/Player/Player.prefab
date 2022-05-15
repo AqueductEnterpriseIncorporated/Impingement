@@ -387,7 +387,6 @@ GameObject:
   - component: {fileID: 1704641359224381857}
   - component: {fileID: 8950967779405781275}
   - component: {fileID: 4532929116257341691}
-  - component: {fileID: 5387498473535023350}
   - component: {fileID: 3844301170801799079}
   - component: {fileID: 3011847241319602627}
   - component: {fileID: 1025201025}
@@ -644,7 +643,6 @@ MonoBehaviour:
   _photonView: {fileID: 7340406914756252015}
   _playerCameraController: {fileID: 2626118094375857953}
   _staminaController: {fileID: 3526650737367140922}
-  _playerCurrencyController: {fileID: 5387498473535023350}
   _playersPanel: {fileID: 9000701032826192061}
   _playfabPlayerDataController: {fileID: 4532929116257341691}
   _playfabManager: {fileID: 0}
@@ -785,20 +783,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 12e009f30c923294da26c582d0d3b149, type: 2}
   - {fileID: 11400000, guid: 6d1e8034ea1c9214faff9750d43f6b36, type: 2}
   - {fileID: 11400000, guid: 6f78eb2955acb174f85f8e2c831052df, type: 2}
---- !u!114 &5387498473535023350
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4144291504183224196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7953788bee7484ab627bd98156e77f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _myCurrency: 0
-  _inventoryController: {fileID: 1882334903506746407}
 --- !u!143 &3844301170801799079
 CharacterController:
   m_ObjectHideFlags: 0
@@ -3563,7 +3547,7 @@ PrefabInstance:
     - target: {fileID: 1855391445298343303, guid: dcc27e9202243784e916439493af3a8a, type: 3}
       propertyPath: _playerCurrencyController
       value: 
-      objectReference: {fileID: 5387498473535023350}
+      objectReference: {fileID: 0}
     - target: {fileID: 2334080071689714237, guid: dcc27e9202243784e916439493af3a8a, type: 3}
       propertyPath: _playerEquipmentController
       value: 

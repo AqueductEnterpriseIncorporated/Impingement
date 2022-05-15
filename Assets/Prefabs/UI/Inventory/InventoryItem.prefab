@@ -103,7 +103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 493934aefc2d7c9469174527fc9bf167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _textContainter: {fileID: 1705409178254231704}
+  _textContainer: {fileID: 1705409178254231704}
   _itemNumber: {fileID: 2073103161046566463}
 --- !u!114 &5111756271014371297
 MonoBehaviour:

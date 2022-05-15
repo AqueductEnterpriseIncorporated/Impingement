@@ -15,7 +15,7 @@ MonoBehaviour:
   _itemID: 9954ffeb-9a6e-4062-83f0-e114dd1bf827
   _displayName: "\u041B\u0443\u043A"
   _description: "\u041B\u0443\u043A"
-  _icon: {fileID: 0}
+  _icon: {fileID: 21300000, guid: 89eb71263b977ef4789efee06195b513, type: 3}
   _pickup: {fileID: 4605649299470330695, guid: 46539138ce164fc419d893dcfe3e5cc5, type: 3}
   _stackable: 0
   _allowedEquipLocation: 6
