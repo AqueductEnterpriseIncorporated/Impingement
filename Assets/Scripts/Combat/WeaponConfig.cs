@@ -1,11 +1,15 @@
+using System.Collections.Generic;
 using Impingement.Attributes;
+using Impingement.enums;
+using Impingement.Inventory;
+using Impingement.Stats;
 using Photon.Pun;
 using UnityEngine;
 
 namespace Impingement.Combat
 {
     [CreateAssetMenu(fileName = "Weapon", menuName = "Weapons/Make New Weapon", order = 0)]
-    public class WeaponConfig : ScriptableObject
+    public class WeaponConfig : EquipableItem, IModifierProvider
     {
         [SerializeField] private AnimatorOverrideController _animatorOverride = null;
         [SerializeField] private Weapon _equippedPrefab = null;
@@ -118,6 +122,23 @@ namespace Impingement.Combat
         public float GetRange()
         {
             return _weaponRange;
+        }
+
+        public IEnumerable<float> GetAdditiveModifiers(enumStats stat)
+        {
+            if (stat == enumStats.Damage)
+            {
+                yield return _weaponDamage;
+            }
+        }
+
+        public IEnumerable<float> GetPercentageModifiers(enumStats stat)
+        {
+            if (stat == enumStats.Damage)
+            {
+                yield return _weaponPercentageBonus;
+            }
+            
         }
     }
 }

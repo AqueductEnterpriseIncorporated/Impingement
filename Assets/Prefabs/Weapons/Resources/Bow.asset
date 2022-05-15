@@ -12,6 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38a4ef3c6fef8d6498685013ecd07f8c, type: 3}
   m_Name: Bow
   m_EditorClassIdentifier: 
+  _itemID: 9954ffeb-9a6e-4062-83f0-e114dd1bf827
+  _displayName: "\u041B\u0443\u043A"
+  _description: "\u041B\u0443\u043A"
+  _icon: {fileID: 0}
+  _pickup: {fileID: 4605649299470330695, guid: 46539138ce164fc419d893dcfe3e5cc5, type: 3}
+  _stackable: 0
+  _allowedEquipLocation: 6
   _animatorOverride: {fileID: 22100000, guid: 9ad591d406ec7174281dd5ab456068c2, type: 2}
   _equippedPrefab: {fileID: -1527404786742280706, guid: dcaf7b8d1bf979f46b9b980baf22aabb, type: 3}
   _weaponRange: 8

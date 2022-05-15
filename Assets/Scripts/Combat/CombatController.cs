@@ -5,6 +5,7 @@ using Impingement.Attributes;
 using Impingement.Control;
 using Impingement.Core;
 using Impingement.enums;
+using Impingement.Inventory;
 using Impingement.Movement;
 using Impingement.Stats;
 using Photon.Pun;
@@ -12,7 +13,7 @@ using UnityEngine;
 
 namespace Impingement.Combat
 {
-    public class CombatController : MonoBehaviour, IAction, IModifierProvider
+    public class CombatController : MonoBehaviour, IAction
     {
         public float TimeSinceLastAttack = Mathf.Infinity;
         [SerializeField] public float TimeBetweenAttacks = 1f;
@@ -21,6 +22,7 @@ namespace Impingement.Combat
         [SerializeField] private Transform _leftHandTransform = null;
         [SerializeField] private WeaponConfig defaultWeaponConfig = null;
         [SerializeField] private Animator _animator;
+        [SerializeField] private EquipmentController _equipmentController;
         private PhotonView _photonView;
         private MovementController _movementController;
         private HealthController _healthController;
@@ -40,6 +42,16 @@ namespace Impingement.Combat
             _photonView = GetComponent<PhotonView>();
             _currentWeaponConfig = defaultWeaponConfig;
             _currentWeapon = new LazyValue<Weapon>(SetupDefaultWeapon);
+            if (_equipmentController)
+            {
+                _equipmentController.OnEquipmentUpdated += OnOnEquipmentUpdated;
+            }
+        }
+
+        private void OnOnEquipmentUpdated()
+        {
+            var weapon = _equipmentController.GetItemInSlot(enumEquipLocation.Weapon) as WeaponConfig;
+            EquipWeapon(weapon == null ? defaultWeaponConfig : weapon);
         }
 
         public HealthController GetHealthController()
@@ -231,22 +243,6 @@ namespace Impingement.Combat
             _animationController.PlayTriggerAnimation("cancelAttack");
             //_photonView.RPC(nameof(_animationController.ResetTriggerAnimation), RpcTarget.All, "cancelAttack");
            // _photonView.RPC(nameof(_animationController.PlayTriggerAnimation), RpcTarget.All, "attack");
-        }
-        
-        public IEnumerable<float> GetAdditiveModifiers(enumStats stat)
-        {
-            if (stat == enumStats.Damage)
-            {
-                yield return _currentWeaponConfig.GetDamage();
-            }
-        }
-
-        public IEnumerable<float> GetPercentageModifiers(enumStats stat)
-        {
-            if (stat == enumStats.Damage)
-            {
-                yield return _currentWeaponConfig.GetPercentageBonus();
-            }
         }
     }
 }
