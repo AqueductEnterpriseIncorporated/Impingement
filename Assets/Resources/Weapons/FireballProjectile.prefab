@@ -66,12 +66,17 @@ MonoBehaviour:
         m_CallState: 2
   _speed: 15
   _isHoming: 0
+  _isExplosive: 0
   _maxLifeTime: 10
   _lifeAfterImpact: 0.2
+  _boundsForce: 50
   _destroyOnHit:
   - {fileID: 8172097050872611381}
   _hitEffect: {fileID: 2302457091093092515, guid: 69d1b1037536b504884c93bb73d662db, type: 3}
   _photonView: {fileID: 4425723965044899118}
+  _rigidbody: {fileID: 0}
+  _collider: {fileID: 0}
+  _currentCollider: {fileID: 0}
 --- !u!65 &5455816889336898752
 BoxCollider:
   m_ObjectHideFlags: 0

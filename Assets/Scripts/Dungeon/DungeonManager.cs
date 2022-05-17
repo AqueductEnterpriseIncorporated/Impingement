@@ -53,7 +53,6 @@ namespace Impingement.Dungeon
             SetSpawnPoint();
             CleanUp();
             _networkManager.SpawnPlayer();
-            Destroy(GameObject.Find("LoadPanel"));
         }
 
         private void CleanUp()

@@ -120,7 +120,10 @@ namespace Impingement.Combat
 
         private void LookAtTarget()
         {
-            transform.LookAt(_target.transform);
+            transform.LookAt( _target.transform);
+            transform.eulerAngles = new Vector3(0, transform.eulerAngles.y, 0);
+            //transform.rotation = Quaternion.LookRotation(new Vector3());
+            //transform.LookAt(_target.transform, Vector3.up);
             // var lookRotation = Quaternion.LookRotation(_target.transform.position - transform.position);
             // transform.rotation =
             //     Quaternion.RotateTowards(transform.rotation, lookRotation, _rotateSpeed * Time.deltaTime);

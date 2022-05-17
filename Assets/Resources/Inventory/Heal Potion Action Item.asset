@@ -9,13 +9,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be8358f0fcfcb22418d7b5d788e02cc4, type: 3}
-  m_Name: HealPotion
+  m_Script: {fileID: 11500000, guid: b3029542ee954088845629d7f753184a, type: 3}
+  m_Name: Heal Potion Action Item
   m_EditorClassIdentifier: 
-  _itemID: 5b17459b-2cd4-4ad6-8fa5-d85f02c8c8f7
-  _displayName: "\u0424\u043B\u0430\u0441\u043A\u0430"
-  _description: "\u041B\u0435\u0447\u0438\u0442"
+  _itemID: cacdc1d0-deae-4dfe-92e2-de14ca507483
+  _displayName: "\u041C\u0430\u043B\u0435\u043D\u044C\u043A\u043E\u0435 \u0437\u0435\u043B\u044C\u0435
+    \u043B\u0435\u0447\u0435\u043D\u0438\u044F"
+  _description: "\u041B\u0435\u0447\u0438\u0442 \u0438\u0433\u0440\u043E\u043A\u0430"
   _icon: {fileID: 21300000, guid: aba0f700d91d4fc4fa8c724899ab04ab, type: 3}
   _pickup: {fileID: 2520544043136289892, guid: e5118516ee99d5b42ba39a638795257c, type: 3}
   _stackable: 1
   _consumable: 1
+  _pointsToHeal: 15

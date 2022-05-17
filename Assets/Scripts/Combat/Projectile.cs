@@ -138,14 +138,17 @@ namespace Impingement.Combat
                     return;
                 }
 
-                _rigidbody.isKinematic = false;
-                
-                _rigidbody.freezeRotation = false;
-                _currentCollider.enabled = false;
-                _collider.enabled = true;
-                _processTranslate = false;
-                _rigidbody.useGravity = true;
-                _rigidbody.AddForce(Vector3.forward * _boundsForce);
+                if (_rigidbody)
+                {
+                    _rigidbody.isKinematic = false;
+
+                    _rigidbody.freezeRotation = false;
+                    _currentCollider.enabled = false;
+                    _collider.enabled = true;
+                    _processTranslate = false;
+                    _rigidbody.useGravity = true;
+                    _rigidbody.AddForce(Vector3.forward * _boundsForce);
+                }
             }
         }
 

@@ -116,18 +116,19 @@ namespace Impingement.Control
                 return;
             }
 
-            CheckSpecialAbilityKeys();
             if (InteractWithUI())
             {
                 _characterController.SimpleMove(Vector3.zero);
                 return;
             }
-
+            
             if (_healthController.IsDead())
             {
                 //SetCursor(enumCursorType.None);
                 return;
             }
+            
+            CheckSpecialAbilityKeys();
 
             ProcessPlayerInput();
 

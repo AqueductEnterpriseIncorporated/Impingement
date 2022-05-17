@@ -38,6 +38,7 @@ namespace Impingement.Control
         private float _timeSinceArrivedAtWaypoint = Mathf.Infinity;
         private int _currentWaypointIndex;
         private bool _isPatrolPathNotNull;
+        private float _startXRotation;
 
         #endregion
 
@@ -65,6 +66,7 @@ namespace Impingement.Control
             _players = FindObjectsOfType<PlayerController>();
             _isPatrolPathNotNull = _patrolPath != null;
             _guardPosition.ForceInit();
+            _startXRotation = transform.rotation.x;
         }
 
         private void Update()

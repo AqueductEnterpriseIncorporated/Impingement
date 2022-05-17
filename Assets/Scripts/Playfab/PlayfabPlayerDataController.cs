@@ -153,9 +153,7 @@ namespace Impingement.Playfab
         {
             _playfabManager.UploadData(new Dictionary<string, string>()
             {
-                {"Experience", "0"},
-                //{"Weapon", "Unarmed"},
-                {"Inventory", ""},
+                {"PlayerData", ""},
             });
         }
         
@@ -166,7 +164,7 @@ namespace Impingement.Playfab
         
         private void OnDataReceivedPlayerData(GetUserDataResult getUserDataResult)
         {
-            if (getUserDataResult != null && getUserDataResult.Data.ContainsKey("PlayerData"))
+            if (getUserDataResult != null && getUserDataResult.Data.ContainsKey("PlayerData") && getUserDataResult.Data["PlayerData"].Value != null)
             {
                 var json = getUserDataResult.Data["PlayerData"].Value;
                 var playerData = GetData(json);
@@ -218,6 +216,8 @@ namespace Impingement.Playfab
                     }
                     _actionStore.StoreUpdated();
                 }
+                
+
 
                 //todo: refactoring
                 // foreach (var weaponConfig in _availableWeapon)
@@ -229,6 +229,9 @@ namespace Impingement.Playfab
                 //     }
                 // }
             }
+            
+            Destroy(GameObject.Find("LoadPanel"));
+
         }
     }
 }

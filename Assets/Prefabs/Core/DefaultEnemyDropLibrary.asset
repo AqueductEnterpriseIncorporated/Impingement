@@ -13,38 +13,29 @@ MonoBehaviour:
   m_Name: DefaultEnemyDropLibrary
   m_EditorClassIdentifier: 
   _potentialDrops:
-  - Item: {fileID: 11400000, guid: 88eb9e68a21dc2a4ab66961b6c81e600, type: 2}
-    RelativeChance:
-    - 10
-    MinNumber: 
-    MaxNumber: 
   - Item: {fileID: 11400000, guid: 6d1e8034ea1c9214faff9750d43f6b36, type: 2}
     RelativeChance:
     - 10
     MinNumber: 
     MaxNumber: 
-  - Item: {fileID: 11400000, guid: 6d1e8034ea1c9214faff9750d43f6b36, type: 2}
+  - Item: {fileID: 11400000, guid: 91f207f13222e2040b5b91a890f19652, type: 2}
     RelativeChance:
-    - 10
-    MinNumber: 
-    MaxNumber: 
-  - Item: {fileID: 11400000, guid: e9df3b4b4dc65b2439d2f67d1b98ae1f, type: 2}
+    - 50
+    MinNumber: 01000000
+    MaxNumber: 03000000
+  - Item: {fileID: 11400000, guid: fea7e18baa481244d9420842db084227, type: 2}
     RelativeChance:
-    - 80
-    MinNumber: 00000000
-    MaxNumber: 04000000
-  - Item: {fileID: 11400000, guid: 54c6ef05a7f33d9448b299ad5d101acd, type: 2}
+    - 50
+    MinNumber: 01000000
+    MaxNumber: 03000000
+  - Item: {fileID: 11400000, guid: 10ed6147f3902dd4d9bf5f61d5c71ecf, type: 2}
     RelativeChance:
-    - 80
-    MinNumber: 00000000
-    MaxNumber: 04000000
-  - Item: {fileID: 11400000, guid: 54c6ef05a7f33d9448b299ad5d101acd, type: 2}
-    RelativeChance:
-    - 80
-    MinNumber: 00000000
-    MaxNumber: 04000000
+    - 50
+    MinNumber: 01000000
+    MaxNumber: 03000000
   _dropChancePercentage:
+  - 30
   - 50
-  - 90
-  _minDrops: 0200000003000000
-  _maxDrops: 0300000004000000
+  - 80
+  _minDrops: 000000000100000002000000
+  _maxDrops: 020000000300000004000000
