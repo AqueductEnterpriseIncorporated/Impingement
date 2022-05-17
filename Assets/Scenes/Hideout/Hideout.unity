@@ -25087,6 +25087,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PikcupSpawnerFireball
       objectReference: {fileID: 0}
+    - target: {fileID: 2260287196528684076, guid: ab1d7cb677978064188c9ff41c97f0e1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5692956611332166825, guid: ab1d7cb677978064188c9ff41c97f0e1, type: 3}
       propertyPath: m_RootOrder
       value: 3
