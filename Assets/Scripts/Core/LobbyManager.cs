@@ -85,19 +85,16 @@ public class LobbyManager : MonoBehaviourPunCallbacks, IConnectionCallbacks
         _startGamePanel.SetActive(false);
         _lobbyPanel.SetActive(false);
 
-        if (_isMultiplayer)
+
+        //_roomPanel.SetActive(true);
+        _roomName.text = PhotonNetwork.CurrentRoom.Name;
+        if (!PhotonNetwork.IsMasterClient)
         {
-            //_roomPanel.SetActive(true);
-            _roomName.text = PhotonNetwork.CurrentRoom.Name;
-            if (!PhotonNetwork.IsMasterClient)
-            {
-                FindObjectOfType<NetworkManager>().SpawnPlayer();
-            }
+            FindObjectOfType<NetworkManager>().SpawnPlayer();
         }
-        else
-        {
-            PhotonNetwork.Instantiate(_portalPrefab.name, _portalSpawnTransform.position, Quaternion.identity);
-        }
+
+
+        PhotonNetwork.Instantiate(_portalPrefab.name, _portalSpawnTransform.position, Quaternion.identity);
     }
 
     public override void OnRoomListUpdate(List<RoomInfo> roomList)

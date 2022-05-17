@@ -17,6 +17,7 @@ namespace Impingement.UI.Settings
         {
             ApplyVolumeSettings();
             ApplyGraphicSettings();
+            //Application.targetFrameRate = 140;
         }
 
         private void ApplyGraphicSettings()

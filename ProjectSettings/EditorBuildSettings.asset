@@ -8,15 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 2dbc3b6c7e67eee41af0d48ace04c11c
-  - enabled: 0
-    path: Assets/Scenes/SampleScene/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 0
-    path: Assets/Scenes/Scene02/Scene02.unity
-    guid: 51dbf0c3ca2ee00479203b4542bded4e
-  - enabled: 0
-    path: Assets/Scenes/Hideout/Hideout/Hideout.unity
-    guid: 570457eea92014645b033195997a1d8c
   - enabled: 1
     path: Assets/Scenes/Dungeon/Dungeon.unity
     guid: 62b406462745eef488f854b587a21508
