@@ -7962,6 +7962,10 @@ PrefabInstance:
       propertyPath: _portalSpawnTransform
       value: 
       objectReference: {fileID: 2110882280}
+    - target: {fileID: 324273752703571762, guid: da35cbc10e5e92f43bf8f2e5312fa48c, type: 3}
+      propertyPath: _portalSceneToLoadName
+      value: Dungeon
+      objectReference: {fileID: 0}
     - target: {fileID: 324273752703571763, guid: da35cbc10e5e92f43bf8f2e5312fa48c, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -13228,6 +13232,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21da2be8cb2597d41a8f325367eb4194, type: 3}
+--- !u!1 &1025201023 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1587803557045461187, guid: 21da2be8cb2597d41a8f325367eb4194, type: 3}
+  m_PrefabInstance: {fileID: 1025201022}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1035303636
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22299,6 +22308,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 441524, guid: 8615aadfa15f31e4c9b56dadf6c0dd63, type: 3}
   m_PrefabInstance: {fileID: 1828185874}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1830543753
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1830543755}
+  - component: {fileID: 1830543754}
+  m_Layer: 0
+  m_Name: NetworkManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1830543754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830543753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 709aa90808ea4b2d92f43b8c258ee655, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerPrfab: {fileID: 1025201023}
+  _spawnTransform: {fileID: 0}
+--- !u!4 &1830543755
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830543753}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1832994301 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 425392, guid: 768ce21ff316edf44a2ad114b775ee32, type: 3}

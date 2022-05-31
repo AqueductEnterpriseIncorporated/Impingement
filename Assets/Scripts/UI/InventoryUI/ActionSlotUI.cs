@@ -14,11 +14,11 @@ namespace Impingement.UI.InventoryUI
         [SerializeField] private int _index = 0;
 
         private ActionStore _store;
-
-        //todo: fix
+        
         private void Awake()
         {
-            _store = GameObject.FindGameObjectWithTag("Player").GetComponent<ActionStore>();
+
+            _store = GetComponentInParent<InventoryUI>().CurrentPlayerController.GetComponent<ActionStore>();
             _store.OnStoreUpdated += UpdateIcon;
         }
         

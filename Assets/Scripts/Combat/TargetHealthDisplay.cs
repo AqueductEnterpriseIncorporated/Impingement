@@ -1,5 +1,4 @@
 ﻿using Impingement.Attributes;
-using Impingement.Control;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -21,7 +20,6 @@ namespace Impingement.Combat
             }
             else
             {
-                if (target.IsPlayer) { Show(target, false); }
                 _imageParent.SetActive(true);
                 _healthValueText.text = target.CharacterName;
                 _healthImage.fillAmount = target.GetMaxHealthPoints() / target.GetHealthPoints();

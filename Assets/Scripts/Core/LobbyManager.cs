@@ -6,6 +6,7 @@ using Photon.Pun;
 using Photon.Realtime;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LobbyManager : MonoBehaviourPunCallbacks, IConnectionCallbacks
 {
@@ -90,7 +91,10 @@ public class LobbyManager : MonoBehaviourPunCallbacks, IConnectionCallbacks
         _roomName.text = PhotonNetwork.CurrentRoom.Name;
         if (!PhotonNetwork.IsMasterClient)
         {
-            FindObjectOfType<NetworkManager>().SpawnPlayer();
+            PhotonNetwork.LoadLevel(1);
+            //SceneManager.LoadScene("Tests3");
+
+            //FindObjectOfType<NetworkManager>().SpawnPlayer();
         }
 
 

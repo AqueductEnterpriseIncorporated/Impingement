@@ -1,4 +1,5 @@
-﻿using Impingement.Inventory;
+﻿using Impingement.Control;
+using Impingement.Inventory;
 using UnityEngine;
 
 namespace Impingement.UI.InventoryUI
@@ -9,6 +10,7 @@ namespace Impingement.UI.InventoryUI
     /// </summary>
     public class InventoryUI : MonoBehaviour
     {
+        public PlayerController CurrentPlayerController;
         [SerializeField] private InventorySlotUI _inventoryItemPrefab = null;
         [SerializeField] private InventoryController _playerInventory;
         [SerializeField] private Transform _inventoryTransform;

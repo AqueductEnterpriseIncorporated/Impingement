@@ -1,4 +1,5 @@
-﻿using Impingement.Inventory;
+﻿using Impingement.Control;
+using Impingement.Inventory;
 using Impingement.Playfab;
 using Photon.Pun;
 using UnityEngine;
@@ -37,15 +38,21 @@ namespace Impingement.UI
             {
                 if (PhotonNetwork.InRoom)
                 {
-                    if(!PhotonNetwork.IsMasterClient) { return; }
+                    //todo: fix
+                    if (!player.GetComponent<PlayerNetworkController>().IsHost())
+                    {
+                        PlayerInventoryController = null;
+                        _panel.SetActive(false);
+                        return;
+                    }
                 }
+                PlayerInventoryController = player;
 
                 for (var i = 0; i < player.Slots.Length; i++)
                 {
                     var slot = player.Slots[i];
                     if (slot.Item is CurrencyItem)
                     {
-                        PlayerInventoryController = player;
                         CurrencyItemIndex = i;
                         break;
                     }

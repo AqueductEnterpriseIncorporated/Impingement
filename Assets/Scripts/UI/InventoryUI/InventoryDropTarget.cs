@@ -12,10 +12,9 @@ namespace Impingement.UI.InventoryUI
     /// </summary>
     public class InventoryDropTarget : MonoBehaviour, IDragDestination<InventoryItem>
     {
-        //todo: fix
         public void AddItems(InventoryItem item, int number)
         {
-            var player = GameObject.FindGameObjectWithTag("Player");
+            var player = GetComponentInParent<InventoryUI>().CurrentPlayerController;
             player.GetComponent<ItemDropper>().DropItem(item, number);
         }
 

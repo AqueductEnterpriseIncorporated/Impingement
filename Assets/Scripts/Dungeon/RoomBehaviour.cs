@@ -49,7 +49,7 @@ namespace Impingement.Dungeon
             {
                 foreach (var enemy in _enemies)
                 {
-                    Destroy(enemy);
+                    PhotonNetwork.Destroy(enemy);
                 }
                 return;
             }
@@ -63,7 +63,7 @@ namespace Impingement.Dungeon
                 for (int i = 0; i < arrayCount - amount; i++)
                 {
                     int randomIndex = Random.Range(0, _enemies.Count - 1);
-                    Destroy(_enemies[randomIndex]);
+                    PhotonNetwork.Destroy(_enemies[randomIndex]);
                     _enemies.RemoveAt(randomIndex);
                     EnemiesToRemove.Add(randomIndex);
                 }
@@ -85,8 +85,8 @@ namespace Impingement.Dungeon
 
         public void CleanUp()
         {
-            Destroy(_photonView);
-            Destroy(_collider);
+            PhotonNetwork.Destroy(_photonView);
+            //Destroy(_collider);
         }
     }
 }

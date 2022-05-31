@@ -13,6 +13,7 @@ namespace Impingement.Dungeon
             {
                 if (collider.tag == "Wall")
                 {
+                    if(!GetComponent<PhotonView>().IsMine) { return; }
                     PhotonNetwork.Destroy(gameObject);
                     return;
                 }

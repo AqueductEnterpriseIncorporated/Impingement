@@ -11,17 +11,14 @@ using Impingement.structs;
 using Impingement.UI;
 using Photon.Pun;
 using Photon.Realtime;
-using PlayFab.ClientModels;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using Random = UnityEngine.Random;
 
 namespace Impingement.Control
 {
     public class PlayerController : MonoBehaviourPunCallbacks, IAction
     {
         [SerializeField] private GameObject _hud;
-        [SerializeField] private float _raycastRadius = 1f;
         [SerializeField] private float _rotationSpeed;
         [SerializeField] private float _speed = 3;
         [SerializeField] private Camera _camera;
@@ -36,23 +33,10 @@ namespace Impingement.Control
         [SerializeField] private StaminaController _staminaController;
         [SerializeField] private PlayersPanel _playersPanel;
         [SerializeField] private PlayfabPlayerDataController _playfabPlayerDataController;
-        [SerializeField] private PlayfabManager _playfabManager;
-        [SerializeField] private ExperienceController _experienceController;
         [SerializeField] private InventoryController _inventoryController;
         [SerializeField] private ItemDropper _itemDropper;
-        [SerializeField] private List<WeaponConfig> _availableWeapon;
         [SerializeField] private ActionStore _actionStore;
         private readonly int _cameraYRotation = 45;
-
-        public PlayfabPlayerDataController GetPlayfabPlayerDataController()
-        {
-            return _playfabPlayerDataController;
-        }
-
-        public CombatController GetCombatController()
-        {
-            return _combatController;
-        }
 
         public TargetHealthDisplay GetTargetHealthDisplay()
         {
@@ -74,11 +58,6 @@ namespace Impingement.Control
             return _photonView;
         }
 
-        public PlayersPanel GetPlayersPanel()
-        {
-            return _playersPanel;
-        }
-
         public GameObject GetHUD()
         {
             return _hud;
@@ -94,17 +73,9 @@ namespace Impingement.Control
             return _itemDropper;
         }
 
-        private void Awake()
-        {
-            _playfabManager = FindObjectOfType<PlayfabManager>();
-        }
-
         private void Start()
         {
-            if (!_photonView.IsMine)
-            {
-                _camera.gameObject.SetActive(false);
-            }
+            _healthController.CharacterName = PhotonNetwork.NickName;
 
             SetCursor(enumCursorType.Movement);
         }
@@ -366,9 +337,9 @@ namespace Impingement.Control
             //     return;
             // }
 
-            photonView.RPC(nameof(RPCSyncPlayers), RpcTarget.Others);
+            //photonView.RPC(nameof(RPCSyncPlayers), RpcTarget.Others);
 
-            UpdatePlayersPanel();
+            //UpdatePlayersPanel();
         }
 
         private void UpdatePlayersPanel()

@@ -40,18 +40,18 @@ namespace Impingement.Dungeon
 
             if (dungeonIsSaved)
             {
-                SetAreaLevel();
-                SetRoomModifiers();
+                //SetAreaLevel();
+                //SetRoomModifiers();
             }
             else
             {
-                AddRoomModifiers();
+                //AddRoomModifiers();
             }
             SetEnemyLevel();
             //SpawnBoss();
             SpawnPortals();
             SetSpawnPoint();
-            CleanUp();
+            //CleanUp();
             _networkManager.SpawnPlayer();
         }
 
@@ -195,7 +195,7 @@ namespace Impingement.Dungeon
             public string AreaLevel;
         }
         
-        public void GenerateJson()
+        public string GenerateJson()
         {
             SerializableDungeonData dungeonData = new SerializableDungeonData
             {
@@ -263,6 +263,7 @@ namespace Impingement.Dungeon
             
             var data = StringSerializationAPI.Serialize(typeof(SerializableDungeonData),  dungeonData);
             FindObjectOfType<PlayfabManager>().UploadJson("DungeonData", data);
+            return data;
         }
 
         public SerializableDungeonData GetData(string data)

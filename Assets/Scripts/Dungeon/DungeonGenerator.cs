@@ -10,10 +10,11 @@ using Random = UnityEngine.Random;
 
 namespace Impingement.Dungeon
 {
-    public class DungeonGenerator : MonoBehaviour
+    [RequireComponent(typeof(PhotonView))]
+    public class DungeonGenerator : MonoBehaviour, IPunObservable
     {
         [SerializeField] private DungeonManager _dungeonManager;
-
+        
         public class Cell
         {
             public bool visited = false;
@@ -48,33 +49,36 @@ namespace Impingement.Dungeon
         public Rule[] rooms;
         public Vector2 offset;
 
-        //todo: check null reference Board
         public List<Cell> Board;
         private SerializableDungeonData _dungeonData;
+        private int _syncingDungeonData;
 
         private void Start()
         {
+            if (!PhotonNetwork.IsMasterClient)
+            {
+                return;
+            }
+
             var dungeonIsSaved = FindObjectOfType<PlayfabManager>().DungeonIsSaved;
-            
+
             if (dungeonIsSaved)
             {
                 FindObjectOfType<PlayfabManager>().LoadJson(OnDataReceived);
             }
-            else
+            //else
             {
-                //while (true)
+
+                try
                 {
-                    try
-                    {
-                        Generate();
-                        //break;
-                    }
-                    catch (Exception e)
-                    {
-                        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-                        print(e.Message);
-                    }
+                    Generate();
                 }
+                catch (Exception e)
+                {
+                    //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                    print(e.Message);
+                }
+
             }
         }
 
@@ -83,8 +87,15 @@ namespace Impingement.Dungeon
             var dungeonSize = FindObjectOfType<DungeonProgressionManager>().GetDungeonSize();
             size = dungeonSize;
             MazeGenerator();
-            GenerateDungeon();
-            _dungeonManager.Manage(false);
+            _syncingDungeonData = Random.Range(0, 99);
+            //GenerateDungeon();
+            //SyncData();
+            //_dungeonManager.Manage(false);
+        }
+
+        private void SyncData()
+        {
+            //_syncingDungeonData = _dungeonManager.GenerateJson();
         }
 
         private void OnDataReceived(GetUserDataResult result)
@@ -164,7 +175,10 @@ namespace Impingement.Dungeon
                                     .RoomModifiers[_dungeonManager.Rooms.Count].RandomlyGeneratedObjectPrefabNamesList;
                             }
                         }
-                        newRoom.ManageEnemyAmount(false, _dungeonData != null);
+                        if (PhotonNetwork.IsMasterClient)
+                        {
+                            newRoom.ManageEnemyAmount(false, _dungeonData != null);
+                        }
 
                         _dungeonManager.Rooms.Add(newRoom);
                     }
@@ -301,6 +315,31 @@ namespace Impingement.Dungeon
                 int.Parse(sArray[1]));
 
             return result;
+        }
+
+        public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+        {
+            if (stream.IsWriting)
+            {
+                Debug.Log(_syncingDungeonData);
+                stream.SendNext(_syncingDungeonData);
+            }
+            else
+            {
+                _syncingDungeonData = (int)stream.ReceiveNext();
+                Debug.Log(_syncingDungeonData);
+
+                if (_syncingDungeonData != null)
+                {
+                    // var dungeonManager = FindObjectOfType<DungeonManager>();
+                    // _dungeonData = dungeonManager.GetData(_syncingDungeonData);
+                    // dungeonManager.LoadedDungeonData = _dungeonData;
+                    // Board = _dungeonData.Board;
+                    // size = StringToVector2(_dungeonData.DungeonSize);
+                    // GenerateDungeon();
+                    // _dungeonManager.Manage(true);
+                }
+            }
         }
     }
 }
