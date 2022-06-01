@@ -18,6 +18,8 @@ namespace Impingement.Control
 {
     public class PlayerController : MonoBehaviourPunCallbacks, IAction
     {
+        #region fields
+
         [SerializeField] private GameObject _hud;
         [SerializeField] private float _rotationSpeed;
         [SerializeField] private float _speed = 3;
@@ -30,6 +32,7 @@ namespace Impingement.Control
         [SerializeField] private TargetHealthDisplay _targetHealthDisplay;
         [SerializeField] private PhotonView _photonView;
         [SerializeField] private PlayerCameraController _playerCameraController;
+        [SerializeField] private AnimationController _animationController;
         [SerializeField] private StaminaController _staminaController;
         [SerializeField] private PlayersPanel _playersPanel;
         [SerializeField] private PlayfabPlayerDataController _playfabPlayerDataController;
@@ -37,6 +40,10 @@ namespace Impingement.Control
         [SerializeField] private ItemDropper _itemDropper;
         [SerializeField] private ActionStore _actionStore;
         private readonly int _cameraYRotation = 45;
+
+        #endregion
+
+        #region getters
 
         public TargetHealthDisplay GetTargetHealthDisplay()
         {
@@ -52,7 +59,7 @@ namespace Impingement.Control
         {
             return _staminaController;
         }
-        
+
         public PhotonView GetPhotonView()
         {
             return _photonView;
@@ -67,11 +74,13 @@ namespace Impingement.Control
         {
             return _inventoryController;
         }
-        
+
         public ItemDropper GetItemDropper()
         {
             return _itemDropper;
         }
+
+        #endregion
 
         private void Start()
         {
@@ -92,14 +101,12 @@ namespace Impingement.Control
                 _characterController.SimpleMove(Vector3.zero);
                 return;
             }
-            
+
             if (_healthController.IsDead())
             {
                 //SetCursor(enumCursorType.None);
                 return;
             }
-            
-            CheckSpecialAbilityKeys();
 
             ProcessPlayerInput();
 
@@ -109,13 +116,16 @@ namespace Impingement.Control
                 // return;
             }
 
-            if (InteractWithMovement())
+            if (!_animationController.IsPlaying())
             {
-                return;
-            }
-            else
-            {
-                _characterController.SimpleMove(Vector3.zero);
+                if (ProcessMovement())
+                {
+                    return;
+                }
+                else
+                {
+                    _characterController.SimpleMove(Vector3.zero);
+                }
             }
         }
 
@@ -125,34 +135,42 @@ namespace Impingement.Control
             {
                 _actionStore.Use(0, gameObject);
             }
+
             if (Input.GetKeyDown(KeyCode.Alpha2))
             {
                 _actionStore.Use(1, gameObject);
             }
+
             if (Input.GetKeyDown(KeyCode.Alpha3))
             {
                 _actionStore.Use(2, gameObject);
             }
+
             if (Input.GetKeyDown(KeyCode.Alpha4))
             {
                 _actionStore.Use(3, gameObject);
             }
+
             if (Input.GetKeyDown(KeyCode.Alpha5))
             {
                 _actionStore.Use(4, gameObject);
             }
+
             if (Input.GetKeyDown(KeyCode.Alpha6))
             {
                 _actionStore.Use(5, gameObject);
             }
+
             if (Input.GetKeyDown(KeyCode.Alpha7))
             {
                 _actionStore.Use(6, gameObject);
             }
+
             if (Input.GetKeyDown(KeyCode.Alpha8))
             {
                 _actionStore.Use(7, gameObject);
             }
+
             if (Input.GetKeyDown(KeyCode.Alpha9))
             {
                 _actionStore.Use(8, gameObject);
@@ -161,21 +179,16 @@ namespace Impingement.Control
 
         private void ProcessPlayerInput()
         {
+            CheckSpecialAbilityKeys();
+
             if (Input.GetKey(KeyCode.Q) || Input.GetKeyDown(KeyCode.Q))
             {
-                if (PhotonNetwork.IsConnected)
-                {
-                    _photonView.RPC(nameof(RPCInteractWithCombat), RpcTarget.All);
-                }
-                else
-                {
-                    RPCInteractWithCombat();
-                }
+                InteractWithCombat();
             }
         }
 
-        [PunRPC]
-        private void RPCInteractWithCombat()
+        //todo: refactoring
+        private void InteractWithCombat()
         {
             var currentWeapon = _combatController.GetCurrentWeapon();
 
@@ -186,12 +199,16 @@ namespace Impingement.Control
                     if (_staminaController.GetCurrentStaminaPoints() >= currentWeapon.GetStaminaPointsToSpend())
                     {
                         _staminaController.SpendStamina(currentWeapon.GetStaminaPointsToSpend());
+
                         ProcessCombat();
+
                     }
                 }
                 else
                 {
+
                     ProcessCombat();
+
                 }
             }
         }
@@ -204,6 +221,7 @@ namespace Impingement.Control
             _combatController.SetDirection(direction);
             _combatController.AttackBehavior();
         }
+
 
 
         private bool InteractWithComponent()
@@ -248,7 +266,7 @@ namespace Impingement.Control
             return false;
         }
 
-        private bool InteractWithMovement()
+        private bool ProcessMovement()
         {
             var direction = GetDirection();
 
@@ -263,6 +281,7 @@ namespace Impingement.Control
                     _actionScheduleController.StartAction(this);
                     _characterController.Move(direction * (Time.deltaTime * _speed));
                     transform.eulerAngles = SetRotation(direction);
+                    print("playing run animation");
 
                     return true;
                 }
@@ -363,7 +382,7 @@ namespace Impingement.Control
         private void RPCSyncPlayers()
         {
             var players = FindObjectsOfType<PlayerController>();
- 
+
             foreach (var playerController in players)
             {
                 if (!playerController.GetPhotonView().IsMine)
@@ -374,7 +393,7 @@ namespace Impingement.Control
                     // _playersPanel.AddPlayer(playerController);
                     // var id = playerController.GetPhotonView().Controller.NickName;
                     // playerController.GetPlayfabPlayerDataController().SetupPlayer(id);
-                    
+
                     //Destroy(playerController._hud);
                     // var id = playerController.GetPhotonView().Controller.NickName;
                     // playerController._playfabManager.LoadData(id, OnDataReceived);

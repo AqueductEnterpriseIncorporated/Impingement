@@ -1,6 +1,9 @@
-﻿using Impingement.Control;
+﻿using System;
+using System.Linq;
+using Impingement.Control;
 using Impingement.Dungeon;
 using Impingement.Playfab;
+using Photon.Pun;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -10,7 +13,7 @@ namespace Impingement.SceneManagement
     {
         [SerializeField] private bool _saveDungeonData;
         [SerializeField] private bool _completeLevelOnEnter;
-        [SerializeField] private string _sceneToLoad = "";
+        [SerializeField] private int _sceneIndexToLoad;
         [SerializeField] private GameObject _loadPanel;
         private PlayfabManager _playfabManager;
 
@@ -20,7 +23,7 @@ namespace Impingement.SceneManagement
             {
                 Instantiate(_loadPanel);
                 _playfabManager = FindObjectOfType<PlayfabManager>();
-                
+
                 if (_completeLevelOnEnter)
                 {
                     FindObjectOfType<DungeonProgressionManager>().CompleteLevel();
@@ -40,7 +43,24 @@ namespace Impingement.SceneManagement
 
         private void ManageSceneChanging()
         {
-            SceneManager.LoadSceneAsync(_sceneToLoad);
+            foreach (var player in FindObjectsOfType<PlayerController>().Select(p => p.gameObject.transform.parent))
+            {
+                if (player.GetComponentInChildren<PhotonView>().IsMine)
+                {
+                    try
+                    {
+
+
+                        PhotonNetwork.Destroy(player.gameObject);
+                    }
+                    catch (Exception e)
+                    {
+                        Debug.Log(e.Message);
+                    }
+                }
+            }
+            PhotonNetwork.LoadLevel(_sceneIndexToLoad);
+            //SceneManager.LoadSceneAsync(_sceneToLoad);
         }
     }
 }

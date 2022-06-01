@@ -60,6 +60,7 @@ public class LobbyManager : MonoBehaviourPunCallbacks, IConnectionCallbacks
     public override void OnConnectedToMaster()
     {
         PhotonNetwork.JoinLobby();
+        PhotonNetwork.AutomaticallySyncScene = true;
     }
 
     public override void OnJoinedLobby()
@@ -91,10 +92,10 @@ public class LobbyManager : MonoBehaviourPunCallbacks, IConnectionCallbacks
         _roomName.text = PhotonNetwork.CurrentRoom.Name;
         if (!PhotonNetwork.IsMasterClient)
         {
-            PhotonNetwork.LoadLevel(1);
+            //PhotonNetwork.LoadLevel(1);
             //SceneManager.LoadScene("Tests3");
 
-            //FindObjectOfType<NetworkManager>().SpawnPlayer();
+            FindObjectOfType<NetworkManager>().SpawnPlayer();
         }
 
 

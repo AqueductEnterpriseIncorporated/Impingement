@@ -35,12 +35,6 @@ namespace Impingement.PhotonScripts
             SceneManager.sceneLoaded -= SceneManagerOnSceneLoaded;
         }
 
-        public override void OnConnectedToMaster()
-        {
-            base.OnConnectedToMaster();
-            PhotonNetwork.AutomaticallySyncScene = true;
-        }
-
         private void SceneManagerOnSceneLoaded(Scene arg0, LoadSceneMode arg1)
         {
             if (SceneManager.GetActiveScene().name == "Tests3")
