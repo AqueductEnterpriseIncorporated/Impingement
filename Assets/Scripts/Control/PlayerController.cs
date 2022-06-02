@@ -39,6 +39,7 @@ namespace Impingement.Control
         [SerializeField] private InventoryController _inventoryController;
         [SerializeField] private ItemDropper _itemDropper;
         [SerializeField] private ActionStore _actionStore;
+        [SerializeField] private InputManager _inputManager;
         private readonly int _cameraYRotation = 45;
 
         #endregion
@@ -131,47 +132,47 @@ namespace Impingement.Control
 
         private void CheckSpecialAbilityKeys()
         {
-            if (Input.GetKeyDown(KeyCode.Alpha1))
+            if (_inputManager.GetKeyDown("Активная1"))
             {
                 _actionStore.Use(0, gameObject);
             }
 
-            if (Input.GetKeyDown(KeyCode.Alpha2))
+            if (_inputManager.GetKeyDown("Активная2"))
             {
                 _actionStore.Use(1, gameObject);
             }
 
-            if (Input.GetKeyDown(KeyCode.Alpha3))
+            if (_inputManager.GetKeyDown("Активная3"))
             {
                 _actionStore.Use(2, gameObject);
             }
 
-            if (Input.GetKeyDown(KeyCode.Alpha4))
+            if (_inputManager.GetKeyDown("Активная4"))
             {
                 _actionStore.Use(3, gameObject);
             }
 
-            if (Input.GetKeyDown(KeyCode.Alpha5))
+            if (_inputManager.GetKeyDown("Активная5"))
             {
                 _actionStore.Use(4, gameObject);
             }
 
-            if (Input.GetKeyDown(KeyCode.Alpha6))
+            if (_inputManager.GetKeyDown("Активная6"))
             {
                 _actionStore.Use(5, gameObject);
             }
 
-            if (Input.GetKeyDown(KeyCode.Alpha7))
+            if (_inputManager.GetKeyDown("Активная7"))
             {
                 _actionStore.Use(6, gameObject);
             }
 
-            if (Input.GetKeyDown(KeyCode.Alpha8))
+            if (_inputManager.GetKeyDown("Активная8"))
             {
                 _actionStore.Use(7, gameObject);
             }
 
-            if (Input.GetKeyDown(KeyCode.Alpha9))
+            if (_inputManager.GetKeyDown("Активная9"))
             {
                 _actionStore.Use(8, gameObject);
             }
@@ -181,7 +182,7 @@ namespace Impingement.Control
         {
             CheckSpecialAbilityKeys();
 
-            if (Input.GetKey(KeyCode.Q) || Input.GetKeyDown(KeyCode.Q))
+            if (_inputManager.GetKey("Атака") || _inputManager.GetKeyDown("Атака"))
             {
                 InteractWithCombat();
             }
@@ -270,7 +271,7 @@ namespace Impingement.Control
         {
             var direction = GetDirection();
 
-            if (Input.GetMouseButton(0))
+            if (_inputManager.GetKey("Передвижение"))
             {
                 Ray ray = _camera.ScreenPointToRay(Input.mousePosition);
                 RaycastHit rayHit;
@@ -281,7 +282,6 @@ namespace Impingement.Control
                     _actionScheduleController.StartAction(this);
                     _characterController.Move(direction * (Time.deltaTime * _speed));
                     transform.eulerAngles = SetRotation(direction);
-                    print("playing run animation");
 
                     return true;
                 }
@@ -291,7 +291,7 @@ namespace Impingement.Control
                 return false;
             }
 
-            if (Input.GetMouseButtonUp(0))
+            if (_inputManager.GetKeyUp("Передвижение"))
             {
                 _characterController.SimpleMove(Vector3.zero);
 

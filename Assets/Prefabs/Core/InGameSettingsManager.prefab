@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2832972671115729314}
+  - component: {fileID: 6205458936978638456}
   m_Layer: 0
   m_Name: InGameSettingsManager
   m_TagString: Untagged
@@ -30,3 +31,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6205458936978638456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4463832903761745957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77295c4751e74da88dd9ea409a770bec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _mixer: {fileID: 24100000, guid: 5fceb44f364258541a28884813b99eea, type: 2}
+  _inputManager: {fileID: 0}
+  _parameters:
+  - Master
+  - SFX
+  - Music
+  _defaultTextureQuality: 0
+  _defaultAAQuality: 1
+  _defaultFullscreen: 1

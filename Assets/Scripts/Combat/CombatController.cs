@@ -146,7 +146,6 @@ namespace Impingement.Combat
             {
                 _animationController.PlayAttackAnimation();
                 //_animationController.ResetTriggerAnimation("cancelAttack");
-                print("playing attack animation");
                 //_animationController.PlayTriggerAnimation("attack");
                 //_photonView.RPC(nameof(_animationController.ResetTriggerAnimation), RpcTarget.All, "cancelAttack");
                 //_photonView.RPC(nameof(_animationController.PlayTriggerAnimation), RpcTarget.All, "attack");

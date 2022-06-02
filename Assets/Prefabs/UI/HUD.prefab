@@ -1801,6 +1801,7 @@ MonoBehaviour:
   - {fileID: 7436190123009883057}
   - {fileID: 7403236181135886655}
   - {fileID: 7212899614820126344}
+  - {fileID: 4500197367876694293}
   IsOpened: 0
 --- !u!114 &7260486837158359431
 MonoBehaviour:
@@ -1911,6 +1912,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3828f8622ad6c146b054e041b45ae07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentPlayerController: {fileID: 0}
   _inventoryItemPrefab: {fileID: 7426401722573831417, guid: c594275c434a4ca4da0314f42b0d1e3f, type: 3}
   _playerInventory: {fileID: 0}
   _inventoryTransform: {fileID: 7249061600885445266}
@@ -11141,13 +11143,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1875226203734477361, guid: 689a8f3726bcddb4ba50701a7560c880, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230009214836883082, guid: 689a8f3726bcddb4ba50701a7560c880, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2798005889380470092, guid: 689a8f3726bcddb4ba50701a7560c880, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 234759956490001109}
+    - target: {fileID: 3891712090045080061, guid: 689a8f3726bcddb4ba50701a7560c880, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4931442003058940544, guid: 689a8f3726bcddb4ba50701a7560c880, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5335973016433354599, guid: 689a8f3726bcddb4ba50701a7560c880, type: 3}
       propertyPath: m_Name
       value: Settings
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506236030428457667, guid: 689a8f3726bcddb4ba50701a7560c880, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6044845341089909039, guid: 689a8f3726bcddb4ba50701a7560c880, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6049521002909850609, guid: 689a8f3726bcddb4ba50701a7560c880, type: 3}
       propertyPath: m_IsActive
@@ -11158,6 +11184,11 @@ PrefabInstance:
 --- !u!1 &7212899614820126344 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8225116119565506238, guid: 689a8f3726bcddb4ba50701a7560c880, type: 3}
+  m_PrefabInstance: {fileID: 1602197846338918454}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4500197367876694293 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2904768821659003171, guid: 689a8f3726bcddb4ba50701a7560c880, type: 3}
   m_PrefabInstance: {fileID: 1602197846338918454}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1903787699494097824 stripped

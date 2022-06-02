@@ -66,15 +66,13 @@ public class LobbyManager : MonoBehaviourPunCallbacks, IConnectionCallbacks
     public override void OnJoinedLobby()
     {
         _connectingText.SetActive(false);
+        CreateRoom();
 
-        if (!_isMultiplayer)
-        {
-            CreateRoom();
-        }
-        else
+        if (_isMultiplayer)
         {
             _lobbyPanel.SetActive(true);
         }
+        
     }
 
     public void CreateRoom()
@@ -97,9 +95,10 @@ public class LobbyManager : MonoBehaviourPunCallbacks, IConnectionCallbacks
 
             FindObjectOfType<NetworkManager>().SpawnPlayer();
         }
-
-
-        PhotonNetwork.Instantiate(_portalPrefab.name, _portalSpawnTransform.position, Quaternion.identity);
+        else
+        {
+            Instantiate(_portalPrefab, _portalSpawnTransform.position, Quaternion.identity);
+        }
     }
 
     public override void OnRoomListUpdate(List<RoomInfo> roomList)

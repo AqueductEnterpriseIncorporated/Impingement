@@ -1,4 +1,5 @@
 ﻿using System;
+using Impingement.Control;
 using UnityEngine;
 using UnityEngine.Audio;
 
@@ -8,6 +9,7 @@ namespace Impingement.UI.Settings
     {
         [Header("Volume")]
         [SerializeField] private AudioMixer _mixer;
+        [SerializeField] private InputManager _inputManager;
         [SerializeField] private string[] _parameters;
         [SerializeField] private int _defaultTextureQuality = 0;
         [SerializeField] private int _defaultAAQuality = 1;
@@ -17,7 +19,13 @@ namespace Impingement.UI.Settings
         {
             ApplyVolumeSettings();
             ApplyGraphicSettings();
+            ApplyInputSettings();
             //Application.targetFrameRate = 140;
+        }
+
+        private void ApplyInputSettings()
+        {
+            _inputManager.Setup();
         }
 
         private void ApplyGraphicSettings()

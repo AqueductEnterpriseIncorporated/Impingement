@@ -256,35 +256,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: InGameSettingsManager
       objectReference: {fileID: 0}
+    - target: {fileID: 6205458936978638456, guid: 302d65335d72b144592c1440ec9222bc, type: 3}
+      propertyPath: _inputManager
+      value: 
+      objectReference: {fileID: 11400000, guid: a95a85ccdc372a34982afe6b31884e5d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 302d65335d72b144592c1440ec9222bc, type: 3}
---- !u!1 &8213226989694592674 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4463832903761745957, guid: 302d65335d72b144592c1440ec9222bc, type: 3}
-  m_PrefabInstance: {fileID: 5479057817854738055}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7735279445462804261 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2832972671115729314, guid: 302d65335d72b144592c1440ec9222bc, type: 3}
   m_PrefabInstance: {fileID: 5479057817854738055}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &6205458936978638456
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8213226989694592674}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77295c4751e74da88dd9ea409a770bec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _mixer: {fileID: 24100000, guid: 5fceb44f364258541a28884813b99eea, type: 2}
-  _parameters:
-  - Master
-  - SFX
-  - Music
-  _defaultTextureQuality: 0
-  _defaultAAQuality: 1
-  _defaultFullscreen: 1
