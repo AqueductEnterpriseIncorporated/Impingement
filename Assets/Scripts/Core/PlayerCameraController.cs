@@ -1,4 +1,5 @@
 using Cinemachine;
+using Impingement.UI;
 using Photon.Pun;
 using UnityEngine;
 
@@ -12,6 +13,7 @@ namespace Impingement.Core
         [SerializeField] CinemachineVirtualCamera _virtualCamera;
         [SerializeField] CinemachineInputProvider _inputProvider;
         [SerializeField] Camera _camera;
+        [SerializeField] ScrollController _scrollController;
         private PhotonView _photonView;
 
         private void Start()
@@ -30,7 +32,7 @@ namespace Impingement.Core
 
         private void Update()
         {
-            //if(!IsOwner) { return;}
+            if(!_scrollController.CanScroll) { return; }
             float z = _inputProvider.GetAxisValue(2);
             if (z != 0)
             {
