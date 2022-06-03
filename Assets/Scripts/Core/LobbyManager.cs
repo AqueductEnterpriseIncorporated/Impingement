@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Impingement.Control;
@@ -21,11 +22,21 @@ public class LobbyManager : MonoBehaviourPunCallbacks, IConnectionCallbacks
     [SerializeField] private Transform _contentTransform;
     [SerializeField] private Transform _portalSpawnTransform;
     [SerializeField] private string _portalSceneToLoadName;
+    [SerializeField] private InputManager _inputManager;
+    private readonly byte MaxPlayers = 4;
     private readonly List<RoomItemView> _roomListViews = new List<RoomItemView>();
     private readonly float _lobbyListUpdateCooldown = 1.5f;
     private float _nextUpdateTime;
     private bool _isMultiplayer;
-    
+
+    private void Update()
+    {
+        if (_inputManager.GetKeyDown("Панель игроков"))
+        {
+            _lobbyPanel.SetActive(!_lobbyPanel.activeSelf);
+        }
+    }
+
     public void StartSoloGame()
     {
         if (PhotonNetwork.IsConnected)
@@ -66,20 +77,18 @@ public class LobbyManager : MonoBehaviourPunCallbacks, IConnectionCallbacks
     public override void OnJoinedLobby()
     {
         _connectingText.SetActive(false);
-        CreateRoom();
-
+        
         if (_isMultiplayer)
         {
             _lobbyPanel.SetActive(true);
         }
-        
     }
 
     public void CreateRoom()
     {
-        PhotonNetwork.CreateRoom(PhotonNetwork.NickName, null, TypedLobby.Default);
+        PhotonNetwork.CreateRoom(PhotonNetwork.NickName, new RoomOptions(){MaxPlayers = MaxPlayers}, TypedLobby.Default);
     }
-
+    
     public override void OnJoinedRoom()
     {
         _startGamePanel.SetActive(false);
@@ -88,16 +97,15 @@ public class LobbyManager : MonoBehaviourPunCallbacks, IConnectionCallbacks
 
         //_roomPanel.SetActive(true);
         _roomName.text = PhotonNetwork.CurrentRoom.Name;
-        if (!PhotonNetwork.IsMasterClient)
+        if (PhotonNetwork.IsMasterClient)
         {
-            //PhotonNetwork.LoadLevel(1);
-            //SceneManager.LoadScene("Tests3");
-
-            FindObjectOfType<NetworkManager>().SpawnPlayer();
+            Instantiate(_portalPrefab, _portalSpawnTransform.position, Quaternion.identity);
         }
         else
         {
-            Instantiate(_portalPrefab, _portalSpawnTransform.position, Quaternion.identity);
+            //PhotonNetwork.LoadLevel(1);
+            //SceneManager.LoadScene("Tests3");
+            FindObjectOfType<NetworkManager>().SpawnPlayer();
         }
     }
 

@@ -8,6 +8,7 @@ namespace Impingement.UI
 
         private void LateUpdate()
         {
+            if(!_player) {return;}
             var newPosition = _player.transform.position;
             newPosition.y = transform.position.y;
             transform.position = newPosition;

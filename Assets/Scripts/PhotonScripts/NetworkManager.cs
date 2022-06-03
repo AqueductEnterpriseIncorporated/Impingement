@@ -1,6 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
+using Impingement.Attributes;
 using Impingement.Control;
+using Impingement.UI;
 using Photon.Pun;
+using Photon.Realtime;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -10,7 +14,7 @@ namespace Impingement.PhotonScripts
     {
         public static NetworkManager Instance;
         [SerializeField] private GameObject _playerPrfab;
-        [SerializeField] private Transform _spawnTransform;
+        [SerializeField] private List<Transform> _spawnTransforms;
 
         private void Awake()
         {
@@ -46,19 +50,20 @@ namespace Impingement.PhotonScripts
         public void SpawnPlayer()
         {
             Debug.Log("Spawning player");
-            if (_spawnTransform == null)
+            for (int i = 0; i < PhotonNetwork.PlayerList.Length; i++)
             {
-                _spawnTransform = GameObject.FindGameObjectWithTag("PlayerSpawnPoint").transform;
-            }
-            
-            PhotonNetwork.Instantiate("player/" + _playerPrfab.name, _spawnTransform.position, Quaternion.identity);
-            //PhotonNetwork.AutomaticallySyncScene = true;
-            //throw new Exception("spawning");
-        }
+                var player = PhotonNetwork.PlayerList[i];
+                if (!player.IsLocal)
+                {
+                    continue;
+                }
 
-        public override void OnLeftRoom()
-        {
-            SceneManager.LoadScene(1);
+                PhotonNetwork.Instantiate("player/" + _playerPrfab.name,
+                    _spawnTransforms.Count == 0
+                        ? GameObject.FindGameObjectWithTag("PlayerSpawnPoint" + i).transform.position
+                        : _spawnTransforms[i].position,
+                    Quaternion.identity);
+            }
         }
     }
 }

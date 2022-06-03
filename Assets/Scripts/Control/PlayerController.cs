@@ -34,7 +34,6 @@ namespace Impingement.Control
         [SerializeField] private PlayerCameraController _playerCameraController;
         [SerializeField] private AnimationController _animationController;
         [SerializeField] private StaminaController _staminaController;
-        [SerializeField] private PlayersPanel _playersPanel;
         [SerializeField] private PlayfabPlayerDataController _playfabPlayerDataController;
         [SerializeField] private InventoryController _inventoryController;
         [SerializeField] private ItemDropper _itemDropper;
@@ -85,8 +84,7 @@ namespace Impingement.Control
 
         private void Start()
         {
-            _healthController.CharacterName = PhotonNetwork.NickName;
-
+            //_healthController.CharacterName = PhotonNetwork.NickName;
             SetCursor(enumCursorType.Movement);
         }
 
@@ -347,58 +345,6 @@ namespace Impingement.Control
         public void Cancel()
         {
             _characterController.SimpleMove(Vector3.zero);
-        }
-
-        public override void OnJoinedRoom()
-        {
-            // if (PhotonNetwork.IsMasterClient)
-            // {
-            //     return;
-            // }
-
-            //photonView.RPC(nameof(RPCSyncPlayers), RpcTarget.Others);
-
-            //UpdatePlayersPanel();
-        }
-
-        private void UpdatePlayersPanel()
-        {
-            foreach (var playerController in FindObjectsOfType<PlayerController>())
-            {
-                if (!playerController.GetPhotonView().IsMine)
-                {
-                    playerController.GetHUD().SetActive(false);
-                    _playersPanel.AddPlayer(playerController);
-                }
-            }
-        }
-
-        public override void OnPlayerEnteredRoom(Player newPlayer)
-        {
-            _playersPanel.PanelParent.SetActive(true);
-        }
-
-        [PunRPC]
-        private void RPCSyncPlayers()
-        {
-            var players = FindObjectsOfType<PlayerController>();
-
-            foreach (var playerController in players)
-            {
-                if (!playerController.GetPhotonView().IsMine)
-                {
-                    playerController.GetHUD().SetActive(false);
-                    _playersPanel.AddPlayer(playerController);
-                    //playerController.GetPlayersPanel().AddPlayer(this);
-                    // _playersPanel.AddPlayer(playerController);
-                    // var id = playerController.GetPhotonView().Controller.NickName;
-                    // playerController.GetPlayfabPlayerDataController().SetupPlayer(id);
-
-                    //Destroy(playerController._hud);
-                    // var id = playerController.GetPhotonView().Controller.NickName;
-                    // playerController._playfabManager.LoadData(id, OnDataReceived);
-                }
-            }
         }
     }
 }
