@@ -3546,6 +3546,10 @@ PrefabInstance:
       propertyPath: _healthController
       value: 
       objectReference: {fileID: 3012784844116473299}
+    - target: {fileID: 1526901662848726753, guid: dcc27e9202243784e916439493af3a8a, type: 3}
+      propertyPath: _inputManager
+      value: 
+      objectReference: {fileID: 11400000, guid: a95a85ccdc372a34982afe6b31884e5d, type: 2}
     - target: {fileID: 1571035369279212519, guid: dcc27e9202243784e916439493af3a8a, type: 3}
       propertyPath: _playerEquipmentController
       value: 

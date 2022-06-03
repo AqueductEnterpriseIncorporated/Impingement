@@ -10,7 +10,6 @@ namespace Impingement.UI
         [SerializeField] private GameObject _canvasParent;
         [SerializeField] private GameObject[] _objectsToHide;
         [SerializeField] private RectTransform _minimapRect;
-        [SerializeField] private KeyCode _toggleKey;
         [SerializeField] private InputManager _inputManager;
         private float _minimapXOffset;
         private Vector2 _defaultMinimapPosition;
@@ -20,13 +19,11 @@ namespace Impingement.UI
             _defaultMinimapPosition = _minimapRect.anchoredPosition;
             var canvasRect = _canvasParent.GetComponent<RectTransform>();
             _minimapXOffset = canvasRect.rect.width;
-            _toggleKey = _inputManager.ButtonKeysList
-                .FirstOrDefault(i => i.ButtonName == "Инвентарь")!.ActiveButtonKeyCode;
         }
 
         private void Update()
         {
-            if (Input.GetKeyDown(_toggleKey))
+            if (_inputManager.GetKeyDown("Инвентарь"))
             {
                 foreach (var objectToHide in _objectsToHide)
                 {
