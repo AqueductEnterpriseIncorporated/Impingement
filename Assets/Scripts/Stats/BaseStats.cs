@@ -90,7 +90,14 @@ namespace Impingement.Stats
 
         public int GetLevel()
         {
-            return _currentLevel.value;
+            try
+            {
+                return _currentLevel.value;
+            }
+            catch
+            {
+                return _startLevel;
+            }
         }
 
         private int CalculateLevel()

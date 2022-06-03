@@ -5,21 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e797b75-f4f0-4ea9-b141-84d8d653dbe9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/Sword/Sword-Attack-R6.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/Sword/Sword-Attack-R6.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/StatItem.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/StatItem.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PlayerStatGridItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PlayerStatGridItem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PlayerStatPanel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PlayerStatPanel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/ServerInfoPanel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/ServerInfoPanel.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Core/UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/UI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/PlayersPanelItem.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/PlayersPanelItem.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Sword/SwordAnimatorOverride.overrideController" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Sword/SwordAnimatorOverride.overrideController" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ItemPickups/CurrencyPickup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ItemPickups/CurrencyPickup.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ItemPickups/PikcupSpawners/PikcupCurrency Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ItemPickups/PikcupSpawners/PikcupCurrency Variant.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/New Input Manager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/New Input Manager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tests3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tests3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/ClickablePickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/ClickablePickup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerNetworkController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerNetworkController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/LobbyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/LobbyManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PhotonScripts/NetworkManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PhotonScripts/NetworkManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/MinimapController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/MinimapController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemDropper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemDropper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Pickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/Pickup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/PickupSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/PickupSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabPlayerDataController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabPlayerDataController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stats/BaseStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Stats/BaseStats.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/PlayersPanel/PlayerPanelItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PlayersPanel/PlayerPanelItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/RoomItemView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/RoomItemView.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UpgradePanelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UpgradePanelController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +81,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Combat/WeaponConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Control/ClickablePickup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://E:/UnityProjects/Impingement/Assets/Scripts/Core/LobbyManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/InventoryUI/EquipmentSlotUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/InventoryUI/InventorySlotUI.cs" root0="FORCE_HIGHLIGHTING" />
@@ -302,6 +320,25 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Combat/WeaponConfig.cs</url>
+          <line>48</line>
+          <properties documentPath="E:\UnityProjects\Impingement\Assets\Scripts\Combat\WeaponConfig.cs" initialLine="48" containingFunctionPresentation="method 'Spawn'">
+            <startOffsets>
+              <option value="1760" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1851" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

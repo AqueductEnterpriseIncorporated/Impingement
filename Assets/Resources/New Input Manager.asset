@@ -20,7 +20,7 @@ MonoBehaviour:
     ActiveButtonKeyCode: 113
     DefaultButtonKeyCode: 113
   - ButtonName: "\u0410\u043A\u0442\u0438\u0432\u043D\u0430\u044F1"
-    ActiveButtonKeyCode: 102
+    ActiveButtonKeyCode: 49
     DefaultButtonKeyCode: 49
   - ButtonName: "\u0410\u043A\u0442\u0438\u0432\u043D\u0430\u044F2"
     ActiveButtonKeyCode: 50
@@ -49,6 +49,14 @@ MonoBehaviour:
   - ButtonName: "\u0418\u043D\u0432\u0435\u043D\u0442\u0430\u0440\u044C"
     ActiveButtonKeyCode: 105
     DefaultButtonKeyCode: 105
-  - ButtonName: "\u041F\u0430\u043D\u0435\u043B\u044C \u0438\u0433\u0440\u043E\u043A\u043E\u0432"
+  - ButtonName: "\u0414\u0430\u043D\u043D\u044B\u0435 \u043E \u043B\u043E\u0431\u0431\u0438"
     ActiveButtonKeyCode: 117
     DefaultButtonKeyCode: 117
+  - ButtonName: "\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044F \u043E
+      \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0435"
+    ActiveButtonKeyCode: 105
+    DefaultButtonKeyCode: 105
+  - ButtonName: "\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044F \u043E
+      \u0441\u0435\u0440\u0432\u0435\u0440\u0435"
+    ActiveButtonKeyCode: 121
+    DefaultButtonKeyCode: 121

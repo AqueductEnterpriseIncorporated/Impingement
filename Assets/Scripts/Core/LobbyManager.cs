@@ -9,7 +9,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LobbyManager : MonoBehaviourPunCallbacks, IConnectionCallbacks
+public class LobbyManager : MonoBehaviourPunCallbacks
 {
     [SerializeField] private GameObject _startGamePanel;
     [SerializeField] private GameObject _connectingPanel;
@@ -17,7 +17,9 @@ public class LobbyManager : MonoBehaviourPunCallbacks, IConnectionCallbacks
     [SerializeField] private GameObject _lobbyPanel;
     [SerializeField] private GameObject _roomPanel;
     [SerializeField] private GameObject _connectingText;
+    [SerializeField] private GameObject _leaveRoomButton;
     [SerializeField] private TMP_Text _roomName;
+    [SerializeField] private TMP_Text _statusText;
     [SerializeField] private RoomItemView _roomItemPrefab;
     [SerializeField] private Transform _contentTransform;
     [SerializeField] private Transform _portalSpawnTransform;
@@ -25,23 +27,56 @@ public class LobbyManager : MonoBehaviourPunCallbacks, IConnectionCallbacks
     [SerializeField] private InputManager _inputManager;
     private readonly byte MaxPlayers = 4;
     private readonly List<RoomItemView> _roomListViews = new List<RoomItemView>();
-    private readonly float _lobbyListUpdateCooldown = 1.5f;
+    private readonly float _lobbyListUpdateCooldown = 1f;
     private float _nextUpdateTime;
-    private bool _isMultiplayer;
+    private bool _isMultiplayer = true;
+    private bool _isPortalCreated;
+
+    public event Action PlayerConntected;
+
+    private void Start()
+    {
+        PlayerConntected?.Invoke();
+        //StartMultiplayerGame();
+    }
 
     private void Update()
     {
-        if (_inputManager.GetKeyDown("Панель игроков"))
+        if (_inputManager.GetKeyDown("Данные о лобби"))
         {
             _lobbyPanel.SetActive(!_lobbyPanel.activeSelf);
+        }
+
+        _leaveRoomButton.SetActive(_isMultiplayer);
+        
+        if (PhotonNetwork.IsConnected)
+        {
+            _statusText.text = "Вы подключены к серверу Photon";
+        }
+        else
+        {
+            _statusText.text = "Вы не подключены к серверу Photon";
+        }
+
+        if (PhotonNetwork.InLobby)
+        {
+            _statusText.text = "Вы находитесь в лобби";
+        }
+
+        if (PhotonNetwork.InRoom)
+        {
+            _statusText.text = $"Вы находитесь в комнате игрока: {PhotonNetwork.CurrentRoom.Name}";
         }
     }
 
     public void StartSoloGame()
     {
-        if (PhotonNetwork.IsConnected)
+        _isMultiplayer = false;
+        if (PhotonNetwork.IsConnected && !_isPortalCreated)
         {
-            PhotonNetwork.Instantiate(_portalPrefab.name, _portalSpawnTransform.position, Quaternion.identity);
+            Instantiate(_portalPrefab, _portalSpawnTransform.position, Quaternion.identity);
+            _isPortalCreated = true;
+            _connectingText.SetActive(false);
             return;
         }
         ConnectAndJoinLobby();
@@ -52,17 +87,23 @@ public class LobbyManager : MonoBehaviourPunCallbacks, IConnectionCallbacks
     {
         _isMultiplayer = true;
         //_connectingPanel.SetActive(true);
-        _connectingText.SetActive(true);
+        if (!PhotonNetwork.IsConnected)
+        {
+            _connectingText.SetActive(true);
+        }
+
         ConnectAndJoinLobby();
     }
 
-    private static void ConnectAndJoinLobby()
+    private void ConnectAndJoinLobby()
     {
+        //GameObject.Find("LoadPanel").GetComponentInChildren<TMP_Text>().text = "Подключение к Photon...";
+
         if (!PhotonNetwork.IsConnected)
         {
             PhotonNetwork.ConnectUsingSettings();
         }
-        else
+        else if(!PhotonNetwork.InLobby)
         {
             PhotonNetwork.JoinLobby();
         }
@@ -70,7 +111,11 @@ public class LobbyManager : MonoBehaviourPunCallbacks, IConnectionCallbacks
 
     public override void OnConnectedToMaster()
     {
-        PhotonNetwork.JoinLobby();
+        if (!PhotonNetwork.InLobby)
+        {
+            PhotonNetwork.JoinLobby();
+        }
+
         PhotonNetwork.AutomaticallySyncScene = true;
     }
 
@@ -82,15 +127,21 @@ public class LobbyManager : MonoBehaviourPunCallbacks, IConnectionCallbacks
         {
             _lobbyPanel.SetActive(true);
         }
+        else
+        {
+            CreateRoom(false);
+        }
+        //CreateRoom();
     }
 
-    public void CreateRoom()
+    public void CreateRoom(bool visible = true)
     {
-        PhotonNetwork.CreateRoom(PhotonNetwork.NickName, new RoomOptions(){MaxPlayers = MaxPlayers}, TypedLobby.Default);
+        PhotonNetwork.CreateRoom(PhotonNetwork.NickName, new RoomOptions(){MaxPlayers = MaxPlayers, IsVisible = visible}, TypedLobby.Default);
     }
     
     public override void OnJoinedRoom()
     {
+        //PlayerConntected?.Invoke();
         _startGamePanel.SetActive(false);
         _lobbyPanel.SetActive(false);
 
@@ -120,6 +171,7 @@ public class LobbyManager : MonoBehaviourPunCallbacks, IConnectionCallbacks
 
     private void UpdateRoomList(List<RoomInfo> roomList)
     {
+        Debug.Log(roomList.Count);
         foreach (var roomItem in _roomListViews)
         {
             Destroy(roomItem.gameObject);
@@ -136,6 +188,11 @@ public class LobbyManager : MonoBehaviourPunCallbacks, IConnectionCallbacks
             newRoom.SetRoomName(room.Name);
             _roomListViews.Add(newRoom);
         }
+    }
+
+    public void LeaveRoom()
+    {
+        PhotonNetwork.LeaveRoom();
     }
 
     public void CloseLobbyPanel()

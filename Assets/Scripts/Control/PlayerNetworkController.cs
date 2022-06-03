@@ -1,4 +1,5 @@
 ﻿using System;
+using Impingement.Attributes;
 using Impingement.UI;
 using Photon.Pun;
 using Photon.Realtime;
@@ -18,6 +19,13 @@ namespace Impingement.Control
         private void Awake()
         {
             _photonView = GetComponent<PhotonView>();
+        }
+
+        private void Start()
+        {
+            if(!_photonView.IsMine) { return; }
+
+            GetComponent<HealthController>().CharacterName = PhotonNetwork.NickName;
         }
 
         private void FixedUpdate()

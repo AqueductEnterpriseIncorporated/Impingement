@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Photon.Pun;
+using UnityEngine;
 
 namespace Impingement.Inventory
 {
@@ -36,18 +37,30 @@ namespace Impingement.Inventory
             bool foundSlot = inventoryController.AddToFirstEmptySlot(_item, _number);
             if (foundSlot)
             {
-                for (int i = 0; i < itemDropper.DroppedItems.Count; i++)
+                if (PhotonNetwork.InRoom)
                 {
-                    if (itemDropper.DroppedItems[i]._item.GetItemID() == _item.GetItemID())
-                    {
-                        itemDropper.DroppedItems.RemoveAt(i);
-                    }
+                    GetComponent<PhotonView>().RPC(nameof(RPCDestroyItem), RpcTarget.AllBufferedViaServer);
                 }
-                Destroy(gameObject);
+                else
+                {
+                    Destroy(gameObject);
+                }
             }
         }
 
-        //todo: use
+        [PunRPC]
+        private void RPCDestroyItem()
+        {
+            if (PhotonNetwork.IsMasterClient)
+            {
+                PhotonNetwork.Destroy(gameObject);
+            }
+            else
+            {
+                //Destroy(gameObject);
+            }
+        }
+
         public bool CanBePickedUp(InventoryController inventoryController)
         {
             return inventoryController.HasSpaceFor(_item);

@@ -40,6 +40,11 @@ namespace Impingement.Playfab
             _playfabManager.LoadData(OnDataReceivedPlayerData);
         }
 
+        private void OnPlayerConnected()
+        {
+            _playfabManager.LoadData(OnDataReceivedPlayerData);
+        }
+
         public void SetupPlayer(string id)
         {
             _playfabManager.LoadData(OnDataReceivedPlayerData, id);
@@ -47,6 +52,7 @@ namespace Impingement.Playfab
 
         public void SavePlayerData()
         {
+            _itemDropper.RemoveDestroyedDrops();
             _playfabManager.UploadJson("PlayerData", GenerateJson());
         }
 
@@ -79,6 +85,7 @@ namespace Impingement.Playfab
             {
                 foreach (var droppedItem in _itemDropper.DroppedItems)
                 {
+                    if(droppedItem is null) { continue; }
                     var itemCoordinates = new ItemCoordinates()
                     {
                         PositionX = droppedItem.transform.position.x.ToString(),
@@ -216,22 +223,10 @@ namespace Impingement.Playfab
                     }
                     _actionStore.StoreUpdated();
                 }
-                
-
-
-                //todo: refactoring
-                // foreach (var weaponConfig in _availableWeapon)
-                // {
-                //     if (weaponConfig.name == playerData.Weapon)
-                //     {
-                //         _combatController.EquipWeapon(weaponConfig);
-                //         break;
-                //     }
-                // }
             }
             
+            _playerController.GetHealthController().Heal(_playerController.GetHealthController().GetHealthPoints());
             Destroy(GameObject.Find("LoadPanel"));
-
         }
     }
 }

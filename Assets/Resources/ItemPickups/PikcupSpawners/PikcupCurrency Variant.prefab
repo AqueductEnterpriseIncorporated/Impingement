@@ -15,9 +15,13 @@ PrefabInstance:
       propertyPath: _number
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 3203217967291960612, guid: 39cfa32505e48f642b29fa4a6267acdd, type: 3}
+      propertyPath: OwnershipTransfer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4439679952578214661, guid: 39cfa32505e48f642b29fa4a6267acdd, type: 3}
       propertyPath: m_Name
-      value: PikcupCurrency
+      value: PikcupCurrency Variant
       objectReference: {fileID: 0}
     - target: {fileID: 7909376194070840192, guid: 39cfa32505e48f642b29fa4a6267acdd, type: 3}
       propertyPath: m_RootOrder

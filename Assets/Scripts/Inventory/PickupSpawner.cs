@@ -13,10 +13,22 @@ namespace Impingement.Inventory
 
         private void Awake()
         {
-            // Spawn in Awake so can be destroyed by save system after.
+            var lobbyManager = FindObjectOfType<LobbyManager>();
+            if (lobbyManager)
+            {
+                lobbyManager.PlayerConntected += OnPlayerConnected;
+            }
+            else
+            {
+                SpawnPickup();
+            }
+        }
+
+        private void OnPlayerConnected()
+        {
             SpawnPickup();
         }
-        
+
         /// <summary>
         /// Returns the pickup spawned by this class if it exists.
         /// </summary>

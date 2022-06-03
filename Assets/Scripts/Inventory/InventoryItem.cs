@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Photon.Pun;
 using UnityEngine;
 
 namespace Impingement.Inventory
@@ -66,8 +67,16 @@ namespace Impingement.Inventory
         /// <returns>Reference to the pickup object spawned.</returns>
         public Pickup SpawnPickup(Vector3 position, int number)
         {
-            var pickup = Instantiate(_pickup);
-            pickup.transform.position = position;
+            Pickup pickup = null;
+            if (PhotonNetwork.InRoom)
+            {
+                pickup = PhotonNetwork.Instantiate("ItemPickups/" + _pickup.name, position, Quaternion.identity).GetComponent<Pickup>();
+            }
+            else
+            {
+                pickup = Instantiate(_pickup);
+                pickup.transform.position = position;
+            }
             pickup.Setup(this, number);
             return pickup;
         }

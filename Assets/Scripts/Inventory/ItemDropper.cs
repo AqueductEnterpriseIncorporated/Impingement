@@ -40,5 +40,21 @@ namespace Impingement.Inventory
             var pickup = item.SpawnPickup(spawnLocation, number);
             DroppedItems.Add(pickup);
         }
+        
+        /// <summary>
+        /// Remove any drops in the world that have subsequently been picked up.
+        /// </summary>
+        public void RemoveDestroyedDrops()
+        {
+            var newList = new List<Pickup>();
+            foreach (var item in _droppedItems)
+            {
+                if (item != null)
+                {
+                    newList.Add(item);
+                }
+            }
+            _droppedItems = newList;
+        }
     }
 }

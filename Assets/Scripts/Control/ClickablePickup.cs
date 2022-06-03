@@ -20,9 +20,10 @@ namespace Impingement.Control
             //UpdateTooltip();
             if (Input.GetMouseButtonDown(0))
             {
-                if (_pickupInRange.PlayerInRange)
+                var inventoryController = callingController.GetInventoryController();
+                if (_pickupInRange.PlayerInRange && _pickup.CanBePickedUp(inventoryController))
                 {
-                    _pickup.PickupItem(callingController.GetInventoryController(), callingController.GetItemDropper());
+                    _pickup.PickupItem(inventoryController, callingController.GetItemDropper());
                 }
             }
             return true;

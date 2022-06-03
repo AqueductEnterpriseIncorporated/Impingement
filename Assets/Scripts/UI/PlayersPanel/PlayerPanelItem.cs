@@ -18,10 +18,11 @@ namespace Impingement.UI
             _nameText.text = playerController.GetPhotonView().Controller.NickName;
         }
 
-        private void Update()
+        private void OnEnable()
         {
-            _healthBar.fillAmount = _playerController.GetStaminaController().GetCurrentStaminaPoints() /
-                                    _playerController.GetStaminaController().GetMaximumStaminaPoints();
+            if(_playerController is null) { return; }
+            _healthBar.fillAmount = _playerController.GetHealthController().GetHealthPoints() /
+                                    _playerController.GetHealthController().GetMaxHealthPoints();
         }
     }
 }

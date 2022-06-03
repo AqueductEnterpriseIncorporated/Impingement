@@ -36,14 +36,20 @@ namespace Impingement.UI
         {
             if (other.TryGetComponent<InventoryController>(out var player))
             {
-                PhotonView photonView = other.GetComponent<PhotonView>();
-                if (photonView == null || !photonView.IsMine)
+                if (PhotonNetwork.InRoom)
                 {
-                    return;
+                    PhotonView photonView = other.GetComponent<PhotonView>();
+                    if (photonView == null || !photonView.IsMine)
+                    {
+                        return;
+                    }
+
+                    if (!PhotonNetwork.IsMasterClient)
+                    {
+                        return;
+                    }
                 }
-                
-                if(!PhotonNetwork.IsMasterClient) {return;}
-  
+
                 PlayerInventoryController = player;
 
                 for (var i = 0; i < player.Slots.Length; i++)
@@ -62,12 +68,19 @@ namespace Impingement.UI
 
         private void OnTriggerExit(Collider other)
         {
-            PhotonView photonView = other.GetComponent<PhotonView>();
-            if (photonView == null || !photonView.IsMine)
+            if (PhotonNetwork.InRoom)
             {
-                return;
+                PhotonView photonView = other.GetComponent<PhotonView>();
+                if (photonView == null || !photonView.IsMine)
+                {
+                    return;
+                }
+
+                if (!PhotonNetwork.IsMasterClient)
+                {
+                    return;
+                }
             }
-            if(!PhotonNetwork.IsMasterClient) {return;}
 
             _panel.SetActive(false);
             PlayerInventoryController = null;
