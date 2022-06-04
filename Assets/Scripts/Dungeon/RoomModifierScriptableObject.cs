@@ -58,19 +58,19 @@ namespace Impingement.Dungeon
             while (currentObjectCount < _room.RandomlyGeneratedObjectSpawnsAmount)
             {
                 var randomPrefabNumber = Random.Range(0, _spawnPrefabs.Length);
-                var randomPrefab = _spawnPrefabs[randomPrefabNumber].name;
+                var randomPrefab = _spawnPrefabs[randomPrefabNumber];
                 _room.RandomlyGeneratedObjectPrefabNamesList.Add(randomPrefab);
                 
 
                 if (_isEnemy)
                 {
-                    var localPrefab = PhotonNetwork.Instantiate(_itemFolder + randomPrefab,
+                    var localPrefab = Instantiate(randomPrefab,
                         GetRandomPosition(), Quaternion.identity);
                     _dungeonManager.Enemies.Add(localPrefab);
                 }
                 if (_isPickup)
                 {
-                    var localPrefab = PhotonNetwork.Instantiate(_itemFolder + randomPrefab,
+                    var localPrefab = Instantiate(randomPrefab,
                         _room.ItemSpawnPoint.position, Quaternion.identity);
                     _dungeonManager.Pikcups.Add(localPrefab);
                 }

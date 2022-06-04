@@ -1,15 +1,12 @@
-﻿using Impingement.Control;
+﻿using System;
 using Impingement.Inventory;
 using Impingement.Playfab;
-using Photon.Pun;
 using UnityEngine;
 
 namespace Impingement.UI
 {
     public class UpgradePanelController : MonoBehaviour
     {
-        //public PlayerCurrencyController InteractingPlayer;
-
         [SerializeField] private PlayfabHideoutDataController _playfabHideoutDataController;
         [SerializeField] private GameObject _panel;
         [SerializeField] private Transform _content;
@@ -36,20 +33,6 @@ namespace Impingement.UI
         {
             if (other.TryGetComponent<InventoryController>(out var player))
             {
-                if (PhotonNetwork.InRoom)
-                {
-                    PhotonView photonView = other.GetComponent<PhotonView>();
-                    if (photonView == null || !photonView.IsMine)
-                    {
-                        return;
-                    }
-
-                    if (!PhotonNetwork.IsMasterClient)
-                    {
-                        return;
-                    }
-                }
-
                 PlayerInventoryController = player;
 
                 for (var i = 0; i < player.Slots.Length; i++)
@@ -68,22 +51,22 @@ namespace Impingement.UI
 
         private void OnTriggerExit(Collider other)
         {
-            if (PhotonNetwork.InRoom)
-            {
-                PhotonView photonView = other.GetComponent<PhotonView>();
-                if (photonView == null || !photonView.IsMine)
-                {
-                    return;
-                }
-
-                if (!PhotonNetwork.IsMasterClient)
-                {
-                    return;
-                }
-            }
-
             _panel.SetActive(false);
             PlayerInventoryController = null;
+        }
+
+        private void OnEnable()
+        {
+            FindObjectOfType<ScrollController>().HudObjects.Add(_panel.transform);
+        }
+
+        private void OnDestroy()
+        {
+            // var controller = FindObjectOfType<ScrollController>();
+            // if (controller != null && controller.HudObjects.Contains(_panel.transform))
+            // {
+            //     controller.HudObjects.Remove(_panel.transform);
+            // }
         }
     }
 }

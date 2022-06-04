@@ -11,7 +11,7 @@ namespace Impingement.Playfab
     public class PlayfabManager : MonoBehaviour
     {
         public event Action<bool> ValueSyncedAndConnected = delegate(bool b) {  };
-
+        public string MyPlayfabId;
         public bool DungeonIsSaved
         {
             get => _dungeonIsSaved;
@@ -129,6 +129,7 @@ namespace Impingement.Playfab
         private void OnLoginSuccess(LoginResult result)
         {
             Debug.Log("Login Success");
+            MyPlayfabId = result.PlayFabId;
             PhotonNetwork.NickName = _nickName;
             LoadData(OnDataReceivedDungeonIsSaved);
         }

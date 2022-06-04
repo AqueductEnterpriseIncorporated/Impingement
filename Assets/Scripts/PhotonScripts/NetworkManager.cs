@@ -41,7 +41,7 @@ namespace Impingement.PhotonScripts
 
         private void SceneManagerOnSceneLoaded(Scene arg0, LoadSceneMode arg1)
         {
-            if (SceneManager.GetActiveScene().name == "Tests3")
+            if (SceneManager.GetActiveScene().buildIndex == 3)
             {
                 SpawnPlayer();
             }
@@ -49,19 +49,31 @@ namespace Impingement.PhotonScripts
 
         public void SpawnPlayer()
         {
-            Debug.Log("Spawning player");
-            for (int i = 0; i < PhotonNetwork.PlayerList.Length; i++)
+            if (PhotonNetwork.InRoom && !PhotonNetwork.IsMasterClient)
             {
-                var player = PhotonNetwork.PlayerList[i];
-                if (!player.IsLocal)
-                {
-                    continue;
-                }
+                Debug.Log("Spawning player");
 
-                PhotonNetwork.Instantiate("player/" + _playerPrfab.name,
+                for (int i = 1; i < PhotonNetwork.PlayerList.Length; i++)
+                {
+                    var player = PhotonNetwork.PlayerList[i];
+                    if (!player.IsLocal)
+                    {
+                        continue;
+                    }
+
+                    PhotonNetwork.Instantiate("player/" + _playerPrfab.name,
+                        _spawnTransforms.Count == 0
+                            ? GameObject.FindGameObjectWithTag("PlayerSpawnPoint" + i).transform.position
+                            : _spawnTransforms[i].position,
+                        Quaternion.identity);
+                }
+            }
+            else if (SceneManager.GetActiveScene().buildIndex == 2)
+            {
+                Instantiate(_playerPrfab,
                     _spawnTransforms.Count == 0
-                        ? GameObject.FindGameObjectWithTag("PlayerSpawnPoint" + i).transform.position
-                        : _spawnTransforms[i].position,
+                        ? GameObject.FindGameObjectWithTag("PlayerSpawnPoint").transform.position
+                        : _spawnTransforms[0].position,
                     Quaternion.identity);
             }
         }

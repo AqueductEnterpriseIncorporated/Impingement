@@ -11,7 +11,7 @@ using Random = UnityEngine.Random;
 namespace Impingement.Dungeon
 {
     [RequireComponent(typeof(PhotonView))]
-    public class DungeonGenerator : MonoBehaviour, IPunObservable
+    public class DungeonGenerator : MonoBehaviour
     {
         [SerializeField] private DungeonManager _dungeonManager;
         
@@ -51,20 +51,14 @@ namespace Impingement.Dungeon
 
         public List<Cell> Board;
         private SerializableDungeonData _dungeonData;
-        private int _syncingDungeonData;
 
         private void Start()
         {
-            if (!PhotonNetwork.IsMasterClient)
-            {
-                return;
-            }
+            //var dungeonIsSaved = FindObjectOfType<PlayfabManager>().DungeonIsSaved;
 
-            var dungeonIsSaved = FindObjectOfType<PlayfabManager>().DungeonIsSaved;
-
-            if (dungeonIsSaved)
+            //if (dungeonIsSaved)
             {
-                FindObjectOfType<PlayfabManager>().LoadJson(OnDataReceived);
+                //FindObjectOfType<PlayfabManager>().LoadJson(OnDataReceived);
             }
             //else
             {
@@ -75,7 +69,7 @@ namespace Impingement.Dungeon
                 }
                 catch (Exception e)
                 {
-                    //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
                     print(e.Message);
                 }
 
@@ -87,31 +81,24 @@ namespace Impingement.Dungeon
             var dungeonSize = FindObjectOfType<DungeonProgressionManager>().GetDungeonSize();
             size = dungeonSize;
             MazeGenerator();
-            _syncingDungeonData = Random.Range(0, 99);
-            //GenerateDungeon();
-            //SyncData();
-            //_dungeonManager.Manage(false);
+            GenerateDungeon();
+            _dungeonManager.Manage(false);
         }
 
-        private void SyncData()
-        {
-            //_syncingDungeonData = _dungeonManager.GenerateJson();
-        }
-
-        private void OnDataReceived(GetUserDataResult result)
-        {
-            if (result != null && result.Data.ContainsKey("DungeonData"))
-            {
-                var json = result.Data["DungeonData"].Value;
-                var dungeonManager = FindObjectOfType<DungeonManager>();
-                _dungeonData = dungeonManager.GetData(json);
-                dungeonManager.LoadedDungeonData = _dungeonData;
-                Board = _dungeonData.Board;
-                size = StringToVector2(_dungeonData.DungeonSize);
-                GenerateDungeon();
-                _dungeonManager.Manage(true);
-            }
-        }
+        // private void OnDataReceived(GetUserDataResult result)
+        // {
+        //     if (result != null && result.Data.ContainsKey("DungeonData"))
+        //     {
+        //         var json = result.Data["DungeonData"].Value;
+        //         var dungeonManager = FindObjectOfType<DungeonManager>();
+        //         _dungeonData = dungeonManager.GetData(json);
+        //         dungeonManager.LoadedDungeonData = _dungeonData;
+        //         Board = _dungeonData.Board;
+        //         size = StringToVector2(_dungeonData.DungeonSize);
+        //         GenerateDungeon();
+        //         _dungeonManager.Manage(true);
+        //     }
+        // }
 
         private void GenerateDungeon()
         {
@@ -158,28 +145,23 @@ namespace Impingement.Dungeon
                         }
 
 
-                        var newRoom = PhotonNetwork
-                            .Instantiate("Rooms/" + rooms[randomRoom].room.name,
+                        var newRoom = Instantiate(rooms[randomRoom].room,
                                 new Vector3(i * offset.x, 0, -j * offset.y), Quaternion.identity)
                             .GetComponent<RoomBehaviour>();
                         newRoom.UpdateRoom(currentCell.status);
                         newRoom.name += " " + i + "-" + j;
-                        if (_dungeonData != null)
-                        {
-                            if (_dungeonData
-                                .RoomModifiers[_dungeonManager.Rooms.Count].RandomlyGeneratedObjectSpawnsAmount != "")
-                            {
-                                newRoom.RandomlyGeneratedObjectSpawnsAmount = Convert.ToInt32(_dungeonData
-                                    .RoomModifiers[_dungeonManager.Rooms.Count].RandomlyGeneratedObjectSpawnsAmount);
-                                newRoom.RandomlyGeneratedObjectPrefabNamesList = _dungeonData
-                                    .RoomModifiers[_dungeonManager.Rooms.Count].RandomlyGeneratedObjectPrefabNamesList;
-                            }
-                        }
-                        if (PhotonNetwork.IsMasterClient)
-                        {
-                            newRoom.ManageEnemyAmount(false, _dungeonData != null);
-                        }
-
+                        // if (_dungeonData != null)
+                        // {
+                        //     if (_dungeonData
+                        //         .RoomModifiers[_dungeonManager.Rooms.Count].RandomlyGeneratedObjectSpawnsAmount != "")
+                        //     {
+                        //         newRoom.RandomlyGeneratedObjectSpawnsAmount = Convert.ToInt32(_dungeonData
+                        //             .RoomModifiers[_dungeonManager.Rooms.Count].RandomlyGeneratedObjectSpawnsAmount);
+                        //         newRoom.RandomlyGeneratedObjectPrefabNamesList = _dungeonData
+                        //             .RoomModifiers[_dungeonManager.Rooms.Count].RandomlyGeneratedObjectPrefabNamesList;
+                        //     }
+                        // }
+                        newRoom.ManageEnemyAmount(false, _dungeonData != null);
                         _dungeonManager.Rooms.Add(newRoom);
                     }
                 }
@@ -267,9 +249,7 @@ namespace Impingement.Dungeon
                             Board[currentCell].status[1] = true;
                         }
                     }
-
                 }
-
             }
         }
 
@@ -315,31 +295,6 @@ namespace Impingement.Dungeon
                 int.Parse(sArray[1]));
 
             return result;
-        }
-
-        public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
-        {
-            if (stream.IsWriting)
-            {
-                Debug.Log(_syncingDungeonData);
-                stream.SendNext(_syncingDungeonData);
-            }
-            else
-            {
-                _syncingDungeonData = (int)stream.ReceiveNext();
-                Debug.Log(_syncingDungeonData);
-
-                if (_syncingDungeonData != null)
-                {
-                    // var dungeonManager = FindObjectOfType<DungeonManager>();
-                    // _dungeonData = dungeonManager.GetData(_syncingDungeonData);
-                    // dungeonManager.LoadedDungeonData = _dungeonData;
-                    // Board = _dungeonData.Board;
-                    // size = StringToVector2(_dungeonData.DungeonSize);
-                    // GenerateDungeon();
-                    // _dungeonManager.Manage(true);
-                }
-            }
         }
     }
 }

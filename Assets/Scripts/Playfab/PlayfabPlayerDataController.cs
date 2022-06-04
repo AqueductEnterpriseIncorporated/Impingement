@@ -6,14 +6,18 @@ using Impingement.Inventory;
 using Impingement.Serialization.SerializationClasses;
 using Impingement.SerializationAPI;
 using Impingement.Stats;
+using Photon.Pun;
 using PlayFab.ClientModels;
+using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Impingement.Playfab
 {
     public class PlayfabPlayerDataController : MonoBehaviour
     {
         [SerializeField] private List<WeaponConfig> _availableWeapon;
+        [SerializeField] private PhotonView _photonView;
         private PlayerController _playerController;
         private PlayfabManager _playfabManager;
         private ExperienceController _experienceController;
@@ -37,19 +41,59 @@ namespace Impingement.Playfab
 
         private void Start()
         {
-            _playfabManager.LoadData(OnDataReceivedPlayerData);
+            // var lobbyManager = FindObjectOfType<LobbyManager>();
+            // if (lobbyManager)
+            // {
+            //     lobbyManager.PlayerConntected += OnPlayerConnected;
+            // }
+            // else
+            // {
+            if (SceneManager.GetActiveScene().name != "Arena")
+            {
+                OnPlayerConnected();
+            }
+            else
+            {
+                var loadPanel = GameObject.Find("LoadPanel");
+                if (loadPanel)
+                {
+                    Destroy(loadPanel);
+                }
+            }
+            //_playfabManager.LoadData(OnDataReceivedPlayerData);
+            //}
+
+            // var loadPanel = GameObject.Find("LoadPanel");
+            // if (loadPanel)
+            // {
+            //     loadPanel.GetComponentInChildren<TMP_Text>().text = "Загрузка данных игрока...";
+            // }
         }
 
         private void OnPlayerConnected()
         {
-            _playfabManager.LoadData(OnDataReceivedPlayerData);
+            Debug.Log("Player connected event in PlayfabPlayerDataController Class");
+            // if (PhotonNetwork.InRoom)
+            // {
+            //     _photonView.RPC(nameof(RPCSetupPlayer), RpcTarget.OthersBuffered);
+            // }
+            //if (PhotonNetwork.IsMasterClient || _photonView.IsMine)
+            {
+                _playfabManager.LoadData(OnDataReceivedPlayerData);
+            }
         }
 
-        public void SetupPlayer(string id)
+        public void GetOtherPLayerData(string id)
         {
             _playfabManager.LoadData(OnDataReceivedPlayerData, id);
         }
 
+        [PunRPC]
+        private void RPCSetupPlayer()
+        {
+            Debug.Log("RPCSetup method");
+        }
+        
         public void SavePlayerData()
         {
             _itemDropper.RemoveDestroyedDrops();
@@ -171,6 +215,7 @@ namespace Impingement.Playfab
         
         private void OnDataReceivedPlayerData(GetUserDataResult getUserDataResult)
         {
+            Debug.Log("Playfab data received");
             if (getUserDataResult != null && getUserDataResult.Data.ContainsKey("PlayerData") && getUserDataResult.Data["PlayerData"].Value != null)
             {
                 var json = getUserDataResult.Data["PlayerData"].Value;
@@ -225,8 +270,13 @@ namespace Impingement.Playfab
                 }
             }
             
+            var loadPanel = GameObject.Find("LoadPanel");
+            if (loadPanel)
+            {
+                Destroy(loadPanel);
+            }
+            
             _playerController.GetHealthController().Heal(_playerController.GetHealthController().GetHealthPoints());
-            Destroy(GameObject.Find("LoadPanel"));
         }
     }
 }

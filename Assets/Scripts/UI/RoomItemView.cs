@@ -1,20 +1,24 @@
+using Impingement.Control;
 using Photon.Pun;
+using Photon.Realtime;
 using TMPro;
 using UnityEngine;
 
 public class RoomItemView : MonoBehaviourPunCallbacks
 {
     [SerializeField] private TMP_Text _roomName;
+    private RoomInfo _room;
 
-    public void SetRoomName(string roomName)
+    public void SetupRoom(RoomInfo room)
     {
-        _roomName.text = roomName;
+        _room = room;
+        _roomName.text = string.Concat(room.Name, " ", room.PlayerCount, "/", room.MaxPlayers);
     }
 
     public void JoinRoom()
     {
-        PhotonNetwork.JoinRoom(_roomName.text);
-
+        //FindObjectOfType<PlayerNetworkController>().SelfDestroy();
+        PhotonNetwork.JoinRoom(_room.Name);
         //PhotonNetwork.LeaveRoom();
     }
 

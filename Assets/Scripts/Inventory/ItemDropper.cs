@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Photon.Pun;
 using UnityEngine;
 
 namespace Impingement.Inventory
@@ -7,7 +8,7 @@ namespace Impingement.Inventory
     /// To be placed on anything that wishes to drop pickups into the world.
     /// Tracks the drops for saving and restoring.
     /// </summary>
-    public class ItemDropper : MonoBehaviour
+    public class ItemDropper : MonoBehaviourPun
     {
         private List<Pickup> _droppedItems = new List<Pickup>();
 
@@ -21,6 +22,8 @@ namespace Impingement.Inventory
         /// Create a pickup at the current position.
         /// </summary>
         /// <param name="item">The Item type for the pickup.</param>
+        /// <param name="number"></param>
+        /// <param name="photonView"></param>
         public void DropItem(InventoryItem item, int number)
         {
             SpawnPickup(item, GetDropLocation(), number);
@@ -34,13 +37,13 @@ namespace Impingement.Inventory
         {
             return transform.position;
         }
-        
+
         public void SpawnPickup(InventoryItem item, Vector3 spawnLocation, int number)
         {
             var pickup = item.SpawnPickup(spawnLocation, number);
             DroppedItems.Add(pickup);
         }
-        
+
         /// <summary>
         /// Remove any drops in the world that have subsequently been picked up.
         /// </summary>

@@ -1,5 +1,6 @@
 ﻿using System;
 using Impingement.Control;
+using Impingement.Playfab;
 using Photon.Pun;
 using TMPro;
 using UnityEngine;
@@ -7,40 +8,38 @@ using UnityEngine.SceneManagement;
 
 namespace Impingement.UI
 {
-    public class ServerInfoPanel : MonoBehaviour
+    public class InRoomPlayersInfoPanel : MonoBehaviour
     {
         [SerializeField] private Transform _parentTransform;
         [SerializeField] private Transform _contentTransform;
         [SerializeField] private InputManager _inputManager;
         [SerializeField] private PlayerPanelItem _playerPanelItem;
-        [SerializeField] private GameObject _leaveButton;
-        [SerializeField] private TMP_Text _serverNameText;
+        [SerializeField] private TMP_Text _statusText;
 
         private void Update()
         {
-            if (_inputManager.GetKeyDown("Информация о сервере"))
+            if (_inputManager.GetKeyDown("Информация о игроках в комнате"))
             {
                 _parentTransform.gameObject.SetActive(!_parentTransform.gameObject.activeSelf);
-            }
-            
-            if (_parentTransform.gameObject.activeSelf)
-            {
-                UpdateInfo();
+                
+                if (_parentTransform.gameObject.activeSelf)
+                {
+                    if (!PhotonNetwork.InRoom)
+                    {
+                        _statusText.text = "Вы не в комнате";
+                    }
+                    else
+                    {
+                        _statusText.text = $"Комната: {PhotonNetwork.CurrentRoom.Name}";
+
+                    }
+                    UpdateInfo();
+                }
             }
         }
 
         private void UpdateInfo()
         {
-            if (PhotonNetwork.InRoom)
-            {
-                _serverNameText.text = String.Concat("Текущая комната: ", PhotonNetwork.CurrentRoom.Name);
-            }
-            else
-            {
-                _serverNameText.text = "Вы не в комнате";
-            }
-            _leaveButton.SetActive(PhotonNetwork.InRoom);
-
             for (int i = 0; i < _contentTransform.childCount; i++)
             {
                 Destroy(_contentTransform.GetChild(i).gameObject);
@@ -64,12 +63,6 @@ namespace Impingement.UI
             }
 
             return null;
-        }
-
-        public void LeaveRoom()
-        {
-            PhotonNetwork.LeaveRoom();
-            SceneManager.LoadScene(1);
         }
     }
 }

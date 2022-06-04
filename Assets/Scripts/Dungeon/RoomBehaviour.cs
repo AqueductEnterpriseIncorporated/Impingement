@@ -13,7 +13,7 @@ namespace Impingement.Dungeon
         public GameObject[] walls; // 0 - Up 1 -Down 2 - Right 3- Left
         public GameObject[] doors;
         public int RandomlyGeneratedObjectSpawnsAmount;
-        public List<string> RandomlyGeneratedObjectPrefabNamesList = new List<string>();
+        public List<GameObject> RandomlyGeneratedObjectPrefabNamesList = new List<GameObject>();
         public List<int> EnemiesToRemove = new List<int>();
         public RoomModifierScriptableObject roomModifierVariant;
         [SerializeField] private Collider _collider;

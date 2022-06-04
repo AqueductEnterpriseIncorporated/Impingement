@@ -16,6 +16,7 @@ namespace Impingement.Core
             _parent.SetActive(false);
             FindObjectOfType<PlayfabManager>().DungeonIsSaved = false;
             FindObjectOfType<DungeonProgressionManager>().Reset();
+            FindObjectOfType<PlayfabPlayerDataController>().SavePlayerData();
             SceneManager.LoadScene("Hideout");
         }
     }

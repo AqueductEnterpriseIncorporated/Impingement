@@ -60,7 +60,7 @@ namespace Photon.Realtime
         protected bool isVisible = true;
 
         /// <summary>Backing field for property. False unless the GameProperty is set to true (else it's not sent).</summary>
-        protected bool autoCleanUp = true;
+        protected bool autoCleanUp = false;
 
         /// <summary>Backing field for property.</summary>
         protected string name;

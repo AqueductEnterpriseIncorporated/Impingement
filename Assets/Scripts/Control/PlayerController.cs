@@ -13,6 +13,7 @@ using Photon.Pun;
 using Photon.Realtime;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 namespace Impingement.Control
 {
@@ -90,7 +91,8 @@ namespace Impingement.Control
 
         private void Update()
         {
-            if (!_photonView.IsMine)
+            
+            if (!_photonView.IsMine && SceneManager.GetActiveScene().buildIndex != 2)
             {
                 return;
             }
@@ -220,9 +222,7 @@ namespace Impingement.Control
             _combatController.SetDirection(direction);
             _combatController.AttackBehavior();
         }
-
-
-
+        
         private bool InteractWithComponent()
         {
             var hits = RaycastAllSorted();

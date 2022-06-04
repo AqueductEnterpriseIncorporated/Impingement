@@ -5,38 +5,85 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e797b75-f4f0-4ea9-b141-84d8d653dbe9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/Sword/Sword-Attack-R6.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/Sword/Sword-Attack-R6.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/StatItem.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/StatItem.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PlayerStatGridItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PlayerStatGridItem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PlayerStatPanel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PlayerStatPanel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/ServerInfoPanel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/ServerInfoPanel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/LobbyUI.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/LobbyUI.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Hideout.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Hideout/StartGamePanel.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Hideout/StartGamePanel.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Hideout/UpgradeHideout.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Hideout/UpgradeHideout/HideoutUpgradeZone.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Hideout/UpgradeHideout/HideoutUpgradeZone.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Hideout/UpgradeHideout/Item.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Hideout/UpgradeHideout/Item.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Hideout/UpgradeHideout/UpgradePanel.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Hideout/UpgradeHideout/UpgradePanel.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Arena.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Arena.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/LobbyInfoPanel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/LobbyInfoPanel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/StartGamePanel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/StartGamePanel.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Photon/PhotonRealtime/Code/RoomInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Photon/PhotonRealtime/Code/RoomInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Core/LobbyManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/LobbyManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Core/Progression.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/Progression.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Core/UI.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Core/UI.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/PlayersPanelItem.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/PlayersPanelItem.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Sword/SwordAnimatorOverride.overrideController" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Sword/SwordAnimatorOverride.overrideController" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/RoomButton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/RoomButton.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/UI.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/UI.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/UpgradeHideout.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/UpgradeHideout/HideoutUpgradeZone.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/UpgradeHideout/HideoutUpgradeZone.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/UpgradeHideout/Item.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/UpgradeHideout/Item.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/UpgradeHideout/UpgradePanel.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/UpgradeHideout/UpgradePanel.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/HideoutPortalVariant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/HideoutPortalVariant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ItemPickups/BodyPickup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ItemPickups/BodyPickup.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/ItemPickups/CurrencyPickup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ItemPickups/CurrencyPickup.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ItemPickups/PikcupSpawners/PikcupCurrency Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ItemPickups/PikcupSpawners/PikcupCurrency Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ItemPickups/PotionPickup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ItemPickups/PotionPickup.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ItemPickups/SwordPickup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ItemPickups/SwordPickup.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/New Input Manager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/New Input Manager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Portal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Portal.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PortalToDungeon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/PortalToDungeon.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Rooms/RoomBasePlayerSpawn.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/RoomBasePlayerSpawn.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dungeon/Dungeon.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dungeon/Dungeon.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/ClickablePickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/ClickablePickup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tests3.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tests3.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/TargetHealthDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/TargetHealthDisplay.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerNetworkController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerNetworkController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/LobbyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/LobbyManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/RespawnController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/RespawnController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomModifierScriptableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomModifierScriptableObject.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryItem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemDropper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemDropper.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Pickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/Pickup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/PickupSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/PickupSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/RandomDropper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/RandomDropper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PhotonScripts/NetworkManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PhotonScripts/NetworkManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabPlayerDataController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabPlayerDataController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManagement/PortalView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManagement/PortalView.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stats/BaseStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Stats/BaseStats.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/PlayersPanel/PlayerPanelItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PlayersPanel/PlayerPanelItem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/RoomItemView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/RoomItemView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/ScrollController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/ScrollController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/ServerInfoPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/InRoomPlayersInfoPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/ServerInfoPanel.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/InRoomPlayersInfoPanel.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UpgradePanelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UpgradePanelController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +128,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Combat/WeaponConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Control/ClickablePickup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://E:/UnityProjects/Impingement/Assets/Scripts/Core/LobbyManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/InventoryUI/EquipmentSlotUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/InventoryUI/InventorySlotUI.cs" root0="FORCE_HIGHLIGHTING" />
@@ -91,13 +137,16 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.11/Editor/PropertyDrawers/OrbitalTransposerHeadingPropertyDrawer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.11/Runtime/Helpers/CinemachineInputProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.3.0/InputSystem/Devices/Gamepad.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.3.0/InputSystem/Plugins/UI/InputSystemUIInputModule.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.postprocessing@3.2.1/PostProcessing/Shaders/Builtins/MultiScaleVODownsample1.compute" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.postprocessing@3.2.1/PostProcessing/Shaders/Builtins/SubpixelMorphologicalAntialiasing.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Actions/ActionManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/InputModules/BaseInputModule.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/CanvasUpdateRegistry.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Runtime/InputField/GenericInputFieldTests.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -213,10 +262,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="5136">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="34336">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="5136" />
+      <option name="pid" value="34336" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -297,6 +346,7 @@
       <workItem from="1654071826903" duration="11322000" />
       <workItem from="1654157298668" duration="13701000" />
       <workItem from="1654246928430" duration="1249000" />
+      <workItem from="1654324452357" duration="32001000" />
     </task>
     <servers />
   </component>
@@ -320,25 +370,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Combat/WeaponConfig.cs</url>
-          <line>48</line>
-          <properties documentPath="E:\UnityProjects\Impingement\Assets\Scripts\Combat\WeaponConfig.cs" initialLine="48" containingFunctionPresentation="method 'Spawn'">
-            <startOffsets>
-              <option value="1760" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1851" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Photon.Pun;
+using UnityEngine;
 
 namespace Impingement.Inventory
 {
@@ -6,22 +7,22 @@ namespace Impingement.Inventory
     /// Spawns pickups that should exist on first load in a level. This
     /// automatically spawns the correct prefab for a given inventory _item.
     /// </summary>
-    public class PickupSpawner : MonoBehaviour
+    public class PickupSpawner : MonoBehaviourPun
     {
         [SerializeField] InventoryItem _item;
         [SerializeField] int _number = 1;
 
         private void Awake()
         {
-            var lobbyManager = FindObjectOfType<LobbyManager>();
-            if (lobbyManager)
-            {
-                lobbyManager.PlayerConntected += OnPlayerConnected;
-            }
-            else
-            {
+            // var lobbyManager = FindObjectOfType<LobbyManager>();
+            // if (lobbyManager)
+            // {
+            //     lobbyManager.PlayerConntected += OnPlayerConnected;
+            // }
+            // else
+            // {
                 SpawnPickup();
-            }
+            //}
         }
 
         private void OnPlayerConnected()

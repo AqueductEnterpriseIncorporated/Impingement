@@ -64,10 +64,18 @@ namespace Impingement.Stats
 
         private void LevelUp()
         {
-            if (_levelUpEffect != null && SceneManager.GetActiveScene().name != "Hideout")
+            if (_levelUpEffect != null && SceneManager.GetActiveScene().name == "Dungeon")
             {
-                var localPrefab = PhotonNetwork.Instantiate("VFX/" + _levelUpEffect.name, _spawnPosition.position,
-                    Quaternion.identity);
+                if (PhotonNetwork.InRoom)
+                {
+                    var localPrefab = PhotonNetwork.Instantiate("VFX/" + _levelUpEffect.name, _spawnPosition.position,
+                        Quaternion.identity);
+                }
+                else
+                {
+                    Instantiate(_levelUpEffect, _spawnPosition.position,
+                        Quaternion.identity);
+                }
                 //localPrefab.transform.SetParent(); = transform.parent.transform;
             }
             OnLevelUp?.Invoke();

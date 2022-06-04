@@ -77,10 +77,10 @@ namespace Impingement.Inventory
                 pickup = Instantiate(_pickup);
                 pickup.transform.position = position;
             }
-            pickup.Setup(this, number);
+            pickup.Setup(number);
             return pickup;
         }
-        
+ 
         public Sprite GetIcon()
         {
             return _icon;

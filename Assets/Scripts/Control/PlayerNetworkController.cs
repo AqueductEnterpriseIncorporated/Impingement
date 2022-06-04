@@ -1,5 +1,7 @@
-﻿using System;
+﻿using ExitGames.Client.Photon;
 using Impingement.Attributes;
+using Impingement.Playfab;
+using Impingement.Serialization.SerializationClasses;
 using Impingement.UI;
 using Photon.Pun;
 using Photon.Realtime;
@@ -30,6 +32,7 @@ namespace Impingement.Control
 
         private void FixedUpdate()
         {
+            if(SceneManager.GetActiveScene().buildIndex != 3){ return; }
             DisablePlayerObject();
         }
         
@@ -52,6 +55,37 @@ namespace Impingement.Control
         private void RPCSyncPlayers()
         {
             SetupPlayer();
+        }
+
+        public void SelfDestroy()
+        {
+            if (PhotonNetwork.InRoom)
+            {
+                _photonView.RPC(nameof(RPCSelfDestroy), RpcTarget.OthersBuffered);
+            }
+        }
+
+        public override void OnPlayerLeftRoom(Player otherPlayer)
+        {
+            print("player are left...");
+            foreach (var playerController in FindObjectsOfType<PlayerController>())
+            {
+                if (playerController.GetHealthController().CharacterName == otherPlayer.NickName)
+                {
+                    print(playerController.GetHealthController().CharacterName);
+                    Destroy(playerController.gameObject.transform.parent.gameObject);
+                    return;
+                }
+            }
+        }
+
+        [PunRPC]
+        private void RPCSelfDestroy()
+        {
+            if (PhotonNetwork.IsMasterClient)
+            {
+                PhotonNetwork.Destroy(gameObject.transform.parent.gameObject);
+            }
         }
 
         private static void SetupPlayer()
@@ -89,8 +123,24 @@ namespace Impingement.Control
             }
         }
 
+        public override void OnConnectedToMaster()
+        {
+            base.OnConnectedToMaster();
+            Hashtable property = new Hashtable();
+            property.Add("PlayfabId", FindObjectOfType<PlayfabManager>().MyPlayfabId);
+            PhotonNetwork.LocalPlayer.SetCustomProperties(property);
+            Debug.Log("Setting custom property");
+        }
+
         public override void OnPlayerEnteredRoom(Player newPlayer)
         {
+            Debug.Log("New player");
+
+            var newPlayerPlayfabId = PhotonNetwork.LocalPlayer.CustomProperties["PlayfabId"];
+            FindObjectOfType<PlayfabPlayerDataController>().GetOtherPLayerData(newPlayerPlayfabId.ToString());
+            Debug.Log("New Player PlayfabId:" + newPlayerPlayfabId);
+
+            
             _playersPanel.PanelParent.SetActive(true);
             foreach (var playerController in FindObjectsOfType<PlayerController>())
             {
@@ -99,16 +149,6 @@ namespace Impingement.Control
                     playerController.GetHealthController().CharacterName = newPlayer.NickName;;
                 }
             }
-        }
-
-        public override void OnLeftRoom()
-        {
-            SceneManager.LoadScene(1);
-        }
-
-        public bool IsHost()
-        {
-            return PhotonNetwork.IsMasterClient;
         }
 
         private void DisablePlayerObject()

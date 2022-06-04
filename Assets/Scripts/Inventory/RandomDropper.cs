@@ -1,5 +1,8 @@
-﻿using Impingement.Stats;
+﻿using System;
+using Impingement.Stats;
+using Photon.Pun;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace Impingement.Inventory
 {
@@ -9,12 +12,17 @@ namespace Impingement.Inventory
         [SerializeField] private float _distance = 1;
         [SerializeField] private DropLibrary _dropLibrary;
         [SerializeField] private BaseStats _baseStats;
+        private PhotonView _photonView;
         
         const int ATTEMPTS = 30;
 
+        private void Awake()
+        {
+            _photonView = GetComponent<PhotonView>();
+        }
+
         public void RandomDrop()
         {
-
             var drops = _dropLibrary.GetRandomDrops(_baseStats.GetLevel());
             foreach (var drop in drops)
             {

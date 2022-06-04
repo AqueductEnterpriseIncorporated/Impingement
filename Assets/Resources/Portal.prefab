@@ -67,8 +67,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _saveDungeonData: 0
   _completeLevelOnEnter: 1
-  _sceneToLoad: Dungeon
+  _sceneIndexToLoad: 2
   _loadPanel: {fileID: 1515610120654951544, guid: eacb84601ed23ee4bb86b426f8aac809, type: 3}
+  _startGamePanel: {fileID: 0}
 --- !u!114 &-2363755654452444257
 MonoBehaviour:
   m_ObjectHideFlags: 0

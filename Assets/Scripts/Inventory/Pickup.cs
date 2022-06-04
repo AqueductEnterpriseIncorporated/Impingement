@@ -7,22 +7,31 @@ namespace Impingement.Inventory
     /// To be placed at the root of a Pickup prefab. Contains the data about the
     /// pickup such as the type of _item and the Number.
     /// </summary>
-    public class Pickup : MonoBehaviour
+    public class Pickup : MonoBehaviourPun
     {
-        private InventoryItem _item;
+        [SerializeField] private InventoryItem _item;
         private int _number;
 
         /// <summary>
         /// Set the vital data after creating the prefab.
         /// </summary>
         /// <param name="item">The type of _item this prefab represents.</param>
-        public void Setup(InventoryItem item, int number)
+        public void Setup(int number)
         {
-            _item = item;
+            _number = number;
+            if (PhotonNetwork.InRoom)
+            {
+                photonView.RPC(nameof(RPCSetup), RpcTarget.AllBufferedViaServer, number);
+            }
+        }
+
+        [PunRPC]
+        private void RPCSetup(int number)
+        {
             _number = number;
         }
 
-        public InventoryItem GetItem()
+    public InventoryItem GetItem()
         {
             return _item;
         }
@@ -39,7 +48,7 @@ namespace Impingement.Inventory
             {
                 if (PhotonNetwork.InRoom)
                 {
-                    GetComponent<PhotonView>().RPC(nameof(RPCDestroyItem), RpcTarget.AllBufferedViaServer);
+                    photonView.RPC(nameof(RPCDestroyItem), RpcTarget.AllBufferedViaServer);
                 }
                 else
                 {
@@ -51,13 +60,13 @@ namespace Impingement.Inventory
         [PunRPC]
         private void RPCDestroyItem()
         {
-            if (PhotonNetwork.IsMasterClient)
+            //if (PhotonNetwork.IsMasterClient)
             {
-                PhotonNetwork.Destroy(gameObject);
+                //PhotonNetwork.Destroy(gameObject);
             }
-            else
+            //else
             {
-                //Destroy(gameObject);
+                Destroy(gameObject);
             }
         }
 

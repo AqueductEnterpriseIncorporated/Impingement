@@ -86,7 +86,15 @@ namespace Impingement.Attributes
                     GetComponent<Collider>().enabled = false;
                 }
                 _onDie.Invoke();
-                _photonView.RPC(nameof(DieRPC), RpcTarget.AllBufferedViaServer);
+                if (PhotonNetwork.InRoom)
+                {
+                    _photonView.RPC(nameof(DieRPC), RpcTarget.AllBufferedViaServer);
+                }
+                else
+                {
+                    DieRPC();
+                }
+
                 AwardExperience(instigator);
                 //DieRPC();
             }

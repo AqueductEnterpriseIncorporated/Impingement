@@ -69,6 +69,14 @@ namespace Impingement.Control
             _startXRotation = transform.rotation.x;
         }
 
+        /// <summary>
+        /// Animation Event
+        /// </summary>
+        private void End()
+        {
+            //ignored
+        }
+        
         private void Update()
         {
             // if (PhotonNetwork.IsConnected)
