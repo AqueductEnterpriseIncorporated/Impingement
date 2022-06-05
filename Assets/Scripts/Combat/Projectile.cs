@@ -118,7 +118,11 @@ namespace Impingement.Combat
                 }
                 //if(_target.IsDead()) { return; }
                 _target = healthController;
-                _rigidbody.constraints = RigidbodyConstraints.FreezePosition;
+                if (_rigidbody != null)
+                {
+                    _rigidbody.constraints = RigidbodyConstraints.FreezePosition;
+                }
+
                 _speed = 0;
                 
                 _onHit.Invoke();

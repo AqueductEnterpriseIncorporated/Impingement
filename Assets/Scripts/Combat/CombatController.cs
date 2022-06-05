@@ -144,13 +144,23 @@ namespace Impingement.Combat
         {
             if (TimeSinceLastAttack > TimeBetweenAttacks)
             {
-                _animationController.PlayAttackAnimation();
-                //_animationController.ResetTriggerAnimation("cancelAttack");
-                //_animationController.PlayTriggerAnimation("attack");
-                //_photonView.RPC(nameof(_animationController.ResetTriggerAnimation), RpcTarget.All, "cancelAttack");
-                //_photonView.RPC(nameof(_animationController.PlayTriggerAnimation), RpcTarget.All, "attack");
+                if (_healthController.IsPlayer)
+                {
+                    _animationController.PlayAttackAnimation();
+                }
+                else
+                {
+                    _animationController.PlayAttackAnimation();
+
+                    _animationController.ResetTriggerAnimation("cancelAttack");
+                    _animationController.PlayTriggerAnimation("attack");
+                }
                 TimeSinceLastAttack = 0;
+
             }
+
+            //_photonView.RPC(nameof(_animationController.ResetTriggerAnimation), RpcTarget.All, "cancelAttack");
+                //_photonView.RPC(nameof(_animationController.PlayTriggerAnimation), RpcTarget.All, "attack");
         }
         
         /// <summary>
@@ -208,7 +218,7 @@ namespace Impingement.Combat
             
             if (_currentWeaponConfig.HasProjectile())
             {
-                if(!_photonView.IsMine){ return; }
+                //if(!_photonView.IsMine){ return; }
                 _currentWeaponConfig.LaunchProjectile(_leftHandTransform, _rightHandTransform, _target, gameObject, damage);
             }
             else

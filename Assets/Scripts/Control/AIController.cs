@@ -27,7 +27,8 @@ namespace Impingement.Control
         [SerializeField] private ActionScheduleController _actionScheduleController;
         [SerializeField] private BaseStats _baseStats;
         [SerializeField] private bool _canAgro = true;
-        private PlayerController[] _players;
+        //private PlayerController[] _players;
+        private PlayerController _activePlayer;
         private PhotonView _photonView;
         private CombatController _combatController;
         private HealthController _healthController;
@@ -63,7 +64,8 @@ namespace Impingement.Control
 
         private void Start()
         {
-            _players = FindObjectsOfType<PlayerController>();
+            //_players = FindObjectsOfType<PlayerController>();
+            _activePlayer = FindObjectOfType<PlayerController>();
             _isPatrolPathNotNull = _patrolPath != null;
             _guardPosition.ForceInit();
             _startXRotation = transform.rotation.x;
@@ -102,21 +104,21 @@ namespace Impingement.Control
 
             UpdateTimers();
 
-            if (_players.Length == 0)
-            {
-                return;
-            }
+            // if (_players.Length == 0)
+            // {
+            //     return;
+            // }
 
-            foreach (var player in _players)
+            //foreach (var player in _players)
             {
-                if (player.GetHealthController().IsDead())
+                if (_activePlayer.GetHealthController().IsDead())
                 {
-                    if (_playerTarget == player)
+                    if (_playerTarget == _activePlayer)
                     {
                         _playerTarget = null;
                     }
 
-                    continue;
+                    //continue;
                 }
 
                 if (!_canAgro)
@@ -124,10 +126,10 @@ namespace Impingement.Control
                     return;
                 }
 
-                if (IsAggrevated(player.gameObject) || _combatController.CanAttack(player.GetHealthController()))
+                if (IsAggrevated(_activePlayer.gameObject) || _combatController.CanAttack(_activePlayer.GetHealthController()))
                 {
 
-                    _playerTarget = player;
+                    _playerTarget = _activePlayer;
 
                 }
                 else

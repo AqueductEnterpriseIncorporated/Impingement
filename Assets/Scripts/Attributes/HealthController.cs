@@ -129,7 +129,10 @@ namespace Impingement.Attributes
             animationController.PlayTriggerAnimation("die");
             //_photonView.RPC(nameof(animationController.PlayTriggerAnimation), RpcTarget.AllBufferedViaServer, "die");
             GetComponent<ActionScheduleController>().CancelCurrentAction();
-            _photonView.RPC(nameof(SyncHealthState), RpcTarget.AllBufferedViaServer, true);
+            if (PhotonNetwork.InRoom)
+            {
+                _photonView.RPC(nameof(SyncHealthState), RpcTarget.AllBufferedViaServer, true);
+            }
         }
         
         private void AwardExperience(GameObject instigator)

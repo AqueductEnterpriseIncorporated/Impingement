@@ -97,6 +97,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1127344213619144519, guid: 21da2be8cb2597d41a8f325367eb4194, type: 3}
+      propertyPath: field of view
+      value: 27
+      objectReference: {fileID: 0}
     - target: {fileID: 1587803557045461184, guid: 21da2be8cb2597d41a8f325367eb4194, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -180,6 +184,10 @@ PrefabInstance:
     - target: {fileID: 4971833319748789495, guid: 21da2be8cb2597d41a8f325367eb4194, type: 3}
       propertyPath: m_LocalPosition.z
       value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6045848365636852750, guid: 21da2be8cb2597d41a8f325367eb4194, type: 3}
+      propertyPath: m_Lens.FieldOfView
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 6275095060393117446, guid: 21da2be8cb2597d41a8f325367eb4194, type: 3}
       propertyPath: m_RootOrder
