@@ -3,6 +3,7 @@ using GameDevTV.Utils;
 using Impingement.Combat;
 using Impingement.Core;
 using Impingement.enums;
+using Impingement.Inventory;
 using Impingement.Playfab;
 using Impingement.Stats;
 using Photon.Pun;
@@ -21,15 +22,17 @@ namespace Impingement.Attributes
 
         [Serializable] public class TakeDamageEvent : UnityEvent<float> { }
 
+        [SerializeField] private float _regenerationRate;
         [SerializeField] private AudioSource[] _takeDamageClips;
         [SerializeField] private UnityEvent _onDie;
         [SerializeField] private BaseStats _baseStats = null;
         [SerializeField] private TakeDamageEvent _takeDamage;
         [SerializeField] private PlayfabPlayerDataController _playfabPlayerDataController;
         [SerializeField] private CombatTarget _combatTarget;
+        [SerializeField] private GameObject _deathPanel;
+        [SerializeField] private EquipmentController _equipmentController;
         [SerializeField] private bool _showDamageText;
         [SerializeField] private bool _isDead;
-        [SerializeField] private GameObject _deathPanel;
         private LazyValue<float> _healthPoints;
         private PhotonView _photonView;
 
@@ -48,6 +51,30 @@ namespace Impingement.Attributes
             _healthPoints.ForceInit();
             _photonView = GetComponent<PhotonView>();
             _baseStats.OnLevelUp += RegenerateHealth;
+            if (IsPlayer)
+            {
+                _equipmentController.OnEquipmentUpdated += EquipmentControllerOnEquipmentUpdated;
+            }
+
+            InvokeRepeating(nameof(PassiveRegenerationHealth), 0f, 1f / _regenerationRate);
+        }
+
+        private void EquipmentControllerOnEquipmentUpdated()
+        {
+            if (_healthPoints.value > GetMaxHealthPoints())
+            {
+                _healthPoints.value = GetMaxHealthPoints();
+            }
+        }
+
+        private void PassiveRegenerationHealth()
+        {
+            if (_isDead) { return; }
+
+            if (_healthPoints.value < GetMaxHealthPoints())
+            {
+                _healthPoints.value = Mathf.Min(_healthPoints.value + _baseStats.GetStat(enumStats.HealthRegen), GetMaxHealthPoints());
+            }
         }
 
         private void OnDestroy()

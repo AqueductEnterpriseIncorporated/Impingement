@@ -76,7 +76,7 @@ MonoBehaviour:
   Enemies: []
   Pikcups: []
   _navigationBaker: {fileID: 0}
-  _bossPrefab: {fileID: 0}
+  _bossPrefab: {fileID: 6225817191340975841, guid: 9b65c789a1b5ac04db59c77efefd2790, type: 3}
   _portalPrefab: {fileID: 3041630961408660215, guid: 153c9cf21e089da42a0f0f93259a099b, type: 3}
   _hideoutPortalPrefab: {fileID: 5236790029636406324, guid: 4755d011dfb2c0d4a933e26b61fd979b, type: 3}
   _spawnPoint: {fileID: 1141858244942623283, guid: b2e35db22db4da742899bf93ec60f194, type: 3}
@@ -98,8 +98,7 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents:
-  - {fileID: 1260892826528953086}
+  ObservedComponents: []
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0

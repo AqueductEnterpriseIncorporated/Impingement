@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Impingement.UI;
 using UnityEngine;
 
 namespace Impingement.Control
@@ -24,13 +25,18 @@ namespace Impingement.Control
 
         public bool GetKeyDown(string buttonName)
         {
-            if (ButtonKeysList.All(i => i.ButtonName != buttonName))
+            if (!FindObjectOfType<BugPanelController>().Parent.activeSelf)
             {
-                return false;
+                if (ButtonKeysList.All(i => i.ButtonName != buttonName))
+                {
+                    return false;
+                }
+
+                return Input.GetKeyDown(ButtonKeysList.FirstOrDefault(i => i.ButtonName == buttonName)!
+                    .ActiveButtonKeyCode);
             }
 
-            return Input.GetKeyDown(ButtonKeysList.FirstOrDefault(i => i.ButtonName == buttonName)!
-                .ActiveButtonKeyCode);
+            return false;
         }
 
         public bool GetKey(string buttonName)

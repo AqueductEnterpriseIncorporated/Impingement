@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: Currency
   m_EditorClassIdentifier: 
   _itemID: 224a1352-3b69-4b7a-8206-87d77a3cdbc7
-  _displayName: "\u0412\u0430\u043B\u044E\u0442\u0430"
+  _displayName: "\u041E\u0441\u043A\u043E\u043B\u043E\u043A \u0440\u0430\u0437\u0443\u043C\u0430"
   _description: 
   _icon: {fileID: 21300000, guid: 48137c6ed6889a34a954978157eda3d8, type: 3}
   _pickup: {fileID: 7300728048785907036, guid: d2ba5eb37eea7694e8d558c09fa1c91d, type: 3}
   _stackable: 1
-  CurrencySlot: {fileID: 0}

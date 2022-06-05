@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Linq;
 using Impingement.Playfab;
+using Impingement.Steam;
 using TMPro;
 using UnityEngine.Rendering.PostProcessing;
 using UnityEngine.SceneManagement;
@@ -14,7 +15,8 @@ namespace Impingement.Core
 
     public class StartSceneManager : MonoBehaviour
     {
-        [SerializeField] private TMP_InputField _inputField;
+        [SerializeField] private TMP_Text _statusText;
+        [SerializeField] private SteamAuth _steamAuth;
         [SerializeField] private PostProcessVolume _processVolume;
         [SerializeField] private Button _startButton;
         [SerializeField] private PlayfabManager _playfabManager;
@@ -22,12 +24,12 @@ namespace Impingement.Core
         [SerializeField] private GameObject _eyeGameObject;
         [SerializeField] private Vector3 _defaultPosition = new Vector3(0, 0,0);
         [SerializeField] private Transform _camera;
-        [SerializeField] private TMP_Text _statusText;
         [SerializeField] private float _playCooldown = 5f;
         [SerializeField] private float _timer;
         private bool _isDefaultPosition;
         private bool _isLoading;
         private readonly string _noInternetException = "/Client/LoginWithCustomID: Cannot resolve destination host";
+        private readonly string _noSteamException = "Steamworks is not initialized.";
         
         private void Start()
         {
@@ -38,6 +40,10 @@ namespace Impingement.Core
 
         private void Update()
         {
+            if (_steamAuth.isActiveAndEnabled && _playfabManager.IsAuthorized)
+            {
+                _statusText.text = "\nSteam авторизован\nPlyfab авторизован";
+            }
             if(_isLoading) { return; }
             _timer += Time.deltaTime;
             _eyeGameObject.transform.LookAt(_camera);
@@ -86,7 +92,21 @@ namespace Impingement.Core
 
         public void LoadHideout()
         {
-            if (_inputField.text.Length <= 1) { return; }
+            var newStatusText = "";
+            if (!_playfabManager.IsAuthorized || !_steamAuth.IsAuthorized)
+            {
+                if (!_playfabManager.IsAuthorized)
+                {
+                    newStatusText += "Playfab не авторизован";
+                }
+                if (!_steamAuth.IsAuthorized)
+                {
+                    newStatusText += "Steam не авторизован";
+                }
+
+                _statusText.text = newStatusText;
+                return;
+            }
             StartCoroutine(IncreaseIntencity());
         }
 
@@ -96,7 +116,6 @@ namespace Impingement.Core
 
             var lensDistortion =  _processVolume.profile.GetSetting<LensDistortion>();
             lensDistortion.enabled = new BoolParameter(){value = true};
-            Login();
             for (int i = 0; i < 101; i++)
             {
                 lensDistortion.intensity.value = i;
@@ -107,19 +126,21 @@ namespace Impingement.Core
                 lensDistortion.scale.value = i;
                 yield return new WaitForSeconds(0.005f);
             }
+
+            SceneManager.LoadSceneAsync("Hideout");
         }
 
-        private void Login()
+        public void Login(string id)
         {
-            _playfabManager.Login(_inputField.text);
+            _playfabManager.Login(id);
             _statusText.text = "";
-            _startButton.enabled = false;
+            //_startButton.enabled = false;
             _isLoading = true;
         }
 
         private void OnValueSyncedAndConnected(bool value)
         {
-            SceneManager.LoadSceneAsync("Hideout");
+            //SceneManager.LoadSceneAsync("Hideout");
         }
 
         public void Exit()
@@ -135,7 +156,12 @@ namespace Impingement.Core
                 var text = _statusText.text.Insert(0, "Отсутствует интернет\n\n");
                 _statusText.text = text;
             }
-            _startButton.enabled = true;
+            if (errorReport == _noSteamException)
+            {
+                var text = _statusText.text.Insert(0, "Steam не запущен\n\n");
+                _statusText.text = text;
+            }
+            //_startButton.enabled = true;
             _isLoading = false;
             ResetEye();
         }

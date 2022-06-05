@@ -14,13 +14,32 @@ namespace Impingement.UI.Settings
         [SerializeField] private int _defaultTextureQuality = 0;
         [SerializeField] private int _defaultAAQuality = 1;
         [SerializeField] private bool _defaultFullscreen = true;
-        
+        private int _screenWidth;
+        private int _screenHeight;
+
         private void Start()
         {
             ApplyVolumeSettings();
             ApplyGraphicSettings();
             ApplyInputSettings();
+            
+            GetResolution();
+            SetResolution();
             //Application.targetFrameRate = 140;
+        }
+        
+        // Custom Functions
+        private void GetResolution() {
+ 
+            // Gets the current resolution of desktop.
+            _screenWidth = Screen.currentResolution.width;
+            _screenHeight = Screen.currentResolution.height;
+        }
+ 
+        private void SetResolution() {
+ 
+            // Sets the resolution of game.
+            Screen.SetResolution (_screenWidth, _screenHeight, Convert.ToBoolean(PlayerPrefs.GetInt("FullscreenPreference")));
         }
 
         private void ApplyInputSettings()
@@ -72,7 +91,7 @@ namespace Impingement.UI.Settings
             foreach (var parameter in _parameters)
             {
                 var value = PlayerPrefs.GetFloat(parameter);
-                _mixer.SetFloat(parameter, value);
+                _mixer.SetFloat(parameter, Mathf.Log10(value) * 20);
             }
         }
     }

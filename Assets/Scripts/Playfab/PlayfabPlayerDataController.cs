@@ -96,6 +96,7 @@ namespace Impingement.Playfab
         
         public void SavePlayerData()
         {
+            if(SceneManager.GetActiveScene().name == "Arena") { return; }
             _itemDropper.RemoveDestroyedDrops();
             _playfabManager.UploadJson("PlayerData", GenerateJson());
         }
@@ -187,7 +188,6 @@ namespace Impingement.Playfab
                 ActionItems = actionItems
             };
             
-
             SerializablePlayerData playerData = new SerializablePlayerData
             {
                 Experience = _experienceController.GetExperiencePoints(),

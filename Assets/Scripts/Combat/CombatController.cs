@@ -115,6 +115,7 @@ namespace Impingement.Combat
         {
             var weapon = weaponConfig.Spawn(_rightHandTransform, _leftHandTransform, _animator);
             weapon.SetCombatController(this);
+            //weapon.SetColor();
             return weapon;
         }
 

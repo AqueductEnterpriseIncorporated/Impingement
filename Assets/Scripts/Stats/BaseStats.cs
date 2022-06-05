@@ -30,6 +30,11 @@ namespace Impingement.Stats
             _currentLevel.ForceInit();
         }
 
+        public enumCharacterClass GetClass()
+        {
+            return _characterClass;
+        }
+
         private void OnEnable()
         {
             if (_experienceController != null)

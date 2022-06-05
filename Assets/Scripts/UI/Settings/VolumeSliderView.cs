@@ -19,7 +19,7 @@ namespace Impingement.UI.Settings
 
         public void OnChangedValue()
         {
-            _mixer.SetFloat(_parameter, _slider.value);
+            _mixer.SetFloat(_parameter, Mathf.Log10(_slider.value) * 20);
             PlayerPrefs.SetFloat(_parameter, _slider.value);
         }
     }

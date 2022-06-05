@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Impingement.Control;
 using UnityEngine;
 
 namespace Impingement.Inventory
@@ -94,11 +95,11 @@ namespace Impingement.Inventory
         /// </summary>
         /// <param name="user">The character that wants to use this action.</param>
         /// <returns>False if the action could not be executed.</returns>
-        public bool Use(int index, GameObject user)
+        public bool Use(int index, PlayerController player)
         {
             if (DockedItems.ContainsKey(index))
             {
-                DockedItems[index].Item.Use(user);
+                DockedItems[index].Item.Use(player, player.AudioSourceOnUse);
                 if (DockedItems[index].Item.isConsumable())
                 {
                     RemoveItems(index, 1);

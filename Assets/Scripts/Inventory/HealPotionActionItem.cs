@@ -1,4 +1,5 @@
 ﻿using Impingement.Attributes;
+using Impingement.Control;
 using UnityEngine;
 
 namespace Impingement.Inventory
@@ -7,9 +8,11 @@ namespace Impingement.Inventory
     public class HealPotionActionItem : ActionItem
     {
         [SerializeField] private int _pointsToHeal;
-        public override void Use(GameObject user)
+        
+        public override void Use(PlayerController player, AudioSource audioSource)
         {
-            user.GetComponent<HealthController>().Heal(_pointsToHeal);
+            base.Use(player, audioSource);
+            player.GetHealthController().Heal(_pointsToHeal);
         }
     }
 }

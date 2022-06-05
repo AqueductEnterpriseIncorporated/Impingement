@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Impingement.Core;
+using Impingement.Steam;
 using Impingement.UI;
 using Photon.Pun;
 using PlayFab;
@@ -14,6 +15,7 @@ namespace Impingement.Playfab
     {
         public event Action<bool> ValueSyncedAndConnected = delegate(bool b) {  };
         public string MyPlayfabId;
+        public bool IsAuthorized;
         public bool DungeonIsSaved
         {
             get => _dungeonIsSaved;
@@ -129,20 +131,21 @@ namespace Impingement.Playfab
 
         private void OnLoginSuccess(LoginResult result)
         {
+            IsAuthorized = true;
             Debug.Log("Login Success");
             MyPlayfabId = result.PlayFabId;
-            PhotonNetwork.NickName = _nickName;
+            PhotonNetwork.NickName = FindObjectOfType<SteamAuth>().SteamName;
             LoadData(OnDataReceivedDungeonIsSaved);
         }
 
         private void OnLoginFailure(PlayFabError error)
         {
+            IsAuthorized = false;
             Debug.LogError(error.GenerateErrorReport());
             if (FindObjectOfType<StartSceneManager>())
             {
                 FindObjectOfType<StartSceneManager>().Error(error.GenerateErrorReport());
             }
-            
         }
         
         private void OnDataReceivedDungeonIsSaved(GetUserDataResult result)

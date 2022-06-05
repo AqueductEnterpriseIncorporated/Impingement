@@ -66,6 +66,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   _combatController: {fileID: 0}
+  weaponMaterial: {fileID: 2100000, guid: 5c6c585114658494e89ba5df277fcb15, type: 2}
+  _meshRenderer: {fileID: 7726500087861695368}
 --- !u!1 &3163866807395974538
 GameObject:
   m_ObjectHideFlags: 0
@@ -426,6 +428,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -200
       objectReference: {fileID: 0}
+    - target: {fileID: 2386212, guid: 13af847dfa6dbe844ba4b7c902f98f67, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5c6c585114658494e89ba5df277fcb15, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13af847dfa6dbe844ba4b7c902f98f67, type: 3}
 --- !u!1 &7726500087863705522 stripped
@@ -436,6 +442,11 @@ GameObject:
 --- !u!4 &7726500087863853218 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 489998, guid: 13af847dfa6dbe844ba4b7c902f98f67, type: 3}
+  m_PrefabInstance: {fileID: 7726500087863524012}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &7726500087861695368 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2386212, guid: 13af847dfa6dbe844ba4b7c902f98f67, type: 3}
   m_PrefabInstance: {fileID: 7726500087863524012}
   m_PrefabAsset: {fileID: 0}
 --- !u!65 &4572642493678977425

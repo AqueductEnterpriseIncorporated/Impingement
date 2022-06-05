@@ -109,14 +109,15 @@ namespace Impingement.Control
             //     return;
             // }
 
+            _activePlayer ??= FindObjectOfType<PlayerController>();
             //foreach (var player in _players)
             {
                 if (_activePlayer.GetHealthController().IsDead())
                 {
-                    if (_playerTarget == _activePlayer)
-                    {
+                    // if (_playerTarget == _activePlayer)
+                    // {
                         _playerTarget = null;
-                    }
+                    //}
 
                     //continue;
                 }

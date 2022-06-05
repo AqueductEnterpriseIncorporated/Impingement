@@ -21,6 +21,8 @@ namespace Impingement.Control
     {
         #region fields
 
+
+        public AudioSource AudioSourceOnUse;
         [SerializeField] private GameObject _hud;
         [SerializeField] private float _rotationSpeed;
         [SerializeField] private float _speed = 3;
@@ -134,47 +136,47 @@ namespace Impingement.Control
         {
             if (_inputManager.GetKeyDown("Активная1"))
             {
-                _actionStore.Use(0, gameObject);
+                _actionStore.Use(0, this);
             }
 
             if (_inputManager.GetKeyDown("Активная2"))
             {
-                _actionStore.Use(1, gameObject);
+                _actionStore.Use(1, this);
             }
 
             if (_inputManager.GetKeyDown("Активная3"))
             {
-                _actionStore.Use(2, gameObject);
+                _actionStore.Use(2, this);
             }
 
             if (_inputManager.GetKeyDown("Активная4"))
             {
-                _actionStore.Use(3, gameObject);
+                _actionStore.Use(3, this);
             }
 
             if (_inputManager.GetKeyDown("Активная5"))
             {
-                _actionStore.Use(4, gameObject);
+                _actionStore.Use(4, this);
             }
 
             if (_inputManager.GetKeyDown("Активная6"))
             {
-                _actionStore.Use(5, gameObject);
+                _actionStore.Use(5, this);
             }
 
             if (_inputManager.GetKeyDown("Активная7"))
             {
-                _actionStore.Use(6, gameObject);
+                _actionStore.Use(6, this);
             }
 
             if (_inputManager.GetKeyDown("Активная8"))
             {
-                _actionStore.Use(7, gameObject);
+                _actionStore.Use(7, this);
             }
 
             if (_inputManager.GetKeyDown("Активная9"))
             {
-                _actionStore.Use(8, gameObject);
+                _actionStore.Use(8, this);
             }
         }
 
@@ -275,8 +277,8 @@ namespace Impingement.Control
                 Ray ray = _camera.ScreenPointToRay(Input.mousePosition);
                 RaycastHit rayHit;
 
-                if (!Physics.Raycast(ray, out rayHit) ||
-                    !rayHit.transform.TryGetComponent<PlayerController>(out var playerController))
+                // if (!Physics.Raycast(ray, out rayHit) ||
+                //     !rayHit.transform.TryGetComponent<PlayerController>(out var playerController))
                 {
                     _actionScheduleController.StartAction(this);
                     _characterController.Move(direction * (Time.deltaTime * _speed));

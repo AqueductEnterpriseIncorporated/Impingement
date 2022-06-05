@@ -48,11 +48,11 @@ namespace Impingement.Dungeon
                 AddRoomModifiers();
             }
             SetEnemyLevel();
-            //SpawnBoss();
             SpawnPortals();
             SetSpawnPoint();
             //CleanUp();
             _networkManager.SpawnPlayer();
+            SpawnBoss();
         }
 
         private void CleanUp()
@@ -99,7 +99,7 @@ namespace Impingement.Dungeon
 
         private void SpawnBoss()
         {
-            PhotonNetwork.Instantiate(_bossPrefab.name, Rooms[Rooms.Count - 1].transform.position, Quaternion.identity);
+            Instantiate(_bossPrefab, Rooms[Rooms.Count-1].BossSpawnPoint.position, Quaternion.identity);
         }
         
         private void SpawnPortals()

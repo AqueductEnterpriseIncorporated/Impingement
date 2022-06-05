@@ -26,7 +26,7 @@ namespace Impingement.UI
                 {
                     if (!PhotonNetwork.InRoom)
                     {
-                        _statusText.text = "Вы не в комнате";
+                        _statusText.text = "Нет игроков";
                     }
                     else
                     {

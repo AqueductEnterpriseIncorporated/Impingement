@@ -1821,7 +1821,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 4000, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 1
+  m_MatchWidthOrHeight: 0.79
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -1970,6 +1970,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b8667a04bad4639aa492900f0fa9fe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Parent: {fileID: 3806829429862834930}
   _theme: {fileID: 3627479744268719979}
   _message: {fileID: 3176669146035881482}
   _tyPanel: {fileID: 8778627241703048344}
@@ -8838,8 +8839,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.097}
   m_AnchorMax: {x: 1, y: 0.097}
-  m_AnchoredPosition: {x: 0, y: 36.126}
-  m_SizeDelta: {x: 0, y: 274.95}
+  m_AnchoredPosition: {x: 0, y: 18.668}
+  m_SizeDelta: {x: 0, y: 454.93}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &8685463944218765058
 CanvasRenderer:

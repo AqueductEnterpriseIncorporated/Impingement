@@ -106,9 +106,7 @@ namespace Impingement.UI
             if (PhotonNetwork.InRoom)
             {
                 _localLoadPanel = Instantiate(_loadPanel);
-                _playfabPlayerDataController.SavePlayerData();
                 _playerNetworkController.SelfDestroy();
-                PhotonNetwork.LeaveRoom();
                 SceneManager.LoadScene(3);
             }
         }
@@ -116,7 +114,6 @@ namespace Impingement.UI
         public void LoadHideoutScene()
         {
             _localLoadPanel = Instantiate(_loadPanel);
-            _playfabPlayerDataController.SavePlayerData();
             _playerNetworkController.SelfDestroy();
             if (PhotonNetwork.InRoom)
             {

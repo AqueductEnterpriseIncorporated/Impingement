@@ -9,6 +9,7 @@ namespace Impingement.Core
     {
         [SerializeField] CharacterController _characterController;
         [SerializeField] string[] _mainAnimations;
+        [SerializeField] AudioSource _audioSource;
         private Animator _animator;
         private NavMeshAgent _navMeshAgent;
         private PhotonView _photonView;
@@ -41,6 +42,7 @@ namespace Impingement.Core
             {
                 speed = _characterController.velocity.magnitude;
                 _animator.SetFloat("forwardSpeed", speed);
+                
                 return;
             }
             

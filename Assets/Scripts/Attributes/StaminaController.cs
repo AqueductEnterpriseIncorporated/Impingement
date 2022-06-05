@@ -8,7 +8,6 @@ namespace Impingement.Attributes
     public class StaminaController : MonoBehaviour
     {
         [SerializeField] private float _regenerationRate;
-        [SerializeField] private float _regenerationValue;
         [SerializeField] private BaseStats  _baseStats;
         private LazyValue<float> _staminaPoints;
 
@@ -43,7 +42,7 @@ namespace Impingement.Attributes
         {
             if (_staminaPoints.value < GetMaximumStaminaPoints())
             {
-                _staminaPoints.value = Mathf.Min(_staminaPoints.value + _regenerationValue, GetMaximumStaminaPoints());
+                _staminaPoints.value = Mathf.Min(_staminaPoints.value + _baseStats.GetStat(enumStats.StaminaRegen), GetMaximumStaminaPoints());
             }
         }
 

@@ -12,12 +12,14 @@ namespace Impingement.UI
 {
     public class BugPanelController : MonoBehaviour
     {
+        public GameObject Parent;
         [SerializeField] private TMP_Text _theme;
         [SerializeField] private TMP_Text _message;
         [SerializeField] private GameObject _tyPanel;
         [SerializeField] private GameObject[] _objectToDisable;
         [SerializeField] private Button[] _buttons;
         private readonly string _defaultScreenshotName = "Bug.png";
+        
 
         public void SendReport()
         {

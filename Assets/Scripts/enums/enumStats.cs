@@ -6,6 +6,8 @@
         ExperienceReward,
         ExperienceToLevelUp,
         Damage,
-        Stamina
+        Stamina,
+        HealthRegen,
+        StaminaRegen
     }
 }

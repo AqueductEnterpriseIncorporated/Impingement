@@ -6,6 +6,7 @@ namespace Impingement.Dungeon
 {
     public class RoomBehaviour : MonoBehaviour
     {
+        public Transform BossSpawnPoint;
         public Transform PortalSpawnPoint;
         public Transform HideoutPortalSpawnPoint;
         public Transform ItemSpawnPoint;

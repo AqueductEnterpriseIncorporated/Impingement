@@ -1,4 +1,5 @@
-﻿using TMPro;
+﻿using System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -23,7 +24,8 @@ namespace Impingement.Attributes
                 _healthTextParent.SetActive(true);
             }
 
-            _healthValueText.text = _healthController.GetHealthPoints() + "/" + _healthController.GetMaxHealthPoints();
+            _healthValueText.text = String.Format("{0:0.}", _healthController.GetHealthPoints()) + "/" + String.Format(
+                "{0:0.}", _healthController.GetMaxHealthPoints());
             _healthImage.fillAmount = _healthController.GetHealthPoints() / _healthController.GetMaxHealthPoints();
         }
     }

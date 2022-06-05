@@ -54,8 +54,8 @@ MonoBehaviour:
     DefaultButtonKeyCode: 117
   - ButtonName: "\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044F \u043E
       \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0435"
-    ActiveButtonKeyCode: 105
-    DefaultButtonKeyCode: 105
+    ActiveButtonKeyCode: 99
+    DefaultButtonKeyCode: 99
   - ButtonName: "\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044F \u043E
       \u0438\u0433\u0440\u043E\u043A\u0430\u0445 \u0432 \u043A\u043E\u043C\u043D\u0430\u0442\u0435"
     ActiveButtonKeyCode: 121

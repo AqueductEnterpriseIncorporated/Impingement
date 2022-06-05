@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Impingement.Core
 {
-    public class HighlightTarget : MonoBehaviour, IRaycastable
+    public class HighlightTarget : MonoBehaviour//, IRaycastable
     {
         [SerializeField] private Outline _outline;
         [SerializeField] private HealthController _healthController;
@@ -14,16 +14,16 @@ namespace Impingement.Core
 
         private void OnMouseEnter()
         {
-            _outline.enabled = true;
+            //_outline.enabled = true;
         }
         
         private void OnMouseExit()
         {
-            _outline.enabled = false;
-            if (_show)
-            {
-                _player.GetTargetHealthDisplay().Show(_healthController, false);
-            }
+            // _outline.enabled = false;
+            // if (_show)
+            // {
+            //     _player.GetTargetHealthDisplay().Show(_healthController, false);
+            // }
         }
 
         public bool HandleRaycast(PlayerController callingController)
