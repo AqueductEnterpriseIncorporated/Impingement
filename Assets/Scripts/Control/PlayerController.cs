@@ -187,6 +187,7 @@ namespace Impingement.Control
                 InteractWithCombat();
             }
         }
+        
 
         //todo: refactoring
         private void InteractWithCombat()

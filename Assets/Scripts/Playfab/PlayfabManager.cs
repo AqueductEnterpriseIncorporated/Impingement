@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using Impingement.Core;
+using Impingement.UI;
 using Photon.Pun;
 using PlayFab;
 using UnityEngine;
@@ -116,9 +118,8 @@ namespace Impingement.Playfab
         }
 
         private void OnReportFailure(PlayFabError error)
-        {            
+        {
             Debug.LogError("Report error: " + error.GenerateErrorReport());
-
         }
 
         private void OnReportSuccess(ExecuteCloudScriptResult obj)
@@ -137,6 +138,11 @@ namespace Impingement.Playfab
         private void OnLoginFailure(PlayFabError error)
         {
             Debug.LogError(error.GenerateErrorReport());
+            if (FindObjectOfType<StartSceneManager>())
+            {
+                FindObjectOfType<StartSceneManager>().Error(error.GenerateErrorReport());
+            }
+            
         }
         
         private void OnDataReceivedDungeonIsSaved(GetUserDataResult result)

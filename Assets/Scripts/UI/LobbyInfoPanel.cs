@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Impingement.Attributes;
 using Impingement.Control;
 using Impingement.PhotonScripts;
 using Impingement.Playfab;
@@ -153,6 +154,14 @@ namespace Impingement.UI
                 var newRoom = Instantiate(_roomItemPrefab, _contentTransform);
                 newRoom.SetupRoom(room);
                 _roomListViews.Add(newRoom);
+            }
+        }
+
+        public override void OnPlayerEnteredRoom(Player newPlayer)
+        {
+            foreach (var healthController in FindObjectsOfType<HealthController>())
+            {
+                healthController.IsInvulnerable = true;
             }
         }
 

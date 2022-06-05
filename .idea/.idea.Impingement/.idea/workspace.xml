@@ -5,18 +5,657 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e797b75-f4f0-4ea9-b141-84d8d653dbe9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/01 - Sample Scene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/01 - Sample Scene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/01 - Sample SceneSettings.lighting" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/01 - Sample SceneSettings.lighting.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX).meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_head_neck-01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_head_neck-01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_head_neck-02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_head_neck-02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_head_neck-03.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_head_neck-03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_head_neck-04.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_head_neck-04.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_head_noneck-01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_head_noneck-01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_head_noneck-02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_head_noneck-02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_head_noneck-03.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_head_noneck-03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_head_noneck-04.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_head_noneck-04.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_head_noneck-05.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_head_noneck-05.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_hip_full_lt_leg.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_hip_full_lt_leg.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_hip_full_rt_leg.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_hip_full_rt_leg.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_hips.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_hips.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_jawbone.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_jawbone.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_lt_elbow.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_lt_elbow.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_lt_foot.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_lt_foot.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_lt_full_arm.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_lt_full_arm.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_lt_hand.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_lt_hand.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_lt_hip_upleg.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_lt_hip_upleg.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_lt_leg.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_lt_leg.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_lt_leg_nofoot.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_lt_leg_nofoot.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_lt_lowleg.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_lt_lowleg.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_lt_shin_foot.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_lt_shin_foot.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_lt_uparm.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_lt_uparm.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_lt_upleg.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_lt_upleg.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_rt_elbow.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_rt_elbow.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_rt_foot.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_rt_foot.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_rt_full_arm.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_rt_full_arm.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_rt_hand.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_rt_hand.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_rt_hip_upleg.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_rt_hip_upleg.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_rt_leg.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_rt_leg.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_rt_leg_nofoot.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_rt_leg_nofoot.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_rt_lowleg.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_rt_lowleg.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_rt_shin_foot.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_rt_shin_foot.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_rt_uparm.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_rt_uparm.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_rt_upleg.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_rt_upleg.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_spine.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_spine.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_torso_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_torso_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_torso_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_torso_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_torso_03.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_torso_03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_torso_lt_arm.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_torso_lt_arm.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_torso_rt_arm.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Female/female_torso_rt_arm.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_head_neck-01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_head_neck-01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_head_neck-02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_head_neck-02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_head_neck-03.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_head_neck-03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_head_neck-04.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_head_neck-04.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_head_noneck-01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_head_noneck-01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_head_noneck-02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_head_noneck-02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_head_noneck-03.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_head_noneck-03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_head_noneck-04.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_head_noneck-04.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_head_noneck-05.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_head_noneck-05.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_hip_full_lt_leg.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_hip_full_lt_leg.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_hip_full_rt_leg.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_hip_full_rt_leg.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_hips.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_hips.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_jawbone.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_jawbone.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_left_foot.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_left_foot.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_lefthand.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_lefthand.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_lf_full_arm.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_lf_full_arm.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_lt_elbow.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_lt_elbow.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_lt_hip_upleg.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_lt_hip_upleg.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_lt_leg.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_lt_leg.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_lt_leg_nofoot.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_lt_leg_nofoot.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_lt_lowleg.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_lt_lowleg.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_lt_shin_foot.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_lt_shin_foot.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_lt_uparm.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_lt_uparm.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_lt_upleg.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_lt_upleg.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_right_foot.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_right_foot.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_righthand.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_righthand.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_rt_elbow.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_rt_elbow.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_rt_full_arm.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_rt_full_arm.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_rt_hip_upleg.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_rt_hip_upleg.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_rt_leg.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_rt_leg.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_rt_leg_nofoot.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_rt_leg_nofoot.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_rt_lowleg.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_rt_lowleg.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_rt_shin_foot.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_rt_shin_foot.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_rt_uparm.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_rt_uparm.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_rt_upleg.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_rt_upleg.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_spine.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_spine.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_torso_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_torso_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_torso_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_torso_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_torso_03.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_torso_03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_torso_lt_arm.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_torso_lt_arm.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_torso_rt_arm.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Prefabs/Male/male_torso_rt_arm.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_head_neck-01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_head_neck-01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_head_neck-02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_head_neck-02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_head_neck-03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_head_neck-03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_head_neck-04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_head_neck-04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_head_noneck-01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_head_noneck-01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_head_noneck-02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_head_noneck-02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_head_noneck-03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_head_noneck-03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_head_noneck-04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_head_noneck-04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_head_noneck-05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_head_noneck-05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_hip_full_lt_leg.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_hip_full_lt_leg.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_hip_full_rt_leg.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_hip_full_rt_leg.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_hips.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_hips.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_jawbone.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_jawbone.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_lt_elbow.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_lt_elbow.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_lt_foot.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_lt_foot.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_lt_full_arm.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_lt_full_arm.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_lt_hand.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_lt_hand.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_lt_hip_upleg.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_lt_hip_upleg.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_lt_leg.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_lt_leg.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_lt_leg_nofoot.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_lt_leg_nofoot.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_lt_lowleg.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_lt_lowleg.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_lt_shin_foot.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_lt_shin_foot.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_lt_uparm.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_lt_uparm.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_lt_upleg.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_lt_upleg.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_rt_elbow.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_rt_elbow.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_rt_foot.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_rt_foot.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_rt_full_arm.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_rt_full_arm.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_rt_hand.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_rt_hand.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_rt_hip_upleg.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_rt_hip_upleg.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_rt_leg.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_rt_leg.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_rt_leg_nofoot.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_rt_leg_nofoot.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_rt_lowleg.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_rt_lowleg.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_rt_shin_foot.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_rt_shin_foot.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_rt_uparm.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_rt_uparm.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_rt_upleg.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_rt_upleg.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_spine.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_spine.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_torso_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_torso_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_torso_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_torso_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_torso_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_torso_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_torso_lt_arm.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_torso_lt_arm.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_torso_rt_arm.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Female Source/female_torso_rt_arm.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_head_neck-01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_head_neck-01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_head_neck-02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_head_neck-02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_head_neck-03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_head_neck-03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_head_neck-04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_head_neck-04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_head_noneck-01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_head_noneck-01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_head_noneck-02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_head_noneck-02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_head_noneck-03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_head_noneck-03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_head_noneck-04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_head_noneck-04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_head_noneck-05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_head_noneck-05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_hip_full_lt_leg.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_hip_full_lt_leg.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_hip_full_rt_leg.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_hip_full_rt_leg.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_hips.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_hips.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_jawbone.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_jawbone.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_left_foot.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_left_foot.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_lefthand.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_lefthand.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_lf_full_arm.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_lf_full_arm.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_lt_elbow.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_lt_elbow.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_lt_hip_upleg.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_lt_hip_upleg.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_lt_leg.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_lt_leg.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_lt_leg_nofoot.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_lt_leg_nofoot.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_lt_lowleg.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_lt_lowleg.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_lt_shin_foot.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_lt_shin_foot.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_lt_uparm.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_lt_uparm.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_lt_upleg.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_lt_upleg.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_right_foot.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_right_foot.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_righthand.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_righthand.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_rt_elbow.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_rt_elbow.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_rt_full_arm.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_rt_full_arm.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_rt_hip_upleg.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_rt_hip_upleg.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_rt_leg.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_rt_leg.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_rt_leg_nofoot.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_rt_leg_nofoot.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_rt_lowleg.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_rt_lowleg.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_rt_shin_foot.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_rt_shin_foot.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_rt_uparm.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_rt_uparm.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_rt_upleg.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_rt_upleg.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_spine.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_spine.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_torso_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_torso_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_torso_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_torso_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_torso_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_torso_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_torso_lt_arm.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_torso_lt_arm.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_torso_rt_arm.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Complete Setup (FBX)/Resources/Male Source/male_torso_rt_arm.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX).meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Decals N Splats.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Decals N Splats/Blood Splats - FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Decals N Splats/Blood Splats - FBX/splat_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Decals N Splats/Blood Splats - FBX/splat_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Decals N Splats/Blood Splats - FBX/splat_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Decals N Splats/Blood Splats - FBX/splat_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Decals N Splats/Blood Splats - FBX/splat_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Decals N Splats/Blood Splats - FBX/splat_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Decals N Splats/Blood Splats - FBX/splat_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Decals N Splats/Blood Splats - FBX/splat_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Decals N Splats/Blood Splats - FBX/splat_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Decals N Splats/Blood Splats - FBX/splat_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Decals N Splats/Hand N Foot Prints - FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Decals N Splats/Hand N Foot Prints - FBX/left_foot.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Decals N Splats/Hand N Foot Prints - FBX/left_foot.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Decals N Splats/Hand N Foot Prints - FBX/left_hand.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Decals N Splats/Hand N Foot Prints - FBX/left_hand.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Decals N Splats/Hand N Foot Prints - FBX/right_foot.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Decals N Splats/Hand N Foot Prints - FBX/right_foot.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Decals N Splats/Hand N Foot Prints - FBX/right_hand.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Decals N Splats/Hand N Foot Prints - FBX/right_hand.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gibs N Organs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gibs N Organs/Gibs N Organs - FBX Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gibs N Organs/Gibs N Organs - FBX Prefabs/gib_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gibs N Organs/Gibs N Organs - FBX Prefabs/gib_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gibs N Organs/Gibs N Organs - FBX Prefabs/gib_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gibs N Organs/Gibs N Organs - FBX Prefabs/gib_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gibs N Organs/Gibs N Organs - FBX Prefabs/gib_03.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gibs N Organs/Gibs N Organs - FBX Prefabs/gib_03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gibs N Organs/Gibs N Organs - FBX Prefabs/gib_04.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gibs N Organs/Gibs N Organs - FBX Prefabs/gib_04.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gibs N Organs/Gibs N Organs - FBX Prefabs/gib_05.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gibs N Organs/Gibs N Organs - FBX Prefabs/gib_05.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gibs N Organs/Gibs N Organs - FBX Prefabs/gib_06.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gibs N Organs/Gibs N Organs - FBX Prefabs/gib_06.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gibs N Organs/Gibs N Organs - FBX Prefabs/gib_bone.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gibs N Organs/Gibs N Organs - FBX Prefabs/gib_bone.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gibs N Organs/Gibs N Organs - FBX Prefabs/gib_brain.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gibs N Organs/Gibs N Organs - FBX Prefabs/gib_brain.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gibs N Organs/Gibs N Organs - FBX Prefabs/gib_eyeball.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gibs N Organs/Gibs N Organs - FBX Prefabs/gib_eyeball.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gibs N Organs/Gibs N Organs - FBX Prefabs/gib_heart.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gibs N Organs/Gibs N Organs - FBX Prefabs/gib_heart.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gibs N Organs/Gibs N Organs - FBX Prefabs/gib_intestines_full.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gibs N Organs/Gibs N Organs - FBX Prefabs/gib_intestines_full.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gibs N Organs/Gibs N Organs - FBX Prefabs/gib_large_intestine.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gibs N Organs/Gibs N Organs - FBX Prefabs/gib_large_intestine.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gibs N Organs/Gibs N Organs - FBX Prefabs/gib_stomach.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gibs N Organs/Gibs N Organs - FBX Prefabs/gib_stomach.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gibs N Organs/Gibs N Organs - FBX Prefabs/gib_tongue.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gibs N Organs/Gibs N Organs - FBX Prefabs/gib_tongue.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gore Pile.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gore Pile/Gore Pile - FBX Prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gore Pile/Gore Pile - FBX Prefab/gore_pile.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Gore Pile/Gore Pile - FBX Prefab/gore_pile.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gibs n Organs Source.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gibs n Organs Source/Gibs n Organs FBX Source.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gibs n Organs Source/Gibs n Organs FBX Source/gib_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gibs n Organs Source/Gibs n Organs FBX Source/gib_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gibs n Organs Source/Gibs n Organs FBX Source/gib_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gibs n Organs Source/Gibs n Organs FBX Source/gib_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gibs n Organs Source/Gibs n Organs FBX Source/gib_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gibs n Organs Source/Gibs n Organs FBX Source/gib_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gibs n Organs Source/Gibs n Organs FBX Source/gib_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gibs n Organs Source/Gibs n Organs FBX Source/gib_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gibs n Organs Source/Gibs n Organs FBX Source/gib_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gibs n Organs Source/Gibs n Organs FBX Source/gib_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gibs n Organs Source/Gibs n Organs FBX Source/gib_06.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gibs n Organs Source/Gibs n Organs FBX Source/gib_06.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gibs n Organs Source/Gibs n Organs FBX Source/gib_bone.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gibs n Organs Source/Gibs n Organs FBX Source/gib_bone.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gibs n Organs Source/Gibs n Organs FBX Source/gib_brain.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gibs n Organs Source/Gibs n Organs FBX Source/gib_brain.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gibs n Organs Source/Gibs n Organs FBX Source/gib_eyeball.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gibs n Organs Source/Gibs n Organs FBX Source/gib_eyeball.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gibs n Organs Source/Gibs n Organs FBX Source/gib_heart.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gibs n Organs Source/Gibs n Organs FBX Source/gib_heart.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gibs n Organs Source/Gibs n Organs FBX Source/gib_intestines_full.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gibs n Organs Source/Gibs n Organs FBX Source/gib_intestines_full.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gibs n Organs Source/Gibs n Organs FBX Source/gib_large_intestine.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gibs n Organs Source/Gibs n Organs FBX Source/gib_large_intestine.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gibs n Organs Source/Gibs n Organs FBX Source/gib_stomach.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gibs n Organs Source/Gibs n Organs FBX Source/gib_stomach.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gibs n Organs Source/Gibs n Organs FBX Source/gib_tongue.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gibs n Organs Source/Gibs n Organs FBX Source/gib_tongue.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gore Piles Source.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gore Piles Source/Gore Pile - FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gore Piles Source/Gore Pile - FBX/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gore Piles Source/Gore Pile - FBX/Materials/Gore_Pile_Tex.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gore Piles Source/Gore Pile - FBX/Materials/Gore_Pile_Tex.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gore Piles Source/Gore Pile - FBX/gore_pile.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Gore Piles Source/Gore Pile - FBX/gore_pile.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Materials/Bone_Tex.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Materials/Bone_Tex.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Materials/Gore_Pile_Tex.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Materials/Gore_Pile_Tex.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Materials/eye_n_tongue_tex.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Materials/eye_n_tongue_tex.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Materials/left_foot_print_tex.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Materials/left_foot_print_tex.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Materials/left_hand_print_tex.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Materials/left_hand_print_tex.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Materials/meaty_gib_tex.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Materials/meaty_gib_tex.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Materials/organs_gib_tex.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Materials/organs_gib_tex.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Materials/right_foot_print_tex.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Materials/right_foot_print_tex.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Materials/right_hand_print_tex.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Materials/right_hand_print_tex.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Materials/splat_tex_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Materials/splat_tex_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Materials/splat_tex_02.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Materials/splat_tex_02.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Materials/splat_tex_03.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Materials/splat_tex_03.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Materials/splat_tex_04.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Materials/splat_tex_04.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Materials/splat_tex_05.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Materials/splat_tex_05.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/bone_tex.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/bone_tex.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/bone_tex_nm.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/bone_tex_nm.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/eye_n_tongue_tex.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/eye_n_tongue_tex.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/gore_pile_tex.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/gore_pile_tex.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/gore_pile_tex_nm.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/gore_pile_tex_nm.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/left_foot_print.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/left_foot_print.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/left_hand_print.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/left_hand_print.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/meaty_gib_tex.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/meaty_gib_tex.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/nm_eye_n_tongue_tex.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/nm_eye_n_tongue_tex.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/nm_left_foot_print.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/nm_left_foot_print.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/nm_left_hand_print.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/nm_left_hand_print.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/nm_meaty_gib_tex.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/nm_meaty_gib_tex.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/nm_organ_gib_tex.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/nm_organ_gib_tex.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/nm_right_foot_print.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/nm_right_foot_print.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/nm_right_hand_print.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/nm_right_hand_print.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/nm_splat_01.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/nm_splat_01.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/nm_splat_02.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/nm_splat_02.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/nm_splat_03.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/nm_splat_03.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/nm_splat_04.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/nm_splat_04.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/nm_splat_05.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/nm_splat_05.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/organ_gib_tex.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/organ_gib_tex.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/right_foot_print.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/right_foot_print.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/right_hand_print.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/right_hand_print.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/splat_01.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/splat_01.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/splat_02.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/splat_02.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/splat_03.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/splat_03.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/splat_04.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/splat_04.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/splat_05.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Resources/Textures n Materials/Textures/splat_05.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Sound FX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Sound FX/bone01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Sound FX/bone01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Sound FX/bone02(Aggressive).wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Sound FX/bone02(Aggressive).wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Sound FX/bone03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Sound FX/bone03.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Sound FX/bone04(Aggressive).wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Sound FX/bone04(Aggressive).wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Sound FX/land01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Sound FX/land01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Sound FX/land02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Sound FX/land02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Sound FX/land03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Sound FX/land03.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Sound FX/land04.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Sound FX/land04.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Sound FX/splat01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Sound FX/splat01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Sound FX/splat02(Aggressive).wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Sound FX/splat02(Aggressive).wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Sound FX/splat03(Wet).wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Sound FX/splat03(Wet).wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Sound FX/splat04.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Extra Gore (FBX)/Sound FX/splat04.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Maya Complete Setup.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Maya Complete Setup/Maya Complete Setup.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Maya Complete Setup/Maya Complete Setup.zip.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Read_Me.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Read_Me.doc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/Materials/fm_torso_gib_alt_tex.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/Materials/fm_torso_gib_alt_tex.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/Materials/fm_torso_gib_tex.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/Materials/fm_torso_gib_tex.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/Materials/hair_tex.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/Materials/hair_tex.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/Materials/hand_gib_tex.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/Materials/hand_gib_tex.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/Materials/handonly_gib_tex.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/Materials/handonly_gib_tex.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/Materials/head_gib_alt_tex.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/Materials/head_gib_alt_tex.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/Materials/head_gib_tex.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/Materials/head_gib_tex.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/Materials/legs_alt_gib_tex.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/Materials/legs_alt_gib_tex.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/Materials/legs_gib_tex.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/Materials/legs_gib_tex.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/Materials/torso_gib_alt_tex.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/Materials/torso_gib_alt_tex.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/Materials/torso_gib_tex.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/Materials/torso_gib_tex.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/Materials/uparm_gib_tex.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/Materials/uparm_gib_tex.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/fm_torso_gib_alt_tex.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/fm_torso_gib_alt_tex.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/fm_torso_gib_tex.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/fm_torso_gib_tex.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/hair.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/hair.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/hand_gib_tex.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/hand_gib_tex.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/handonly_gib_tex.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/handonly_gib_tex.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/head_gib_tex.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/head_gib_tex.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/head_gib_tex_alt.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/head_gib_tex_alt.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/legs_gib_alt_tex.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/legs_gib_alt_tex.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/legs_gib_tex.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/legs_gib_tex.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/nm_fm_torso_gib_alt_tex.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/nm_fm_torso_gib_alt_tex.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/nm_fm_torso_gib_tex.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/nm_fm_torso_gib_tex.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/nm_hair.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/nm_hair.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/nm_hand_gib_tex.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/nm_hand_gib_tex.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/nm_handonly_gib_tex.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/nm_handonly_gib_tex.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/nm_head_gib_tex.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/nm_head_gib_tex.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/nm_head_gib_tex_alt.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/nm_head_gib_tex_alt.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/nm_legs_gib_alt_tex.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/nm_legs_gib_alt_tex.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/nm_legs_gib_tex.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/nm_legs_gib_tex.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/nm_torso_gib_alt_tex.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/nm_torso_gib_alt_tex.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/nm_torso_gib_tex.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/nm_torso_gib_tex.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/nm_uparm_gib_tex.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/nm_uparm_gib_tex.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/torso_gib_alt_tex.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/torso_gib_alt_tex.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/torso_gib_tex.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/torso_gib_tex.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/uparm_gib_tex.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Gibs N Gore - Complete/Textures n Materials/uparm_gib_tex.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/TD Tile 33.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/TD Tile 33.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIElementsSchema/UIElements.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIElementsSchema/Unity.Cloud.Collaborate.Components.ChangeListEntries.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIElementsSchema/Unity.Cloud.Collaborate.Components.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIElementsSchema/Unity.Cloud.Collaborate.Views.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIElementsSchema/Unity.Multiplayer.Tools.NetworkProfiler.Editor.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIElementsSchema/UnityEditor.PackageManager.UI.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIElementsSchema/UnityEditor.UIElements.Debugger.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIElementsSchema/UnityEditor.UIElements.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIElementsSchema/UnityEngine.UIElements.xsd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Characters/Character.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Characters/Character.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animations/Characters/PlayerAnimation/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Characters/PlayerAnimation/Player.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Bow/BowAnimatorOverride.overrideController" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Bow/BowAnimatorOverride.overrideController" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Sword/SwordAnimatorOverride.overrideController" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Sword/SwordAnimatorOverride.overrideController" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Rooms/RoomBasePlayerSpawn.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/RoomBasePlayerSpawn.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dungeon/Dungeon.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dungeon/Dungeon.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Scenes/SRC Top-Down Tiles 01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Multistory Dungeons/Scenes/SRC Top-Down Tiles 01.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Core/LobbyManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/LobbyManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/LoadPanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/LoadPanel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Arena.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Arena.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/Projectile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/AnimationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/AnimationController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/StartSceneManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/StartSceneManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/LobbyInfoPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/LobbyInfoPanel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +718,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/InputModules/BaseInputModule.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/CanvasUpdateRegistry.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Runtime/InputField/GenericInputFieldTests.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -280,7 +920,7 @@
       <workItem from="1654157298668" duration="13701000" />
       <workItem from="1654246928430" duration="1249000" />
       <workItem from="1654324452357" duration="32001000" />
-      <workItem from="1654412663687" duration="2577000" />
+      <workItem from="1654412663687" duration="9189000" />
     </task>
     <servers />
   </component>

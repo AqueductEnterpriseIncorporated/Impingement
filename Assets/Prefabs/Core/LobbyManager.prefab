@@ -43,16 +43,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cde3c96d5ca44584aafe694b86c8befd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _connectingPanel: {fileID: 0}
-  _portalPrefab: {fileID: 3554111045271690121, guid: abb5c543b3c33164aba94f763fc3733e, type: 3}
-  _lobbyPanel: {fileID: 0}
-  _roomPanel: {fileID: 0}
-  _connectingText: {fileID: 0}
-  _leaveRoomButton: {fileID: 0}
-  _roomName: {fileID: 0}
-  _statusText: {fileID: 0}
-  _roomItemPrefab: {fileID: 7460427154516527551, guid: b65d8623004dfb144adc6254e73eb575, type: 3}
-  _contentTransform: {fileID: 0}
-  _portalSpawnTransform: {fileID: 0}
-  _portalSceneToLoadName: Dungeon
-  _inputManager: {fileID: 11400000, guid: a95a85ccdc372a34982afe6b31884e5d, type: 2}

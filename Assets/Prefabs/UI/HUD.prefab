@@ -2159,7 +2159,7 @@ MonoBehaviour:
   _contentTransform: {fileID: 2111633391371294867}
   _inputManager: {fileID: 11400000, guid: a95a85ccdc372a34982afe6b31884e5d, type: 2}
   _playfabPlayerDataController: {fileID: 0}
-  _photonView: {fileID: 0}
+  _playerNetworkController: {fileID: 0}
 --- !u!1 &1685451258879336662
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Linq;
 using Impingement.Playfab;
 using TMPro;
 using UnityEngine.Rendering.PostProcessing;
@@ -21,10 +22,12 @@ namespace Impingement.Core
         [SerializeField] private GameObject _eyeGameObject;
         [SerializeField] private Vector3 _defaultPosition = new Vector3(0, 0,0);
         [SerializeField] private Transform _camera;
+        [SerializeField] private TMP_Text _statusText;
         [SerializeField] private float _playCooldown = 5f;
         [SerializeField] private float _timer;
         private bool _isDefaultPosition;
         private bool _isLoading;
+        private readonly string _noInternetException = "/Client/LoginWithCustomID: Cannot resolve destination host";
         
         private void Start()
         {
@@ -60,8 +63,7 @@ namespace Impingement.Core
         {
             if (!_isDefaultPosition)
             {
-                _eyeGameObject.transform.position = _defaultPosition;
-                _isDefaultPosition = true;
+                ResetEye();
                 return;
             }
 
@@ -71,7 +73,17 @@ namespace Impingement.Core
             _isDefaultPosition = false;
             _eyeGameObject.transform.position = Random.insideUnitSphere * 2.5f;
         }
-        
+
+        private void ResetEye()
+        {
+            _eyeGameObject.transform.position = _defaultPosition;
+            _isDefaultPosition = true;
+            var lensDistortion =  _processVolume.profile.GetSetting<LensDistortion>();
+            lensDistortion.enabled = new BoolParameter(){value = true};
+            lensDistortion.intensity.value = 0;
+            lensDistortion.scale.value = 0.3f;
+        }
+
         public void LoadHideout()
         {
             if (_inputField.text.Length <= 1) { return; }
@@ -84,9 +96,7 @@ namespace Impingement.Core
 
             var lensDistortion =  _processVolume.profile.GetSetting<LensDistortion>();
             lensDistortion.enabled = new BoolParameter(){value = true};
-            _playfabManager.Login(_inputField.text);
-            _startButton.enabled = false;
-            _isLoading = true;
+            Login();
             for (int i = 0; i < 101; i++)
             {
                 lensDistortion.intensity.value = i;
@@ -98,7 +108,15 @@ namespace Impingement.Core
                 yield return new WaitForSeconds(0.005f);
             }
         }
-        
+
+        private void Login()
+        {
+            _playfabManager.Login(_inputField.text);
+            _statusText.text = "";
+            _startButton.enabled = false;
+            _isLoading = true;
+        }
+
         private void OnValueSyncedAndConnected(bool value)
         {
             SceneManager.LoadSceneAsync("Hideout");
@@ -107,6 +125,19 @@ namespace Impingement.Core
         public void Exit()
         {
             Application.Quit();
+        }
+
+        public void Error(string errorReport)
+        {
+            _statusText.text = "Ошибка: " + errorReport;
+            if (errorReport == _noInternetException)
+            {
+                var text = _statusText.text.Insert(0, "Отсутствует интернет\n\n");
+                _statusText.text = text;
+            }
+            _startButton.enabled = true;
+            _isLoading = false;
+            ResetEye();
         }
     }
 }

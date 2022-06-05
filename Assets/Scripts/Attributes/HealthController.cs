@@ -17,7 +17,10 @@ namespace Impingement.Attributes
         public string CharacterName;
 
         public bool IsPlayer;
+        public bool IsInvulnerable;
+
         [Serializable] public class TakeDamageEvent : UnityEvent<float> { }
+
         [SerializeField] private AudioSource[] _takeDamageClips;
         [SerializeField] private UnityEvent _onDie;
         [SerializeField] private BaseStats _baseStats = null;
@@ -26,7 +29,6 @@ namespace Impingement.Attributes
         [SerializeField] private CombatTarget _combatTarget;
         [SerializeField] private bool _showDamageText;
         [SerializeField] private bool _isDead;
-        [SerializeField] private bool _isInvulnerable;
         [SerializeField] private GameObject _deathPanel;
         private LazyValue<float> _healthPoints;
         private PhotonView _photonView;
@@ -65,7 +67,7 @@ namespace Impingement.Attributes
 
         public void TakeDamage(GameObject instigator, float damage)
         {
-            if (!_isInvulnerable)
+            if (!IsInvulnerable)
             {
                 _healthPoints.value = Mathf.Max(_healthPoints.value - damage, 0);
             }

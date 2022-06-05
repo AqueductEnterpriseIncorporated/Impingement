@@ -59,7 +59,7 @@ namespace Impingement.Core
             _animator.SetBool("attackBool", false);
 
         }
-
+        
         public void PlayAttackAnimation()
         {
             _animator.SetBool("attackBool", true);
