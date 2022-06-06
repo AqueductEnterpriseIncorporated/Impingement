@@ -9,6 +9,7 @@ using Impingement.Stats;
 using Photon.Pun;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
 
 namespace Impingement.Attributes
@@ -57,6 +58,10 @@ namespace Impingement.Attributes
             }
 
             InvokeRepeating(nameof(PassiveRegenerationHealth), 0f, 1f / _regenerationRate);
+            if (SceneManager.GetActiveScene().name == "Arena")
+            {
+                _healthPoints.value = 25;
+            }
         }
 
         private void EquipmentControllerOnEquipmentUpdated()
@@ -140,6 +145,10 @@ namespace Impingement.Attributes
         
         public float GetMaxHealthPoints()
         {
+            if (SceneManager.GetActiveScene().name == "Arena")
+            {
+                return 25f;
+            }
             return _baseStats.GetStat(enumStats.Health);
         }
         
@@ -188,10 +197,12 @@ namespace Impingement.Attributes
             if (stream.IsWriting)
             {
                 stream.SendNext(_isDead);
+                stream.SendNext(_healthPoints.value);
             }
             else
             {
                 _isDead = (bool)stream.ReceiveNext();
+                _healthPoints.value = (float)stream.ReceiveNext();
             }
         } 
     }

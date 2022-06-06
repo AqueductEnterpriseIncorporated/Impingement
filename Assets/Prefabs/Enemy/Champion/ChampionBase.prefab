@@ -3514,7 +3514,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _startLevel: 1
-  _characterClass: 1
+  _characterClass: 4
   _progression: {fileID: 11400000, guid: 516bdd27a8fa15945bf621ed61c9ed2f, type: 2}
   _experienceController: {fileID: 0}
   _levelUpEffect: {fileID: 0}

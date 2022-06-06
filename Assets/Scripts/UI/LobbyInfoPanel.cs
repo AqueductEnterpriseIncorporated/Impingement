@@ -18,7 +18,6 @@ namespace Impingement.UI
         [SerializeField] private GameObject _loadPanel;
         [SerializeField] private GameObject _parent;
         [SerializeField] private GameObject _createButton;
-        [SerializeField] private GameObject _leaveRoomButton;
         [SerializeField] private GameObject _loadHideoutButton;
         [SerializeField] private Slider _maxPlayerSlider;
         [SerializeField] private TMP_Text _statusText;
@@ -43,7 +42,6 @@ namespace Impingement.UI
                 _parent.SetActive(!_parent.activeSelf);
             }
             
-            _leaveRoomButton.SetActive(SceneManager.GetActiveScene().name == "Arena" && PhotonNetwork.InRoom);
             _loadHideoutButton.SetActive(SceneManager.GetActiveScene().name == "Arena");
             _createButton.SetActive(!PhotonNetwork.InRoom && SceneManager.GetActiveScene().name == "Arena");
             _maxPlayerSlider.gameObject.SetActive(!PhotonNetwork.InRoom && SceneManager.GetActiveScene().name == "Arena");

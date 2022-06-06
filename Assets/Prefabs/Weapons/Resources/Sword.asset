@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Sword
   m_EditorClassIdentifier: 
   _itemID: 407c0655-7232-4b41-b1cf-0dceefefc364
-  _displayName: "\u041C\u0435\u0447"
-  _description: "\u041E\u0434\u043D\u043E\u0440\u0443\u0447\u043D\u044B\u0439 \u043C\u0435\u0447.\n\n\u0423\u0440\u043E\u043D:
-    15"
+  _displayName: "\u041E\u0434\u043D\u043E\u0440\u0443\u0447\u043D\u044B\u0439 \u043C\u0435\u0447"
+  _description: "\u0414\u043E\u0431\u0430\u0432\u043B\u044F\u0435\u0442 15 \u043E\u0447\u043A\u043E\u0432
+    \u0443\u0440\u043E\u043D\u0430"
   _icon: {fileID: 21300000, guid: dbfeeabc3f62ff0489da606e7668f92d, type: 3}
   _pickup: {fileID: 6028670402234477005, guid: 4f80bd453f5d0eb4091fc4229ba03098, type: 3}
   _stackable: 0
