@@ -168,7 +168,7 @@ namespace Impingement.Attributes
         {
             if(instigator.TryGetComponent<ExperienceController>(out var experienceController))
             {
-                experienceController.GainExperience((int) GetComponent<BaseStats>().GetStat(enumStats.ExperienceReward));
+                experienceController.GainExperience((int) GetComponent<BaseStats>().GetStat(enumStats.ExperienceReward), true);
             }
         }
    

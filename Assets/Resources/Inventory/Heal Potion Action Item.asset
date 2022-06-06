@@ -16,7 +16,7 @@ MonoBehaviour:
   _displayName: "\u041C\u0430\u043B\u043E\u0435 \u0437\u0435\u043B\u044C\u0435 \u043B\u0435\u0447\u0435\u043D\u0438\u044F"
   _description: "\u0412\u043E\u0441\u0441\u0442\u0430\u043D\u0430\u0432\u043B\u0438\u0432\u0430\u0435\u0442
     15 \u043E\u0447\u043A\u043E\u0432 \u0437\u0434\u043E\u0440\u043E\u0432\u044C\u044F"
-  _icon: {fileID: 21300000, guid: aba0f700d91d4fc4fa8c724899ab04ab, type: 3}
+  _icon: {fileID: 21300000, guid: 1ea3f8637a4e4c9499e0941ea2780f34, type: 3}
   _pickup: {fileID: 2520544043136289892, guid: e5118516ee99d5b42ba39a638795257c, type: 3}
   _stackable: 1
   _consumable: 1

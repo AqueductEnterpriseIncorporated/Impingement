@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _itemID: c95845e9-2561-4e79-ab57-b0464a61c2cf
   _displayName: "\u0411\u0440\u043E\u043D\u044F"
-  _description: "\u0414\u0430\u0435\u0442 \u0437\u0434\u043E\u0440\u043E\u0432\u044C\u0435"
+  _description: "\u0414\u043E\u0431\u0430\u0432\u043B\u044F\u0435\u0442 20 \u043E\u0447\u043A\u043E\u0432
+    \u0437\u0434\u043E\u0440\u043E\u0432\u044C\u044F\n\u0423\u0432\u0435\u043B\u0438\u0447\u0438\u0432\u0430\u0435\u0442
+    \u043D\u0430 10% \u043E\u0447\u043A\u0438 \u0437\u0434\u043E\u0440\u043E\u0432\u044C\u044F"
   _icon: {fileID: 21300000, guid: 5e83a46f94bc0bd4190d1174a9da4b87, type: 3}
   _pickup: {fileID: 5897481202634816624, guid: 652d438fa3aba80499e957aa8985ca3f, type: 3}
   _stackable: 0

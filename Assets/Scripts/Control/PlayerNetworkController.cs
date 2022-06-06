@@ -123,21 +123,21 @@ namespace Impingement.Control
             }
         }
 
-        public override void OnConnectedToMaster()
-        {
-            base.OnConnectedToMaster();
-            Hashtable property = new Hashtable();
-            property.Add("PlayfabId", FindObjectOfType<PlayfabManager>().MyPlayfabId);
-            PhotonNetwork.LocalPlayer.SetCustomProperties(property);
-            Debug.Log("Setting custom property");
-        }
+        // public override void OnConnectedToMaster()
+        // {
+        //     base.OnConnectedToMaster();
+        //     Hashtable property = new Hashtable();
+        //     property.Add("PlayfabId", FindObjectOfType<PlayfabManager>().MyPlayfabId);
+        //     PhotonNetwork.LocalPlayer.SetCustomProperties(property);
+        //     Debug.Log("Setting custom property");
+        // }
 
         public override void OnPlayerEnteredRoom(Player newPlayer)
         {
             Debug.Log("New player");
 
             var newPlayerPlayfabId = PhotonNetwork.LocalPlayer.CustomProperties["PlayfabId"];
-            FindObjectOfType<PlayfabPlayerDataController>().GetOtherPLayerData(newPlayerPlayfabId.ToString());
+            //FindObjectOfType<PlayfabPlayerDataController>().GetOtherPLayerData(newPlayerPlayfabId.ToString());
             Debug.Log("New Player PlayfabId:" + newPlayerPlayfabId);
 
             

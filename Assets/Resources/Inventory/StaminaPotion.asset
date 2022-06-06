@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e628e722c4cd4fd2a407e2eaab2c7c31, type: 3}
+  m_Name: StaminaPotion
+  m_EditorClassIdentifier: 
+  _itemID: 30311e5d-f18e-47d1-bf87-285c8b0ee397
+  _displayName: "\u0417\u0435\u043B\u044C\u0435 \u0432\u044B\u043D\u043E\u0441\u043B\u0438\u0432\u043E\u0441\u0442\u0438"
+  _description: "\u0412\u043E\u0441\u0441\u0442\u0430\u043D\u0430\u0432\u043B\u0438\u0432\u0430\u0435\u0442
+    2 \u043E\u0447\u043A\u0430 \u0432\u044B\u043D\u043E\u0441\u043B\u0438\u0432\u043E\u0441\u0442\u0438"
+  _icon: {fileID: 21300000, guid: c086fb80485947a47aaae689a3c9e959, type: 3}
+  _pickup: {fileID: 2520544043136289892, guid: b8733a6e348de1a4dbe33131a8641b94, type: 3}
+  _stackable: 1
+  _consumable: 1
+  _audioClipOnUse: {fileID: 8300000, guid: 89b383ae56b80204683c56edec72a8ad, type: 3}
+  _pointsToHeal: 2

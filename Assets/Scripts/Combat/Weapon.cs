@@ -22,6 +22,11 @@ namespace Impingement.Combat
             _combatController = combatController;
         }
 
+        private void Start()
+        {
+            //SetColor();
+        }
+
         public void SetColor()
         {
             try

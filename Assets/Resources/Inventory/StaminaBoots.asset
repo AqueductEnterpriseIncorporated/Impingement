@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af1240fc0be34c498cca0e87ea818ea3, type: 3}
+  m_Name: StaminaBoots
+  m_EditorClassIdentifier: 
+  _itemID: 2eaf9a4e-9930-4818-b240-9afa98a8159c
+  _displayName: "\u0423\u043B\u0443\u0447\u0448\u0435\u043D\u043D\u044B\u0435 \u0441\u0430\u043F\u043E\u0433\u0438
+    \u0432\u044B\u043D\u043E\u0441\u043B\u0438\u0432\u043E\u0441\u0442\u0438"
+  _description: "\u0414\u043E\u0431\u0430\u0432\u043B\u044F\u0435\u0442 10 \u043E\u0447\u043A\u043E\u0432
+    \u0432\u044B\u043D\u043E\u0441\u043B\u0438\u0432\u043E\u0441\u0442\u0438 \n\u0414\u043E\u0431\u0430\u0432\u043B\u044F\u0435\u0442
+    0.1 \u043E\u0447\u043A\u043E\u0432 \u0432\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u044F
+    \u0432\u044B\u043D\u043E\u0441\u043B\u0438\u0432\u043E\u0441\u0442\u0438 "
+  _icon: {fileID: 21300000, guid: 756307fd6e17631488ea368dc58cfd63, type: 3}
+  _pickup: {fileID: 5074126544751848681, guid: 593998f9f4ba41a45825db19059cb2e0, type: 3}
+  _stackable: 0
+  _allowedEquipLocation: 6
+  _additiveModifiers:
+  - Stat: 6
+    Value: 0.1
+  - Stat: 4
+    Value: 10
+  _percentageModifiers: []

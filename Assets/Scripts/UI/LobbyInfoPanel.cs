@@ -107,6 +107,7 @@ namespace Impingement.UI
             {
                 _localLoadPanel = Instantiate(_loadPanel);
                 _playerNetworkController.SelfDestroy();
+                PhotonNetwork.LeaveRoom();
                 SceneManager.LoadScene(3);
             }
         }

@@ -73,7 +73,7 @@ namespace Impingement.Dungeon
         {
             foreach (var enemy in Enemies)
             {
-                enemy.GetComponent<BaseStats>().SetLevel(_dungeonProgressionManager.AreaLevel);
+                enemy.GetComponent<BaseStats>().SetLevel(_dungeonProgressionManager.AreaLevel, true);
             }
         }
 

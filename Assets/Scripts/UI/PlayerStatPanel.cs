@@ -26,7 +26,8 @@ namespace Impingement.UI
         private void Awake()
         {
             _statsList = new Dictionary<string, enumStats>() { {"Урон", enumStats.Damage},
-                {"Здоровье", enumStats.Health},{"Выносливость", enumStats.Stamina}};
+                {"Здоровье", enumStats.Health},{"Выносливость", enumStats.Stamina},{"Восстановление здоровья", enumStats.HealthRegen},
+                {"Восстановление выносливости", enumStats.StaminaRegen}};
             _equipmentController.OnEquipmentUpdated += UpdateStats;
         }
 

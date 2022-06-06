@@ -43,6 +43,16 @@ namespace Impingement.Stats
             }
         }
 
+        private void UpdateLevel(bool isRealExp)
+        {
+            var newLevel = CalculateLevel();
+            if (newLevel > _currentLevel.value)
+            {
+                _currentLevel.value = newLevel;
+                LevelUp(isRealExp);
+            }
+        }
+
         private void OnDisable()
         {
             if (_experienceController != null)
@@ -53,33 +63,32 @@ namespace Impingement.Stats
 
         private void UpdateLevel()
         {
-            var newLevel = CalculateLevel();
-            if (newLevel > _currentLevel.value)
-            {
-                _currentLevel.value = newLevel;
-                LevelUp();
-            }
+            
         }
 
-        public void SetLevel(int value)
+        public void SetLevel(int value, bool isRealExp)
         {
             _currentLevel.value = value;
-            LevelUp();
+            LevelUp(isRealExp);
         }
 
-        private void LevelUp()
+        private void LevelUp(bool isRealExp)
         {
             if (_levelUpEffect != null && SceneManager.GetActiveScene().name == "Dungeon")
             {
-                if (PhotonNetwork.InRoom)
+                if (isRealExp)
                 {
-                    var localPrefab = PhotonNetwork.Instantiate("VFX/" + _levelUpEffect.name, _spawnPosition.position,
-                        Quaternion.identity);
-                }
-                else
-                {
-                    Instantiate(_levelUpEffect, _spawnPosition.position,
-                        Quaternion.identity);
+                    if (PhotonNetwork.InRoom)
+                    {
+                        var localPrefab = PhotonNetwork.Instantiate("VFX/" + _levelUpEffect.name,
+                            _spawnPosition.position,
+                            Quaternion.identity);
+                    }
+                    else
+                    {
+                        Instantiate(_levelUpEffect, _spawnPosition.position,
+                            Quaternion.identity);
+                    }
                 }
                 //localPrefab.transform.SetParent(); = transform.parent.transform;
             }

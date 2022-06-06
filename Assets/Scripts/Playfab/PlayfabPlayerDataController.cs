@@ -220,7 +220,7 @@ namespace Impingement.Playfab
             {
                 var json = getUserDataResult.Data["PlayerData"].Value;
                 var playerData = GetData(json);
-                _experienceController.GainExperience(Convert.ToInt32(playerData.Experience));
+                _experienceController.GainExperience(Convert.ToInt32(playerData.Experience), false);
                 if (playerData.Inventory != null && playerData.Inventory.InventoryItems.Count > 0)
                 {
                     _inventoryController.Slots = new InventoryController.InventorySlot[playerData.Inventory.InventorySize];
