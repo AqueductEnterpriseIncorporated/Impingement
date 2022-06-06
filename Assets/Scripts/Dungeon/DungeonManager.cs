@@ -51,6 +51,7 @@ namespace Impingement.Dungeon
             SpawnPortals();
             SetSpawnPoint();
             //CleanUp();
+            Rooms[0].ManageEnemyAmount(true, false);
             _networkManager.SpawnPlayer();
             SpawnBoss();
         }

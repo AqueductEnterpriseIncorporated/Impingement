@@ -87,14 +87,19 @@ MonoBehaviour:
       - 35
       - 40
       - 45
+      - 50
+      - 55
     - stat: 3
       Levels:
-      - 5
-      - 15
-      - 20
-      - 25
-      - 30
-      - 35
+      - 2
+      - 4
+      - 6
+      - 8
+      - 10
+      - 12
+      - 14
+      - 16
+      - 18
     - stat: 1
       Levels:
       - 5
@@ -103,35 +108,43 @@ MonoBehaviour:
       - 20
       - 25
       - 30
+      - 35
+      - 40
+      - 45
   - CharacterClass: 2
     Stats: []
   - CharacterClass: 3
     Stats:
     - stat: 0
       Levels:
+      - 3
+      - 5
+      - 7
+      - 9
+      - 11
+      - 13
+      - 15
+      - 17
+    - stat: 3
+      Levels:
+      - 6
+      - 8
+      - 10
+      - 12
+      - 14
+      - 16
+      - 18
+      - 20
+    - stat: 1
+      Levels:
+      - 10
       - 15
       - 20
-      - 35
+      - 25
       - 30
       - 35
       - 40
       - 45
-    - stat: 3
-      Levels:
-      - 5
-      - 15
-      - 20
-      - 25
-      - 30
-      - 35
-    - stat: 1
-      Levels:
-      - 5
-      - 15
-      - 20
-      - 25
-      - 30
-      - 35
   - CharacterClass: 4
     Stats:
     - stat: 0
