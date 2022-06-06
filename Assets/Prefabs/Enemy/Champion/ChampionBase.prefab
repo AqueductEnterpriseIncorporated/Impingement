@@ -3377,6 +3377,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _characterController: {fileID: 0}
   _mainAnimations: []
+  _audioSource: {fileID: 0}
 --- !u!114 &5055993513063920822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3615,7 +3616,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _patrolSpeedFraction: 0.576
-  _chaseDistance: 9.95
+  _chaseDistance: 7.09
   _suspicionTime: 15
   _aggroCooldownTime: 5
   _timeSinceAggrevated: Infinity

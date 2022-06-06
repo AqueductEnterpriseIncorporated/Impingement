@@ -2,6 +2,7 @@ using Cinemachine;
 using Impingement.UI;
 using Photon.Pun;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Impingement.Core
 {
@@ -14,12 +15,13 @@ namespace Impingement.Core
         [SerializeField] CinemachineInputProvider _inputProvider;
         [SerializeField] Camera _camera;
         [SerializeField] ScrollController _scrollController;
+        [SerializeField] private float _defaultFOV;
         private PhotonView _photonView;
 
         private void Start()
         {
             _photonView = GetComponent<PhotonView>();
-            if (!_photonView.IsMine) { return; }
+            if (!_photonView.IsMine && SceneManager.GetActiveScene().name != "Dungeon") { return; }
             _virtualCamera.m_Lens.FieldOfView = _zoomInMax;
             _virtualCamera.m_Follow = gameObject.transform;
             _camera.fieldOfView = _virtualCamera.m_Lens.FieldOfView;

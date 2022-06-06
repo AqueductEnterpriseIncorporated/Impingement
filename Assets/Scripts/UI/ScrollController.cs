@@ -8,6 +8,7 @@ namespace Impingement.UI
         public bool CanScroll;
         [SerializeField] public List<Transform> HudObjects;
         
+        
         private void Update()
         {
             CanScroll = true;

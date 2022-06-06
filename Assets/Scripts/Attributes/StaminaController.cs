@@ -37,12 +37,13 @@ namespace Impingement.Attributes
         {
             _staminaPoints.value = GetMaximumStaminaPoints();
         }
-        
+
         private void PassiveRegenerationStamina()
         {
             if (_staminaPoints.value < GetMaximumStaminaPoints())
             {
-                _staminaPoints.value = Mathf.Min(_staminaPoints.value + _baseStats.GetStat(enumStats.StaminaRegen), GetMaximumStaminaPoints());
+                _staminaPoints.value = Mathf.Min(_staminaPoints.value + _baseStats.GetStat(enumStats.StaminaRegen),
+                    GetMaximumStaminaPoints());
             }
         }
 

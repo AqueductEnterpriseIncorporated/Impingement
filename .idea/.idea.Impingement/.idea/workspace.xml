@@ -5,356 +5,292 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e797b75-f4f0-4ea9-b141-84d8d653dbe9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/2Hand-Bow/2Hand-Bow-Attack1.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/2Hand-Bow/2Hand-Bow-Attack1.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Unarmed/HumanoidRun.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Unarmed/HumanoidRun.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyAdventureMaterial_01 1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyAdventureMaterial_01 1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MusicAndSfx/SFX/Horror footstep _ horror sound effect sfx.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MusicAndSfx/SFX/Horror footstep _ horror sound effect sfx.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MusicAndSfx/SFX/flask.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MusicAndSfx/SFX/flask.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MusicAndSfx/SFX/n_asphalt_1.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MusicAndSfx/SFX/n_asphalt_1.ogg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MusicAndSfx/SFX/n_asphalt_2.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MusicAndSfx/SFX/n_asphalt_2.ogg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MusicAndSfx/SFX/n_asphalt_3.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MusicAndSfx/SFX/n_asphalt_3.ogg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MusicAndSfx/SFX/n_asphalt_4.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MusicAndSfx/SFX/n_asphalt_4.ogg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MusicAndSfx/SFX/n_asphalt_5.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MusicAndSfx/SFX/n_asphalt_5.ogg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Champion.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Champion/ChampionBase.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Champion/ChampionBase.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Control/FootstepController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Control/FootstepController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Steam.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Steam/SteamAuth.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Steam/SteamAuth.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Steamworks.NET.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Steamworks.NET/SteamManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Steamworks.NET/SteamManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Editor/RedistCopy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Editor/RedistCopy.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Editor/RedistInstall.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Editor/RedistInstall.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Editor/com.rlabrecque.steamworks.net.editor.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Editor/com.rlabrecque.steamworks.net.editor.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/LICENSE.md.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Plugins.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Plugins/libsteam_api.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Plugins/libsteam_api.so.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Plugins/steam_api.bundle.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Plugins/steam_api.bundle/Contents.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Plugins/steam_api.bundle/Contents/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Plugins/steam_api.bundle/Contents/Info.plist.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Plugins/steam_api.bundle/Contents/MacOS.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Plugins/steam_api.bundle/Contents/MacOS/libsteam_api.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Plugins/steam_api.bundle/Contents/MacOS/libsteam_api.dylib.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Plugins/steam_api.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Plugins/steam_api.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Plugins/steam_api64.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Plugins/steam_api64.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/README.md.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/CallbackDispatcher.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/CallbackDispatcher.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/CallbackIdentity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/CallbackIdentity.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/ISteamMatchmakingResponses.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/ISteamMatchmakingResponses.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/InteropHelp.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/InteropHelp.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/Packsize.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/Packsize.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/Steam.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/Steam.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/Version.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/Version.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/NativeMethods.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/NativeMethods.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/SteamCallbacks.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/SteamCallbacks.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/SteamConstants.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/SteamConstants.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/SteamEnums.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/SteamEnums.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/SteamStructs.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/SteamStructs.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamapplist.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamapplist.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamapps.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamapps.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamclient.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamclient.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamfriends.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamfriends.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameserver.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameserver.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameserverclient.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameserverclient.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameserverhttp.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameserverhttp.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameserverinventory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameserverinventory.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameservernetworking.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameservernetworking.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameservernetworkingsockets.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameservernetworkingsockets.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameservernetworkingutils.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameservernetworkingutils.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameserverstats.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameserverstats.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameserverugc.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameserverugc.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameserverutils.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameserverutils.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamhtmlsurface.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamhtmlsurface.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamhttp.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamhttp.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteaminput.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteaminput.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteaminventory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteaminventory.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteammatchmaking.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteammatchmaking.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteammusic.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteammusic.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteammusicremote.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteammusicremote.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamnetworking.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamnetworking.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamnetworkingmessages.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamnetworkingmessages.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamnetworkingsockets.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamnetworkingsockets.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamnetworkingutils.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamnetworkingutils.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamparentalsettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamparentalsettings.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamremoteplay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamremoteplay.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamremotestorage.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamremotestorage.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamscreenshots.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamscreenshots.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamugc.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamugc.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamuser.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamuser.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamuserstats.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamuserstats.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamutils.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamutils.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamvideo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamvideo.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/com.rlabrecque.steamworks.net.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/com.rlabrecque.steamworks.net.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/MatchmakingTypes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/MatchmakingTypes/gameserveritem_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/MatchmakingTypes/gameserveritem_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/MatchmakingTypes/servernetadr_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/MatchmakingTypes/servernetadr_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamClient.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamClient/SteamAPIWarningMessageHook_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamClient/SteamAPIWarningMessageHook_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamClient/SteamAPI_CheckCallbackRegistered_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamClient/SteamAPI_CheckCallbackRegistered_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamClientPublic.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamClientPublic/CGameID.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamClientPublic/CGameID.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamClientPublic/CSteamID.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamClientPublic/CSteamID.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamClientPublic/HAuthTicket.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamClientPublic/HAuthTicket.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamDatagramTickets.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamDatagramTickets/SteamDatagramHostedAddress.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamDatagramTickets/SteamDatagramHostedAddress.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamDatagramTickets/SteamDatagramRelayAuthTicket.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamDatagramTickets/SteamDatagramRelayAuthTicket.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamFriends.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamFriends/FriendsGroupID_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamFriends/FriendsGroupID_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamHTMLSurface.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamHTMLSurface/HHTMLBrowser.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamHTMLSurface/HHTMLBrowser.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamHTTP.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamHTTP/HTTPCookieContainerHandle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamHTTP/HTTPCookieContainerHandle.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamHTTP/HTTPRequestHandle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamHTTP/HTTPRequestHandle.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInput.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInput/InputActionSetHandle_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInput/InputActionSetHandle_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInput/InputAnalogActionHandle_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInput/InputAnalogActionHandle_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInput/InputDigitalActionHandle_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInput/InputDigitalActionHandle_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInput/InputHandle_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInput/InputHandle_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInput/SteamInputActionEventCallbackPointer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInput/SteamInputActionEventCallbackPointer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInput/SteamInputActionEvent_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInput/SteamInputActionEvent_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInventory.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInventory/SteamInventoryResult_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInventory/SteamInventoryResult_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInventory/SteamInventoryUpdateHandle_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInventory/SteamInventoryUpdateHandle_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInventory/SteamItemDef_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInventory/SteamItemDef_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInventory/SteamItemInstanceID_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInventory/SteamItemInstanceID_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamMatchmaking.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamMatchmaking/HServerListRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamMatchmaking/HServerListRequest.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamMatchmaking/HServerQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamMatchmaking/HServerQuery.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworking.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworking/SNetListenSocket_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworking/SNetListenSocket_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworking/SNetSocket_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworking/SNetSocket_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingSockets.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingSockets/ISteamNetworkingConnectionSignaling.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingSockets/ISteamNetworkingConnectionSignaling.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingSockets/ISteamNetworkingSignalingRecvContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingSockets/ISteamNetworkingSignalingRecvContext.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/FSteamNetworkingSocketsDebugOutput.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/FSteamNetworkingSocketsDebugOutput.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/HSteamListenSocket.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/HSteamListenSocket.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/HSteamNetConnection.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/HSteamNetConnection.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/HSteamNetPollGroup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/HSteamNetPollGroup.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/SteamNetworkingConfigValue_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/SteamNetworkingConfigValue_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/SteamNetworkingErrMsg.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/SteamNetworkingErrMsg.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/SteamNetworkingIPAddr.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/SteamNetworkingIPAddr.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/SteamNetworkingIdentity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/SteamNetworkingIdentity.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/SteamNetworkingMessage_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/SteamNetworkingMessage_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/SteamNetworkingMicroseconds.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/SteamNetworkingMicroseconds.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/SteamNetworkingPOPID.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/SteamNetworkingPOPID.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamRemotePlay.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamRemotePlay/RemotePlaySessionID_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamRemotePlay/RemotePlaySessionID_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamRemoteStorage.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamRemoteStorage/PublishedFileId_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamRemoteStorage/PublishedFileId_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamRemoteStorage/PublishedFileUpdateHandle_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamRemoteStorage/PublishedFileUpdateHandle_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamRemoteStorage/UGCFileWriteStreamHandle_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamRemoteStorage/UGCFileWriteStreamHandle_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamRemoteStorage/UGCHandle_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamRemoteStorage/UGCHandle_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamScreenshots.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamScreenshots/ScreenshotHandle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamScreenshots/ScreenshotHandle.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamTypes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamTypes/AccountID_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamTypes/AccountID_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamTypes/AppId_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamTypes/AppId_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamTypes/DepotId_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamTypes/DepotId_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamTypes/PartyBeaconID_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamTypes/PartyBeaconID_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamTypes/RTime32.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamTypes/RTime32.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamTypes/SteamAPICall_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamTypes/SteamAPICall_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamTypes/SteamIPAddress_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamTypes/SteamIPAddress_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamUGC.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamUGC/UGCQueryHandle_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamUGC/UGCQueryHandle_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamUGC/UGCUpdateHandle_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamUGC/UGCUpdateHandle_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamUserStats.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamUserStats/SteamLeaderboardEntries_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamUserStats/SteamLeaderboardEntries_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamUserStats/SteamLeaderboard_t.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamUserStats/SteamLeaderboard_t.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/Steam_api_common.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/Steam_api_common/HSteamPipe.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/Steam_api_common/HSteamPipe.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/Steam_api_common/HSteamUser.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/Steam_api_common/HSteamUser.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/package.json.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/steam_appid.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/.idea/.idea.Core.dir/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/.idea/.idea.Core.dir/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/.idea/.idea.Core.dir/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/.idea/.idea.Core.dir/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/.idea/.idea.Core.dir/.idea/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/.idea/.idea.Core.dir/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impingement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Characters/PlayerAnimation/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Characters/PlayerAnimation/Player.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/EYE ADVANCED/Materials/mat_EyeAdvanceLOD0.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyAdventureMaterial_Water_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyAdventureMaterial_Water_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Resources/PlayFabEditorPrefsSO.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Resources/PlayFabEditorPrefsSO.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Resources/PlayFabEditorPrefsSO.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Resources/PlayFabEditorPrefsSO.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Core/Progression.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/Progression.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Generator.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dungeon/Generator.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/HUD.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Inventory/ItemTooltip.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Inventory/ItemTooltip.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Settings.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Settings.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Bow/BowAnimatorOverride.overrideController" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Bow/BowAnimatorOverride.overrideController" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Sword.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Resources/Sword.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Sword/EquippedSword.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Sword/EquippedSword.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Sword/SwordAnimatorOverride.overrideController" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Sword/SwordAnimatorOverride.overrideController" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Enemy/EnemyArcher.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Enemy/EnemyArcher.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Inventory/Currency.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Inventory/Currency.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Inventory/Heal Potion Action Item.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Inventory/Heal Potion Action Item.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/New Input Manager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/New Input Manager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Rooms/RoomBase Variant1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/RoomBase Variant1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Rooms/RoomBase Variant2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/RoomBase Variant2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Rooms/RoomBase.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Rooms/RoomBase.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Champion/ChampionBase.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Champion/ChampionBase.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Arena.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Arena.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dungeon/Dungeon.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dungeon/Dungeon.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Hideout/Hideout.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/HealthDisplay.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Attributes/StaminaController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/StaminaController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/TargetHealthDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/TargetHealthDisplay.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/Weapon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/InputManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/InputManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/AnimationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/AnimationController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/HighlightTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/HighlightTarget.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/StartSceneManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/StartSceneManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dungeon/DungeonManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/ActionItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/ActionItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/ActionStore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/ActionStore.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/HealPotionActionItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/HealPotionActionItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabPlayerDataController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabPlayerDataController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stats/BaseStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Stats/BaseStats.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/BugPanelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/BugPanelController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/InRoomPlayersInfoPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/InRoomPlayersInfoPanel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/LobbyInfoPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/LobbyInfoPanel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/InGameSettingsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/InGameSettingsManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/VolumeSliderView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Settings/VolumeSliderView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/enums/enumCharacterClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/enums/enumCharacterClass.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/enums/enumStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/enums/enumStats.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerCameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerCameraController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Currency.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Steamworks.NET.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Steamworks.NET.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Steamworks.NET/SteamManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Steamworks.NET/SteamManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/ScrollController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/ScrollController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Editor/RedistCopy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Editor/RedistCopy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Editor/RedistInstall.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Editor/RedistInstall.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Editor/com.rlabrecque.steamworks.net.editor.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Editor/com.rlabrecque.steamworks.net.editor.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/LICENSE.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Plugins.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Plugins/libsteam_api.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Plugins/libsteam_api.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Plugins/steam_api.bundle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Plugins/steam_api.bundle/Contents.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Plugins/steam_api.bundle/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Plugins/steam_api.bundle/Contents/Info.plist.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Plugins/steam_api.bundle/Contents/MacOS.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Plugins/steam_api.bundle/Contents/MacOS/libsteam_api.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Plugins/steam_api.bundle/Contents/MacOS/libsteam_api.dylib.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Plugins/steam_api.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Plugins/steam_api.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Plugins/steam_api64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Plugins/steam_api64.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/CallbackDispatcher.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/CallbackDispatcher.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/CallbackIdentity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/CallbackIdentity.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/ISteamMatchmakingResponses.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/ISteamMatchmakingResponses.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/InteropHelp.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/InteropHelp.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/Packsize.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/Packsize.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/Steam.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/Steam.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/Version.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/Version.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/NativeMethods.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/NativeMethods.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/SteamCallbacks.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/SteamCallbacks.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/SteamConstants.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/SteamConstants.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/SteamEnums.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/SteamEnums.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/SteamStructs.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/SteamStructs.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamapplist.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamapplist.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamapps.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamapps.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamclient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamclient.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamfriends.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamfriends.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameserver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameserver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameserverclient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameserverclient.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameserverhttp.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameserverhttp.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameserverinventory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameserverinventory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameservernetworking.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameservernetworking.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameservernetworkingsockets.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameservernetworkingsockets.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameservernetworkingutils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameservernetworkingutils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameserverstats.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameserverstats.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameserverugc.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameserverugc.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameserverutils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamgameserverutils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamhtmlsurface.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamhtmlsurface.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamhttp.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamhttp.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteaminput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteaminput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteaminventory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteaminventory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteammatchmaking.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteammatchmaking.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteammusic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteammusic.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteammusicremote.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteammusicremote.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamnetworking.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamnetworking.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamnetworkingmessages.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamnetworkingmessages.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamnetworkingsockets.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamnetworkingsockets.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamnetworkingutils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamnetworkingutils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamparentalsettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamparentalsettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamremoteplay.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamremoteplay.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamremotestorage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamremotestorage.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamscreenshots.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamscreenshots.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamugc.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamugc.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamuser.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamuser.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamuserstats.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamuserstats.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamutils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamutils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamvideo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/autogen/isteamvideo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/com.rlabrecque.steamworks.net.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/com.rlabrecque.steamworks.net.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/MatchmakingTypes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/MatchmakingTypes/gameserveritem_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/MatchmakingTypes/gameserveritem_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/MatchmakingTypes/servernetadr_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/MatchmakingTypes/servernetadr_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamClient.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamClient/SteamAPIWarningMessageHook_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamClient/SteamAPIWarningMessageHook_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamClient/SteamAPI_CheckCallbackRegistered_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamClient/SteamAPI_CheckCallbackRegistered_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamClientPublic.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamClientPublic/CGameID.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamClientPublic/CGameID.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamClientPublic/CSteamID.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamClientPublic/CSteamID.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamClientPublic/HAuthTicket.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamClientPublic/HAuthTicket.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamDatagramTickets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamDatagramTickets/SteamDatagramHostedAddress.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamDatagramTickets/SteamDatagramHostedAddress.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamDatagramTickets/SteamDatagramRelayAuthTicket.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamDatagramTickets/SteamDatagramRelayAuthTicket.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamFriends.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamFriends/FriendsGroupID_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamFriends/FriendsGroupID_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamHTMLSurface.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamHTMLSurface/HHTMLBrowser.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamHTMLSurface/HHTMLBrowser.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamHTTP.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamHTTP/HTTPCookieContainerHandle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamHTTP/HTTPCookieContainerHandle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamHTTP/HTTPRequestHandle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamHTTP/HTTPRequestHandle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInput.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInput/InputActionSetHandle_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInput/InputActionSetHandle_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInput/InputAnalogActionHandle_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInput/InputAnalogActionHandle_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInput/InputDigitalActionHandle_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInput/InputDigitalActionHandle_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInput/InputHandle_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInput/InputHandle_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInput/SteamInputActionEventCallbackPointer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInput/SteamInputActionEventCallbackPointer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInput/SteamInputActionEvent_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInput/SteamInputActionEvent_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInventory.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInventory/SteamInventoryResult_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInventory/SteamInventoryResult_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInventory/SteamInventoryUpdateHandle_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInventory/SteamInventoryUpdateHandle_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInventory/SteamItemDef_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInventory/SteamItemDef_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInventory/SteamItemInstanceID_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamInventory/SteamItemInstanceID_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamMatchmaking.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamMatchmaking/HServerListRequest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamMatchmaking/HServerListRequest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamMatchmaking/HServerQuery.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamMatchmaking/HServerQuery.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworking.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworking/SNetListenSocket_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworking/SNetListenSocket_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworking/SNetSocket_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworking/SNetSocket_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingSockets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingSockets/ISteamNetworkingConnectionSignaling.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingSockets/ISteamNetworkingConnectionSignaling.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingSockets/ISteamNetworkingSignalingRecvContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingSockets/ISteamNetworkingSignalingRecvContext.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/FSteamNetworkingSocketsDebugOutput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/FSteamNetworkingSocketsDebugOutput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/HSteamListenSocket.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/HSteamListenSocket.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/HSteamNetConnection.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/HSteamNetConnection.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/HSteamNetPollGroup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/HSteamNetPollGroup.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/SteamNetworkingConfigValue_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/SteamNetworkingConfigValue_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/SteamNetworkingErrMsg.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/SteamNetworkingErrMsg.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/SteamNetworkingIPAddr.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/SteamNetworkingIPAddr.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/SteamNetworkingIdentity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/SteamNetworkingIdentity.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/SteamNetworkingMessage_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/SteamNetworkingMessage_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/SteamNetworkingMicroseconds.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/SteamNetworkingMicroseconds.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/SteamNetworkingPOPID.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamNetworkingTypes/SteamNetworkingPOPID.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamRemotePlay.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamRemotePlay/RemotePlaySessionID_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamRemotePlay/RemotePlaySessionID_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamRemoteStorage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamRemoteStorage/PublishedFileId_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamRemoteStorage/PublishedFileId_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamRemoteStorage/PublishedFileUpdateHandle_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamRemoteStorage/PublishedFileUpdateHandle_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamRemoteStorage/UGCFileWriteStreamHandle_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamRemoteStorage/UGCFileWriteStreamHandle_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamRemoteStorage/UGCHandle_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamRemoteStorage/UGCHandle_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamScreenshots.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamScreenshots/ScreenshotHandle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamScreenshots/ScreenshotHandle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamTypes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamTypes/AccountID_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamTypes/AccountID_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamTypes/AppId_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamTypes/AppId_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamTypes/DepotId_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamTypes/DepotId_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamTypes/PartyBeaconID_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamTypes/PartyBeaconID_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamTypes/RTime32.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamTypes/RTime32.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamTypes/SteamAPICall_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamTypes/SteamAPICall_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamTypes/SteamIPAddress_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamTypes/SteamIPAddress_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamUGC.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamUGC/UGCQueryHandle_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamUGC/UGCQueryHandle_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamUGC/UGCUpdateHandle_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamUGC/UGCUpdateHandle_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamUserStats.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamUserStats/SteamLeaderboardEntries_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamUserStats/SteamLeaderboardEntries_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamUserStats/SteamLeaderboard_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/SteamUserStats/SteamLeaderboard_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/Steam_api_common.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/Steam_api_common/HSteamPipe.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/Steam_api_common/HSteamPipe.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/Steam_api_common/HSteamUser.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/Runtime/types/Steam_api_common/HSteamUser.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.rlabrecque.steamworks.net/package.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.progrids/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.progrids/Settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -374,59 +310,35 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/0c/b2ab89de/List`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/4d/4e3fb041/StringBuilder.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/50/727d49be/Locale.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/62/aab382f3/String.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/7c/017e6fa6/StackTrace.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/9c/0c1562a6/SystemException.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/a4/9971e9de/Environment.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/a8/b4196f92/ParamsArray.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/af/5a98e3b0/IntPtr.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/d0/64e04720/NullReferenceException.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/e4/5ca7fa4b/Exception.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d3b66f0ad4e34a55b6ef91ab8487819313c000/08/c06deb35/Object.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d3b66f0ad4e34a55b6ef91ab8487819313c000/15/bc8469ef/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d3b66f0ad4e34a55b6ef91ab8487819313c000/24/758be002/Component.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d3b66f0ad4e34a55b6ef91ab8487819313c000/61/d89de3a9/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d3b66f0ad4e34a55b6ef91ab8487819313c000/70/b6aca971/StackTraceUtility.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d3b66f0ad4e34a55b6ef91ab8487819313c000/ca/9d043db2/Debug.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Asset Packs/NavMeshComponents/Scripts/NavMeshBaker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Attributes/HealthController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Attributes/StaminaController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Attributes/StaminaDisplay.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Combat/WeaponConfig.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Control/ClickablePickup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/InventoryUI/EquipmentSlotUI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/InventoryUI/InventorySlotUI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Tooltip/ItemTooltip.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Tooltip/ItemTooltipSpawner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/enums/enumStats.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.11/Editor/PropertyDrawers/OrbitalTransposerHeadingPropertyDrawer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.11/Runtime/Helpers/CinemachineInputProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.3.0/InputSystem/Devices/Gamepad.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Audio/AudioTrackInspector.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Attributes/StaminaController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.11/Runtime/Helpers/CinemachineInputProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Animation/AnimationClipActions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.postprocessing@3.2.1/PostProcessing/Shaders/Builtins/SubpixelMorphologicalAntialiasing.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Asset Packs/NavMeshComponents/Scripts/NavMeshBaker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/InputModules/BaseInputModule.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/CanvasUpdateRegistry.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Attributes/HealthController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.11/Editor/PropertyDrawers/OrbitalTransposerHeadingPropertyDrawer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.8/Runtime/Audio/AudioTrack.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Actions/ActionManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Combat/CombatController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/enums/enumStats.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Attributes/StaminaDisplay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.3.0/InputSystem/Plugins/UI/InputSystemUIInputModule.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.postprocessing@3.2.1/PostProcessing/Shaders/Builtins/MultiScaleVODownsample1.compute" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.postprocessing@3.2.1/PostProcessing/Shaders/Builtins/SubpixelMorphologicalAntialiasing.hlsl" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Actions/ActionManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Animation/AnimationClipActions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Audio/AudioTrackInspector.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.8/Runtime/Audio/AudioTrack.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/InputModules/BaseInputModule.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/CanvasUpdateRegistry.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Runtime/InputField/GenericInputFieldTests.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Combat/WeaponConfig.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabHideoutDatacONTROLLER.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Serialization/SerializationClasses/SerializationRootClass.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/UpgradePanelController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/StartGame.cs" />
@@ -466,7 +378,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomModifierScriptableObject.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/enums/enumStats.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Attributes/StaminaDisplay.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Attributes/StaminaController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Playfab/PlayfabHideoutDataController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Currency/CurrencyPickupView.cs" />
@@ -476,6 +387,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Stats/ExperienceDisplay.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponConfig.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Attributes/StaminaController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/ScrollController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/PlayerCameraController.cs" />
     </changedPaths>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -489,22 +403,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;rider.run.widget.enabled.cache&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;discord-application&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="weapon" />
@@ -531,17 +442,15 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="16668">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="16668" />
-      <option name="projectPathOnTarget" />
+      <option name="pid" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -624,6 +533,7 @@
       <workItem from="1654324452357" duration="32001000" />
       <workItem from="1654412663687" duration="12852000" />
       <workItem from="1654445676993" duration="18579000" />
+      <workItem from="1654501788245" duration="2301000" />
     </task>
     <servers />
   </component>
@@ -643,29 +553,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Dungeon/RoomBehaviour.cs</url>
-          <line>60</line>
-          <properties documentPath="E:\UnityProjects\Impingement\Assets\Scripts\Dungeon\RoomBehaviour.cs" initialLine="60" containingFunctionPresentation="method 'ManageEnemyAmount'">
-            <startOffsets>
-              <option value="2003" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2004" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
